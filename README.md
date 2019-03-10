@@ -3,7 +3,7 @@ Full Source of Esenthel Engine and its Tools (http://www.esenthel.com)<br/>
 Official version available at: https://github.com/Esenthel/EsenthelEngine<br/>
 Esenthel needs your support:
 * Please donate: http://www.esenthel.com/?id=store&cat=1
-* Or submit code to GitHub repository.
+* Or submit source code patches.
 
 
 ### License
