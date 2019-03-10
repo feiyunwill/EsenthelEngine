@@ -58,7 +58,6 @@ for any damages arising from the use of this software.
 THIRD PARTY LIBRARIES
 Esenthel Engine uses many third-party libraries located in "ThirdPartyLibs" folder, majority are completely
 free to use, except the following which have some requirements:
-Nvidia PhysX - it's free however it has some requirements, please read its license carefully.
 Fraunhofer FDK AAC Sound Codec - please read its license carefully, it uses patented technology,
 do not use the AAC sound codec unless you have a patent license.
 Thank you to all of the third-party library developers!
