@@ -1,0 +1,3503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="_" displayName="_" projectFiles="true">
+        <logicalFolder name="f1" displayName="_" projectFiles="true">
+          <itemPath>../../ThirdPartyLibs/PVRTC/PVRTC.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>../H/_/defines.h</itemPath>
+        <itemPath>../H/_/headers.h</itemPath>
+        <itemPath>../H/_/inline.h</itemPath>
+        <itemPath>../stdafx.cpp</itemPath>
+        <itemPath>../stdafx.h</itemPath>
+        <itemPath>../H/_/structs.h</itemPath>
+        <itemPath>../H/_/types.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Animation" displayName="Animation" projectFiles="true">
+        <itemPath>../H/Animation/Animation Keys.h</itemPath>
+        <itemPath>../H/Animation/Animation.h</itemPath>
+        <itemPath>../H/Animation/Motion.h</itemPath>
+        <itemPath>../H/Animation/Skeleton.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Code" displayName="Code" projectFiles="true">
+        <itemPath>../H/Code/CE Code Col Line.h</itemPath>
+        <itemPath>../H/Code/CE Compiler.h</itemPath>
+        <itemPath>../H/Code/CE Environment.h</itemPath>
+        <itemPath>../H/Code/CE Expression.h</itemPath>
+        <itemPath>../H/Code/CE Find.h</itemPath>
+        <itemPath>../H/Code/CE Item.h</itemPath>
+        <itemPath>../H/Code/CE Macro.h</itemPath>
+        <itemPath>../H/Code/CE Parser.h</itemPath>
+        <itemPath>../H/Code/CE Shared.h</itemPath>
+        <itemPath>../H/Code/CE Source.h</itemPath>
+        <itemPath>../H/Code/CE Symbol.h</itemPath>
+        <itemPath>../H/Code/CE Token.h</itemPath>
+        <itemPath>../H/Code/CE.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Edit" displayName="Edit" projectFiles="true">
+        <itemPath>../H/Edit/Editor Interface.h</itemPath>
+        <itemPath>../H/Edit/Save Changes.h</itemPath>
+        <itemPath>../H/Edit/Undo.h</itemPath>
+        <itemPath>../H/Edit/Version.h</itemPath>
+        <itemPath>../H/Edit/Viewport4.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="File" displayName="File" projectFiles="true">
+        <itemPath>../H/File/Chunk.h</itemPath>
+        <itemPath>../H/File/File Text.h</itemPath>
+        <itemPath>../H/File/File.h</itemPath>
+        <itemPath>../H/File/IO.h</itemPath>
+        <itemPath>../H/File/Pak.h</itemPath>
+        <itemPath>../H/File/Xml.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Game" displayName="Game" projectFiles="true">
+        <logicalFolder name="Objects" displayName="Objects" projectFiles="true">
+          <itemPath>../H/Game/Objects/Animatable.h</itemPath>
+          <itemPath>../H/Game/Objects/Character.h</itemPath>
+          <itemPath>../H/Game/Objects/Destructible.h</itemPath>
+          <itemPath>../H/Game/Objects/Door.h</itemPath>
+          <itemPath>../H/Game/Objects/Item.h</itemPath>
+          <itemPath>../H/Game/Objects/Kinematic.h</itemPath>
+          <itemPath>../H/Game/Objects/Obj Decal.h</itemPath>
+          <itemPath>../H/Game/Objects/Obj Light Cone.h</itemPath>
+          <itemPath>../H/Game/Objects/Obj Light Point.h</itemPath>
+          <itemPath>../H/Game/Objects/Obj Particles.h</itemPath>
+          <itemPath>../H/Game/Objects/Static.h</itemPath>
+        </logicalFolder>
+        <itemPath>../H/Game/Area.h</itemPath>
+        <itemPath>../H/Game/Mini Map.h</itemPath>
+        <itemPath>../H/Game/Obj.h</itemPath>
+        <itemPath>../H/Game/Waypoint.h</itemPath>
+        <itemPath>../H/Game/World.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Graphics" displayName="Graphics" projectFiles="true">
+        <itemPath>../H/Graphics/Clouds.h</itemPath>
+        <itemPath>../H/Graphics/Color.h</itemPath>
+        <itemPath>../H/Graphics/Display Draw.h</itemPath>
+        <itemPath>../H/Graphics/Display State.h</itemPath>
+        <itemPath>../H/Graphics/Display.h</itemPath>
+        <itemPath>../H/Graphics/Effects 2D.h</itemPath>
+        <itemPath>../H/Graphics/Effects 3D.h</itemPath>
+        <itemPath>../H/Graphics/Environment.h</itemPath>
+        <itemPath>../H/Graphics/Fog.h</itemPath>
+        <itemPath>../H/Graphics/Fur.h</itemPath>
+        <itemPath>../H/Graphics/Image Atlas.h</itemPath>
+        <itemPath>../H/Graphics/Image RT.h</itemPath>
+        <itemPath>../H/Graphics/Image.h</itemPath>
+        <itemPath>../H/Graphics/Light.h</itemPath>
+        <itemPath>../H/Graphics/Material.h</itemPath>
+        <itemPath>../H/Graphics/Particle.h</itemPath>
+        <itemPath>../H/Graphics/Renderer Instancing.h</itemPath>
+        <itemPath>../H/Graphics/Renderer.h</itemPath>
+        <itemPath>../H/Graphics/Shader Main.h</itemPath>
+        <itemPath>../H/Graphics/Shader.h</itemPath>
+        <itemPath>../H/Graphics/Sky.h</itemPath>
+        <itemPath>../H/Graphics/Sun.h</itemPath>
+        <itemPath>../H/Graphics/Vertex Index Buffer Ex.h</itemPath>
+        <itemPath>../H/Graphics/Vertex Index Buffer.h</itemPath>
+        <itemPath>../H/Graphics/Water.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Gui" displayName="Gui" projectFiles="true">
+        <logicalFolder name="Objects" displayName="Objects" projectFiles="true">
+          <itemPath>../H/Gui/Objects/Button.h</itemPath>
+          <itemPath>../H/Gui/Objects/CheckBox.h</itemPath>
+          <itemPath>../H/Gui/Objects/Color Picker.h</itemPath>
+          <itemPath>../H/Gui/Objects/ComboBox.h</itemPath>
+          <itemPath>../H/Gui/Objects/Context Menu.h</itemPath>
+          <itemPath>../H/Gui/Objects/Desktop.h</itemPath>
+          <itemPath>../H/Gui/Objects/Gui Custom.h</itemPath>
+          <itemPath>../H/Gui/Objects/Gui Image.h</itemPath>
+          <itemPath>../H/Gui/Objects/List.h</itemPath>
+          <itemPath>../H/Gui/Objects/Menu.h</itemPath>
+          <itemPath>../H/Gui/Objects/Progress.h</itemPath>
+          <itemPath>../H/Gui/Objects/Property.h</itemPath>
+          <itemPath>../H/Gui/Objects/Region.h</itemPath>
+          <itemPath>../H/Gui/Objects/SlideBar.h</itemPath>
+          <itemPath>../H/Gui/Objects/Slider.h</itemPath>
+          <itemPath>../H/Gui/Objects/Tabs.h</itemPath>
+          <itemPath>../H/Gui/Objects/Text.h</itemPath>
+          <itemPath>../H/Gui/Objects/TextBox.h</itemPath>
+          <itemPath>../H/Gui/Objects/TextLine.h</itemPath>
+          <itemPath>../H/Gui/Objects/Viewport.h</itemPath>
+          <itemPath>../H/Gui/Objects/Window IO.h</itemPath>
+          <itemPath>../H/Gui/Objects/Window.h</itemPath>
+        </logicalFolder>
+        <itemPath>../H/Gui/Font.h</itemPath>
+        <itemPath>../H/Gui/Gui Object.h</itemPath>
+        <itemPath>../H/Gui/Gui Objects.h</itemPath>
+        <itemPath>../H/Gui/Gui Skin.h</itemPath>
+        <itemPath>../H/Gui/Gui.h</itemPath>
+        <itemPath>../H/Gui/Panel Image.h</itemPath>
+        <itemPath>../H/Gui/Panel.h</itemPath>
+        <itemPath>../H/Gui/Text Style.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Input" displayName="Input" projectFiles="true">
+        <itemPath>../H/Input/Input Buttons.h</itemPath>
+        <itemPath>../H/Input/Input.h</itemPath>
+        <itemPath>../H/Input/Joypad.h</itemPath>
+        <itemPath>../H/Input/Keyboard.h</itemPath>
+        <itemPath>../H/Input/Mouse.h</itemPath>
+        <itemPath>../H/Input/Touch.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Math" displayName="Math" projectFiles="true">
+        <logicalFolder name="Shapes" displayName="Shapes" projectFiles="true">
+          <itemPath>../H/Math/Shapes/Ball.h</itemPath>
+          <itemPath>../H/Math/Shapes/Box.h</itemPath>
+          <itemPath>../H/Math/Shapes/Capsule.h</itemPath>
+          <itemPath>../H/Math/Shapes/Circle.h</itemPath>
+          <itemPath>../H/Math/Shapes/Cone.h</itemPath>
+          <itemPath>../H/Math/Shapes/Edge.h</itemPath>
+          <itemPath>../H/Math/Shapes/Plane.h</itemPath>
+          <itemPath>../H/Math/Shapes/Polygon.h</itemPath>
+          <itemPath>../H/Math/Shapes/Pyramid.h</itemPath>
+          <itemPath>../H/Math/Shapes/Quad.h</itemPath>
+          <itemPath>../H/Math/Shapes/Rectangle.h</itemPath>
+          <itemPath>../H/Math/Shapes/Torus.h</itemPath>
+          <itemPath>../H/Math/Shapes/Triangle.h</itemPath>
+          <itemPath>../H/Math/Shapes/Tube.h</itemPath>
+        </logicalFolder>
+        <itemPath>../H/Math/Calculate.h</itemPath>
+        <itemPath>../H/Math/Camera.h</itemPath>
+        <itemPath>../H/Math/Frustum.h</itemPath>
+        <itemPath>../H/Math/Math.h</itemPath>
+        <itemPath>../H/Math/Matrix.h</itemPath>
+        <itemPath>../H/Math/Number.h</itemPath>
+        <itemPath>../H/Math/Orientation.h</itemPath>
+        <itemPath>../H/Math/Quaternion.h</itemPath>
+        <itemPath>../H/Math/Random.h</itemPath>
+        <itemPath>../H/Math/Shape.h</itemPath>
+        <itemPath>../H/Math/Vector.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Memory" displayName="Memory" projectFiles="true">
+        <itemPath>../H/Memory/Cache.h</itemPath>
+        <itemPath>../H/Memory/Cipher.h</itemPath>
+        <itemPath>../H/Memory/Counted Pointer.h</itemPath>
+        <itemPath>../H/Memory/Fixed Array.h</itemPath>
+        <itemPath>../H/Memory/Grid.h</itemPath>
+        <itemPath>../H/Memory/Hash.h</itemPath>
+        <itemPath>../H/Memory/Index.h</itemPath>
+        <itemPath>../H/Memory/Map.h</itemPath>
+        <itemPath>../H/Memory/Mem Block.h</itemPath>
+        <itemPath>../H/Memory/Mem Continuous.h</itemPath>
+        <itemPath>../H/Memory/Mem Extended.h</itemPath>
+        <itemPath>../H/Memory/Mem List.h</itemPath>
+        <itemPath>../H/Memory/Mem Pointer.h</itemPath>
+        <itemPath>../H/Memory/Mem Simple.h</itemPath>
+        <itemPath>../H/Memory/Mem Temporary.h</itemPath>
+        <itemPath>../H/Memory/Memory.h</itemPath>
+        <itemPath>../H/Memory/Node.h</itemPath>
+        <itemPath>../H/Memory/_Cache.h</itemPath>
+        <itemPath>../H/Memory/_Grid.h</itemPath>
+        <itemPath>../H/Memory/_Map.h</itemPath>
+        <itemPath>../H/Memory/_Memb.h</itemPath>
+        <itemPath>../H/Memory/_Memc.h</itemPath>
+        <itemPath>../H/Memory/_Meml.h</itemPath>
+        <itemPath>../H/Memory/_Memx.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Mesh" displayName="Mesh" projectFiles="true">
+        <itemPath>../H/Mesh/Blocks.h</itemPath>
+        <itemPath>../H/Mesh/Heightmap.h</itemPath>
+        <itemPath>../H/Mesh/Material Palette.h</itemPath>
+        <itemPath>../H/Mesh/Mesh Base.h</itemPath>
+        <itemPath>../H/Mesh/Mesh Csg.h</itemPath>
+        <itemPath>../H/Mesh/Mesh Cuts.h</itemPath>
+        <itemPath>../H/Mesh/Mesh Group.h</itemPath>
+        <itemPath>../H/Mesh/Mesh Import.h</itemPath>
+        <itemPath>../H/Mesh/Mesh Lod.h</itemPath>
+        <itemPath>../H/Mesh/Mesh Mesh.h</itemPath>
+        <itemPath>../H/Mesh/Mesh Overlay.h</itemPath>
+        <itemPath>../H/Mesh/Mesh Part.h</itemPath>
+        <itemPath>../H/Mesh/Mesh Render.h</itemPath>
+        <itemPath>../H/Mesh/Voxel.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Misc" displayName="Misc" projectFiles="true">
+        <itemPath>../H/Misc/Application.h</itemPath>
+        <itemPath>../H/Misc/Character.h</itemPath>
+        <itemPath>../H/Misc/Compress.h</itemPath>
+        <itemPath>../H/Misc/Cpu.h</itemPath>
+        <itemPath>../H/Misc/DLL.h</itemPath>
+        <itemPath>../H/Misc/Date Time.h</itemPath>
+        <itemPath>../H/Misc/Enum.h</itemPath>
+        <itemPath>../H/Misc/Member.h</itemPath>
+        <itemPath>../H/Misc/Misc.h</itemPath>
+        <itemPath>../H/Misc/Object.h</itemPath>
+        <itemPath>../H/Misc/Param.h</itemPath>
+        <itemPath>../H/Misc/Pathfind 2D.h</itemPath>
+        <itemPath>../H/Misc/Pathfind.h</itemPath>
+        <itemPath>../H/Misc/Reference.h</itemPath>
+        <itemPath>../H/Misc/Sort.h</itemPath>
+        <itemPath>../H/Misc/States.h</itemPath>
+        <itemPath>../H/Misc/String Borrowed.h</itemPath>
+        <itemPath>../H/Misc/String Functions.h</itemPath>
+        <itemPath>../H/Misc/String.h</itemPath>
+        <itemPath>../H/Misc/String8.h</itemPath>
+        <itemPath>../H/Misc/Thread.h</itemPath>
+        <itemPath>../H/Misc/Timer.h</itemPath>
+        <itemPath>../H/Misc/UID.h</itemPath>
+        <itemPath>../H/Misc/Video.h</itemPath>
+        <itemPath>../H/Misc/Windows.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Net" displayName="Net" projectFiles="true">
+        <itemPath>../H/Net/Advertisement.h</itemPath>
+        <itemPath>../H/Net/Connection.h</itemPath>
+        <itemPath>../H/Net/Download.h</itemPath>
+        <itemPath>../H/Net/Esenthel Store.h</itemPath>
+        <itemPath>../H/Net/Facebook.h</itemPath>
+        <itemPath>../H/Net/Ftp.h</itemPath>
+        <itemPath>../H/Net/Internet Cache.h</itemPath>
+        <itemPath>../H/Net/Interpolator.h</itemPath>
+        <itemPath>../H/Net/Net Object.h</itemPath>
+        <itemPath>../H/Net/Net World.h</itemPath>
+        <itemPath>../H/Net/Patcher.h</itemPath>
+        <itemPath>../H/Net/Socket.h</itemPath>
+        <itemPath>../H/Net/Sql.h</itemPath>
+        <itemPath>../H/Net/Steam.h</itemPath>
+        <itemPath>../H/Net/Store.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Physics" displayName="Physics" projectFiles="true">
+        <itemPath>../H/Physics/Actor.h</itemPath>
+        <itemPath>../H/Physics/Aggregate.h</itemPath>
+        <itemPath>../H/Physics/Cloth.h</itemPath>
+        <itemPath>../H/Physics/Controller.h</itemPath>
+        <itemPath>../H/Physics/Destruct Mesh.h</itemPath>
+        <itemPath>../H/Physics/Grab.h</itemPath>
+        <itemPath>../H/Physics/Joint.h</itemPath>
+        <itemPath>../H/Physics/KController.h</itemPath>
+        <itemPath>../H/Physics/Phys Body.h</itemPath>
+        <itemPath>../H/Physics/Phys Material.h</itemPath>
+        <itemPath>../H/Physics/Physics.h</itemPath>
+        <itemPath>../H/Physics/Ragdoll.h</itemPath>
+        <itemPath>../H/Physics/Soft Body.h</itemPath>
+        <itemPath>../H/Physics/Vehicle.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Sound" displayName="Sound" projectFiles="true">
+        <itemPath>../H/Sound/Music.h</itemPath>
+        <itemPath>../H/Sound/Sound Buffer.h</itemPath>
+        <itemPath>../H/Sound/Sound Extra.h</itemPath>
+        <itemPath>../H/Sound/Sound Stream.h</itemPath>
+        <itemPath>../H/Sound/Sound.h</itemPath>
+      </logicalFolder>
+      <itemPath>../H/EsenthelEngine.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="Animation" displayName="Animation" projectFiles="true">
+        <itemPath>../Source/Animation/Animated Skeleton.cpp</itemPath>
+        <itemPath>../Source/Animation/Animation.cpp</itemPath>
+        <itemPath>../Source/Animation/Motion.cpp</itemPath>
+        <itemPath>../Source/Animation/Skeleton.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Code" displayName="Code" projectFiles="true">
+        <logicalFolder name="Compile" displayName="Compile" projectFiles="true">
+          <itemPath>../Source/Code/Compile/CE Command.cpp</itemPath>
+          <itemPath>../Source/Code/Compile/CE Compiler.cpp</itemPath>
+          <itemPath>../Source/Code/Compile/CE Environment.cpp</itemPath>
+          <itemPath>../Source/Code/Compile/CE Expression.cpp</itemPath>
+          <itemPath>../Source/Code/Compile/CE Func List.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>../Source/Code/CE Code Col Line.cpp</itemPath>
+        <itemPath>../Source/Code/CE Editor C++.cpp</itemPath>
+        <itemPath>../Source/Code/CE Editor GUI.cpp</itemPath>
+        <itemPath>../Source/Code/CE Editor IO.cpp</itemPath>
+        <itemPath>../Source/Code/CE Editor Parser.cpp</itemPath>
+        <itemPath>../Source/Code/CE Editor Sources.cpp</itemPath>
+        <itemPath>../Source/Code/CE Find.cpp</itemPath>
+        <itemPath>../Source/Code/CE Item.cpp</itemPath>
+        <itemPath>../Source/Code/CE Macro.cpp</itemPath>
+        <itemPath>../Source/Code/CE Parser.cpp</itemPath>
+        <itemPath>../Source/Code/CE Source C++.cpp</itemPath>
+        <itemPath>../Source/Code/CE Source Edit.cpp</itemPath>
+        <itemPath>../Source/Code/CE Source GUI.cpp</itemPath>
+        <itemPath>../Source/Code/CE Source Preprocessor.cpp</itemPath>
+        <itemPath>../Source/Code/CE Source Suggestions.cpp</itemPath>
+        <itemPath>../Source/Code/CE Source.cpp</itemPath>
+        <itemPath>../Source/Code/CE Symbol.cpp</itemPath>
+        <itemPath>../Source/Code/CE Token.cpp</itemPath>
+        <itemPath>../Source/Code/CE.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Edit" displayName="Edit" projectFiles="true">
+        <itemPath>../Source/Edit/Editor Interface.cpp</itemPath>
+        <itemPath>../Source/Edit/Save Changes.cpp</itemPath>
+        <itemPath>../Source/Edit/Undo.cpp</itemPath>
+        <itemPath>../Source/Edit/Version.cpp</itemPath>
+        <itemPath>../Source/Edit/Viewport4.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="File" displayName="File" projectFiles="true">
+        <itemPath>../Source/File/Chunk.cpp</itemPath>
+        <itemPath>../Source/File/File Text.cpp</itemPath>
+        <itemPath>../Source/File/File.cpp</itemPath>
+        <itemPath>../Source/File/IO.cpp</itemPath>
+        <itemPath>../Source/File/Pak.cpp</itemPath>
+        <itemPath>../Source/File/Xml.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Game" displayName="Game" projectFiles="true">
+        <logicalFolder name="Objects" displayName="Objects" projectFiles="true">
+          <itemPath>../Source/Game/Objects/Animatable.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Character Action.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Character Animation.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Character Item.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Character Ragdoll.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Character.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Destructible.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Door.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Item.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Kinematic.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Obj Decal.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Obj Light Cone.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Obj Light Point.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Obj Particles.cpp</itemPath>
+          <itemPath>../Source/Game/Objects/Static.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>../Source/Game/Area.cpp</itemPath>
+        <itemPath>../Source/Game/Mini Map.cpp</itemPath>
+        <itemPath>../Source/Game/Obj.cpp</itemPath>
+        <itemPath>../Source/Game/Path 2D Walker.cpp</itemPath>
+        <itemPath>../Source/Game/Waypoint.cpp</itemPath>
+        <itemPath>../Source/Game/World Draw.cpp</itemPath>
+        <itemPath>../Source/Game/World Object.cpp</itemPath>
+        <itemPath>../Source/Game/World Path 2D.cpp</itemPath>
+        <itemPath>../Source/Game/World Terrain.cpp</itemPath>
+        <itemPath>../Source/Game/World.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Graphics" displayName="Graphics" projectFiles="true">
+        <logicalFolder name="Import" displayName="Import" projectFiles="true">
+          <itemPath>../Source/Graphics/Import/BC.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/BC.h</itemPath>
+          <itemPath>../Source/Graphics/Import/BC7.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/BMP.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/DDS.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/ETC.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/ETC.h</itemPath>
+          <itemPath>../Source/Graphics/Import/ETC_Compress.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/ICO.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/JPEG.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/PNG.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/PSD.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/PVRTC.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/PVRTC.h</itemPath>
+          <itemPath>../Source/Graphics/Import/PVRTC_Compress.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/TGA.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/TIF.cpp</itemPath>
+          <itemPath>../Source/Graphics/Import/WEBP.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>../Source/Graphics/Clouds.cpp</itemPath>
+        <itemPath>../Source/Graphics/Color.cpp</itemPath>
+        <itemPath>../Source/Graphics/Decal.cpp</itemPath>
+        <itemPath>../Source/Graphics/Display Draw.cpp</itemPath>
+        <itemPath>../Source/Graphics/Display State.cpp</itemPath>
+        <itemPath>../Source/Graphics/Display Viewport.cpp</itemPath>
+        <itemPath>../Source/Graphics/Display.cpp</itemPath>
+        <itemPath>../Source/Graphics/Effects 2D.cpp</itemPath>
+        <itemPath>../Source/Graphics/Effects 3D.cpp</itemPath>
+        <itemPath>../Source/Graphics/Environment.cpp</itemPath>
+        <itemPath>../Source/Graphics/Fog.cpp</itemPath>
+        <itemPath>../Source/Graphics/Fur.cpp</itemPath>
+        <itemPath>../Source/Graphics/Image Atlas.cpp</itemPath>
+        <itemPath>../Source/Graphics/Image IO.cpp</itemPath>
+        <itemPath>../Source/Graphics/Image Operations.cpp</itemPath>
+        <itemPath>../Source/Graphics/Image Pixel.cpp</itemPath>
+        <itemPath>../Source/Graphics/Image RT.cpp</itemPath>
+        <itemPath>../Source/Graphics/Image.cpp</itemPath>
+        <itemPath>../Source/Graphics/Light.cpp</itemPath>
+        <itemPath>../Source/Graphics/Material.cpp</itemPath>
+        <itemPath>../Source/Graphics/Particle.cpp</itemPath>
+        <itemPath>../Source/Graphics/Renderer Instancing.cpp</itemPath>
+        <itemPath>../Source/Graphics/Renderer Targets.cpp</itemPath>
+        <itemPath>../Source/Graphics/Renderer.cpp</itemPath>
+        <itemPath>../Source/Graphics/Shader Compile.cpp</itemPath>
+        <itemPath>../Source/Graphics/Shader Get.cpp</itemPath>
+        <itemPath>../Source/Graphics/Shader Main.cpp</itemPath>
+        <itemPath>../Source/Graphics/Shader.cpp</itemPath>
+        <itemPath>../Source/Graphics/Shaders Compile.cpp</itemPath>
+        <itemPath>../Source/Graphics/Sky.cpp</itemPath>
+        <itemPath>../Source/Graphics/Sun.cpp</itemPath>
+        <itemPath>../Source/Graphics/Vertex Index Buffer.cpp</itemPath>
+        <itemPath>../Source/Graphics/Water.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Gui" displayName="Gui" projectFiles="true">
+        <logicalFolder name="Objects" displayName="Objects" projectFiles="true">
+          <itemPath>../Source/Gui/Objects/Button.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/CheckBox.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Color Picker.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/ComboBox.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Desktop.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Gui Custom.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Gui Image.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/List.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Menu.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/MenuBar.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Progress.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Property.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Region.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/SlideBar.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Slider.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Tabs.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Text.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/TextBox.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/TextLine.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Viewport.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Window IO.cpp</itemPath>
+          <itemPath>../Source/Gui/Objects/Window.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>../Source/Gui/Font.cpp</itemPath>
+        <itemPath>../Source/Gui/Gui Object.cpp</itemPath>
+        <itemPath>../Source/Gui/Gui Objects.cpp</itemPath>
+        <itemPath>../Source/Gui/Gui Skin.cpp</itemPath>
+        <itemPath>../Source/Gui/Gui.cpp</itemPath>
+        <itemPath>../Source/Gui/Panel Image.cpp</itemPath>
+        <itemPath>../Source/Gui/Panel.cpp</itemPath>
+        <itemPath>../Source/Gui/Text Style.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Input" displayName="Input" projectFiles="true">
+        <itemPath>../Source/Input/Input.cpp</itemPath>
+        <itemPath>../Source/Input/Joypad.cpp</itemPath>
+        <itemPath>../Source/Input/Keyboard.cpp</itemPath>
+        <itemPath>../Source/Input/Mouse.cpp</itemPath>
+        <itemPath>../Source/Input/Oculus Rift.cpp</itemPath>
+        <itemPath>../Source/Input/OpenVR.cpp</itemPath>
+        <itemPath>../Source/Input/Touch.cpp</itemPath>
+        <itemPath>../Source/Input/Virtual Reality.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Math" displayName="Math" projectFiles="true">
+        <logicalFolder name="Shapes" displayName="Shapes" projectFiles="true">
+          <itemPath>../Source/Math/Shapes/Ball.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Box.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Capsule.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Circle.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Cone.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Edge.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Plane.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Polygon.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Pyramid.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Quad.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Rectangle.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Torus.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Triangle.cpp</itemPath>
+          <itemPath>../Source/Math/Shapes/Tube.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>../Source/Math/Calculate.cpp</itemPath>
+        <itemPath>../Source/Math/Camera.cpp</itemPath>
+        <itemPath>../Source/Math/Frustum.cpp</itemPath>
+        <itemPath>../Source/Math/Math.cpp</itemPath>
+        <itemPath>../Source/Math/Matrix.cpp</itemPath>
+        <itemPath>../Source/Math/Number.cpp</itemPath>
+        <itemPath>../Source/Math/Orientation.cpp</itemPath>
+        <itemPath>../Source/Math/Quaternion.cpp</itemPath>
+        <itemPath>../Source/Math/Random.cpp</itemPath>
+        <itemPath>../Source/Math/Shape.cpp</itemPath>
+        <itemPath>../Source/Math/Vector.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Memory" displayName="Memory" projectFiles="true">
+        <itemPath>../Source/Memory/Cache.cpp</itemPath>
+        <itemPath>../Source/Memory/Cipher.cpp</itemPath>
+        <itemPath>../Source/Memory/Counted Pointer.cpp</itemPath>
+        <itemPath>../Source/Memory/Grid.cpp</itemPath>
+        <itemPath>../Source/Memory/Hash.cpp</itemPath>
+        <itemPath>../Source/Memory/Index.cpp</itemPath>
+        <itemPath>../Source/Memory/Map.cpp</itemPath>
+        <itemPath>../Source/Memory/Mem Block.cpp</itemPath>
+        <itemPath>../Source/Memory/Mem Continuous.cpp</itemPath>
+        <itemPath>../Source/Memory/Mem Extended.cpp</itemPath>
+        <itemPath>../Source/Memory/Mem List.cpp</itemPath>
+        <itemPath>../Source/Memory/Memory.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Mesh" displayName="Mesh" projectFiles="true">
+        <logicalFolder name="Import" displayName="Import" projectFiles="true">
+          <logicalFolder name="MilkShape3D" displayName="MilkShape3D" projectFiles="true">
+            <itemPath>../Source/Mesh/Import/MilkShape3D/mathlib.cpp.h</itemPath>
+            <itemPath>../Source/Mesh/Import/MilkShape3D/mathlib.h</itemPath>
+            <itemPath>../Source/Mesh/Import/MilkShape3D/msModel.cpp.h</itemPath>
+            <itemPath>../Source/Mesh/Import/MilkShape3D/msModel.h</itemPath>
+          </logicalFolder>
+          <itemPath>../Source/Mesh/Import/Export OBJ.cpp</itemPath>
+          <itemPath>../Source/Mesh/Import/Import 3DS.cpp</itemPath>
+          <itemPath>../Source/Mesh/Import/Import ASE.cpp</itemPath>
+          <itemPath>../Source/Mesh/Import/Import B3D.cpp</itemPath>
+          <itemPath>../Source/Mesh/Import/Import BVH.cpp</itemPath>
+          <itemPath>../Source/Mesh/Import/Import DAE.cpp</itemPath>
+          <itemPath>../Source/Mesh/Import/Import FBX.cpp</itemPath>
+          <itemPath>../Source/Mesh/Import/Import MS3D.cpp</itemPath>
+          <itemPath>../Source/Mesh/Import/Import OBJ.cpp</itemPath>
+          <itemPath>../Source/Mesh/Import/Import PSK PSA.cpp</itemPath>
+          <itemPath>../Source/Mesh/Import/Import XPS.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="MeshBase" displayName="MeshBase" projectFiles="true">
+          <itemPath>../Source/Mesh/MeshBase/Mshb Add Remove.cpp</itemPath>
+          <itemPath>../Source/Mesh/MeshBase/Mshb Convert.cpp</itemPath>
+          <itemPath>../Source/Mesh/MeshBase/Mshb Create.cpp</itemPath>
+          <itemPath>../Source/Mesh/MeshBase/Mshb Csg 2D.cpp</itemPath>
+          <itemPath>../Source/Mesh/MeshBase/Mshb Csg.cpp</itemPath>
+          <itemPath>../Source/Mesh/MeshBase/Mshb Fix.cpp</itemPath>
+          <itemPath>../Source/Mesh/MeshBase/Mshb Join Split.cpp</itemPath>
+          <itemPath>../Source/Mesh/MeshBase/Mshb Link.cpp</itemPath>
+          <itemPath>../Source/Mesh/MeshBase/Mshb Operations.cpp</itemPath>
+          <itemPath>../Source/Mesh/MeshBase/Mshb Set.cpp</itemPath>
+          <itemPath>../Source/Mesh/MeshBase/Mshb Texturize.cpp</itemPath>
+          <itemPath>../Source/Mesh/MeshBase/Mshb Transform.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>../Source/Mesh/Blocks.cpp</itemPath>
+        <itemPath>../Source/Mesh/Heightmap.cpp</itemPath>
+        <itemPath>../Source/Mesh/Material Palette.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh Base.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh Cuts.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh Draw.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh Group.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh IO.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh Lod.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh Mesh.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh Optimize.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh Overlay.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh Part.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh Render.cpp</itemPath>
+        <itemPath>../Source/Mesh/Mesh Simplify.cpp</itemPath>
+        <itemPath>../Source/Mesh/Voxel.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Misc" displayName="Misc" projectFiles="true">
+        <itemPath>../Source/Misc/Application.cpp</itemPath>
+        <itemPath>../Source/Misc/Call Stack.cpp</itemPath>
+        <itemPath>../Source/Misc/Callback.cpp</itemPath>
+        <itemPath>../Source/Misc/Compress.cpp</itemPath>
+        <itemPath>../Source/Misc/Cpu.cpp</itemPath>
+        <itemPath>../Source/Misc/DLL.cpp</itemPath>
+        <itemPath>../Source/Misc/Date Time.cpp</itemPath>
+        <itemPath>../Source/Misc/Enum.cpp</itemPath>
+        <itemPath>../Source/Misc/MP4.cpp</itemPath>
+        <itemPath>../Source/Misc/Member.cpp</itemPath>
+        <itemPath>../Source/Misc/Misc.cpp</itemPath>
+        <itemPath>../Source/Misc/Object.cpp</itemPath>
+        <itemPath>../Source/Misc/Param.cpp</itemPath>
+        <itemPath>../Source/Misc/Pathfind 2D.cpp</itemPath>
+        <itemPath>../Source/Misc/Pathfind.cpp</itemPath>
+        <itemPath>../Source/Misc/Printer.cpp</itemPath>
+        <itemPath>../Source/Misc/Process.cpp</itemPath>
+        <itemPath>../Source/Misc/Sort.cpp</itemPath>
+        <itemPath>../Source/Misc/States.cpp</itemPath>
+        <itemPath>../Source/Misc/String.cpp</itemPath>
+        <itemPath>../Source/Misc/Thread.cpp</itemPath>
+        <itemPath>../Source/Misc/Timer.cpp</itemPath>
+        <itemPath>../Source/Misc/Video.cpp</itemPath>
+        <itemPath>../Source/Misc/Windows.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Net" displayName="Net" projectFiles="true">
+        <itemPath>../Source/Net/AdMob.cpp</itemPath>
+        <itemPath>../Source/Net/Chartboost.cpp</itemPath>
+        <itemPath>../Source/Net/Connection.cpp</itemPath>
+        <itemPath>../Source/Net/Download.cpp</itemPath>
+        <itemPath>../Source/Net/Esenthel Store.cpp</itemPath>
+        <itemPath>../Source/Net/Facebook.cpp</itemPath>
+        <itemPath>../Source/Net/Ftp.cpp</itemPath>
+        <itemPath>../Source/Net/Internet Cache.cpp</itemPath>
+        <itemPath>../Source/Net/Interpolator.cpp</itemPath>
+        <itemPath>../Source/Net/Net Object.cpp</itemPath>
+        <itemPath>../Source/Net/Net World.cpp</itemPath>
+        <itemPath>../Source/Net/Patcher.cpp</itemPath>
+        <itemPath>../Source/Net/Socket.cpp</itemPath>
+        <itemPath>../Source/Net/Sql.cpp</itemPath>
+        <itemPath>../Source/Net/Steam.cpp</itemPath>
+        <itemPath>../Source/Net/Store.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Physics" displayName="Physics" projectFiles="true">
+        <itemPath>../Source/Physics/Actor Create.cpp</itemPath>
+        <itemPath>../Source/Physics/Actor.cpp</itemPath>
+        <itemPath>../Source/Physics/Aggregate.cpp</itemPath>
+        <itemPath>../Source/Physics/Cloth.cpp</itemPath>
+        <itemPath>../Source/Physics/Controller.cpp</itemPath>
+        <itemPath>../Source/Physics/Destruct Mesh.cpp</itemPath>
+        <itemPath>../Source/Physics/Grab.cpp</itemPath>
+        <itemPath>../Source/Physics/Joint.cpp</itemPath>
+        <itemPath>../Source/Physics/Phys Body.cpp</itemPath>
+        <itemPath>../Source/Physics/Phys Material.cpp</itemPath>
+        <itemPath>../Source/Physics/PhysX Ext.cpp</itemPath>
+        <itemPath>../Source/Physics/Physics Draw.cpp</itemPath>
+        <itemPath>../Source/Physics/Physics Test.cpp</itemPath>
+        <itemPath>../Source/Physics/Physics.cpp</itemPath>
+        <itemPath>../Source/Physics/Ragdoll.cpp</itemPath>
+        <itemPath>../Source/Physics/Vehicle.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Platforms" displayName="Platforms" projectFiles="true">
+        <logicalFolder name="Android" displayName="Android" projectFiles="true">
+          <itemPath>../Source/Platforms/Android/Android.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="iOS" displayName="iOS" projectFiles="true">
+          <itemPath>../Source/Platforms/iOS/EAGLView.h</itemPath>
+          <itemPath>../Source/Platforms/iOS/EAGLView.m</itemPath>
+          <itemPath>../Source/Platforms/iOS/MyViewController.h</itemPath>
+          <itemPath>../Source/Platforms/iOS/MyViewController.m</itemPath>
+          <itemPath>../Source/Platforms/iOS/iPhoneAppDelegate.h</itemPath>
+          <itemPath>../Source/Platforms/iOS/iPhoneAppDelegate.m</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Mac" displayName="Mac" projectFiles="true">
+          <itemPath>../Source/Platforms/Mac/MyAppDelegate.h</itemPath>
+          <itemPath>../Source/Platforms/Mac/MyAppDelegate.mm</itemPath>
+          <itemPath>../Source/Platforms/Mac/MyApplication.h</itemPath>
+          <itemPath>../Source/Platforms/Mac/MyApplication.mm</itemPath>
+          <itemPath>../Source/Platforms/Mac/MyOpenGLView.h</itemPath>
+          <itemPath>../Source/Platforms/Mac/MyOpenGLView.mm</itemPath>
+          <itemPath>../Source/Platforms/Mac/MyWindow.h</itemPath>
+          <itemPath>../Source/Platforms/Mac/MyWindow.mm</itemPath>
+          <itemPath>../Source/Platforms/Mac/MyWindowDelegate.h</itemPath>
+          <itemPath>../Source/Platforms/Mac/MyWindowDelegate.mm</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="Sound" displayName="Sound" projectFiles="true">
+        <itemPath>../Source/Sound/App Volume.cpp</itemPath>
+        <itemPath>../Source/Sound/Music.cpp</itemPath>
+        <itemPath>../Source/Sound/Sound Buffer.cpp</itemPath>
+        <itemPath>../Source/Sound/Sound Record.cpp</itemPath>
+        <itemPath>../Source/Sound/Sound Stream.cpp</itemPath>
+        <itemPath>../Source/Sound/Sound.cpp</itemPath>
+        <itemPath>../Source/Sound/Spectrometer.cpp</itemPath>
+        <itemPath>../Source/Sound/VorbisEncoder.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../Source</Elem>
+    <Elem>../H</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>2</architecture>
+          <commandlineTool>clang</commandlineTool>
+        </cTool>
+        <ccTool>
+          <architecture>2</architecture>
+          <standard>11</standard>
+          <commandlineTool>clang++</commandlineTool>
+          <incDir>
+            <pElem>..</pElem>
+            <pElem>../H/_</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/cloth</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/common</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/extensions</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/geometry</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/vehicle</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/Common/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/GeomUtils/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXExtensions/src/serialization/Xml</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/core/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/extensions/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src/PhysXMetaData/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/src/foundation/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/src/pvd/include</pElem>
+            <pElem>../../ThirdPartyLibs/Theora/include</pElem>
+            <pElem>../../ThirdPartyLibs/FreeType/lib/include</pElem>
+            <pElem>../../ThirdPartyLibs/Opus/lib/include</pElem>
+            <pElem>../../ThirdPartyLibs/Opus/file/include</pElem>
+            <pElem>../../ThirdPartyLibs/Vorbis/include</pElem>
+            <pElem>../../ThirdPartyLibs/Ogg/include</pElem>
+            <pElem>../../ThirdPartyLibs/FBX</pElem>
+            <pElem>../../ThirdPartyLibs/Bullet/lib/src</pElem>
+            <pElem>../../ThirdPartyLibs/VP/libvpx/third_party/libwebm</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libAACdec/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libAACenc/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libFDK/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libMpegTPDec/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libMpegTPEnc/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libPCMutils/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libSBRdec/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libSBRenc/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libSYS/include</pElem>
+            <pElem>../../ThirdPartyLibs</pElem>
+          </incDir>
+          <commandLine>-fshort-wchar -fpermissive -ffast-math -ffriend-injection -Wno-int-to-pointer-cast -Wno-invalid-offsetof -Wno-comment -Wno-parentheses -Wno-switch -Wno-null-dereference -Wno-empty-body -Wno-address-of-temporary -Wno-return-type-c-linkage -include ../stdafx.h</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG=1</Elem>
+          </preprocessorList>
+        </ccTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/EsenthelEngine.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../ThirdPartyLibs/PVRTC/PVRTC.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../H/Animation/Animation Keys.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Animation/Animation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Animation/Motion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Animation/Skeleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Code Col Line.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Environment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Expression.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Find.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Macro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Shared.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Source.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Symbol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Token.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Edit/Editor Interface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Edit/Save Changes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Edit/Undo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Edit/Version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Edit/Viewport4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/EsenthelEngine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/Chunk.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/File Text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/IO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/Pak.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/Xml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Area.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Mini Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Obj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Animatable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Character.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Destructible.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Door.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Kinematic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Obj Decal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Obj Light Cone.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Obj Light Point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Obj Particles.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Static.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Waypoint.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/World.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Clouds.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Color.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Display Draw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Display State.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Display.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Effects 2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Effects 3D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Environment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Fog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Fur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Image Atlas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Image RT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Light.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Material.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Particle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Renderer Instancing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../H/Graphics/Renderer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Shader Main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Shader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Sky.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Sun.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Vertex Index Buffer Ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../H/Graphics/Vertex Index Buffer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../H/Graphics/Water.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Font.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Gui Object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Gui Objects.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Gui Skin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Gui.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Button.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/CheckBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Color Picker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/ComboBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Context Menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Desktop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Gui Custom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Gui Image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/List.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Progress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Property.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Region.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/SlideBar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Slider.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Tabs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/TextBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/TextLine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Viewport.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Window IO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Panel Image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Panel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Text Style.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Input Buttons.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Joypad.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Keyboard.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Mouse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Touch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Calculate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Camera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Frustum.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Math.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Number.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Orientation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Quaternion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Random.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shape.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Ball.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Box.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Capsule.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Circle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Cone.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Edge.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Plane.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Polygon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Pyramid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Quad.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Rectangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Torus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Triangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Tube.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Cipher.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Counted Pointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Fixed Array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Index.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Block.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Continuous.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Extended.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem List.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Pointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Simple.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Temporary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Memory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Memb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Memc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Meml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Memx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Blocks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Heightmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Material Palette.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Csg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Cuts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Group.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Import.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Lod.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Mesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Overlay.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Part.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Render.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Voxel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Application.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Character.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Compress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Cpu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/DLL.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Date Time.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Enum.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Member.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Misc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Param.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Pathfind 2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Pathfind.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Reference.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Sort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/States.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/String Borrowed.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/String Functions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/String.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/String8.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/UID.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Video.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Windows.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Advertisement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Connection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Download.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Esenthel Store.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Facebook.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Ftp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Internet Cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Interpolator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Net Object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Net World.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Patcher.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Sql.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Steam.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Store.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Actor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Aggregate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Cloth.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Controller.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Destruct Mesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Grab.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Joint.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/KController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Phys Body.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Phys Material.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Physics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Ragdoll.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Soft Body.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Vehicle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Sound/Music.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Sound/Sound Buffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Sound/Sound Extra.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Sound/Sound Stream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Sound/Sound.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/_/defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/_/headers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/_/inline.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/_/structs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/_/types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Animation/Animated Skeleton.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Animation/Animation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Animation/Motion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Animation/Skeleton.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Code Col Line.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Editor C++.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Editor GUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Editor IO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Editor Parser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Editor Sources.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Find.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Macro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source C++.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source Edit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source GUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source Preprocessor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source Suggestions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Symbol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Token.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/Compile/CE Command.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/Compile/CE Compiler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/Compile/CE Environment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/Compile/CE Expression.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/Compile/CE Func List.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Edit/Editor Interface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Edit/Save Changes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Edit/Undo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Edit/Version.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Edit/Viewport4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/Chunk.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/File Text.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/IO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/Pak.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/Xml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Area.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Mini Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Obj.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Animatable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Character Action.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Character Animation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Character Item.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Character Ragdoll.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Character.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Destructible.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Door.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Kinematic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Obj Decal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Obj Light Cone.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Obj Light Point.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Obj Particles.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Static.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Path 2D Walker.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Waypoint.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/World Draw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/World Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/World Path 2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/World Terrain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/World.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Clouds.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Color.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Decal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Display Draw.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Display State.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Display Viewport.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Display.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Effects 2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Effects 3D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Environment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Fog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Fur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image Atlas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image IO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image Operations.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image Pixel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image RT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/BC.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/BC.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/BC7.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/BMP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/DDS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/ETC.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/ETC.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/ETC_Compress.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/ICO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/JPEG.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/PNG.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/PSD.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/PVRTC.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/PVRTC.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/PVRTC_Compress.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/TGA.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/TIF.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/WEBP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Light.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Material.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Particle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Renderer Instancing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Renderer Targets.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Renderer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Shader Compile.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Shader Get.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Shader Main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Shader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Shaders Compile.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Sky.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Sun.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Vertex Index Buffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Water.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Font.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Gui Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Gui Objects.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Gui Skin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Gui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Button.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/CheckBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Color Picker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/ComboBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Desktop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Gui Custom.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Gui Image.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/List.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Menu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/MenuBar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Progress.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Property.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Region.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/SlideBar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Slider.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Tabs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Text.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/TextBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/TextLine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Viewport.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Window IO.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Panel Image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Panel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Text Style.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Input.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Joypad.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Keyboard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Mouse.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Oculus Rift.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/OpenVR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Touch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Virtual Reality.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Math/Calculate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Frustum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Math.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Matrix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Number.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Orientation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Quaternion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Random.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shape.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Ball.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Box.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Capsule.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Circle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Cone.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Edge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Plane.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Polygon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Pyramid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Quad.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Rectangle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Torus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Triangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Tube.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Vector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Cache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Cipher.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Counted Pointer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Memory/Grid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Hash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Index.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Mem Block.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Mem Continuous.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Memory/Mem Extended.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Mem List.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Memory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Blocks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Heightmap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Export OBJ.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import 3DS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import ASE.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import B3D.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import BVH.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import DAE.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import FBX.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import MS3D.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import OBJ.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import PSK PSA.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import XPS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/MilkShape3D/mathlib.cpp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/MilkShape3D/mathlib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/MilkShape3D/msModel.cpp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/MilkShape3D/msModel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Material Palette.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Base.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Cuts.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Draw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Group.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh IO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Lod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Mesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Optimize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Overlay.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Part.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Simplify.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Add Remove.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Convert.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Create.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Csg 2D.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Csg.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Fix.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Join Split.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Link.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Operations.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Set.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Texturize.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Transform.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Voxel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Application.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Call Stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Callback.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Compress.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Cpu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/DLL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Date Time.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Enum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/MP4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Member.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Misc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Param.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Pathfind 2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Pathfind.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Printer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Process.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Sort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/States.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/String.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Timer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Video.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Windows.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/AdMob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Chartboost.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Connection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Download.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Esenthel Store.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Facebook.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Ftp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Internet Cache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Interpolator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Net Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Net World.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Patcher.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Socket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Sql.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Steam.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Store.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Actor Create.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Actor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Aggregate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Cloth.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Controller.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Destruct Mesh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Physics/Grab.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Joint.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Phys Body.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Phys Material.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Physics/PhysX Ext.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Physics Draw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Physics Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Physics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Ragdoll.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Vehicle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Android/Android.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Mac/MyAppDelegate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Mac/MyApplication.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Mac/MyOpenGLView.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Mac/MyWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Mac/MyWindowDelegate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/iOS/EAGLView.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Platforms/iOS/MyViewController.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/iOS/iPhoneAppDelegate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Sound/App Volume.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Music.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Sound Buffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Sound Record.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Sound Stream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Sound.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Spectrometer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/VorbisEncoder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../stdafx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../stdafx.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>clang++ -x c++-header ../stdafx.h -o ../stdafx.h.pch $(CXXFLAGS) -g -DDEBUG=1 -I.. -I../H/_ -I../../ThirdPartyLibs/PhysX/PhysX/Include -I../../ThirdPartyLibs/PhysX/PhysX/Include/cloth -I../../ThirdPartyLibs/PhysX/PhysX/Include/common -I../../ThirdPartyLibs/PhysX/PhysX/Include/extensions -I../../ThirdPartyLibs/PhysX/PhysX/Include/geometry -I../../ThirdPartyLibs/PhysX/PhysX/Include/vehicle -I../../ThirdPartyLibs/PhysX/PhysX/Source/Common/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/GeomUtils/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXExtensions/src/serialization/Xml -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/core/include -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/extensions/include -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src/PhysXMetaData/include -I../../ThirdPartyLibs/PhysX/PxShared/include -I../../ThirdPartyLibs/PhysX/PxShared/src/foundation/include -I../../ThirdPartyLibs/PhysX/PxShared/src/pvd/include -I../../ThirdPartyLibs/Theora/include -I../../ThirdPartyLibs/FreeType/include -I../../ThirdPartyLibs/Vorbis/include -I../../ThirdPartyLibs/Ogg/include -I../../ThirdPartyLibs/FBX -I../../ThirdPartyLibs/Bullet/lib/src -I../../ThirdPartyLibs -std=c++14</customToolCommandline>
+          <customToolOutputs>../stdafx.h.pch</customToolOutputs>
+        </customTool>
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <commandlineTool>clang</commandlineTool>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <standard>11</standard>
+          <commandlineTool>clang++</commandlineTool>
+          <incDir>
+            <pElem>..</pElem>
+            <pElem>../H/_</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/cloth</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/common</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/extensions</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/geometry</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/vehicle</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/Common/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/GeomUtils/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXExtensions/src/serialization/Xml</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/core/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/extensions/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src/PhysXMetaData/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/src/foundation/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/src/pvd/include</pElem>
+            <pElem>../../ThirdPartyLibs/Theora/include</pElem>
+            <pElem>../../ThirdPartyLibs/FreeType/lib/include</pElem>
+            <pElem>../../ThirdPartyLibs/Opus/lib/include</pElem>
+            <pElem>../../ThirdPartyLibs/Opus/file/include</pElem>
+            <pElem>../../ThirdPartyLibs/Vorbis/include</pElem>
+            <pElem>../../ThirdPartyLibs/Ogg/include</pElem>
+            <pElem>../../ThirdPartyLibs/FBX</pElem>
+            <pElem>../../ThirdPartyLibs/Bullet/lib/src</pElem>
+            <pElem>../../ThirdPartyLibs/VP/libvpx/third_party/libwebm</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libAACdec/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libAACenc/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libFDK/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libMpegTPDec/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libMpegTPEnc/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libPCMutils/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libSBRdec/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libSBRenc/include</pElem>
+            <pElem>../../ThirdPartyLibs/FDK-AAC/lib/libSYS/include</pElem>
+            <pElem>../../ThirdPartyLibs</pElem>
+          </incDir>
+          <commandLine>-fshort-wchar -fpermissive -ffast-math -ffriend-injection -Wno-int-to-pointer-cast -Wno-invalid-offsetof -Wno-comment -Wno-parentheses -Wno-switch -Wno-null-dereference -Wno-empty-body -Wno-address-of-temporary -Wno-return-type-c-linkage -include ../stdafx.h</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG=0</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/EsenthelEngine.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../ThirdPartyLibs/PVRTC/PVRTC.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../H/Animation/Animation Keys.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Animation/Animation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Animation/Motion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Animation/Skeleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Code Col Line.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Environment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Expression.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Find.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Macro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Shared.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Source.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Symbol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE Token.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Code/CE.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Edit/Editor Interface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Edit/Save Changes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Edit/Undo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Edit/Version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Edit/Viewport4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/EsenthelEngine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/Chunk.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/File Text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/IO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/Pak.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/File/Xml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Area.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Mini Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Obj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Animatable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Character.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Destructible.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Door.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Item.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Kinematic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Obj Decal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Obj Light Cone.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Obj Light Point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Obj Particles.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Objects/Static.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/Waypoint.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Game/World.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Clouds.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Color.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Display Draw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Display State.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Display.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Effects 2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Effects 3D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Environment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Fog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Fur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Image Atlas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Image RT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Light.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Material.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Particle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Renderer Instancing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../H/Graphics/Renderer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Shader Main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Shader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Sky.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Sun.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Graphics/Vertex Index Buffer Ex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../H/Graphics/Vertex Index Buffer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../H/Graphics/Water.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Font.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Gui Object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Gui Objects.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Gui Skin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Gui.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Button.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/CheckBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Color Picker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/ComboBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Context Menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Desktop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Gui Custom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Gui Image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/List.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Progress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Property.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Region.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/SlideBar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Slider.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Tabs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/TextBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/TextLine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Viewport.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Window IO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Objects/Window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Panel Image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Panel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Gui/Text Style.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Input Buttons.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Joypad.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Keyboard.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Mouse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Input/Touch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Calculate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Camera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Frustum.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Math.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Number.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Orientation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Quaternion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Random.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shape.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Ball.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Box.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Capsule.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Circle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Cone.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Edge.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Plane.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Polygon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Pyramid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Quad.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Rectangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Torus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Triangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Shapes/Tube.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Math/Vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Cipher.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Counted Pointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Fixed Array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Index.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Block.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Continuous.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Extended.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem List.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Pointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Simple.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Mem Temporary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Memory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Memb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Memc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Meml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Memory/_Memx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Blocks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Heightmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Material Palette.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Csg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Cuts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Group.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Import.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Lod.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Mesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Overlay.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Part.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Mesh Render.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Mesh/Voxel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Application.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Character.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Compress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Cpu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/DLL.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Date Time.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Enum.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Member.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Misc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Param.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Pathfind 2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Pathfind.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Reference.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Sort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/States.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/String Borrowed.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/String Functions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/String.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/String8.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/UID.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Video.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Misc/Windows.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Advertisement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Connection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Download.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Esenthel Store.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Facebook.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Ftp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Internet Cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Interpolator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Net Object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Net World.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Patcher.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Sql.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Steam.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Net/Store.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Actor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Aggregate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Cloth.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Controller.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Destruct Mesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Grab.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Joint.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/KController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Phys Body.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Phys Material.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Physics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Ragdoll.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Soft Body.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Physics/Vehicle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Sound/Music.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Sound/Sound Buffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Sound/Sound Extra.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Sound/Sound Stream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/Sound/Sound.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/_/defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/_/headers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/_/inline.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/_/structs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../H/_/types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Animation/Animated Skeleton.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Animation/Animation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Animation/Motion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Animation/Skeleton.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Code Col Line.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Editor C++.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Editor GUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Editor IO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Editor Parser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Editor Sources.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Find.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Macro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source C++.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source Edit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source GUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source Preprocessor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source Suggestions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Source.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Symbol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE Token.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/CE.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Code/Compile/CE Command.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/Compile/CE Compiler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/Compile/CE Environment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/Compile/CE Expression.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Code/Compile/CE Func List.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Edit/Editor Interface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Edit/Save Changes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Edit/Undo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Edit/Version.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Edit/Viewport4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/Chunk.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/File Text.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/IO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/Pak.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/File/Xml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Area.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Mini Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Obj.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Animatable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Character Action.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Character Animation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Character Item.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Character Ragdoll.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Character.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Destructible.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Door.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Kinematic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Obj Decal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Obj Light Cone.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Obj Light Point.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Obj Particles.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Game/Objects/Static.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Path 2D Walker.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/Waypoint.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/World Draw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/World Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/World Path 2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/World Terrain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Game/World.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Clouds.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Color.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Decal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Display Draw.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Display State.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Display Viewport.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Display.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Effects 2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Effects 3D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Environment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Fog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Fur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image Atlas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image IO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image Operations.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image Pixel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image RT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/BC.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/BC.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/BC7.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/BMP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/DDS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/ETC.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/ETC.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/ETC_Compress.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/ICO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/JPEG.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/PNG.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/PSD.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/PVRTC.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/PVRTC.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/PVRTC_Compress.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/TGA.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/TIF.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Import/WEBP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Light.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Material.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Particle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Renderer Instancing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Renderer Targets.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Renderer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Shader Compile.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Shader Get.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Shader Main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Shader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Shaders Compile.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Sky.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Sun.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Vertex Index Buffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Graphics/Water.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Font.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Gui Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Gui Objects.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Gui Skin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Gui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Button.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/CheckBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Color Picker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/ComboBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Desktop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Gui Custom.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Gui Image.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/List.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Menu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/MenuBar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Progress.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Property.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Region.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/SlideBar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Slider.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Tabs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Text.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/TextBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/TextLine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Viewport.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Window IO.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Gui/Objects/Window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Panel Image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Panel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Gui/Text Style.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Input.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Joypad.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Keyboard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Mouse.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Oculus Rift.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/OpenVR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Touch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Input/Virtual Reality.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Math/Calculate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Frustum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Math.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Matrix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Number.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Orientation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Quaternion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Random.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shape.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Ball.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Box.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Capsule.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Circle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Cone.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Edge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Plane.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Polygon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Pyramid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Quad.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Rectangle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Torus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Triangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Shapes/Tube.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Math/Vector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Cache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Cipher.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Counted Pointer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Memory/Grid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Hash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Index.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Mem Block.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Mem Continuous.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Memory/Mem Extended.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Mem List.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Memory/Memory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Blocks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Heightmap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Export OBJ.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import 3DS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import ASE.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import B3D.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import BVH.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import DAE.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import FBX.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import MS3D.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import OBJ.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import PSK PSA.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/Import XPS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/MilkShape3D/mathlib.cpp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/MilkShape3D/mathlib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/MilkShape3D/msModel.cpp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Import/MilkShape3D/msModel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Material Palette.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Base.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Cuts.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Draw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Group.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh IO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Lod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Mesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Optimize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Overlay.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Part.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Mesh Simplify.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Add Remove.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Convert.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Create.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Csg 2D.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Csg.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Fix.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Join Split.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Link.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Operations.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Set.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Texturize.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/MeshBase/Mshb Transform.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Mesh/Voxel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Application.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Call Stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Callback.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Compress.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Cpu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/DLL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Date Time.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Enum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/MP4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Member.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Misc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Param.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Pathfind 2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Pathfind.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Printer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Process.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Sort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/States.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/String.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Timer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Video.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Misc/Windows.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/AdMob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Chartboost.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Connection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Download.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Esenthel Store.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Facebook.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Ftp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Internet Cache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Interpolator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Net Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Net World.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Patcher.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Socket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Sql.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Steam.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Net/Store.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Actor Create.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Actor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Aggregate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Cloth.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Controller.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Destruct Mesh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Physics/Grab.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Joint.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Phys Body.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Phys Material.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Physics/PhysX Ext.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Physics Draw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Physics Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Physics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Ragdoll.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Physics/Vehicle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Android/Android.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Mac/MyAppDelegate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Mac/MyApplication.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Mac/MyOpenGLView.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Mac/MyWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Platforms/Mac/MyWindowDelegate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/iOS/EAGLView.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/Platforms/iOS/MyViewController.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Platforms/iOS/iPhoneAppDelegate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/Sound/App Volume.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Music.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Sound Buffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Sound Record.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Sound Stream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Sound.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/Spectrometer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/Sound/VorbisEncoder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../stdafx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../stdafx.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>clang++ -x c++-header ../stdafx.h -o ../stdafx.h.pch $(CXXFLAGS) -O3 -DDEBUG=0 -I.. -I../H/_ -I../../ThirdPartyLibs/PhysX/PhysX/Include -I../../ThirdPartyLibs/PhysX/PhysX/Include/cloth -I../../ThirdPartyLibs/PhysX/PhysX/Include/common -I../../ThirdPartyLibs/PhysX/PhysX/Include/extensions -I../../ThirdPartyLibs/PhysX/PhysX/Include/geometry -I../../ThirdPartyLibs/PhysX/PhysX/Include/vehicle -I../../ThirdPartyLibs/PhysX/PhysX/Source/Common/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/GeomUtils/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXExtensions/src/serialization/Xml -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/core/include -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/extensions/include -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src/PhysXMetaData/include -I../../ThirdPartyLibs/PhysX/PxShared/include -I../../ThirdPartyLibs/PhysX/PxShared/src/foundation/include -I../../ThirdPartyLibs/PhysX/PxShared/src/pvd/include -I../../ThirdPartyLibs/Theora/include -I../../ThirdPartyLibs/FreeType/include -I../../ThirdPartyLibs/Vorbis/include -I../../ThirdPartyLibs/Ogg/include -I../../ThirdPartyLibs/FBX -I../../ThirdPartyLibs/Bullet/lib/src -I../../ThirdPartyLibs -std=c++14</customToolCommandline>
+          <customToolOutputs>../stdafx.h.pch</customToolOutputs>
+        </customTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

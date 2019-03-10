@@ -1,0 +1,63 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Png", "Png.vcxproj", "{0008960E-E0DD-41A6-8265-00B31DDB4C21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DLL Debug|ARM = DLL Debug|ARM
+		DLL Debug|Emscripten = DLL Debug|Emscripten
+		DLL Debug|Win32 = DLL Debug|Win32
+		DLL Debug|x64 = DLL Debug|x64
+		DLL Release|ARM = DLL Release|ARM
+		DLL Release|Emscripten = DLL Release|Emscripten
+		DLL Release|Win32 = DLL Release|Win32
+		DLL Release|x64 = DLL Release|x64
+		LIB Debug|ARM = LIB Debug|ARM
+		LIB Debug|Emscripten = LIB Debug|Emscripten
+		LIB Debug|Win32 = LIB Debug|Win32
+		LIB Debug|x64 = LIB Debug|x64
+		LIB Release|ARM = LIB Release|ARM
+		LIB Release|Emscripten = LIB Release|Emscripten
+		LIB Release|Win32 = LIB Release|Win32
+		LIB Release|x64 = LIB Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Debug|ARM.ActiveCfg = DLL Debug|ARM
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Debug|ARM.Build.0 = DLL Debug|ARM
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Debug|Emscripten.ActiveCfg = DLL Debug|Emscripten
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Debug|Emscripten.Build.0 = DLL Debug|Emscripten
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Debug|Win32.ActiveCfg = DLL Debug|Win32
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Debug|Win32.Build.0 = DLL Debug|Win32
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Debug|x64.ActiveCfg = DLL Debug|x64
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Debug|x64.Build.0 = DLL Debug|x64
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Release|ARM.ActiveCfg = DLL Release|ARM
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Release|ARM.Build.0 = DLL Release|ARM
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Release|Emscripten.ActiveCfg = DLL Release|Emscripten
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Release|Emscripten.Build.0 = DLL Release|Emscripten
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Release|Win32.ActiveCfg = DLL Release|Win32
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Release|Win32.Build.0 = DLL Release|Win32
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Release|x64.ActiveCfg = DLL Release|x64
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.DLL Release|x64.Build.0 = DLL Release|x64
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Debug|ARM.ActiveCfg = LIB Debug|ARM
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Debug|ARM.Build.0 = LIB Debug|ARM
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Debug|Emscripten.ActiveCfg = LIB Debug|Emscripten
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Debug|Emscripten.Build.0 = LIB Debug|Emscripten
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Debug|Win32.ActiveCfg = LIB Debug|Win32
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Debug|Win32.Build.0 = LIB Debug|Win32
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Debug|x64.ActiveCfg = LIB Debug|x64
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Debug|x64.Build.0 = LIB Debug|x64
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Release|ARM.ActiveCfg = LIB Release|ARM
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Release|ARM.Build.0 = LIB Release|ARM
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Release|Emscripten.ActiveCfg = LIB Release|Emscripten
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Release|Emscripten.Build.0 = LIB Release|Emscripten
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Release|Win32.ActiveCfg = LIB Release|Win32
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Release|Win32.Build.0 = LIB Release|Win32
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Release|x64.ActiveCfg = LIB Release|x64
+		{0008960E-E0DD-41A6-8265-00B31DDB4C21}.LIB Release|x64.Build.0 = LIB Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

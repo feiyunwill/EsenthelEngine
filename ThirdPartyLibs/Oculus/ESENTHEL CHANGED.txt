@@ -1,0 +1,13 @@
+Select LibOVR, LibOVRKernel Projects,
+Select All Configurations and All Platforms,
+-Code Generation - Multi Threaded
+-Treat warnings as errors - NO
+-Add Include Directories: $(OVRSDKROOT)../DirectX;
+-Remove Preprocessor Definitions - _DEBUG
+
+Compile LibOVR and LibOVRKernel in Release for Win32/x64
+
+To Build Samples:
+-remove linking to LibOVR and LibOVRKernel from project properties
+-drag and drop ../DirectX/x64 libs to the sample project
+-drag and drop LibOVR and LibOVRKernel x64 libs to the sample project

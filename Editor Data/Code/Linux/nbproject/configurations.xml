@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>stdafx.h</itemPath>
+    </logicalFolder>
+EE_APP_ITEMS
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>Source</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+         <cTool>
+          <developmentMode>0</developmentMode>
+            <commandlineTool>clang</commandlineTool>
+         </cTool>
+         <ccTool>
+          <architecture>2</architecture>
+          <standard>11</standard>
+          <commandlineTool>clang++</commandlineTool>
+          <incDir>
+            <pElem>.</pElem>
+EE_HEADER_PATH
+          </incDir>
+          <commandLine>-fshort-wchar -fpermissive -ffast-math -ffriend-injection -Wno-int-to-pointer-cast -Wno-invalid-offsetof -Wno-comment -Wno-parentheses -Wno-switch -Wno-null-dereference -Wno-empty-body -Wno-address-of-temporary -Wno-return-type-c-linkage -include stdafx.h</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG=1</Elem>
+          </preprocessorList>
+         </ccTool>
+         <linkerTool>
+            <output>EE_APP_NAME</output>
+            <linkerDynSerch>
+               <pElem>Bin</pElem>
+            </linkerDynSerch>
+          <commandlineTool>clang++</commandlineTool>
+            <linkerLibItems>
+               <linkerLibFileItem>EE_LIB_PATH</linkerLibFileItem>
+               EXTERNAL_LIBS
+            <linkerLibLibItem>X11</linkerLibLibItem>
+            <linkerLibLibItem>Xmu</linkerLibLibItem>
+            <linkerLibLibItem>Xxf86vm</linkerLibLibItem>
+            <linkerLibLibItem>Xinerama</linkerLibLibItem>
+            <linkerLibLibItem>Xrandr</linkerLibLibItem>
+            <linkerLibLibItem>rt</linkerLibLibItem>
+            <linkerLibLibItem>Xi</linkerLibLibItem>
+            <linkerLibLibItem>Xcursor</linkerLibLibItem>
+            <linkerLibLibItem>GL</linkerLibLibItem>
+            <linkerLibLibItem>openal</linkerLibLibItem>
+            <linkerLibLibItem>z</linkerLibLibItem>
+            <linkerLibLibItem>odbc</linkerLibLibItem>
+            <linkerLibLibItem>udev</linkerLibLibItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+            </linkerLibItems>
+            <commandLine>-static-libstdc++</commandLine>
+         </linkerTool>
+      </compileType>
+      EE_APP_FILES
+      <item path="stdafx.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>clang++ -x c++-header stdafx.h -o stdafx.h.pch $(CXXFLAGS) -g -DDEBUG=1 -I. EE_HEADER_PATH -std=c++14</customToolCommandline>
+          <customToolOutputs>stdafx.h.pch</customToolOutputs>
+        </customTool>
+      </item>
+   </conf>
+   <conf name="Release" type="1">
+      <toolsSet>
+         <compilerSet>default</compilerSet>
+         <dependencyChecking>true</dependencyChecking>
+         <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+         <cTool>
+          <developmentMode>0</developmentMode>
+          <commandlineTool>clang</commandlineTool>
+         </cTool>
+         <ccTool>
+            <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <standard>11</standard>
+          <commandlineTool>clang++</commandlineTool>
+            <incDir>
+               <pElem>.</pElem>
+               EE_HEADER_PATH
+            </incDir>
+          <commandLine>-fshort-wchar -fpermissive -ffast-math -ffriend-injection -Wno-int-to-pointer-cast -Wno-invalid-offsetof -Wno-comment -Wno-parentheses -Wno-switch -Wno-null-dereference -Wno-empty-body -Wno-address-of-temporary -Wno-return-type-c-linkage -include stdafx.h</commandLine>
+            <preprocessorList>
+               <Elem>DEBUG=0</Elem>
+            </preprocessorList>
+         </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>EE_APP_NAME</output>
+           <linkerDynSerch>
+              <pElem>Bin</pElem>
+           </linkerDynSerch>
+          <stripSymbols>true</stripSymbols>
+          <commandlineTool>clang++</commandlineTool>
+           <linkerLibItems>
+            <linkerLibFileItem>EE_LIB_PATH</linkerLibFileItem>
+EXTERNAL_LIBS
+            <linkerLibLibItem>X11</linkerLibLibItem>
+            <linkerLibLibItem>Xmu</linkerLibLibItem>
+            <linkerLibLibItem>Xxf86vm</linkerLibLibItem>
+            <linkerLibLibItem>Xinerama</linkerLibLibItem>
+            <linkerLibLibItem>Xrandr</linkerLibLibItem>
+            <linkerLibLibItem>rt</linkerLibLibItem>
+            <linkerLibLibItem>Xi</linkerLibLibItem>
+            <linkerLibLibItem>Xcursor</linkerLibLibItem>
+            <linkerLibLibItem>GL</linkerLibLibItem>
+            <linkerLibLibItem>openal</linkerLibLibItem>
+            <linkerLibLibItem>z</linkerLibLibItem>
+            <linkerLibLibItem>odbc</linkerLibLibItem>
+            <linkerLibLibItem>udev</linkerLibLibItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+          </linkerLibItems>
+          <commandLine>-static-libstdc++</commandLine>
+        </linkerTool>
+      </compileType>
+EE_APP_FILES
+      <item path="stdafx.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>clang++ -x c++-header stdafx.h -o stdafx.h.pch $(CXXFLAGS) -O3 -DDEBUG=0 -I. EE_HEADER_PATH -std=c++14</customToolCommandline>
+          <customToolOutputs>stdafx.h.pch</customToolOutputs>
+        </customTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

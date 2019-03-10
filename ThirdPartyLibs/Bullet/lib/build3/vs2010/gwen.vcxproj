@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Emscripten">
+      <Configuration>Debug</Configuration>
+      <Platform>Emscripten</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Universal|ARM">
+      <Configuration>Release Universal</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Universal|Emscripten">
+      <Configuration>Release Universal</Configuration>
+      <Platform>Emscripten</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Universal|Win32">
+      <Configuration>Release Universal</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Universal|x64">
+      <Configuration>Release Universal</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Emscripten">
+      <Configuration>Release</Configuration>
+      <Platform>Emscripten</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3692977C-22C9-980D-CBB5-7E10B7CB140F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>gwen</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Emscripten'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|Emscripten'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Emscripten'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Emscripten'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|Emscripten'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Emscripten'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\bin\</OutDir>
+    <IntDir>obj\Release\gwen\</IntDir>
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|Win32'">
+    <OutDir>..\..\bin\</OutDir>
+    <IntDir>obj\Release\gwen\</IntDir>
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Emscripten'">
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|Emscripten'">
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|x64'">
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|ARM'">
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\bin\</OutDir>
+    <IntDir>obj\Debug\gwen\</IntDir>
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Emscripten'">
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <TargetName>gwen</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Emscripten'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|Emscripten'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Universal|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG=1;GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Emscripten'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG=1;GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG=1;GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG=1;GLEW_STATIC;GWEN_COMPILE_STATIC;DONT_USE_GLUT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\examples\ThirdPartyLibs\Glew;..\..\examples\ThirdPartyLibs\Gwen;..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <AdditionalOptions>/MP /wd4244 /wd4267 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Align.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Anim.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\BaseRender.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Config.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Base.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Button.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Canvas.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\CheckBox.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ColorControls.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ColorPicker.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ComboBox.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\CrossSplitter.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Dialogs\FileOpen.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Dialogs\FileSave.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Dialogs\Query.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\DockBase.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\DockedTabControl.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Dragger.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\GroupBox.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\HSVColorPicker.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Highlight.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\HorizontalScrollBar.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\HorizontalSlider.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ImagePanel.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Label.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\LabelClickable.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Layout\Splitter.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Layout\Table.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ListBox.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Menu.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\MenuItem.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\MenuStrip.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Modal.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\NumericUpDown.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\PanelListPanel.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ProgressBar.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Properties.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Property\BaseProperty.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Property\ColorSelector.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Property\Text.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\PropertyTree.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\RadioButton.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\RadioButtonController.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ResizableControl.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Resizer.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\RichLabel.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ScrollBar.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ScrollBarBar.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ScrollBarButton.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ScrollControl.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Slider.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\SplitterBar.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\StatusBar.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Symbol.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TabButton.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TabControl.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TabStrip.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TabTitleBar.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Text.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TextBox.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ToolBar.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TreeControl.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TreeNode.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\VerticalScrollBar.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\VerticalSlider.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\WindowControl.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\DragAndDrop.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Events.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Exports.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Font.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Gwen.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Hook.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Input\SDL13.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Input\SFML.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Input\Windows.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\InputHandler.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Macros.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Platform.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Skin.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Skins\Simple.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Skins\TexturedBase.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Skins\Texturing.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Structures.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\TextObject.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Texture.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\ToolTip.h" />
+    <ClInclude Include="..\..\examples\ThirdPartyLibs\Gwen\Utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Glew\glew.c" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Anim.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\BaseRender.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Base.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Button.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Canvas.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\CheckBox.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ColorControls.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ColorPicker.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ComboBox.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\CrossSplitter.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Dialog\FileOpen.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Dialog\FileSave.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Dialog\Query.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\DockBase.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\DockedTabControl.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Dragger.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\GroupBox.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\HSVColorPicker.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\HorizontalScrollBar.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\HorizontalSlider.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ImagePanel.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Label.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\LabelClickable.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ListBox.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Menu.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\MenuItem.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\MenuStrip.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\NumericUpDown.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\PanelListPanel.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ProgressBar.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Properties.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\RadioButton.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\RadioButtonController.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ResizableControl.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Resizer.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\RichLabel.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ScrollBar.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ScrollBarBar.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ScrollBarButton.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\ScrollControl.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Slider.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\SplitterBar.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TabButton.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TabControl.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TabStrip.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\Text.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TextBox.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TextBoxNumeric.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TreeControl.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\TreeNode.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\VerticalScrollBar.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\VerticalSlider.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Controls\WindowControl.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\DragAndDrop.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Gwen.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Hook.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Platforms\Null.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Platforms\Windows.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Renderers\OpenGL_DebugFont.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Skin.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\ToolTip.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\Utility.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\events.cpp" />
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\Gwen\inputhandler.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

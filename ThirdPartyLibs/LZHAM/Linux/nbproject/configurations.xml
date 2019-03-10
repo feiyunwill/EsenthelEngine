@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../Source/lzham.h</itemPath>
+      <itemPath>../Source/lzham_assert.cpp</itemPath>
+      <itemPath>../Source/lzham_assert.h</itemPath>
+      <itemPath>../Source/lzham_checksum.cpp</itemPath>
+      <itemPath>../Source/lzham_checksum.h</itemPath>
+      <itemPath>../Source/lzham_comp.h</itemPath>
+      <itemPath>../Source/lzham_config.h</itemPath>
+      <itemPath>../Source/lzham_core.h</itemPath>
+      <itemPath>../Source/lzham_decomp.h</itemPath>
+      <itemPath>../Source/lzham_dynamic_lib.h</itemPath>
+      <itemPath>../Source/lzham_helpers.h</itemPath>
+      <itemPath>../Source/lzham_huffman_codes.cpp</itemPath>
+      <itemPath>../Source/lzham_huffman_codes.h</itemPath>
+      <itemPath>../Source/lzham_lzbase.cpp</itemPath>
+      <itemPath>../Source/lzham_lzbase.h</itemPath>
+      <itemPath>../Source/lzham_lzcomp.cpp</itemPath>
+      <itemPath>../Source/lzham_lzcomp_internal.cpp</itemPath>
+      <itemPath>../Source/lzham_lzcomp_internal.h</itemPath>
+      <itemPath>../Source/lzham_lzcomp_state.cpp</itemPath>
+      <itemPath>../Source/lzham_lzdecomp.cpp</itemPath>
+      <itemPath>../Source/lzham_lzdecompbase.cpp</itemPath>
+      <itemPath>../Source/lzham_lzdecompbase.h</itemPath>
+      <itemPath>../Source/lzham_match_accel.cpp</itemPath>
+      <itemPath>../Source/lzham_match_accel.h</itemPath>
+      <itemPath>../Source/lzham_math.h</itemPath>
+      <itemPath>../Source/lzham_mem.cpp</itemPath>
+      <itemPath>../Source/lzham_mem.h</itemPath>
+      <itemPath>../Source/lzham_null_threading.h</itemPath>
+      <itemPath>../Source/lzham_platform.cpp</itemPath>
+      <itemPath>../Source/lzham_platform.h</itemPath>
+      <itemPath>../Source/lzham_prefix_coding.cpp</itemPath>
+      <itemPath>../Source/lzham_prefix_coding.h</itemPath>
+      <itemPath>../Source/lzham_pthreads_threading.cpp</itemPath>
+      <itemPath>../Source/lzham_pthreads_threading.h</itemPath>
+      <itemPath>../Source/lzham_static_lib.h</itemPath>
+      <itemPath>../Source/lzham_symbol_codec.cpp</itemPath>
+      <itemPath>../Source/lzham_symbol_codec.h</itemPath>
+      <itemPath>../Source/lzham_threading.h</itemPath>
+      <itemPath>../Source/lzham_timer.cpp</itemPath>
+      <itemPath>../Source/lzham_timer.h</itemPath>
+      <itemPath>../Source/lzham_traits.h</itemPath>
+      <itemPath>../Source/lzham_types.h</itemPath>
+      <itemPath>../Source/lzham_utils.h</itemPath>
+      <itemPath>../Source/lzham_vector.cpp</itemPath>
+      <itemPath>../Source/lzham_vector.h</itemPath>
+      <itemPath>../Source/lzham_win32_threading.cpp</itemPath>
+      <itemPath>../Source/lzham_win32_threading.h</itemPath>
+      <itemPath>../Source/zlib.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>2</architecture>
+        </cTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../Source/lzham.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_assert.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_assert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_checksum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_checksum.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_comp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_decomp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_dynamic_lib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_helpers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_huffman_codes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_huffman_codes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzbase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzbase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzcomp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzcomp_internal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzcomp_internal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzcomp_state.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzdecomp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzdecompbase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzdecompbase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_match_accel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_match_accel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_math.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_mem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_mem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_null_threading.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_platform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_platform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_prefix_coding.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_prefix_coding.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_pthreads_threading.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/lzham_pthreads_threading.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/lzham_static_lib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_symbol_codec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_symbol_codec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_threading.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_timer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_traits.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_vector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_win32_threading.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/lzham_win32_threading.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/zlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <architecture>2</architecture>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../Source/lzham.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_assert.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_assert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_checksum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_checksum.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_comp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_decomp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_dynamic_lib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_helpers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_huffman_codes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_huffman_codes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzbase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzbase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzcomp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzcomp_internal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzcomp_internal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzcomp_state.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzdecomp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzdecompbase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_lzdecompbase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_match_accel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_match_accel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_math.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_mem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_mem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_null_threading.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_platform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_platform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_prefix_coding.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_prefix_coding.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_pthreads_threading.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/lzham_pthreads_threading.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Source/lzham_static_lib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_symbol_codec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_symbol_codec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_threading.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_timer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_traits.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_vector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Source/lzham_vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/lzham_win32_threading.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Source/lzham_win32_threading.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Source/zlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

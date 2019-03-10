@@ -1,0 +1,8 @@
+﻿#include "../../Source/Input/Input.cpp"
+#include "../../Source/Input/Joypad.cpp"
+#include "../../Source/Input/Keyboard.cpp"
+#include "../../Source/Input/Mouse.cpp"
+#include "../../Source/Input/Oculus Rift.cpp"
+#include "../../Source/Input/OpenVR.cpp"
+#include "../../Source/Input/Touch.cpp"
+#include "../../Source/Input/Virtual Reality.cpp"

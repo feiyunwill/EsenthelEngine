@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A7A3F8F1-1D22-489B-8717-7B03CFD04448}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>simd</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib -BC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32 --check-stamp-file C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/CMakeLists.txt;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\CMakeLists.txt;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jsimdcpu.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jsimdcpu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jsimdcpu.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jsimdcpu.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jsimdcpu.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdcpu.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jsimdcpu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctflt-3dn.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jfdctflt-3dn.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jfdctflt-3dn.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jfdctflt-3dn.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jfdctflt-3dn.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jfdctflt-3dn.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctflt-3dn.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctflt-3dn.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jidctflt-3dn.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jidctflt-3dn.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jidctflt-3dn.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jidctflt-3dn.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jidctflt-3dn.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-3dn.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jquant-3dn.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jquant-3dn.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jquant-3dn.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jquant-3dn.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jquant-3dn.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jquant-3dn.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-3dn.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jccolor-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jccolor-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jccolor-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jccolor-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jccolor-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jccolor-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jccolext-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jccolor-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jcgray-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jcgray-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jcgray-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jcgray-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jcgray-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcgray-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcgryext-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcgray-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jcsample-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jcsample-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jcsample-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jcsample-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jcsample-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcsample-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcsample-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdcolor-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jdcolor-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jdcolor-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jdcolor-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jdcolor-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdcolor-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdcolext-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdcolor-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdmerge-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jdmerge-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jdmerge-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jdmerge-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jdmerge-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdmerge-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdmrgext-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdmerge-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdsample-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jdsample-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jdsample-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jdsample-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jdsample-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdsample-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdsample-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctfst-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jfdctfst-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jfdctfst-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jfdctfst-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jfdctfst-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jfdctfst-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctfst-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctint-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jfdctint-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jfdctint-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jfdctint-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jfdctint-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jfdctint-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctint-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctfst-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jidctfst-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jidctfst-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jidctfst-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jidctfst-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jidctfst-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctfst-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctint-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jidctint-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jidctint-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jidctint-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jidctint-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jidctint-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctint-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctred-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jidctred-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jidctred-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jidctred-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jidctred-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jidctred-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctred-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jquant-mmx.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jquant-mmx.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jquant-mmx.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jquant-mmx.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jquant-mmx.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jquant-mmx.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-mmx.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctflt-sse.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jfdctflt-sse.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jfdctflt-sse.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jfdctflt-sse.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jfdctflt-sse.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jfdctflt-sse.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctflt-sse.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctflt-sse.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jidctflt-sse.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jidctflt-sse.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jidctflt-sse.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jidctflt-sse.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jidctflt-sse.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-sse.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jquant-sse.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jquant-sse.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jquant-sse.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jquant-sse.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jquant-sse.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jquant-sse.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-sse.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jccolor-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jccolor-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jccolor-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jccolor-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jccolor-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jccolor-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jccolext-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jccolor-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jcgray-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jcgray-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jcgray-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jcgray-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jcgray-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcgray-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcgryext-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcgray-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jchuff-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jchuff-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jchuff-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jchuff-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jchuff-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jchuff-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jchuff-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jcsample-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jcsample-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jcsample-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jcsample-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jcsample-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcsample-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcsample-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdcolor-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jdcolor-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jdcolor-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jdcolor-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jdcolor-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdcolor-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdcolext-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdcolor-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdmerge-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jdmerge-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jdmerge-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jdmerge-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jdmerge-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdmerge-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdmrgext-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdmerge-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdsample-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jdsample-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jdsample-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jdsample-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jdsample-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdsample-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdsample-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctfst-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jfdctfst-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jfdctfst-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jfdctfst-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jfdctfst-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jfdctfst-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctfst-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctint-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jfdctint-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jfdctint-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jfdctint-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jfdctint-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jfdctint-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctint-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctflt-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jidctflt-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jidctflt-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jidctflt-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jidctflt-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jidctflt-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctfst-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jidctfst-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jidctfst-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jidctfst-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jidctfst-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jidctfst-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctfst-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctint-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jidctint-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jidctint-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jidctint-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jidctint-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jidctint-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctint-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctred-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jidctred-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jidctred-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jidctred-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jidctred-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jidctred-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctred-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jquantf-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jquantf-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jquantf-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jquantf-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jquantf-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jquantf-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquantf-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jquanti-sse2.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating $(Configuration)/jquanti-sse2.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+nasm -fwin32 -DWIN32 -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/win/ -IC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/ C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/simd/jquanti-sse2.asm -oC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/$(Configuration)/jquanti-sse2.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/75865e869263df2842a82d83a5ab24c7/jquanti-sse2.obj.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jquanti-sse2.asm;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jcolsamp.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jdct.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jpeg_nbits_table.inc;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquanti-sse2.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\2761c6fe730cf47cefd5279b4e68853e\simd.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/CMakeFiles/2761c6fe730cf47cefd5279b4e68853e/simd.rule;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jsimdcpu.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctflt-3dn.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-3dn.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-3dn.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jccolor-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcgray-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcsample-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdcolor-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdmerge-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdsample-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctfst-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctint-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctfst-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctint-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctred-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-mmx.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctflt-sse.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-sse.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-sse.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jccolor-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcgray-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jchuff-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcsample-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdcolor-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdmerge-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdsample-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctfst-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctint-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctfst-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctint-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctred-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquantf-sse2.obj;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquanti-sse2.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\CMakeFiles\simd</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\CMakeFiles\simd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/ZERO_CHECK.vcxproj">
+      <Project>587E5B54-BB39-4360-AD84-20B5A83F62AD</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

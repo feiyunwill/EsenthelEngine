@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="Detour" displayName="Detour" projectFiles="true">
+        <itemPath>../Detour/Source/DetourAlloc.cpp</itemPath>
+        <itemPath>../Detour/Include/DetourAlloc.h</itemPath>
+        <itemPath>../Detour/Include/DetourAssert.h</itemPath>
+        <itemPath>../Detour/Source/DetourCommon.cpp</itemPath>
+        <itemPath>../Detour/Include/DetourCommon.h</itemPath>
+        <itemPath>../Detour/Source/DetourNavMesh.cpp</itemPath>
+        <itemPath>../Detour/Include/DetourNavMesh.h</itemPath>
+        <itemPath>../Detour/Source/DetourNavMeshBuilder.cpp</itemPath>
+        <itemPath>../Detour/Include/DetourNavMeshBuilder.h</itemPath>
+        <itemPath>../Detour/Source/DetourNavMeshQuery.cpp</itemPath>
+        <itemPath>../Detour/Include/DetourNavMeshQuery.h</itemPath>
+        <itemPath>../Detour/Source/DetourNode.cpp</itemPath>
+        <itemPath>../Detour/Include/DetourNode.h</itemPath>
+        <itemPath>../Detour/Include/DetourStatus.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="DetourCrowd" displayName="DetourCrowd" projectFiles="true">
+        <itemPath>../DetourCrowd/Source/DetourCrowd.cpp</itemPath>
+        <itemPath>../DetourCrowd/Include/DetourCrowd.h</itemPath>
+        <itemPath>../DetourCrowd/Source/DetourLocalBoundary.cpp</itemPath>
+        <itemPath>../DetourCrowd/Include/DetourLocalBoundary.h</itemPath>
+        <itemPath>../DetourCrowd/Source/DetourObstacleAvoidance.cpp</itemPath>
+        <itemPath>../DetourCrowd/Include/DetourObstacleAvoidance.h</itemPath>
+        <itemPath>../DetourCrowd/Source/DetourPathCorridor.cpp</itemPath>
+        <itemPath>../DetourCrowd/Include/DetourPathCorridor.h</itemPath>
+        <itemPath>../DetourCrowd/Source/DetourPathQueue.cpp</itemPath>
+        <itemPath>../DetourCrowd/Include/DetourPathQueue.h</itemPath>
+        <itemPath>../DetourCrowd/Source/DetourProximityGrid.cpp</itemPath>
+        <itemPath>../DetourCrowd/Include/DetourProximityGrid.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="DetourTileCache"
+                     displayName="DetourTileCache"
+                     projectFiles="true">
+        <itemPath>../DetourTileCache/Source/DetourTileCache.cpp</itemPath>
+        <itemPath>../DetourTileCache/Include/DetourTileCache.h</itemPath>
+        <itemPath>../DetourTileCache/Source/DetourTileCacheBuilder.cpp</itemPath>
+        <itemPath>../DetourTileCache/Include/DetourTileCacheBuilder.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Recast" displayName="Recast" projectFiles="true">
+        <itemPath>../Recast/Source/Recast.cpp</itemPath>
+        <itemPath>../Recast/Include/Recast.h</itemPath>
+        <itemPath>../Recast/Source/RecastAlloc.cpp</itemPath>
+        <itemPath>../Recast/Include/RecastAlloc.h</itemPath>
+        <itemPath>../Recast/Source/RecastArea.cpp</itemPath>
+        <itemPath>../Recast/Include/RecastAssert.h</itemPath>
+        <itemPath>../Recast/Source/RecastContour.cpp</itemPath>
+        <itemPath>../Recast/Source/RecastFilter.cpp</itemPath>
+        <itemPath>../Recast/Source/RecastLayers.cpp</itemPath>
+        <itemPath>../Recast/Source/RecastMesh.cpp</itemPath>
+        <itemPath>../Recast/Source/RecastMeshDetail.cpp</itemPath>
+        <itemPath>../Recast/Source/RecastRasterization.cpp</itemPath>
+        <itemPath>../Recast/Source/RecastRegion.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../Detour</Elem>
+    <Elem>../DetourCrowd</Elem>
+    <Elem>../DetourTileCache</Elem>
+    <Elem>../Recast</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../DetourCrowd/Include</pElem>
+            <pElem>../DetourTileCache/Include</pElem>
+            <pElem>../Recast/Include</pElem>
+            <pElem>../Detour/Include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../Detour/Include/DetourAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourAssert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourCommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourNavMesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourNavMeshBuilder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourNavMeshQuery.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourAlloc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourCommon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourNavMesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourNavMeshBuilder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourNavMeshQuery.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourCrowd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourLocalBoundary.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourObstacleAvoidance.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourPathCorridor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourPathQueue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourProximityGrid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourCrowd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourLocalBoundary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourObstacleAvoidance.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourPathCorridor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourPathQueue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourProximityGrid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourTileCache/Include/DetourTileCache.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourTileCache/Include/DetourTileCacheBuilder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourTileCache/Source/DetourTileCache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourTileCache/Source/DetourTileCacheBuilder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Recast/Include/Recast.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Recast/Include/RecastAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Recast/Include/RecastAssert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Recast/Source/Recast.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastAlloc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastArea.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastContour.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastLayers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastMesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastMeshDetail.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastRasterization.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastRegion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../DetourCrowd/Include</pElem>
+            <pElem>../DetourTileCache/Include</pElem>
+            <pElem>../Recast/Include</pElem>
+            <pElem>../Detour/Include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../Detour/Include/DetourAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourAssert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourCommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourNavMesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourNavMeshBuilder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourNavMeshQuery.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Include/DetourStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourAlloc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourCommon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourNavMesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourNavMeshBuilder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourNavMeshQuery.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Detour/Source/DetourNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourCrowd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourLocalBoundary.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourObstacleAvoidance.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourPathCorridor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourPathQueue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Include/DetourProximityGrid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourCrowd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourLocalBoundary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourObstacleAvoidance.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourPathCorridor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourPathQueue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourCrowd/Source/DetourProximityGrid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourTileCache/Include/DetourTileCache.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourTileCache/Include/DetourTileCacheBuilder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../DetourTileCache/Source/DetourTileCache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../DetourTileCache/Source/DetourTileCacheBuilder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Recast/Include/Recast.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Recast/Include/RecastAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Recast/Include/RecastAssert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Recast/Source/Recast.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastAlloc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastArea.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastContour.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastLayers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastMesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastMeshDetail.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastRasterization.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Recast/Source/RecastRegion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

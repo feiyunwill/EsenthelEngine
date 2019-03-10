@@ -1,0 +1,44 @@
+<!doctype html>
+<head>
+	<title>EE_PAGE_TITLE</title>
+	<style>
+		body,canvas{margin:0;padding:0;border:0}
+		canvas{touch-action:none/*allow multi-touch*/;display:block/*disable scrollbars*/;width:100vw;height:100vh/*full size*/}
+		#status{text-align:center;width:100%;top:50%;transform:translateY(-50%)/*center*/;user-select:none/*disable select cursor*/;position:absolute;z-index:1/*be on top*/}
+		#wrapper{position:relative/*position text relative to canvas position and size*/;display:table/*disable scrollbars and limit size to children*/}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="status">Downloading..</div>
+		<canvas id="canvas" onContextMenu="event.preventDefault()"></canvas>
+	</div>
+	<script type='text/javascript'>
+		var Module=
+		{
+			preRun:[],
+			postRun:[],
+			print:function(text)
+			{
+				text=Array.prototype.slice.call(arguments).join(' ');
+				console.log(text);
+			},
+			printErr:function(text)
+			{
+				text=Array.prototype.slice.call(arguments).join(' ');
+				console.log(text);
+			},
+			canvas:document.getElementById('canvas'),
+			setStatus:function(text)
+			{
+				var element=document.getElementById('status');
+				if( element!=null)element.innerHTML=text;
+			},
+			monitorRunDependencies:function(left)
+			{
+				Module.setStatus('Preparing..');
+			}
+		};
+	</script>
+	<script async type="text/javascript" src="EE_JS_FILE_NAME"></script>
+</body>

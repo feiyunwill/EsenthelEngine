@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\CMakeLists.txt" />
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\WindowsArm\CMakeFiles\851ddd8111d5fad83ec1f88b5a1d3c84\installer.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\WindowsArm\CMakeFiles\installer" />
+    <None Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\WindowsArm\libjpeg-turbo.nsi" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E96DD86C-495B-4922-9688-23B3CF870F55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

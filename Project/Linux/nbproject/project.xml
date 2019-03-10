@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.cnd.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>Project</name>
+            <c-extensions/>
+            <cpp-extensions>cpp</cpp-extensions>
+            <header-extensions>h</header-extensions>
+            <sourceEncoding>UTF-8</sourceEncoding>
+            <make-dep-projects>
+                <make-dep-project>../../ThirdPartyLibs/SQLite/Linux</make-dep-project>
+                <make-dep-project>../../ThirdPartyLibs/Tiff/Linux</make-dep-project>
+                <make-dep-project>../../ThirdPartyLibs/LZ4/Linux</make-dep-project>
+                <make-dep-project>../../ThirdPartyLibs/Webp/Linux</make-dep-project>
+                <make-dep-project>../../ThirdPartyLibs/Ogg/Linux</make-dep-project>
+                <make-dep-project>../../ThirdPartyLibs/Recast/Linux</make-dep-project>
+                <make-dep-project>../../ThirdPartyLibs/Png/Linux</make-dep-project>
+                <make-dep-project>../../ThirdPartyLibs/Vorbis/Linux</make-dep-project>
+                <make-dep-project>../../Engine/Linux</make-dep-project>
+                <make-dep-project>../../ThirdPartyLibs/Theora/Linux</make-dep-project>
+            </make-dep-projects>
+            <sourceRootList/>
+            <confList>
+                <confElem>
+                    <name>Debug</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>Release</name>
+                    <type>1</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>

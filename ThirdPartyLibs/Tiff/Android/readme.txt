@@ -1,0 +1,1 @@
+-O3 is disabled to reduce lib size, as performance is not crucial here

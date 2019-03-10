@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{5865280E-C479-50BF-8DFB-F31EF9CE4CF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\test\Bullet2\Source\TestList.h" />
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_3x3getRot.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_3x3mulM.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_3x3mulM1M2.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_3x3mulMV.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_3x3mulVM.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_3x3setRot.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_3x3timesTranspose.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_3x3transpose.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_3x3transposeTimes.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_btDbvt.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_dot3.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_maxdot.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_mindot.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_qtdot.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_qtmul.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_qtmulQV3.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_qtmulV3Q.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_qtnorm.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_quat_aos_neon.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_v3cross.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_v3div.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_v3dot.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_v3interp.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_v3lerp.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_v3norm.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_v3rotate.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_v3sdiv.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_v3skew.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Tests\Test_v3triple.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\Bullet2\Source\Utils.h" />
+    <ClInclude Include="..\..\test\Bullet2\Source\btIntDefines.h" />
+    <ClInclude Include="..\..\test\Bullet2\Source\main.h" />
+    <ClInclude Include="..\..\test\Bullet2\Source\vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\Bullet2\Source\TestList.cpp" />
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_3x3getRot.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_3x3mulM.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_3x3mulM1M2.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_3x3mulMV.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_3x3mulVM.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_3x3setRot.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_3x3timesTranspose.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_3x3transpose.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_3x3transposeTimes.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_btDbvt.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_dot3.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_maxdot.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_mindot.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_qtdot.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_qtmul.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_qtmulQV3.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_qtmulV3Q.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_qtnorm.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_quat_aos_neon.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_v3cross.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_v3div.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_v3dot.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_v3interp.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_v3lerp.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_v3norm.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_v3rotate.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_v3sdiv.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_v3skew.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Tests\Test_v3triple.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\Bullet2\Source\Utils.cpp" />
+    <ClCompile Include="..\..\test\Bullet2\Source\main.cpp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B222593144C7A770051258C /* DetourAlloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B22258D144C7A770051258C /* DetourAlloc.cpp */; };
+		0B222594144C7A770051258C /* DetourAlloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B22258D144C7A770051258C /* DetourAlloc.cpp */; };
+		0B222595144C7A770051258C /* DetourCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B22258E144C7A770051258C /* DetourCommon.cpp */; };
+		0B222596144C7A770051258C /* DetourCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B22258E144C7A770051258C /* DetourCommon.cpp */; };
+		0B222597144C7A770051258C /* DetourNavMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B22258F144C7A770051258C /* DetourNavMesh.cpp */; };
+		0B222598144C7A770051258C /* DetourNavMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B22258F144C7A770051258C /* DetourNavMesh.cpp */; };
+		0B222599144C7A770051258C /* DetourNavMeshBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B222590144C7A770051258C /* DetourNavMeshBuilder.cpp */; };
+		0B22259A144C7A770051258C /* DetourNavMeshBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B222590144C7A770051258C /* DetourNavMeshBuilder.cpp */; };
+		0B22259B144C7A770051258C /* DetourNavMeshQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B222591144C7A770051258C /* DetourNavMeshQuery.cpp */; };
+		0B22259C144C7A770051258C /* DetourNavMeshQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B222591144C7A770051258C /* DetourNavMeshQuery.cpp */; };
+		0B22259D144C7A770051258C /* DetourNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B222592144C7A770051258C /* DetourNode.cpp */; };
+		0B22259E144C7A770051258C /* DetourNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B222592144C7A770051258C /* DetourNode.cpp */; };
+		0B2225A2144C7A970051258C /* DetourTileCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225A0144C7A970051258C /* DetourTileCache.cpp */; };
+		0B2225A3144C7A970051258C /* DetourTileCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225A0144C7A970051258C /* DetourTileCache.cpp */; };
+		0B2225A4144C7A970051258C /* DetourTileCacheBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225A1144C7A970051258C /* DetourTileCacheBuilder.cpp */; };
+		0B2225A5144C7A970051258C /* DetourTileCacheBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225A1144C7A970051258C /* DetourTileCacheBuilder.cpp */; };
+		0B2225B1144C7AAE0051258C /* Recast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225A7144C7AAE0051258C /* Recast.cpp */; };
+		0B2225B2144C7AAE0051258C /* Recast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225A7144C7AAE0051258C /* Recast.cpp */; };
+		0B2225B3144C7AAE0051258C /* RecastAlloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225A8144C7AAE0051258C /* RecastAlloc.cpp */; };
+		0B2225B4144C7AAE0051258C /* RecastAlloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225A8144C7AAE0051258C /* RecastAlloc.cpp */; };
+		0B2225B5144C7AAE0051258C /* RecastArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225A9144C7AAE0051258C /* RecastArea.cpp */; };
+		0B2225B6144C7AAE0051258C /* RecastArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225A9144C7AAE0051258C /* RecastArea.cpp */; };
+		0B2225B7144C7AAE0051258C /* RecastContour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AA144C7AAE0051258C /* RecastContour.cpp */; };
+		0B2225B8144C7AAE0051258C /* RecastContour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AA144C7AAE0051258C /* RecastContour.cpp */; };
+		0B2225B9144C7AAE0051258C /* RecastFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AB144C7AAE0051258C /* RecastFilter.cpp */; };
+		0B2225BA144C7AAE0051258C /* RecastFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AB144C7AAE0051258C /* RecastFilter.cpp */; };
+		0B2225BB144C7AAE0051258C /* RecastLayers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AC144C7AAE0051258C /* RecastLayers.cpp */; };
+		0B2225BC144C7AAE0051258C /* RecastLayers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AC144C7AAE0051258C /* RecastLayers.cpp */; };
+		0B2225BD144C7AAE0051258C /* RecastMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AD144C7AAE0051258C /* RecastMesh.cpp */; };
+		0B2225BE144C7AAE0051258C /* RecastMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AD144C7AAE0051258C /* RecastMesh.cpp */; };
+		0B2225BF144C7AAE0051258C /* RecastMeshDetail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AE144C7AAE0051258C /* RecastMeshDetail.cpp */; };
+		0B2225C0144C7AAE0051258C /* RecastMeshDetail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AE144C7AAE0051258C /* RecastMeshDetail.cpp */; };
+		0B2225C1144C7AAE0051258C /* RecastRasterization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AF144C7AAE0051258C /* RecastRasterization.cpp */; };
+		0B2225C2144C7AAE0051258C /* RecastRasterization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225AF144C7AAE0051258C /* RecastRasterization.cpp */; };
+		0B2225C3144C7AAE0051258C /* RecastRegion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225B0144C7AAE0051258C /* RecastRegion.cpp */; };
+		0B2225C4144C7AAE0051258C /* RecastRegion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2225B0144C7AAE0051258C /* RecastRegion.cpp */; };
+		0B2225D0144C92240051258C /* DetourAlloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225C8144C92240051258C /* DetourAlloc.h */; };
+		0B2225D1144C92240051258C /* DetourAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225C9144C92240051258C /* DetourAssert.h */; };
+		0B2225D2144C92240051258C /* DetourCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CA144C92240051258C /* DetourCommon.h */; };
+		0B2225D3144C92240051258C /* DetourNavMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CB144C92240051258C /* DetourNavMesh.h */; };
+		0B2225D4144C92240051258C /* DetourNavMeshBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CC144C92240051258C /* DetourNavMeshBuilder.h */; };
+		0B2225D5144C92240051258C /* DetourNavMeshQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CD144C92240051258C /* DetourNavMeshQuery.h */; };
+		0B2225D6144C92240051258C /* DetourNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CE144C92240051258C /* DetourNode.h */; };
+		0B2225D7144C92240051258C /* DetourStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CF144C92240051258C /* DetourStatus.h */; };
+		0B2225D8144C922F0051258C /* DetourAlloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225C8144C92240051258C /* DetourAlloc.h */; };
+		0B2225D9144C922F0051258C /* DetourAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225C9144C92240051258C /* DetourAssert.h */; };
+		0B2225DA144C922F0051258C /* DetourCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CA144C92240051258C /* DetourCommon.h */; };
+		0B2225DB144C922F0051258C /* DetourNavMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CB144C92240051258C /* DetourNavMesh.h */; };
+		0B2225DC144C922F0051258C /* DetourNavMeshBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CC144C92240051258C /* DetourNavMeshBuilder.h */; };
+		0B2225DD144C922F0051258C /* DetourNavMeshQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CD144C92240051258C /* DetourNavMeshQuery.h */; };
+		0B2225DE144C922F0051258C /* DetourNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CE144C92240051258C /* DetourNode.h */; };
+		0B2225DF144C922F0051258C /* DetourStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225CF144C92240051258C /* DetourStatus.h */; };
+		0B2225E2144C92400051258C /* DetourTileCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225E0144C92400051258C /* DetourTileCache.h */; };
+		0B2225E3144C92400051258C /* DetourTileCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225E0144C92400051258C /* DetourTileCache.h */; };
+		0B2225E4144C92400051258C /* DetourTileCacheBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225E1144C92400051258C /* DetourTileCacheBuilder.h */; };
+		0B2225E5144C92400051258C /* DetourTileCacheBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225E1144C92400051258C /* DetourTileCacheBuilder.h */; };
+		0B2225E9144C924C0051258C /* Recast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225E6144C924C0051258C /* Recast.h */; };
+		0B2225EA144C924C0051258C /* Recast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225E6144C924C0051258C /* Recast.h */; };
+		0B2225EB144C924C0051258C /* RecastAlloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225E7144C924C0051258C /* RecastAlloc.h */; };
+		0B2225EC144C924C0051258C /* RecastAlloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225E7144C924C0051258C /* RecastAlloc.h */; };
+		0B2225ED144C924C0051258C /* RecastAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225E8144C924C0051258C /* RecastAssert.h */; };
+		0B2225EE144C924C0051258C /* RecastAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2225E8144C924C0051258C /* RecastAssert.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B22258D144C7A770051258C /* DetourAlloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DetourAlloc.cpp; path = ../Detour/Source/DetourAlloc.cpp; sourceTree = "<group>"; };
+		0B22258E144C7A770051258C /* DetourCommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DetourCommon.cpp; path = ../Detour/Source/DetourCommon.cpp; sourceTree = "<group>"; };
+		0B22258F144C7A770051258C /* DetourNavMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DetourNavMesh.cpp; path = ../Detour/Source/DetourNavMesh.cpp; sourceTree = "<group>"; };
+		0B222590144C7A770051258C /* DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DetourNavMeshBuilder.cpp; path = ../Detour/Source/DetourNavMeshBuilder.cpp; sourceTree = "<group>"; };
+		0B222591144C7A770051258C /* DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DetourNavMeshQuery.cpp; path = ../Detour/Source/DetourNavMeshQuery.cpp; sourceTree = "<group>"; };
+		0B222592144C7A770051258C /* DetourNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DetourNode.cpp; path = ../Detour/Source/DetourNode.cpp; sourceTree = "<group>"; };
+		0B2225A0144C7A970051258C /* DetourTileCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DetourTileCache.cpp; path = ../DetourTileCache/Source/DetourTileCache.cpp; sourceTree = "<group>"; };
+		0B2225A1144C7A970051258C /* DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DetourTileCacheBuilder.cpp; path = ../DetourTileCache/Source/DetourTileCacheBuilder.cpp; sourceTree = "<group>"; };
+		0B2225A7144C7AAE0051258C /* Recast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Recast.cpp; path = ../Recast/Source/Recast.cpp; sourceTree = "<group>"; };
+		0B2225A8144C7AAE0051258C /* RecastAlloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RecastAlloc.cpp; path = ../Recast/Source/RecastAlloc.cpp; sourceTree = "<group>"; };
+		0B2225A9144C7AAE0051258C /* RecastArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RecastArea.cpp; path = ../Recast/Source/RecastArea.cpp; sourceTree = "<group>"; };
+		0B2225AA144C7AAE0051258C /* RecastContour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RecastContour.cpp; path = ../Recast/Source/RecastContour.cpp; sourceTree = "<group>"; };
+		0B2225AB144C7AAE0051258C /* RecastFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RecastFilter.cpp; path = ../Recast/Source/RecastFilter.cpp; sourceTree = "<group>"; };
+		0B2225AC144C7AAE0051258C /* RecastLayers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RecastLayers.cpp; path = ../Recast/Source/RecastLayers.cpp; sourceTree = "<group>"; };
+		0B2225AD144C7AAE0051258C /* RecastMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RecastMesh.cpp; path = ../Recast/Source/RecastMesh.cpp; sourceTree = "<group>"; };
+		0B2225AE144C7AAE0051258C /* RecastMeshDetail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RecastMeshDetail.cpp; path = ../Recast/Source/RecastMeshDetail.cpp; sourceTree = "<group>"; };
+		0B2225AF144C7AAE0051258C /* RecastRasterization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RecastRasterization.cpp; path = ../Recast/Source/RecastRasterization.cpp; sourceTree = "<group>"; };
+		0B2225B0144C7AAE0051258C /* RecastRegion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RecastRegion.cpp; path = ../Recast/Source/RecastRegion.cpp; sourceTree = "<group>"; };
+		0B2225C8144C92240051258C /* DetourAlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetourAlloc.h; path = ../Detour/Include/DetourAlloc.h; sourceTree = "<group>"; };
+		0B2225C9144C92240051258C /* DetourAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetourAssert.h; path = ../Detour/Include/DetourAssert.h; sourceTree = "<group>"; };
+		0B2225CA144C92240051258C /* DetourCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetourCommon.h; path = ../Detour/Include/DetourCommon.h; sourceTree = "<group>"; };
+		0B2225CB144C92240051258C /* DetourNavMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetourNavMesh.h; path = ../Detour/Include/DetourNavMesh.h; sourceTree = "<group>"; };
+		0B2225CC144C92240051258C /* DetourNavMeshBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetourNavMeshBuilder.h; path = ../Detour/Include/DetourNavMeshBuilder.h; sourceTree = "<group>"; };
+		0B2225CD144C92240051258C /* DetourNavMeshQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetourNavMeshQuery.h; path = ../Detour/Include/DetourNavMeshQuery.h; sourceTree = "<group>"; };
+		0B2225CE144C92240051258C /* DetourNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetourNode.h; path = ../Detour/Include/DetourNode.h; sourceTree = "<group>"; };
+		0B2225CF144C92240051258C /* DetourStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetourStatus.h; path = ../Detour/Include/DetourStatus.h; sourceTree = "<group>"; };
+		0B2225E0144C92400051258C /* DetourTileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetourTileCache.h; path = ../DetourTileCache/Include/DetourTileCache.h; sourceTree = "<group>"; };
+		0B2225E1144C92400051258C /* DetourTileCacheBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetourTileCacheBuilder.h; path = ../DetourTileCache/Include/DetourTileCacheBuilder.h; sourceTree = "<group>"; };
+		0B2225E6144C924C0051258C /* Recast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recast.h; path = ../Recast/Include/Recast.h; sourceTree = "<group>"; };
+		0B2225E7144C924C0051258C /* RecastAlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecastAlloc.h; path = ../Recast/Include/RecastAlloc.h; sourceTree = "<group>"; };
+		0B2225E8144C924C0051258C /* RecastAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecastAssert.h; path = ../Recast/Include/RecastAssert.h; sourceTree = "<group>"; };
+		0BDA9CC5121EE4C400ED5E97 /* libRecast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRecast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC046055464E500DB518D /* libRecast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRecast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BDA9CC3121EE4C400ED5E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* lzma */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = lzma;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0B2225A6144C7A9F0051258C /* Recast */,
+				0B22259F144C7A870051258C /* DetourTileCache */,
+				0B22258C144C7A600051258C /* Detour */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		0B22258C144C7A600051258C /* Detour */ = {
+			isa = PBXGroup;
+			children = (
+				0B2225C8144C92240051258C /* DetourAlloc.h */,
+				0B2225C9144C92240051258C /* DetourAssert.h */,
+				0B2225CA144C92240051258C /* DetourCommon.h */,
+				0B2225CB144C92240051258C /* DetourNavMesh.h */,
+				0B2225CC144C92240051258C /* DetourNavMeshBuilder.h */,
+				0B2225CD144C92240051258C /* DetourNavMeshQuery.h */,
+				0B2225CE144C92240051258C /* DetourNode.h */,
+				0B2225CF144C92240051258C /* DetourStatus.h */,
+				0B22258D144C7A770051258C /* DetourAlloc.cpp */,
+				0B22258E144C7A770051258C /* DetourCommon.cpp */,
+				0B22258F144C7A770051258C /* DetourNavMesh.cpp */,
+				0B222590144C7A770051258C /* DetourNavMeshBuilder.cpp */,
+				0B222591144C7A770051258C /* DetourNavMeshQuery.cpp */,
+				0B222592144C7A770051258C /* DetourNode.cpp */,
+			);
+			name = Detour;
+			sourceTree = "<group>";
+		};
+		0B22259F144C7A870051258C /* DetourTileCache */ = {
+			isa = PBXGroup;
+			children = (
+				0B2225E0144C92400051258C /* DetourTileCache.h */,
+				0B2225E1144C92400051258C /* DetourTileCacheBuilder.h */,
+				0B2225A0144C7A970051258C /* DetourTileCache.cpp */,
+				0B2225A1144C7A970051258C /* DetourTileCacheBuilder.cpp */,
+			);
+			name = DetourTileCache;
+			sourceTree = "<group>";
+		};
+		0B2225A6144C7A9F0051258C /* Recast */ = {
+			isa = PBXGroup;
+			children = (
+				0B2225E6144C924C0051258C /* Recast.h */,
+				0B2225E7144C924C0051258C /* RecastAlloc.h */,
+				0B2225E8144C924C0051258C /* RecastAssert.h */,
+				0B2225A7144C7AAE0051258C /* Recast.cpp */,
+				0B2225A8144C7AAE0051258C /* RecastAlloc.cpp */,
+				0B2225A9144C7AAE0051258C /* RecastArea.cpp */,
+				0B2225AA144C7AAE0051258C /* RecastContour.cpp */,
+				0B2225AB144C7AAE0051258C /* RecastFilter.cpp */,
+				0B2225AC144C7AAE0051258C /* RecastLayers.cpp */,
+				0B2225AD144C7AAE0051258C /* RecastMesh.cpp */,
+				0B2225AE144C7AAE0051258C /* RecastMeshDetail.cpp */,
+				0B2225AF144C7AAE0051258C /* RecastRasterization.cpp */,
+				0B2225B0144C7AAE0051258C /* RecastRegion.cpp */,
+			);
+			name = Recast;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libRecast.a */,
+				0BDA9CC5121EE4C400ED5E97 /* libRecast.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BDA9CC1121EE4C400ED5E97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2225D8144C922F0051258C /* DetourAlloc.h in Headers */,
+				0B2225D9144C922F0051258C /* DetourAssert.h in Headers */,
+				0B2225DA144C922F0051258C /* DetourCommon.h in Headers */,
+				0B2225DB144C922F0051258C /* DetourNavMesh.h in Headers */,
+				0B2225DC144C922F0051258C /* DetourNavMeshBuilder.h in Headers */,
+				0B2225DD144C922F0051258C /* DetourNavMeshQuery.h in Headers */,
+				0B2225DE144C922F0051258C /* DetourNode.h in Headers */,
+				0B2225DF144C922F0051258C /* DetourStatus.h in Headers */,
+				0B2225E3144C92400051258C /* DetourTileCache.h in Headers */,
+				0B2225E5144C92400051258C /* DetourTileCacheBuilder.h in Headers */,
+				0B2225EA144C924C0051258C /* Recast.h in Headers */,
+				0B2225EC144C924C0051258C /* RecastAlloc.h in Headers */,
+				0B2225EE144C924C0051258C /* RecastAssert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2225D0144C92240051258C /* DetourAlloc.h in Headers */,
+				0B2225D1144C92240051258C /* DetourAssert.h in Headers */,
+				0B2225D2144C92240051258C /* DetourCommon.h in Headers */,
+				0B2225D3144C92240051258C /* DetourNavMesh.h in Headers */,
+				0B2225D4144C92240051258C /* DetourNavMeshBuilder.h in Headers */,
+				0B2225D5144C92240051258C /* DetourNavMeshQuery.h in Headers */,
+				0B2225D6144C92240051258C /* DetourNode.h in Headers */,
+				0B2225D7144C92240051258C /* DetourStatus.h in Headers */,
+				0B2225E2144C92400051258C /* DetourTileCache.h in Headers */,
+				0B2225E4144C92400051258C /* DetourTileCacheBuilder.h in Headers */,
+				0B2225E9144C924C0051258C /* Recast.h in Headers */,
+				0B2225EB144C924C0051258C /* RecastAlloc.h in Headers */,
+				0B2225ED144C924C0051258C /* RecastAssert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BDA9CC4121EE4C400ED5E97 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDA9CD0121EE51C00ED5E97 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				0BDA9CC1121EE4C400ED5E97 /* Headers */,
+				0BDA9CC2121EE4C400ED5E97 /* Sources */,
+				0BDA9CC3121EE4C400ED5E97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iPhone;
+			productReference = 0BDA9CC5121EE4C400ED5E97 /* libRecast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC045055464E500DB518D /* Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "Mac" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mac;
+			productName = lzma;
+			productReference = D2AAC046055464E500DB518D /* libRecast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "Recast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* lzma */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* Mac */,
+				0BDA9CC4121EE4C400ED5E97 /* iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BDA9CC2121EE4C400ED5E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B222594144C7A770051258C /* DetourAlloc.cpp in Sources */,
+				0B222596144C7A770051258C /* DetourCommon.cpp in Sources */,
+				0B222598144C7A770051258C /* DetourNavMesh.cpp in Sources */,
+				0B22259A144C7A770051258C /* DetourNavMeshBuilder.cpp in Sources */,
+				0B22259C144C7A770051258C /* DetourNavMeshQuery.cpp in Sources */,
+				0B22259E144C7A770051258C /* DetourNode.cpp in Sources */,
+				0B2225A3144C7A970051258C /* DetourTileCache.cpp in Sources */,
+				0B2225A5144C7A970051258C /* DetourTileCacheBuilder.cpp in Sources */,
+				0B2225B2144C7AAE0051258C /* Recast.cpp in Sources */,
+				0B2225B4144C7AAE0051258C /* RecastAlloc.cpp in Sources */,
+				0B2225B6144C7AAE0051258C /* RecastArea.cpp in Sources */,
+				0B2225B8144C7AAE0051258C /* RecastContour.cpp in Sources */,
+				0B2225BA144C7AAE0051258C /* RecastFilter.cpp in Sources */,
+				0B2225BC144C7AAE0051258C /* RecastLayers.cpp in Sources */,
+				0B2225BE144C7AAE0051258C /* RecastMesh.cpp in Sources */,
+				0B2225C0144C7AAE0051258C /* RecastMeshDetail.cpp in Sources */,
+				0B2225C2144C7AAE0051258C /* RecastRasterization.cpp in Sources */,
+				0B2225C4144C7AAE0051258C /* RecastRegion.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B222593144C7A770051258C /* DetourAlloc.cpp in Sources */,
+				0B222595144C7A770051258C /* DetourCommon.cpp in Sources */,
+				0B222597144C7A770051258C /* DetourNavMesh.cpp in Sources */,
+				0B222599144C7A770051258C /* DetourNavMeshBuilder.cpp in Sources */,
+				0B22259B144C7A770051258C /* DetourNavMeshQuery.cpp in Sources */,
+				0B22259D144C7A770051258C /* DetourNode.cpp in Sources */,
+				0B2225A2144C7A970051258C /* DetourTileCache.cpp in Sources */,
+				0B2225A4144C7A970051258C /* DetourTileCacheBuilder.cpp in Sources */,
+				0B2225B1144C7AAE0051258C /* Recast.cpp in Sources */,
+				0B2225B3144C7AAE0051258C /* RecastAlloc.cpp in Sources */,
+				0B2225B5144C7AAE0051258C /* RecastArea.cpp in Sources */,
+				0B2225B7144C7AAE0051258C /* RecastContour.cpp in Sources */,
+				0B2225B9144C7AAE0051258C /* RecastFilter.cpp in Sources */,
+				0B2225BB144C7AAE0051258C /* RecastLayers.cpp in Sources */,
+				0B2225BD144C7AAE0051258C /* RecastMesh.cpp in Sources */,
+				0B2225BF144C7AAE0051258C /* RecastMeshDetail.cpp in Sources */,
+				0B2225C1144C7AAE0051258C /* RecastRasterization.cpp in Sources */,
+				0B2225C3144C7AAE0051258C /* RecastRegion.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B96A71D1304843300CDC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_THREADSAFE_STATICS = NO;
+				HEADER_SEARCH_PATHS = ../Detour/Include;
+				PRODUCT_NAME = Recast;
+			};
+			name = Debug;
+		};
+		0B96A71E1304843300CDC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0B96A71F1304843300CDC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BDA9CC7121EE4C400ED5E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_THREADSAFE_STATICS = NO;
+				HEADER_SEARCH_PATHS = ../Detour/Include;
+				PRODUCT_NAME = Recast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BDA9CD0121EE51C00ED5E97 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDA9CC7121EE4C400ED5E97 /* Release */,
+				0B96A71F1304843300CDC521 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91ED08733DB70010E9CD /* Release */,
+				0B96A71E1304843300CDC521 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "Recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F108733DB70010E9CD /* Release */,
+				0B96A71D1304843300CDC521 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

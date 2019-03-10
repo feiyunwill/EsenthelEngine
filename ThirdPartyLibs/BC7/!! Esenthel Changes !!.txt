@@ -1,0 +1,42 @@
+/******************************************************************************/
+WINDOWS
+
+First unpack the Intel compiler from "Unpack here before recompiling.7z" to the same folder.
+The compiler is of version 1.9.1 (older versions generated safeseh issues when linking the bc7 library for VS2012 or newer projects)
+
+replace all "export" in "kernel.ispc" and "kernel_astc.ispc" with "static export" which prevents from generating *.exp and *.lib when building apps using this library
+
+remember about applying the line in "kernel.ispc\ep_quant0367":
+        if(channels==4 && ep[i*4+3]<=0.5f)err0=-1; // ESENTHEL CHANGED, BC7 allows to encode end points in 2 quantized modes, #1 standard, #2 add "0.5*levels" to all channels (1 extra bit precision, however it affects all channels at the same time, so if we have alpha=0, but RGB channels have smaller error with the extra 0.5 value, then alpha would get the +0.5 too, and it could destroy complete transparency, so this code always forces #1 version if we have alpha=0)
+
+Both 32/64 Release configs were changed to:
+General:
+-VS 2015 Platform toolset 
+-Configuration type - static lib *.lib - instead of - DLL
+-No Whole Program Optimization
+C/C++
+General:
+-Debug Information Format - <empty>
+Code Generation:
+-Multi-Threaded - instead of - Multi-Threaded DLL
+-SSE2 Instruction set (for Win32 only)
+
+Merge latest changes from "ispc_texcomp\kernel.ispc" to "kernel.ispc.cpp" (which is a customized version to compile under regular C++ compiler)
+TortoiseMerge is recommended for merging changes
+
+Recompile using VS
+/******************************************************************************/
+MAC
+
+First unpack the Intel compiler from "Unpack here before recompiling (Mac).7z" to the same folder.
+The compiler is of version 1.9.1
+
+Xcode project properties changed:
+Mach-O Type - static library
+
+Also need to manually drag and drop generated "Build/Intermediates/*.o" files to the project to force linking them.
+
+Recompile
+even though we've selected static lib, the generated file will have *.dylib extension, because of that we need to do:
+rename "Build\libispc_texcomp.dylib" to "Mac\libispc_texcomp.a"
+/******************************************************************************/

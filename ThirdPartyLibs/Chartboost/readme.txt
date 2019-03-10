@@ -1,0 +1,1 @@
+"libChartboost.a" was copied from the "Chartboost.framework\Chartboost" and renamed

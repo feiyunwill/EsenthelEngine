@@ -1,0 +1,6 @@
+﻿#include "../../Source/File/Chunk.cpp"
+#include "../../Source/File/File.cpp"
+#include "../../Source/File/File Text.cpp"
+#include "../../Source/File/Xml.cpp"
+#include "../../Source/File/IO.cpp"
+#include "../../Source/File/Pak.cpp"

@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project", "Project.vcxproj", "{D5E88CFD-53A1-4136-9D8C-2958A7F05334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug DX11|1) 64 bit = Debug DX11|1) 64 bit
+		Debug DX11|2) 32 bit = Debug DX11|2) 32 bit
+		Debug DX11|3) ARM = Debug DX11|3) ARM
+		Debug DX11|4) Web = Debug DX11|4) Web
+		Debug DX9|1) 64 bit = Debug DX9|1) 64 bit
+		Debug DX9|2) 32 bit = Debug DX9|2) 32 bit
+		Debug DX9|3) ARM = Debug DX9|3) ARM
+		Debug DX9|4) Web = Debug DX9|4) Web
+		Debug Universal DX11|1) 64 bit = Debug Universal DX11|1) 64 bit
+		Debug Universal DX11|2) 32 bit = Debug Universal DX11|2) 32 bit
+		Debug Universal DX11|3) ARM = Debug Universal DX11|3) ARM
+		Debug Universal DX11|4) Web = Debug Universal DX11|4) Web
+		Release DX11|1) 64 bit = Release DX11|1) 64 bit
+		Release DX11|2) 32 bit = Release DX11|2) 32 bit
+		Release DX11|3) ARM = Release DX11|3) ARM
+		Release DX11|4) Web = Release DX11|4) Web
+		Release DX9|1) 64 bit = Release DX9|1) 64 bit
+		Release DX9|2) 32 bit = Release DX9|2) 32 bit
+		Release DX9|3) ARM = Release DX9|3) ARM
+		Release DX9|4) Web = Release DX9|4) Web
+		Release Universal DX11|1) 64 bit = Release Universal DX11|1) 64 bit
+		Release Universal DX11|2) 32 bit = Release Universal DX11|2) 32 bit
+		Release Universal DX11|3) ARM = Release Universal DX11|3) ARM
+		Release Universal DX11|4) Web = Release Universal DX11|4) Web
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX11|1) 64 bit.ActiveCfg = Debug DX11|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX11|1) 64 bit.Build.0 = Debug DX11|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX11|2) 32 bit.ActiveCfg = Debug DX11|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX11|2) 32 bit.Build.0 = Debug DX11|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX11|3) ARM.ActiveCfg = Debug DX11|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX11|3) ARM.Build.0 = Debug DX11|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX11|4) Web.ActiveCfg = Debug DX11|Emscripten
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX11|4) Web.Build.0 = Debug DX11|Emscripten
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX9|1) 64 bit.ActiveCfg = Debug DX9|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX9|1) 64 bit.Build.0 = Debug DX9|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX9|2) 32 bit.ActiveCfg = Debug DX9|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX9|2) 32 bit.Build.0 = Debug DX9|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX9|3) ARM.ActiveCfg = Debug DX9|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX9|3) ARM.Build.0 = Debug DX9|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX9|4) Web.ActiveCfg = Debug DX9|Emscripten
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug DX9|4) Web.Build.0 = Debug DX9|Emscripten
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug Universal DX11|1) 64 bit.ActiveCfg = Debug Universal DX11|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug Universal DX11|1) 64 bit.Build.0 = Debug Universal DX11|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug Universal DX11|1) 64 bit.Deploy.0 = Debug Universal DX11|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug Universal DX11|2) 32 bit.ActiveCfg = Debug Universal DX11|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug Universal DX11|2) 32 bit.Build.0 = Debug Universal DX11|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug Universal DX11|2) 32 bit.Deploy.0 = Debug Universal DX11|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug Universal DX11|3) ARM.ActiveCfg = Debug Universal DX11|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug Universal DX11|3) ARM.Build.0 = Debug Universal DX11|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug Universal DX11|3) ARM.Deploy.0 = Debug Universal DX11|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Debug Universal DX11|4) Web.ActiveCfg = Debug Universal DX11|Emscripten
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX11|1) 64 bit.ActiveCfg = Release DX11|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX11|1) 64 bit.Build.0 = Release DX11|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX11|2) 32 bit.ActiveCfg = Release DX11|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX11|2) 32 bit.Build.0 = Release DX11|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX11|3) ARM.ActiveCfg = Release DX11|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX11|3) ARM.Build.0 = Release DX11|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX11|4) Web.ActiveCfg = Release DX11|Emscripten
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX11|4) Web.Build.0 = Release DX11|Emscripten
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX9|1) 64 bit.ActiveCfg = Release DX9|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX9|1) 64 bit.Build.0 = Release DX9|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX9|2) 32 bit.ActiveCfg = Release DX9|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX9|2) 32 bit.Build.0 = Release DX9|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX9|3) ARM.ActiveCfg = Release DX9|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX9|3) ARM.Build.0 = Release DX9|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX9|4) Web.ActiveCfg = Release DX9|Emscripten
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release DX9|4) Web.Build.0 = Release DX9|Emscripten
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release Universal DX11|1) 64 bit.ActiveCfg = Release Universal DX11|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release Universal DX11|1) 64 bit.Build.0 = Release Universal DX11|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release Universal DX11|1) 64 bit.Deploy.0 = Release Universal DX11|x64
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release Universal DX11|2) 32 bit.ActiveCfg = Release Universal DX11|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release Universal DX11|2) 32 bit.Build.0 = Release Universal DX11|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release Universal DX11|2) 32 bit.Deploy.0 = Release Universal DX11|Win32
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release Universal DX11|3) ARM.ActiveCfg = Release Universal DX11|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release Universal DX11|3) ARM.Build.0 = Release Universal DX11|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release Universal DX11|3) ARM.Deploy.0 = Release Universal DX11|ARM
+		{D5E88CFD-53A1-4136-9D8C-2958A7F05334}.Release Universal DX11|4) Web.ActiveCfg = Release Universal DX11|Emscripten
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

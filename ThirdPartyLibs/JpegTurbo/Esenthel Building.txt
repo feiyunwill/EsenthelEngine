@@ -1,0 +1,169 @@
+/******************************************************************************/
+// SOURCE CHANGED
+/******************************************************************************/
+"lib/jmemmgr.c" insert at the top:
+	#include <limits.h> // ESENTHEL CHANGED
+
+
+
+"lib/simd/jsimd_arm.c"
+#ifndef __LP64__ // ESENTHEL CHANGED
+..
+#endif // ESENTHEL CHANGED
+
+
+"lib/simd/jsimd_arm_neon.S"
+#ifndef __LP64__ // ESENTHEL CHANGED
+
+#if defined(__linux__) && defined(__ELF__)
+.section .note.GNU-stack,"",%progbits /* mark stack as non-executable */
+#endif
+
+.text
+#ifndef __APPLE__ // ESENTHEL CHANGED
+.fpu neon
+.arch armv7a
+.object_arch armv4
+.arm
+.syntax unified
+#endif // ESENTHEL CHANGED
+
+..
+	
+#endif // ESENTHEL CHANGED
+
+
+"lib/simd/jsimd_arm64.c"
+#ifdef __LP64__ // ESENTHEL CHANGED
+..
+#endif // ESENTHEL CHANGED
+
+
+"lib/simd/jsimd_arm64_neon.S"
+#ifdef __LP64__ // ESENTHEL CHANGED
+
+#if defined(__linux__) && defined(__ELF__)
+.section .note.GNU-stack,"",%progbits /* mark stack as non-executable */
+#endif
+
+..
+	
+#endif // ESENTHEL CHANGED
+/******************************************************************************/
+// WINDOWS
+/******************************************************************************/
+Start CMake
+set source path to: C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib
+set build path to: C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32 (for VS 2015 32-bit builds)
+set build path to: C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows64 (for VS 2015 64-bit builds)
+set build path to: C:\Esenthel\ThirdPartyLibs\JpegTurbo\WindowsArm (for VS 2015 ARM builds)
+set build path to: C:\Esenthel\ThirdPartyLibs\JpegTurbo\Web (for VS 2015 32-bit builds)
+-copy nasm.exe to C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd and C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows64\simd
+-set config types: Release
+-disable sharedlibs
+-enable v7 and v8
+-FOR ARM/WEB DISABLE SIMD
+-generate
+-open libjpeg-turbo.sln
+-unload all projects except "simd" and "turbojpeg-static" - important !
+-edit project settings to set:
+	Windows 32/64 - "xp platform toolset" and optimizations such as "fast" floating point mode and others
+	Windows Arm - nothing
+	Web -	"emcc" platform toolset (if it's not available, then try adding "Emscripten" platform configuration first for the project)
+		General/Target Extension needs to be reverted to default settings which is ".bc", to do that, click on the field, select "inherit from defaults" and click apply
+		Clang/Output Files/Object File Name needs to be reverted to default settings which is "$(IntDir)%(Filename).o", to do that, click on the field, select "inherit from defaults" and click apply
+/******************************************************************************/
+// MAC
+/******************************************************************************/
+Install Autoconf:
+http://www.gnu.org/software/autoconf/autoconf.html#downloading
+download latest version and extract
+in Terminal go to that path
+./configure
+make
+sudo make install
+
+Install Automake:
+https://www.gnu.org/software/automake/#downloading
+download latest version and extract
+in Terminal go to that path
+./configure
+make
+sudo make install
+
+Install LibTool:
+https://www.gnu.org/software/libtool/#downloading
+download latest version and extract
+in Terminal go to that path
+./configure
+make
+sudo make install
+
+Install latest version of Nasm:
+http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D
+download latest version and extract
+in Terminal go to that path
+./configure --prefix=/usr/local
+make
+sudo make install
+
+then proceed to the JpegTurbo:
+cd /Esenthel/ThirdPartyLibs/JpegTurbo/lib
+autoreconf -fiv
+mkdir ../Mac
+cd ../Mac
+../lib/configure --with-jpeg7 --with-jpeg8
+make
+
+lib will be available in hidden folder:
+/Esenthel/ThirdPartyLibs/JpegTurbo/Mac/.libs/libturbojpeg.a
+copy back to Windows
+replace entire Mac folder from Windows
+/******************************************************************************/
+// LINUX
+/******************************************************************************/
+install nasm:
+sudo apt-get install nasm
+
+cd ~/Esenthel/ThirdPartyLibs/JpegTurbo/lib
+autoreconf -fiv
+mkdir ../Linux
+cd ../Linux
+../lib/configure --with-jpeg7 --with-jpeg8
+make
+
+lib will be available in hidden folder:
+ThirdPartyLibs\JpegTurbo\Linux\.libs\libturbojpeg.a
+copy back to Windows
+RUN "extract.bat"
+/******************************************************************************/
+// IOS - THIS DOESN'T WORK SO XCODE PROJECT WAS CREATED
+/******************************************************************************/
+32bit:
+
+IOS_PLATFORMDIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform
+IOS_SYSROOT=$IOS_PLATFORMDIR/Developer/SDKs/iPhoneOS*.sdk
+IOS_GCC=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+IOS_CFLAGS="-arch armv7 -miphoneos-version-min=4.3"
+
+cd {source_directory}
+autoreconf -fiv
+mkdir ../iOS32
+cd ../iOS32
+../lib/configure --with-jpeg7 --with-jpeg8 --host arm-apple-darwin10 CC="$IOS_GCC" LD="$IOS_GCC" CFLAGS="-mfloat-abi=softfp -isysroot $IOS_SYSROOT -O3 $IOS_CFLAGS" LDFLAGS="-mfloat-abi=softfp -isysroot $IOS_SYSROOT $IOS_CFLAGS" CCASFLAGS="-no-integrated-as $IOS_CFLAGS"
+make
+
+64 bit:
+
+IOS_PLATFORMDIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform
+IOS_SYSROOT=$IOS_PLATFORMDIR/Developer/SDKs/iPhoneOS*.sdk
+IOS_GCC=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+IOS_CFLAGS="-arch arm64 -miphoneos-version-min=4.3"
+
+cd {source_directory}
+autoreconf -fiv
+mkdir ../iOS64
+cd ../iOS64
+../lib/configure --with-jpeg7 --with-jpeg8 --host aarch64-apple-darwin CC="$IOS_GCC" LD="$IOS_GCC" CFLAGS="-isysroot $IOS_SYSROOT -O3 $IOS_CFLAGS" LDFLAGS="-isysroot $IOS_SYSROOT $IOS_CFLAGS"
+make
+/******************************************************************************/

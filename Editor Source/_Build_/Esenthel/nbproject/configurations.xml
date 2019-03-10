@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>stdafx.h</itemPath>
+    </logicalFolder>
+<logicalFolder name="Source" displayName="Source" projectFiles="true">
+<logicalFolder name="Editors" displayName="Editors" projectFiles="true">
+<logicalFolder name="Object" displayName="Object" projectFiles="true">
+<itemPath>Source/Editors/Object/Adjust Bone Orientations.cpp</itemPath>
+<itemPath>Source/Editors/Object/AO.cpp</itemPath>
+<itemPath>Source/Editors/Object/Groups.cpp</itemPath>
+<itemPath>Source/Editors/Object/Leaf.cpp</itemPath>
+<itemPath>Source/Editors/Object/Lod.cpp</itemPath>
+<itemPath>Source/Editors/Object/Mesh.cpp</itemPath>
+<itemPath>Source/Editors/Object/Object@1.cpp</itemPath>
+<itemPath>Source/Editors/Object/Parts.cpp</itemPath>
+<itemPath>Source/Editors/Object/Transform@0.cpp</itemPath>
+<itemPath>Source/Editors/Object/Variations.cpp</itemPath>
+</logicalFolder>
+<logicalFolder name="World" displayName="World" projectFiles="true">
+<itemPath>Source/Editors/World/Area@0.cpp</itemPath>
+<itemPath>Source/Editors/World/Brush@0.cpp</itemPath>
+<itemPath>Source/Editors/World/Brush Color.cpp</itemPath>
+<itemPath>Source/Editors/World/Brush Height.cpp</itemPath>
+<itemPath>Source/Editors/World/Brush Material.cpp</itemPath>
+<itemPath>Source/Editors/World/Builder.cpp</itemPath>
+<itemPath>Source/Editors/World/Cursor.cpp</itemPath>
+<itemPath>Source/Editors/World/Gui@0.cpp</itemPath>
+<itemPath>Source/Editors/World/Import Terrain.cpp</itemPath>
+<itemPath>Source/Editors/World/Object@0.cpp</itemPath>
+<itemPath>Source/Editors/World/Object List.cpp</itemPath>
+<itemPath>Source/Editors/World/Object Paint.cpp</itemPath>
+<itemPath>Source/Editors/World/Selection.cpp</itemPath>
+<itemPath>Source/Editors/World/Transform.cpp</itemPath>
+<itemPath>Source/Editors/World/Undo.cpp</itemPath>
+<itemPath>Source/Editors/World/Water@0.cpp</itemPath>
+<itemPath>Source/Editors/World/Waypoint@0.cpp</itemPath>
+<itemPath>Source/Editors/World/Waypoint List.cpp</itemPath>
+<itemPath>Source/Editors/World/World.cpp</itemPath>
+</logicalFolder>
+<itemPath>Source/Editors/Animation.cpp</itemPath>
+<itemPath>Source/Editors/Code@0.cpp</itemPath>
+<itemPath>Source/Editors/Enum@0.cpp</itemPath>
+<itemPath>Source/Editors/Environment@0.cpp</itemPath>
+<itemPath>Source/Editors/Font@0.cpp</itemPath>
+<itemPath>Source/Editors/Gui@1.cpp</itemPath>
+<itemPath>Source/Editors/Gui Skin@0.cpp</itemPath>
+<itemPath>Source/Editors/Icon@0.cpp</itemPath>
+<itemPath>Source/Editors/Image.cpp</itemPath>
+<itemPath>Source/Editors/Image Atlas.cpp</itemPath>
+<itemPath>Source/Editors/Material@0.cpp</itemPath>
+<itemPath>Source/Editors/Mini Map.cpp</itemPath>
+<itemPath>Source/Editors/Panel@0.cpp</itemPath>
+<itemPath>Source/Editors/Panel Image@0.cpp</itemPath>
+<itemPath>Source/Editors/Param.cpp</itemPath>
+<itemPath>Source/Editors/Phys Material@0.cpp</itemPath>
+<itemPath>Source/Editors/Sound.cpp</itemPath>
+<itemPath>Source/Editors/Text Style@0.cpp</itemPath>
+<itemPath>Source/Editors/Video.cpp</itemPath>
+<itemPath>Source/Editors/Water Material@0.cpp</itemPath>
+</logicalFolder>
+<logicalFolder name="Game" displayName="Game" projectFiles="true">
+<itemPath>Source/Game/Controls.cpp</itemPath>
+<itemPath>Source/Game/Game.cpp</itemPath>
+<itemPath>Source/Game/Player.cpp</itemPath>
+</logicalFolder>
+<logicalFolder name="Gui" displayName="Gui" projectFiles="true">
+<itemPath>Source/Gui/Brush.cpp</itemPath>
+<itemPath>Source/Gui/Calculator.cpp</itemPath>
+<itemPath>Source/Gui/Compare Projects.cpp</itemPath>
+<itemPath>Source/Gui/Convert To Atlas.cpp</itemPath>
+<itemPath>Source/Gui/Convert To De-Atlas.cpp</itemPath>
+<itemPath>Source/Gui/Copy Elements.cpp</itemPath>
+<itemPath>Source/Gui/Create Materials.cpp</itemPath>
+<itemPath>Source/Gui/Detect Similar Textures.cpp</itemPath>
+<itemPath>Source/Gui/Export Element.cpp</itemPath>
+<itemPath>Source/Gui/Gui.cpp</itemPath>
+<itemPath>Source/Gui/Import 1.cpp</itemPath>
+<itemPath>Source/Gui/Merge Similar Materials.cpp</itemPath>
+<itemPath>Source/Gui/Misc Region.cpp</itemPath>
+<itemPath>Source/Gui/Project Settings.cpp</itemPath>
+<itemPath>Source/Gui/Project Update@0.cpp</itemPath>
+<itemPath>Source/Gui/Size Statistics.cpp</itemPath>
+<itemPath>Source/Gui/Split Animations.cpp</itemPath>
+<itemPath>Source/Gui/Texture Downsize.cpp</itemPath>
+<itemPath>Source/Gui/Theater.cpp</itemPath>
+<itemPath>Source/Gui/Video Options.cpp</itemPath>
+<itemPath>Source/Gui/Viewport4 Region.cpp</itemPath>
+</logicalFolder>
+<logicalFolder name="Shared" displayName="Shared" projectFiles="true">
+<logicalFolder name="Elements" displayName="Elements" projectFiles="true">
+<itemPath>Source/Shared/Elements/Code.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Enum.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Environment.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Font.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Gui Skin.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Icon.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Material.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Object.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Panel.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Panel Image.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Params.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Phys Material.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Skeleton.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Text Style.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Water.cpp</itemPath>
+<itemPath>Source/Shared/Elements/Water Material.cpp</itemPath>
+</logicalFolder>
+<itemPath>Source/Shared/Area.cpp</itemPath>
+<itemPath>Source/Shared/Commands.cpp</itemPath>
+<itemPath>Source/Shared/Constants.cpp</itemPath>
+<itemPath>Source/Shared/Elm.cpp</itemPath>
+<itemPath>Source/Shared/Functions.cpp</itemPath>
+<itemPath>Source/Shared/Project.cpp</itemPath>
+<itemPath>Source/Shared/Project Update.cpp</itemPath>
+<itemPath>Source/Shared/Waypoint.cpp</itemPath>
+</logicalFolder>
+<logicalFolder name="Store" displayName="Store" projectFiles="true">
+<itemPath>Source/Store/Internet Cache.cpp</itemPath>
+<itemPath>Source/Store/License Test.cpp</itemPath>
+<itemPath>Source/Store/Store.cpp</itemPath>
+</logicalFolder>
+<itemPath>Source/Auto.cpp</itemPath>
+<itemPath>Source/Editor Update.cpp</itemPath>
+<itemPath>Source/Elm@0.cpp</itemPath>
+<itemPath>Source/Import.cpp</itemPath>
+<itemPath>Source/Main.cpp</itemPath>
+<itemPath>Source/Preview.cpp</itemPath>
+<itemPath>Source/Project@0.cpp</itemPath>
+<itemPath>Source/Project List.cpp</itemPath>
+<itemPath>Source/Publish.cpp</itemPath>
+<itemPath>Source/Server.cpp</itemPath>
+<itemPath>Source/Server Editor.cpp</itemPath>
+<itemPath>Source/Settings.cpp</itemPath>
+<itemPath>Source/Synchronize.cpp</itemPath>
+</logicalFolder>
+
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>Source</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+         <cTool>
+          <developmentMode>0</developmentMode>
+            <commandlineTool>clang</commandlineTool>
+         </cTool>
+         <ccTool>
+          <architecture>2</architecture>
+          <standard>11</standard>
+          <commandlineTool>clang++</commandlineTool>
+          <incDir>
+            <pElem>.</pElem>
+
+          </incDir>
+          <commandLine>-fshort-wchar -fpermissive -ffast-math -ffriend-injection -Wno-int-to-pointer-cast -Wno-invalid-offsetof -Wno-comment -Wno-parentheses -Wno-switch -Wno-null-dereference -Wno-empty-body -Wno-address-of-temporary -Wno-return-type-c-linkage -include stdafx.h</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG=1</Elem>
+          </preprocessorList>
+         </ccTool>
+         <linkerTool>
+            <output>Esenthel</output>
+            <linkerDynSerch>
+               <pElem>Bin</pElem>
+            </linkerDynSerch>
+          <commandlineTool>clang++</commandlineTool>
+            <linkerLibItems>
+               <linkerLibFileItem>../../../Editor/Bin/EsenthelEngine.a</linkerLibFileItem>
+               
+            <linkerLibLibItem>X11</linkerLibLibItem>
+            <linkerLibLibItem>Xmu</linkerLibLibItem>
+            <linkerLibLibItem>Xxf86vm</linkerLibLibItem>
+            <linkerLibLibItem>Xinerama</linkerLibLibItem>
+            <linkerLibLibItem>Xrandr</linkerLibLibItem>
+            <linkerLibLibItem>rt</linkerLibLibItem>
+            <linkerLibLibItem>Xi</linkerLibLibItem>
+            <linkerLibLibItem>Xcursor</linkerLibLibItem>
+            <linkerLibLibItem>GL</linkerLibLibItem>
+            <linkerLibLibItem>openal</linkerLibLibItem>
+            <linkerLibLibItem>z</linkerLibLibItem>
+            <linkerLibLibItem>odbc</linkerLibLibItem>
+            <linkerLibLibItem>udev</linkerLibLibItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+            </linkerLibItems>
+            <commandLine>-static-libstdc++</commandLine>
+         </linkerTool>
+      </compileType>
+      <item path="Source/Auto.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editor Update.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Animation.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Code@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Enum@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Environment@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Font@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Gui@1.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Gui Skin@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Icon@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Image.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Image Atlas.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Material@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Mini Map.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Adjust Bone Orientations.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/AO.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Groups.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Leaf.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Lod.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Mesh.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Object@1.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Parts.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Transform@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Variations.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Panel@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Panel Image@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Param.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Phys Material@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Sound.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Text Style@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Video.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Water Material@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Area@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Brush@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Brush Color.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Brush Height.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Brush Material.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Builder.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Cursor.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Gui@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Import Terrain.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Object@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Object List.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Object Paint.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Selection.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Transform.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Undo.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Water@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Waypoint@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Waypoint List.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/World.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Elm@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Game/Controls.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Game/Game.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Game/Player.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Brush.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Calculator.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Compare Projects.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Convert To Atlas.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Convert To De-Atlas.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Copy Elements.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Create Materials.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Detect Similar Textures.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Export Element.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Gui.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Import 1.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Merge Similar Materials.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Misc Region.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Project Settings.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Project Update@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Size Statistics.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Split Animations.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Texture Downsize.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Theater.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Video Options.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Viewport4 Region.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Import.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Main.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Preview.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Project@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Project List.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Publish.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Server.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Server Editor.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Settings.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Area.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Commands.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Constants.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Code.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Enum.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Environment.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Font.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Gui Skin.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Icon.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Material.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Object.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Panel.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Panel Image.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Params.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Phys Material.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Skeleton.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Text Style.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Water.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Water Material.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elm.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Functions.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Project.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Project Update.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Waypoint.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Store/Internet Cache.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Store/License Test.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Store/Store.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Synchronize.cpp" ex="false" tool="1" flavor2="0" />
+
+      <item path="stdafx.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>clang++ -x c++-header stdafx.h -o stdafx.h.pch $(CXXFLAGS) -g -DDEBUG=1 -I.  -std=c++14</customToolCommandline>
+          <customToolOutputs>stdafx.h.pch</customToolOutputs>
+        </customTool>
+      </item>
+   </conf>
+   <conf name="Release" type="1">
+      <toolsSet>
+         <compilerSet>default</compilerSet>
+         <dependencyChecking>true</dependencyChecking>
+         <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+         <cTool>
+          <developmentMode>0</developmentMode>
+          <commandlineTool>clang</commandlineTool>
+         </cTool>
+         <ccTool>
+            <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <standard>11</standard>
+          <commandlineTool>clang++</commandlineTool>
+            <incDir>
+               <pElem>.</pElem>
+               
+            </incDir>
+          <commandLine>-fshort-wchar -fpermissive -ffast-math -ffriend-injection -Wno-int-to-pointer-cast -Wno-invalid-offsetof -Wno-comment -Wno-parentheses -Wno-switch -Wno-null-dereference -Wno-empty-body -Wno-address-of-temporary -Wno-return-type-c-linkage -include stdafx.h</commandLine>
+            <preprocessorList>
+               <Elem>DEBUG=0</Elem>
+            </preprocessorList>
+         </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>Esenthel</output>
+           <linkerDynSerch>
+              <pElem>Bin</pElem>
+           </linkerDynSerch>
+          <stripSymbols>true</stripSymbols>
+          <commandlineTool>clang++</commandlineTool>
+           <linkerLibItems>
+            <linkerLibFileItem>../../../Editor/Bin/EsenthelEngine.a</linkerLibFileItem>
+
+            <linkerLibLibItem>X11</linkerLibLibItem>
+            <linkerLibLibItem>Xmu</linkerLibLibItem>
+            <linkerLibLibItem>Xxf86vm</linkerLibLibItem>
+            <linkerLibLibItem>Xinerama</linkerLibLibItem>
+            <linkerLibLibItem>Xrandr</linkerLibLibItem>
+            <linkerLibLibItem>rt</linkerLibLibItem>
+            <linkerLibLibItem>Xi</linkerLibLibItem>
+            <linkerLibLibItem>Xcursor</linkerLibLibItem>
+            <linkerLibLibItem>GL</linkerLibLibItem>
+            <linkerLibLibItem>openal</linkerLibLibItem>
+            <linkerLibLibItem>z</linkerLibLibItem>
+            <linkerLibLibItem>odbc</linkerLibLibItem>
+            <linkerLibLibItem>udev</linkerLibLibItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+          </linkerLibItems>
+          <commandLine>-static-libstdc++</commandLine>
+        </linkerTool>
+      </compileType>
+<item path="Source/Auto.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editor Update.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Animation.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Code@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Enum@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Environment@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Font@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Gui@1.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Gui Skin@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Icon@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Image.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Image Atlas.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Material@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Mini Map.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Adjust Bone Orientations.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/AO.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Groups.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Leaf.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Lod.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Mesh.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Object@1.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Parts.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Transform@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Object/Variations.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Panel@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Panel Image@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Param.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Phys Material@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Sound.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Text Style@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Video.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/Water Material@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Area@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Brush@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Brush Color.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Brush Height.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Brush Material.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Builder.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Cursor.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Gui@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Import Terrain.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Object@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Object List.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Object Paint.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Selection.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Transform.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Undo.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Water@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Waypoint@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/Waypoint List.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Editors/World/World.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Elm@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Game/Controls.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Game/Game.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Game/Player.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Brush.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Calculator.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Compare Projects.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Convert To Atlas.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Convert To De-Atlas.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Copy Elements.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Create Materials.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Detect Similar Textures.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Export Element.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Gui.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Import 1.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Merge Similar Materials.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Misc Region.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Project Settings.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Project Update@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Size Statistics.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Split Animations.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Texture Downsize.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Theater.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Video Options.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Gui/Viewport4 Region.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Import.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Main.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Preview.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Project@0.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Project List.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Publish.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Server.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Server Editor.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Settings.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Area.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Commands.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Constants.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Code.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Enum.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Environment.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Font.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Gui Skin.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Icon.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Material.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Object.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Panel.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Panel Image.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Params.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Phys Material.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Skeleton.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Text Style.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Water.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elements/Water Material.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Elm.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Functions.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Project.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Project Update.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Shared/Waypoint.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Store/Internet Cache.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Store/License Test.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Store/Store.cpp" ex="false" tool="1" flavor2="0" />
+<item path="Source/Synchronize.cpp" ex="false" tool="1" flavor2="0" />
+
+      <item path="stdafx.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>clang++ -x c++-header stdafx.h -o stdafx.h.pch $(CXXFLAGS) -O3 -DDEBUG=0 -I.  -std=c++14</customToolCommandline>
+          <customToolOutputs>stdafx.h.pch</customToolOutputs>
+        </customTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

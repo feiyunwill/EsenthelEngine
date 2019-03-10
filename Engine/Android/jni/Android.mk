@@ -1,0 +1,15 @@
+LOCAL_PATH := $(call my-dir)
+
+# Esenthel Engine
+include $(CLEAR_VARS)
+LOCAL_MODULE           := EsenthelEngine
+LOCAL_SRC_FILES        := Animation.cpp Edit.cpp Code.cpp Code_Func_List.cpp File.cpp Game.cpp Game_Objects.cpp Game_Objects2.cpp Graphics.cpp Graphics2.cpp Graphics_Import.cpp Gui.cpp Gui_Objects.cpp Input.cpp Math.cpp Math_Shapes.cpp Memory.cpp Mesh.cpp Mesh_Import.cpp Mesh_MeshBase.cpp Misc.cpp Net.cpp Physics.cpp Physics_Ext.cpp Platforms.cpp Shaders.cpp Sound.cpp Custom.cpp ../../Source/Graphics/Import/BC7.cpp ../../Source/Graphics/Import/ETC_Compress.cpp ../../Source/Graphics/Import/PVRTC_Compress.cpp ../../Source/Sound/VorbisEncoder.cpp ../../Source/Net/Sql.cpp
+LOCAL_STATIC_LIBRARIES := android_native_app_glue cpufeatures
+LOCAL_CPPFLAGS         := -I.. -I../H/_ -I../../ThirdPartyLibs -I../../ThirdPartyLibs/Bullet/lib/src -I../../ThirdPartyLibs/Ogg/include -I../../ThirdPartyLibs/Opus/lib/include -I../../ThirdPartyLibs/Opus/file/include -I../../ThirdPartyLibs/Vorbis/include -I../../ThirdPartyLibs/Theora/include -I../../ThirdPartyLibs/PhysX/PhysX/Include -I../../ThirdPartyLibs/PhysX/PhysX/Include/cloth -I../../ThirdPartyLibs/PhysX/PhysX/Include/common -I../../ThirdPartyLibs/PhysX/PhysX/Include/extensions -I../../ThirdPartyLibs/PhysX/PhysX/Include/geometry -I../../ThirdPartyLibs/PhysX/PhysX/Include/vehicle -I../../ThirdPartyLibs/PhysX/PhysX/Source/Common/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/GeomUtils/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXExtensions/src/serialization/Xml -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/core/include -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/extensions/include -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src/PhysXMetaData/include -I../../ThirdPartyLibs/PhysX/PxShared/include -I../../ThirdPartyLibs/PhysX/PxShared/src/foundation/include -I../../ThirdPartyLibs/PhysX/PxShared/src/pvd/include -I../../ThirdPartyLibs/FDK-AAC/lib/libAACdec/include -I../../ThirdPartyLibs/FDK-AAC/lib/libAACenc/include -I../../ThirdPartyLibs/FDK-AAC/lib/libFDK/include -I../../ThirdPartyLibs/FDK-AAC/lib/libMpegTPDec/include -I../../ThirdPartyLibs/FDK-AAC/lib/libMpegTPEnc/include -I../../ThirdPartyLibs/FDK-AAC/lib/libPCMutils/include -I../../ThirdPartyLibs/FDK-AAC/lib/libSBRdec/include -I../../ThirdPartyLibs/FDK-AAC/lib/libSBRenc/include -I../../ThirdPartyLibs/FDK-AAC/lib/libSYS/include -I../../ThirdPartyLibs/VP/libvpx/third_party/libwebm -fshort-wchar -ffast-math -fomit-frame-pointer -fpermissive -ffunction-sections -fdata-sections -fvisibility=hidden -s -ffriend-injection -std=c++14 -Wno-invalid-offsetof -Wno-comment -Wno-parentheses -Wno-switch -Wno-address-of-temporary -Wno-null-dereference -Wno-int-to-void-pointer-cast
+LOCAL_CPP_FEATURES     := rtti
+LOCAL_ARM_NEON         := true # force NEON usage for all files
+
+include $(BUILD_STATIC_LIBRARY)
+
+$(call import-module, android/native_app_glue)
+$(call import-module, android/cpufeatures)

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\CMakeLists.txt" />
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jsimdcpu.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctflt-3dn.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctflt-3dn.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jquant-3dn.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jccolor-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jcgray-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jcsample-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdcolor-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdmerge-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdsample-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctfst-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctint-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctfst-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctint-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctred-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jquant-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctflt-sse.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctflt-sse.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jquant-sse.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jccolor-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jcgray-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jchuff-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jcsample-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdcolor-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdmerge-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jdsample-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctfst-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jfdctint-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctflt-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctfst-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctint-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jidctred-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jquantf-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\75865e869263df2842a82d83a5ab24c7\jquanti-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\2761c6fe730cf47cefd5279b4e68853e\simd.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\CMakeFiles\simd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2BCCCE03-E981-4261-BAE5-0EAFA94FEB51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

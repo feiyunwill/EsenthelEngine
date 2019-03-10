@@ -1,0 +1,17 @@
+Use "Release" config (faster than "ReleaseWithoutAsm", 3 seconds vs 5 seconds for "Engine.pak" compression)
+Zlib requires however downloading precompiled *.obj files
+
+those from masmx86 need to be recompiled manually using the bld_ml32.bat with /safeseh option added:
+"D:\Prog\Microsoft Visual Studio 2005\VC\bin\ml" /coff /Zi /c /Flmatch686.lst /safeseh match686.asm
+"D:\Prog\Microsoft Visual Studio 2005\VC\bin\ml" /coff /Zi /c /Flinffas32.lst /safeseh inffas32.asm
+
+You need to have Visual Studio 2005 Express
+http://go.microsoft.com/fwlink/?LinkId=51410&clcid=0x409
+and Microsoft Macro Assembler 8.0 (MASM) Package (x86)
+http://www.microsoft.com/en-us/download/details.aspx?id=12654
+
+Remove "Zlib.rc" and "Zlib.def" elements from project
+
+Remove "ZLIB_WINAPI" from Project Settings
+   C/C++
+      Preprocessor Definitions

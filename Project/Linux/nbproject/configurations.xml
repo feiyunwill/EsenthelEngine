@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../stdafx.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../Source/Esenthel Builder.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>0</developmentMode>
+          <commandlineTool>clang</commandlineTool>
+        </cTool>
+        <ccTool>
+          <architecture>2</architecture>
+          <standard>11</standard>
+          <commandlineTool>clang++</commandlineTool>
+          <incDir>
+            <pElem>..</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/cloth</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/common</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/extensions</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/geometry</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/vehicle</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/Common/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/GeomUtils/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXExtensions/src/serialization/Xml</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/core/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/extensions/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src/PhysXMetaData/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/src/foundation/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/src/pvd/include</pElem>
+            <pElem>../../ThirdPartyLibs/Theora/include</pElem>
+            <pElem>../../ThirdPartyLibs/FreeType/include</pElem>
+            <pElem>../../ThirdPartyLibs/Vorbis/include</pElem>
+            <pElem>../../ThirdPartyLibs/Ogg/include</pElem>
+            <pElem>../../ThirdPartyLibs/FBX</pElem>
+            <pElem>../../ThirdPartyLibs/Bullet/lib/src</pElem>
+            <pElem>../../ThirdPartyLibs</pElem>
+          </incDir>
+          <commandLine>-fshort-wchar -fpermissive -ffast-math -ffriend-injection -Wno-int-to-pointer-cast -Wno-invalid-offsetof -Wno-comment -Wno-parentheses -Wno-switch -Wno-null-dereference -Wno-empty-body -Wno-address-of-temporary -Wno-return-type-c-linkage -include ../stdafx.h</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG=1</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>../Project</output>
+          <linkerAddLib>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Bin/linux64</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Lib/linux64</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/bin/linux64</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/lib/linux64</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/Dummy/Linux</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>Bin</pElem>
+            <pElem>../Editor/Bin</pElem>
+          </linkerDynSerch>
+          <commandlineTool>clang++</commandlineTool>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../Engine/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="false"
+                            BL="false"
+                            WD="../../Engine/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/EsenthelEngine.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Recast/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Recast/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Png/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Png/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Vorbis/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Vorbis/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Theora/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Theora/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/SQLite/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/SQLite/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Webp/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Webp/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/LZ4/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="false"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/LZ4/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Ogg/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Ogg/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Tiff/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Tiff/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/FreeType/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Bullet/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Snappy/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/LZMA/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/FBX/Linux/libfbxsdk.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/JpegTurbo/Linux/libturbojpeg.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Flac/Linux/libFLAC-static.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Opus/Linux/libopusfile.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Opus/Linux/libopus.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/VP/Linux/libvpx.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/LZHAM/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Zstd/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/FDK-AAC/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/mbedTLS/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibLibItem>X11</linkerLibLibItem>
+            <linkerLibLibItem>Xmu</linkerLibLibItem>
+            <linkerLibLibItem>Xxf86vm</linkerLibLibItem>
+            <linkerLibLibItem>Xinerama</linkerLibLibItem>
+            <linkerLibLibItem>Xrandr</linkerLibLibItem>
+            <linkerLibLibItem>rt</linkerLibLibItem>
+            <linkerLibLibItem>Xi</linkerLibLibItem>
+            <linkerLibLibItem>Xcursor</linkerLibLibItem>
+            <linkerLibLibItem>GL</linkerLibLibItem>
+            <linkerLibLibItem>openal</linkerLibLibItem>
+            <linkerLibLibItem>z</linkerLibLibItem>
+            <linkerLibLibItem>odbc</linkerLibLibItem>
+            <linkerLibLibItem>udev</linkerLibLibItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+          </linkerLibItems>
+          <commandLine>-static-libstdc++ -Wl,--start-group -lPhysX3_x64 -lPhysX3Cooking_x64 -lPhysX3Extensions -lPhysX3CharacterKinematic_x64 -lPhysX3Vehicle -lPhysX3Common_x64 -lSimulationController -lSceneQuery -lLowLevelParticles -lLowLevelCloth -lLowLevelDynamics -lLowLevelAABB -lLowLevel -lPxTask -lPxFoundation_x64 -Wl,--end-group</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../Source/Esenthel Builder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../stdafx.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>clang++ -x c++-header ../stdafx.h -o ../stdafx.h.pch $(CXXFLAGS) -g -DDEBUG=1 -I.. -I../../ThirdPartyLibs/PhysX/PhysX/Include -I../../ThirdPartyLibs/PhysX/PhysX/Include/cloth -I../../ThirdPartyLibs/PhysX/PhysX/Include/common -I../../ThirdPartyLibs/PhysX/PhysX/Include/extensions -I../../ThirdPartyLibs/PhysX/PhysX/Include/geometry -I../../ThirdPartyLibs/PhysX/PhysX/Include/vehicle -I../../ThirdPartyLibs/PhysX/PhysX/Source/Common/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/GeomUtils/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXExtensions/src/serialization/Xml -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/core/include -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/extensions/include -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src/PhysXMetaData/include -I../../ThirdPartyLibs/PhysX/PxShared/include -I../../ThirdPartyLibs/PhysX/PxShared/src/foundation/include -I../../ThirdPartyLibs/PhysX/PxShared/src/pvd/include -I../../ThirdPartyLibs/Theora/include -I../../ThirdPartyLibs/FreeType/include -I../../ThirdPartyLibs/Vorbis/include -I../../ThirdPartyLibs/Ogg/include -I../../ThirdPartyLibs/FBX -I../../ThirdPartyLibs/Bullet/lib/src -I../../ThirdPartyLibs -std=c++14</customToolCommandline>
+          <customToolOutputs>../stdafx.h.pch</customToolOutputs>
+        </customTool>
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>0</developmentMode>
+          <commandlineTool>clang</commandlineTool>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <standard>11</standard>
+          <commandlineTool>clang++</commandlineTool>
+          <incDir>
+            <pElem>..</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/cloth</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/common</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/extensions</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/geometry</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Include/vehicle</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/Common/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/GeomUtils/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXExtensions/src/serialization/Xml</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/core/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/extensions/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src/PhysXMetaData/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/src/foundation/include</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/src/pvd/include</pElem>
+            <pElem>../../ThirdPartyLibs/Theora/include</pElem>
+            <pElem>../../ThirdPartyLibs/FreeType/include</pElem>
+            <pElem>../../ThirdPartyLibs/Vorbis/include</pElem>
+            <pElem>../../ThirdPartyLibs/Ogg/include</pElem>
+            <pElem>../../ThirdPartyLibs/FBX</pElem>
+            <pElem>../../ThirdPartyLibs/Bullet/lib/src</pElem>
+            <pElem>../../ThirdPartyLibs</pElem>
+          </incDir>
+          <commandLine>-fshort-wchar -fpermissive -ffast-math -ffriend-injection -Wno-int-to-pointer-cast -Wno-invalid-offsetof -Wno-comment -Wno-parentheses -Wno-switch -Wno-null-dereference -Wno-empty-body -Wno-address-of-temporary -Wno-return-type-c-linkage -include ../stdafx.h</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG=0</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>../Project</output>
+          <linkerAddLib>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Bin/linux64</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PhysX/Lib/linux64</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/bin/linux64</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/PxShared/lib/linux64</pElem>
+            <pElem>../../ThirdPartyLibs/PhysX/Dummy/Linux</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>Bin</pElem>
+            <pElem>../Editor/Bin</pElem>
+          </linkerDynSerch>
+          <stripSymbols>true</stripSymbols>
+          <commandlineTool>clang++</commandlineTool>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../Engine/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../Engine/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/EsenthelEngine.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Recast/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Recast/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Png/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Png/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Vorbis/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Vorbis/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Theora/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Theora/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/SQLite/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/SQLite/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Webp/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Webp/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/LZ4/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/LZ4/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Ogg/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Ogg/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../ThirdPartyLibs/Tiff/Linux"
+                            CT="3"
+                            CN="Release"
+                            AC="true"
+                            BL="false"
+                            WD="../../ThirdPartyLibs/Tiff/Linux"
+                            BC="${MAKE} -j7 -f Makefile CONF=Release"
+                            CC="${MAKE} -j7 -f Makefile CONF=Release clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/liblinux.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/FreeType/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Bullet/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Snappy/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/LZMA/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/FBX/Linux/libfbxsdk.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/JpegTurbo/Linux/libturbojpeg.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Flac/Linux/libFLAC-static.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Opus/Linux/libopusfile.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Opus/Linux/libopus.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/VP/Linux/libvpx.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/LZHAM/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/Zstd/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/FDK-AAC/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibFileItem>../../ThirdPartyLibs/mbedTLS/Linux/dist/Release/GNU-Linux/liblinux.a</linkerLibFileItem>
+            <linkerLibLibItem>X11</linkerLibLibItem>
+            <linkerLibLibItem>Xmu</linkerLibLibItem>
+            <linkerLibLibItem>Xxf86vm</linkerLibLibItem>
+            <linkerLibLibItem>Xinerama</linkerLibLibItem>
+            <linkerLibLibItem>Xrandr</linkerLibLibItem>
+            <linkerLibLibItem>rt</linkerLibLibItem>
+            <linkerLibLibItem>Xi</linkerLibLibItem>
+            <linkerLibLibItem>Xcursor</linkerLibLibItem>
+            <linkerLibLibItem>GL</linkerLibLibItem>
+            <linkerLibLibItem>openal</linkerLibLibItem>
+            <linkerLibLibItem>z</linkerLibLibItem>
+            <linkerLibLibItem>odbc</linkerLibLibItem>
+            <linkerLibLibItem>udev</linkerLibLibItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+          </linkerLibItems>
+          <commandLine>-static-libstdc++ -Wl,--start-group -lPhysX3_x64 -lPhysX3Cooking_x64 -lPhysX3Extensions -lPhysX3CharacterKinematic_x64 -lPhysX3Vehicle -lPhysX3Common_x64 -lSimulationController -lSceneQuery -lLowLevelParticles -lLowLevelCloth -lLowLevelDynamics -lLowLevelAABB -lLowLevel -lPxTask -lPxFoundation_x64 -Wl,--end-group</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../Source/Esenthel Builder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../stdafx.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>clang++ -x c++-header ../stdafx.h -o ../stdafx.h.pch $(CXXFLAGS) -O3 -DDEBUG=0 -I.. -I../../ThirdPartyLibs/PhysX/PhysX/Include -I../../ThirdPartyLibs/PhysX/PhysX/Include/cloth -I../../ThirdPartyLibs/PhysX/PhysX/Include/common -I../../ThirdPartyLibs/PhysX/PhysX/Include/extensions -I../../ThirdPartyLibs/PhysX/PhysX/Include/geometry -I../../ThirdPartyLibs/PhysX/PhysX/Include/vehicle -I../../ThirdPartyLibs/PhysX/PhysX/Source/Common/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/GeomUtils/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXExtensions/src/serialization/Xml -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/core/include -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXMetaData/extensions/include -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src -I../../ThirdPartyLibs/PhysX/PhysX/Source/PhysXVehicle/src/PhysXMetaData/include -I../../ThirdPartyLibs/PhysX/PxShared/include -I../../ThirdPartyLibs/PhysX/PxShared/src/foundation/include -I../../ThirdPartyLibs/PhysX/PxShared/src/pvd/include -I../../ThirdPartyLibs/Theora/include -I../../ThirdPartyLibs/FreeType/include -I../../ThirdPartyLibs/Vorbis/include -I../../ThirdPartyLibs/Ogg/include -I../../ThirdPartyLibs/FBX -I../../ThirdPartyLibs/Bullet/lib/src -I../../ThirdPartyLibs -std=c++14</customToolCommandline>
+          <customToolOutputs>../stdafx.h.pch</customToolOutputs>
+        </customTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

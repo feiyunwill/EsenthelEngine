@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../lib/dictBuilder/cover.c</itemPath>
+      <itemPath>../lib/dictBuilder/divsufsort.c</itemPath>
+      <itemPath>../lib/common/entropy_common.c</itemPath>
+      <itemPath>../lib/common/error_private.c</itemPath>
+      <itemPath>../lib/compress/fse_compress.c</itemPath>
+      <itemPath>../lib/common/fse_decompress.c</itemPath>
+      <itemPath>../lib/compress/huf_compress.c</itemPath>
+      <itemPath>../lib/decompress/huf_decompress.c</itemPath>
+      <itemPath>../lib/common/pool.c</itemPath>
+      <itemPath>../lib/common/threading.c</itemPath>
+      <itemPath>../lib/dictBuilder/zdict.c</itemPath>
+      <itemPath>../lib/common/zstd_common.c</itemPath>
+      <itemPath>../lib/compress/zstd_compress.c</itemPath>
+      <itemPath>../lib/decompress/zstd_decompress.c</itemPath>
+      <itemPath>../lib/compress/zstd_double_fast.c</itemPath>
+      <itemPath>../lib/compress/zstd_fast.c</itemPath>
+      <itemPath>../lib/compress/zstd_lazy.c</itemPath>
+      <itemPath>../lib/compress/zstd_ldm.c</itemPath>
+      <itemPath>../lib/compress/zstd_opt.c</itemPath>
+      <itemPath>../lib/compress/zstdmt_compress.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>2</architecture>
+        </cTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../lib/common/entropy_common.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/common/error_private.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/common/fse_decompress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/common/pool.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/common/threading.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/common/zstd_common.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/fse_compress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/huf_compress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_compress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_double_fast.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_fast.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_lazy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_ldm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_opt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstdmt_compress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/decompress/huf_decompress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/decompress/zstd_decompress.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../lib/dictBuilder/cover.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/dictBuilder/divsufsort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/dictBuilder/zdict.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../../LZ4</pElem>
+            <pElem>../lib/common</pElem>
+            <pElem>../lib</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../lib/common/entropy_common.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/common/error_private.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/common/fse_decompress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/common/pool.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/common/threading.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/common/zstd_common.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/fse_compress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/huf_compress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_compress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_double_fast.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_fast.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_lazy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_ldm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstd_opt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/compress/zstdmt_compress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/decompress/huf_decompress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/decompress/zstd_decompress.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../lib/dictBuilder/cover.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/dictBuilder/divsufsort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lib/dictBuilder/zdict.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

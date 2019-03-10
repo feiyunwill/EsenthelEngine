@@ -1,0 +1,31 @@
+add to "sqlite3.c":
+
+at the beginning:
+
+// ESENTHEL
+#ifdef __APPLE__
+   #include "TargetConditionals.h"
+   #if TARGET_IPHONE_SIMULATOR
+      #define SQLITE_HOMEGROWN_RECURSIVE_MUTEX 1
+   #endif
+#elif defined EMSCRIPTEN
+   #define SQLITE_MAX_WORKER_THREADS 0
+#endif
+
+
+at the end:
+
+// ESENTHEL
+
+void SQLiteMutexEnter(sqlite3 *db) {sqlite3_mutex_enter(db->mutex);}
+void SQLiteMutexLeave(sqlite3 *db) {sqlite3_mutex_leave(db->mutex);}
+
+add to "sqlite3.h":
+
+// ESENTHEL
+
+extern "C"
+{
+   void SQLiteMutexEnter(sqlite3 *db);
+   void SQLiteMutexLeave(sqlite3 *db);
+}

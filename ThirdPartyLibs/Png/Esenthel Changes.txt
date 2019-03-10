@@ -1,0 +1,5 @@
+pngpriv.h:
+FROM:
+#    define PNG_ABORT() ExitProcess(0)
+TO:
+#    define PNG_ABORT() _exit(0) // ExitProcess(0) ESENTHEL CHANGED (not supported on UWP)

@@ -1,0 +1,391 @@
+﻿<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="H"/>
+		<Filter Include="H\_"/>
+	</ItemGroup>
+	<ItemGroup>
+		<Image Include="Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+			<Filter>H\_</Filter>
+		</Image>
+		<Image Include="Assets\Square44x44Logo.scale-200.png">
+			<Filter>H\_</Filter>
+		</Image>
+		<Image Include="Assets\Square150x150Logo.scale-200.png">
+			<Filter>H\_</Filter>
+		</Image>
+		<Image Include="Assets\Logo.png">
+			<Filter>H\_</Filter>
+		</Image>
+		<Image Include="Assets\SplashScreen.png">
+			<Filter>H\_</Filter>
+		</Image>
+		<Media Include="..\..\..\Editor/Bin/Universal\Engine.pak">
+			<Filter>H\_</Filter>
+		</Media>
+		<Media Include="Project.pak">
+			<Filter>H\_</Filter>
+		</Media>
+		<ResourceCompile Include="resource.rc">
+			<Filter>H\_</Filter>
+		</ResourceCompile>
+		<ClCompile Include="stdafx.cpp">
+			<Filter>H\_</Filter>
+		</ClCompile>
+		<ClInclude Include="stdafx.h">
+			<Filter>H\_</Filter>
+		</ClInclude>
+		<AppxManifest Include="Package.appxmanifest">
+			<Filter>H\_</Filter>
+		</AppxManifest>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Source"/>
+		<Filter Include="Source\Editors"/>
+		<Filter Include="Source\Editors\Object"/>
+		<ClCompile Include="Source\Editors\Object\Adjust Bone Orientations.cpp">
+			<Filter>Source\Editors\Object</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Object\AO.cpp">
+			<Filter>Source\Editors\Object</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Object\Groups.cpp">
+			<Filter>Source\Editors\Object</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Object\Leaf.cpp">
+			<Filter>Source\Editors\Object</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Object\Lod.cpp">
+			<Filter>Source\Editors\Object</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Object\Mesh.cpp">
+			<Filter>Source\Editors\Object</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Object\Object@1.cpp">
+			<Filter>Source\Editors\Object</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Object\Parts.cpp">
+			<Filter>Source\Editors\Object</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Object\Transform@0.cpp">
+			<Filter>Source\Editors\Object</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Object\Variations.cpp">
+			<Filter>Source\Editors\Object</Filter>
+		</ClCompile>
+		<Filter Include="Source\Editors\World"/>
+		<ClCompile Include="Source\Editors\World\Area@0.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Brush@0.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Brush Color.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Brush Height.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Brush Material.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Builder.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Cursor.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Gui@0.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Import Terrain.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Object@0.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Object List.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Object Paint.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Selection.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Transform.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Undo.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Water@0.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Waypoint@0.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\Waypoint List.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\World\World.cpp">
+			<Filter>Source\Editors\World</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Animation.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Code@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Enum@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Environment@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Font@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Gui@1.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Gui Skin@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Icon@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Image.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Image Atlas.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Material@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Mini Map.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Panel@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Panel Image@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Param.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Phys Material@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Sound.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Text Style@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Video.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editors\Water Material@0.cpp">
+			<Filter>Source\Editors</Filter>
+		</ClCompile>
+		<Filter Include="Source\Game"/>
+		<ClCompile Include="Source\Game\Controls.cpp">
+			<Filter>Source\Game</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Game\Game.cpp">
+			<Filter>Source\Game</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Game\Player.cpp">
+			<Filter>Source\Game</Filter>
+		</ClCompile>
+		<Filter Include="Source\Gui"/>
+		<ClCompile Include="Source\Gui\Brush.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Calculator.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Compare Projects.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Convert To Atlas.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Convert To De-Atlas.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Copy Elements.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Create Materials.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Detect Similar Textures.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Export Element.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Gui.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Import 1.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Merge Similar Materials.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Misc Region.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Project Settings.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Project Update@0.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Size Statistics.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Split Animations.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Texture Downsize.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Theater.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Video Options.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Gui\Viewport4 Region.cpp">
+			<Filter>Source\Gui</Filter>
+		</ClCompile>
+		<Filter Include="Source\Shared"/>
+		<Filter Include="Source\Shared\Elements"/>
+		<ClCompile Include="Source\Shared\Elements\Code.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Enum.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Environment.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Font.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Gui Skin.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Icon.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Material.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Object.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Panel.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Panel Image.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Params.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Phys Material.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Skeleton.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Text Style.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Water.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elements\Water Material.cpp">
+			<Filter>Source\Shared\Elements</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Area.cpp">
+			<Filter>Source\Shared</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Commands.cpp">
+			<Filter>Source\Shared</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Constants.cpp">
+			<Filter>Source\Shared</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Elm.cpp">
+			<Filter>Source\Shared</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Functions.cpp">
+			<Filter>Source\Shared</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Project.cpp">
+			<Filter>Source\Shared</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Project Update.cpp">
+			<Filter>Source\Shared</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Shared\Waypoint.cpp">
+			<Filter>Source\Shared</Filter>
+		</ClCompile>
+		<Filter Include="Source\Store"/>
+		<ClCompile Include="Source\Store\Internet Cache.cpp">
+			<Filter>Source\Store</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Store\License Test.cpp">
+			<Filter>Source\Store</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Store\Store.cpp">
+			<Filter>Source\Store</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Auto.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Editor Update.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Elm@0.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Import.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Main.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Preview.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Project@0.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Project List.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Publish.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Server.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Server Editor.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Settings.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Synchronize.cpp">
+			<Filter>Source</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

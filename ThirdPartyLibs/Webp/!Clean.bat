@@ -1,0 +1,10 @@
+del src\dec\*.am
+del src\demux\*.am
+del src\demux\*.in
+del src\demux\*.rc
+del src\dsp\*.am
+del src\enc\*.am
+del src\mux\*.am
+del src\mux\*.in
+del src\mux\*.rc
+del src\utils\*.am

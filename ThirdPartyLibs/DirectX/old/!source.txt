@@ -1,0 +1,2 @@
+files were copied from:
+DirectX SDK 2010 Jun

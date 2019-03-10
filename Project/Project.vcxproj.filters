@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{dcd78e5c-5582-4d3b-804a-522fad6b3bf6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="H">
+      <UniqueIdentifier>{08583842-3fbf-4fb2-98c6-7f080738bc23}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>H</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Private\Project.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <Filter>H</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>H</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>H</Filter>
+    </Image>
+    <Image Include="Assets\Logo.png">
+      <Filter>H</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>H</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>H</Filter>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Editor\Bin\Universal\Engine.pak">
+      <Filter>H</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>H</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

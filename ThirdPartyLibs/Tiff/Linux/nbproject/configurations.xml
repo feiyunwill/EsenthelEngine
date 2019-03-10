@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../libtiff/mkg3states.c</itemPath>
+      <itemPath>../libtiff/tif_aux.c</itemPath>
+      <itemPath>../libtiff/tif_close.c</itemPath>
+      <itemPath>../libtiff/tif_codec.c</itemPath>
+      <itemPath>../libtiff/tif_color.c</itemPath>
+      <itemPath>../libtiff/tif_compress.c</itemPath>
+      <itemPath>../libtiff/tif_dir.c</itemPath>
+      <itemPath>../libtiff/tif_dirinfo.c</itemPath>
+      <itemPath>../libtiff/tif_dirread.c</itemPath>
+      <itemPath>../libtiff/tif_dirwrite.c</itemPath>
+      <itemPath>../libtiff/tif_dumpmode.c</itemPath>
+      <itemPath>../libtiff/tif_error.c</itemPath>
+      <itemPath>../libtiff/tif_extension.c</itemPath>
+      <itemPath>../libtiff/tif_fax3.c</itemPath>
+      <itemPath>../libtiff/tif_fax3sm.c</itemPath>
+      <itemPath>../libtiff/tif_flush.c</itemPath>
+      <itemPath>../libtiff/tif_getimage.c</itemPath>
+      <itemPath>../libtiff/tif_jbig.c</itemPath>
+      <itemPath>../libtiff/tif_jpeg.c</itemPath>
+      <itemPath>../libtiff/tif_jpeg_12.c</itemPath>
+      <itemPath>../libtiff/tif_luv.c</itemPath>
+      <itemPath>../libtiff/tif_lzma.c</itemPath>
+      <itemPath>../libtiff/tif_lzw.c</itemPath>
+      <itemPath>../libtiff/tif_next.c</itemPath>
+      <itemPath>../libtiff/tif_ojpeg.c</itemPath>
+      <itemPath>../libtiff/tif_open.c</itemPath>
+      <itemPath>../libtiff/tif_packbits.c</itemPath>
+      <itemPath>../libtiff/tif_pixarlog.c</itemPath>
+      <itemPath>../libtiff/tif_predict.c</itemPath>
+      <itemPath>../libtiff/tif_print.c</itemPath>
+      <itemPath>../libtiff/tif_read.c</itemPath>
+      <itemPath>../libtiff/tif_strip.c</itemPath>
+      <itemPath>../libtiff/tif_swab.c</itemPath>
+      <itemPath>../libtiff/tif_thunder.c</itemPath>
+      <itemPath>../libtiff/tif_tile.c</itemPath>
+      <itemPath>../libtiff/tif_unix.c</itemPath>
+      <itemPath>../libtiff/tif_version.c</itemPath>
+      <itemPath>../libtiff/tif_warning.c</itemPath>
+      <itemPath>../libtiff/tif_write.c</itemPath>
+      <itemPath>../libtiff/tif_zip.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../libtiff/mkg3states.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_aux.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_close.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_codec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_color.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_compress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_dir.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_dirinfo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_dirread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_dirwrite.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_dumpmode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_error.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_extension.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_fax3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_fax3sm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_flush.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_getimage.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_jbig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_jpeg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_jpeg_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_luv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_lzma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_lzw.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_next.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_ojpeg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_open.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_packbits.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_pixarlog.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_predict.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_print.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_read.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_strip.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_swab.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_thunder.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_tile.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_unix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_version.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_warning.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_write.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_zip.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <architecture>2</architecture>
+          <standard>10</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <architecture>2</architecture>
+          <standard>8</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../libtiff/mkg3states.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_aux.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_close.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_codec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_color.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_compress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_dir.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_dirinfo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_dirread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_dirwrite.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_dumpmode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_error.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_extension.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_fax3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_fax3sm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_flush.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_getimage.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_jbig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_jpeg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_jpeg_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_luv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_lzma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_lzw.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_next.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_ojpeg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_open.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_packbits.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_pixarlog.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_predict.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_print.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_read.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_strip.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_swab.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_thunder.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_tile.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_unix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_version.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_warning.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_write.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../libtiff/tif_zip.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

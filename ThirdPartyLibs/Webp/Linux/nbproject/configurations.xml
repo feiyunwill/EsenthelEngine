@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="dec" displayName="dec" projectFiles="true">
+        <itemPath>../src/dec/alpha_dec.c</itemPath>
+        <itemPath>../src/dec/alphai_dec.h</itemPath>
+        <itemPath>../src/dec/buffer_dec.c</itemPath>
+        <itemPath>../src/dec/common_dec.h</itemPath>
+        <itemPath>../src/dec/frame_dec.c</itemPath>
+        <itemPath>../src/dec/idec_dec.c</itemPath>
+        <itemPath>../src/dec/io_dec.c</itemPath>
+        <itemPath>../src/dec/quant_dec.c</itemPath>
+        <itemPath>../src/dec/tree_dec.c</itemPath>
+        <itemPath>../src/dec/vp8_dec.c</itemPath>
+        <itemPath>../src/dec/vp8_dec.h</itemPath>
+        <itemPath>../src/dec/vp8i_dec.h</itemPath>
+        <itemPath>../src/dec/vp8l_dec.c</itemPath>
+        <itemPath>../src/dec/vp8li_dec.h</itemPath>
+        <itemPath>../src/dec/webp_dec.c</itemPath>
+        <itemPath>../src/dec/webpi_dec.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="demux" displayName="demux" projectFiles="true">
+        <itemPath>../src/demux/anim_decode.c</itemPath>
+        <itemPath>../src/demux/demux.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="dsp" displayName="dsp" projectFiles="true">
+        <itemPath>../src/dsp/alpha_processing.c</itemPath>
+        <itemPath>../src/dsp/alpha_processing_mips_dsp_r2.c</itemPath>
+        <itemPath>../src/dsp/alpha_processing_neon.c</itemPath>
+        <itemPath>../src/dsp/alpha_processing_sse2.c</itemPath>
+        <itemPath>../src/dsp/alpha_processing_sse41.c</itemPath>
+        <itemPath>../src/dsp/argb.c</itemPath>
+        <itemPath>../src/dsp/argb_mips_dsp_r2.c</itemPath>
+        <itemPath>../src/dsp/argb_sse2.c</itemPath>
+        <itemPath>../src/dsp/common_sse2.h</itemPath>
+        <itemPath>../src/dsp/cost.c</itemPath>
+        <itemPath>../src/dsp/cost_mips32.c</itemPath>
+        <itemPath>../src/dsp/cost_mips_dsp_r2.c</itemPath>
+        <itemPath>../src/dsp/cost_sse2.c</itemPath>
+        <itemPath>../src/dsp/cpu.c</itemPath>
+        <itemPath>../src/dsp/dec.c</itemPath>
+        <itemPath>../src/dsp/dec_clip_tables.c</itemPath>
+        <itemPath>../src/dsp/dec_mips32.c</itemPath>
+        <itemPath>../src/dsp/dec_mips_dsp_r2.c</itemPath>
+        <itemPath>../src/dsp/dec_msa.c</itemPath>
+        <itemPath>../src/dsp/dec_neon.c</itemPath>
+        <itemPath>../src/dsp/dec_sse2.c</itemPath>
+        <itemPath>../src/dsp/dec_sse41.c</itemPath>
+        <itemPath>../src/dsp/dsp.h</itemPath>
+        <itemPath>../src/dsp/enc.c</itemPath>
+        <itemPath>../src/dsp/enc_avx2.c</itemPath>
+        <itemPath>../src/dsp/enc_mips32.c</itemPath>
+        <itemPath>../src/dsp/enc_mips_dsp_r2.c</itemPath>
+        <itemPath>../src/dsp/enc_msa.c</itemPath>
+        <itemPath>../src/dsp/enc_neon.c</itemPath>
+        <itemPath>../src/dsp/enc_sse2.c</itemPath>
+        <itemPath>../src/dsp/enc_sse41.c</itemPath>
+        <itemPath>../src/dsp/filters.c</itemPath>
+        <itemPath>../src/dsp/filters_mips_dsp_r2.c</itemPath>
+        <itemPath>../src/dsp/filters_msa.c</itemPath>
+        <itemPath>../src/dsp/filters_neon.c</itemPath>
+        <itemPath>../src/dsp/filters_sse2.c</itemPath>
+        <itemPath>../src/dsp/lossless.c</itemPath>
+        <itemPath>../src/dsp/lossless.h</itemPath>
+        <itemPath>../src/dsp/lossless_common.h</itemPath>
+        <itemPath>../src/dsp/lossless_enc.c</itemPath>
+        <itemPath>../src/dsp/lossless_enc_mips32.c</itemPath>
+        <itemPath>../src/dsp/lossless_enc_mips_dsp_r2.c</itemPath>
+        <itemPath>../src/dsp/lossless_enc_msa.c</itemPath>
+        <itemPath>../src/dsp/lossless_enc_neon.c</itemPath>
+        <itemPath>../src/dsp/lossless_enc_sse2.c</itemPath>
+        <itemPath>../src/dsp/lossless_enc_sse41.c</itemPath>
+        <itemPath>../src/dsp/lossless_mips_dsp_r2.c</itemPath>
+        <itemPath>../src/dsp/lossless_msa.c</itemPath>
+        <itemPath>../src/dsp/lossless_neon.c</itemPath>
+        <itemPath>../src/dsp/lossless_sse2.c</itemPath>
+        <itemPath>../src/dsp/mips_macro.h</itemPath>
+        <itemPath>../src/dsp/msa_macro.h</itemPath>
+        <itemPath>../src/dsp/neon.h</itemPath>
+        <itemPath>../src/dsp/rescaler.c</itemPath>
+        <itemPath>../src/dsp/rescaler_mips32.c</itemPath>
+        <itemPath>../src/dsp/rescaler_mips_dsp_r2.c</itemPath>
+        <itemPath>../src/dsp/rescaler_msa.c</itemPath>
+        <itemPath>../src/dsp/rescaler_neon.c</itemPath>
+        <itemPath>../src/dsp/rescaler_sse2.c</itemPath>
+        <itemPath>../src/dsp/ssim.c</itemPath>
+        <itemPath>../src/dsp/ssim_sse2.c</itemPath>
+        <itemPath>../src/dsp/upsampling.c</itemPath>
+        <itemPath>../src/dsp/upsampling_mips_dsp_r2.c</itemPath>
+        <itemPath>../src/dsp/upsampling_msa.c</itemPath>
+        <itemPath>../src/dsp/upsampling_neon.c</itemPath>
+        <itemPath>../src/dsp/upsampling_sse2.c</itemPath>
+        <itemPath>../src/dsp/yuv.c</itemPath>
+        <itemPath>../src/dsp/yuv.h</itemPath>
+        <itemPath>../src/dsp/yuv_mips32.c</itemPath>
+        <itemPath>../src/dsp/yuv_mips_dsp_r2.c</itemPath>
+        <itemPath>../src/dsp/yuv_sse2.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="enc" displayName="enc" projectFiles="true">
+        <itemPath>../src/enc/alpha_enc.c</itemPath>
+        <itemPath>../src/enc/analysis_enc.c</itemPath>
+        <itemPath>../src/enc/backward_references_enc.c</itemPath>
+        <itemPath>../src/enc/backward_references_enc.h</itemPath>
+        <itemPath>../src/enc/config_enc.c</itemPath>
+        <itemPath>../src/enc/cost_enc.c</itemPath>
+        <itemPath>../src/enc/cost_enc.h</itemPath>
+        <itemPath>../src/enc/delta_palettization_enc.c</itemPath>
+        <itemPath>../src/enc/delta_palettization_enc.h</itemPath>
+        <itemPath>../src/enc/filter_enc.c</itemPath>
+        <itemPath>../src/enc/frame_enc.c</itemPath>
+        <itemPath>../src/enc/histogram_enc.c</itemPath>
+        <itemPath>../src/enc/histogram_enc.h</itemPath>
+        <itemPath>../src/enc/iterator_enc.c</itemPath>
+        <itemPath>../src/enc/near_lossless_enc.c</itemPath>
+        <itemPath>../src/enc/picture_csp_enc.c</itemPath>
+        <itemPath>../src/enc/picture_enc.c</itemPath>
+        <itemPath>../src/enc/picture_psnr_enc.c</itemPath>
+        <itemPath>../src/enc/picture_rescale_enc.c</itemPath>
+        <itemPath>../src/enc/picture_tools_enc.c</itemPath>
+        <itemPath>../src/enc/predictor_enc.c</itemPath>
+        <itemPath>../src/enc/quant_enc.c</itemPath>
+        <itemPath>../src/enc/syntax_enc.c</itemPath>
+        <itemPath>../src/enc/token_enc.c</itemPath>
+        <itemPath>../src/enc/tree_enc.c</itemPath>
+        <itemPath>../src/enc/vp8i_enc.h</itemPath>
+        <itemPath>../src/enc/vp8l_enc.c</itemPath>
+        <itemPath>../src/enc/vp8li_enc.h</itemPath>
+        <itemPath>../src/enc/webp_enc.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="mux" displayName="mux" projectFiles="true">
+        <itemPath>../src/mux/anim_encode.c</itemPath>
+        <itemPath>../src/mux/animi.h</itemPath>
+        <itemPath>../src/mux/muxedit.c</itemPath>
+        <itemPath>../src/mux/muxi.h</itemPath>
+        <itemPath>../src/mux/muxinternal.c</itemPath>
+        <itemPath>../src/mux/muxread.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="utils" displayName="utils" projectFiles="true">
+        <itemPath>../src/utils/bit_reader_inl_utils.h</itemPath>
+        <itemPath>../src/utils/bit_reader_utils.c</itemPath>
+        <itemPath>../src/utils/bit_reader_utils.h</itemPath>
+        <itemPath>../src/utils/bit_writer_utils.c</itemPath>
+        <itemPath>../src/utils/bit_writer_utils.h</itemPath>
+        <itemPath>../src/utils/color_cache_utils.c</itemPath>
+        <itemPath>../src/utils/color_cache_utils.h</itemPath>
+        <itemPath>../src/utils/endian_inl_utils.h</itemPath>
+        <itemPath>../src/utils/filters_utils.c</itemPath>
+        <itemPath>../src/utils/filters_utils.h</itemPath>
+        <itemPath>../src/utils/huffman_encode_utils.c</itemPath>
+        <itemPath>../src/utils/huffman_encode_utils.h</itemPath>
+        <itemPath>../src/utils/huffman_utils.c</itemPath>
+        <itemPath>../src/utils/huffman_utils.h</itemPath>
+        <itemPath>../src/utils/quant_levels_dec_utils.c</itemPath>
+        <itemPath>../src/utils/quant_levels_dec_utils.h</itemPath>
+        <itemPath>../src/utils/quant_levels_utils.c</itemPath>
+        <itemPath>../src/utils/quant_levels_utils.h</itemPath>
+        <itemPath>../src/utils/random_utils.c</itemPath>
+        <itemPath>../src/utils/random_utils.h</itemPath>
+        <itemPath>../src/utils/rescaler_utils.c</itemPath>
+        <itemPath>../src/utils/rescaler_utils.h</itemPath>
+        <itemPath>../src/utils/thread_utils.c</itemPath>
+        <itemPath>../src/utils/thread_utils.h</itemPath>
+        <itemPath>../src/utils/utils.c</itemPath>
+        <itemPath>../src/utils/utils.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="webp" displayName="webp" projectFiles="true">
+        <itemPath>../src/webp/decode.h</itemPath>
+        <itemPath>../src/webp/demux.h</itemPath>
+        <itemPath>../src/webp/encode.h</itemPath>
+        <itemPath>../src/webp/format_constants.h</itemPath>
+        <itemPath>../src/webp/mux.h</itemPath>
+        <itemPath>../src/webp/mux_types.h</itemPath>
+        <itemPath>../src/webp/types.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../src/dec/alpha_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/alphai_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dec/buffer_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/common_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dec/frame_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/idec_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/io_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/quant_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/tree_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/vp8_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/vp8_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dec/vp8i_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dec/vp8l_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/vp8li_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dec/webp_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/webpi_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/demux/anim_decode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/demux/demux.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/alpha_processing.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/alpha_processing_mips_dsp_r2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/dsp/alpha_processing_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/alpha_processing_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/alpha_processing_sse41.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/dsp/argb.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/argb_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/argb_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/common_sse2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/cost.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/cost_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/cost_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/cost_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/cpu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_clip_tables.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_sse41.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dsp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_avx2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_sse41.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/filters.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/filters_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/filters_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/filters_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/filters_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_mips_dsp_r2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_sse41.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/mips_macro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/msa_macro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/neon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/ssim.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/ssim_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/upsampling.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/upsampling_mips_dsp_r2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/dsp/upsampling_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/upsampling_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/upsampling_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/yuv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/yuv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/yuv_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/yuv_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/yuv_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/alpha_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/analysis_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/backward_references_enc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/enc/backward_references_enc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/enc/config_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/cost_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/cost_enc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/enc/delta_palettization_enc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/enc/delta_palettization_enc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/enc/filter_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/frame_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/histogram_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/histogram_enc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/enc/iterator_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/near_lossless_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/picture_csp_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/picture_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/picture_psnr_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/picture_rescale_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/picture_tools_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/predictor_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/quant_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/syntax_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/token_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/tree_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/vp8i_enc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/enc/vp8l_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/vp8li_enc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/enc/webp_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/mux/anim_encode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/mux/animi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/mux/muxedit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/mux/muxi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/mux/muxinternal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/mux/muxread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/bit_reader_inl_utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/utils/bit_reader_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/bit_reader_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/bit_writer_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/bit_writer_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/color_cache_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/color_cache_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/endian_inl_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/filters_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/filters_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/huffman_encode_utils.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/utils/huffman_encode_utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/utils/huffman_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/huffman_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/quant_levels_dec_utils.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/utils/quant_levels_dec_utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/utils/quant_levels_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/quant_levels_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/random_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/random_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/rescaler_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/rescaler_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/thread_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/thread_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/decode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/demux.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/encode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/format_constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/mux.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/mux_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/types.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <architecture>2</architecture>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../src/dec/alpha_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/alphai_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dec/buffer_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/common_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dec/frame_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/idec_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/io_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/quant_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/tree_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/vp8_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/vp8_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dec/vp8i_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dec/vp8l_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/vp8li_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dec/webp_dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dec/webpi_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/demux/anim_decode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/demux/demux.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/alpha_processing.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/alpha_processing_mips_dsp_r2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/dsp/alpha_processing_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/alpha_processing_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/alpha_processing_sse41.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/dsp/argb.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/argb_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/argb_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/common_sse2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/cost.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/cost_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/cost_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/cost_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/cpu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_clip_tables.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dec_sse41.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/dsp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_avx2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/enc_sse41.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/filters.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/filters_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/filters_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/filters_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/filters_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_mips_dsp_r2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_enc_sse41.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/lossless_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/mips_macro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/msa_macro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/neon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/rescaler_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/ssim.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/ssim_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/upsampling.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/upsampling_mips_dsp_r2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/dsp/upsampling_msa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/upsampling_neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/upsampling_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/yuv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/yuv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/dsp/yuv_mips32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/yuv_mips_dsp_r2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/dsp/yuv_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/alpha_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/analysis_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/backward_references_enc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/enc/backward_references_enc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/enc/config_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/cost_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/cost_enc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/enc/delta_palettization_enc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/enc/delta_palettization_enc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/enc/filter_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/frame_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/histogram_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/histogram_enc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/enc/iterator_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/near_lossless_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/picture_csp_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/picture_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/picture_psnr_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/picture_rescale_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/picture_tools_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/predictor_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/quant_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/syntax_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/token_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/tree_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/vp8i_enc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/enc/vp8l_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/enc/vp8li_enc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/enc/webp_enc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/mux/anim_encode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/mux/animi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/mux/muxedit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/mux/muxi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/mux/muxinternal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/mux/muxread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/bit_reader_inl_utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/utils/bit_reader_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/bit_reader_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/bit_writer_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/bit_writer_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/color_cache_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/color_cache_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/endian_inl_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/filters_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/filters_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/huffman_encode_utils.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/utils/huffman_encode_utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/utils/huffman_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/huffman_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/quant_levels_dec_utils.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/utils/quant_levels_dec_utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/utils/quant_levels_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/quant_levels_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/random_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/random_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/rescaler_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/rescaler_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/thread_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/thread_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/utils/utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/utils/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/decode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/demux.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/encode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/format_constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/mux.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/mux_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/webp/types.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

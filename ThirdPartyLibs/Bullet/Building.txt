@@ -1,0 +1,118 @@
+0) Run "Clean.bat"
+1) Run "build_visual_studio_without_pybullet_vr.bat"
+2) Open "build3\vs2010\0_Bullet3Solution.sln"
+3) Allow auto update to latest Platform Toolset
+4) Select Projects "BulletCollision", "BulletDynamics", "LinearMath" and open their Properties
+5) Set Platform Toolset to support Windows XP
+6) General
+	Output Directory - restore default
+	Intermediate Directory - restore default
+   C/C++
+	General
+		Debug Information Format - None
+	Language
+		Enable Run-Time Type Info - Yes
+7) Create new Configuration: "Release Universal"
+   Create new Platforms: Emscripten, x64, ARM
+	For Release Universal ARM/Win32/x64 set:
+		General \ Windows Store App Support = Yes
+		General \ Platform Toolset = Visual Studio 2017 (v141) or newer
+		General \ Windows SDK Version = 10...
+		C/C++ \ General \ Consume Windows Runtime Extension = Yes (/ZW)
+		C/C++ \ Code Generation \ Runtime Library = Multi-threaded DLL (/MD)
+	For Emscripten, reset Target Extension, set Platform Toolset "emcc", remove all Clang Command Line options
+8) Have to manually edit - C:\Esenthel\ThirdPartyLibs\Bullet\lib\build3\vs2010
+	BulletCollision.vcxproj
+	BulletDynamics.vcxproj
+	LinearMath.vcxproj
+	and Replace
+		<WindowsAppContainer>true</WindowsAppContainer>
+	with
+		<WindowsAppContainer>true</WindowsAppContainer>	<AppContainerApplication>true</AppContainerApplication>
+9) Apply code changes:
+/******************************************************************************/
+In src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h
+Change
+	const btTransform& getAFrame() { return m_rbAFrame; };	
+	const btTransform& getBFrame() { return m_rbBFrame; };
+To
+	      btTransform& getAFrame()      { return m_rbAFrame; };
+	      btTransform& getBFrame()      { return m_rbBFrame; };
+	const btTransform& getAFrame()const { return m_rbAFrame; };
+	const btTransform& getBFrame()const { return m_rbBFrame; };
+/******************************************************************************/
+In src\BulletDynamics\Dynamics\btRigidBody.cpp, void btRigidBody::applyDamping(btScalar timeStep)
+Optionally change to match PhysX way of calculating damping
+
+//#define USE_OLD_DAMPING_METHOD 1
+#ifdef USE_OLD_DAMPING_METHOD
+	m_linearVelocity *= GEN_Clamped((btScalar(1.) - timeStep * m_linearDamping), (btScalar)btScalar(0.0), (btScalar)btScalar(1.0));
+	m_angularVelocity *= GEN_Clamped((btScalar(1.) - timeStep * m_angularDamping), (btScalar)btScalar(0.0), (btScalar)btScalar(1.0));
+#else
+
+To
+
+#define USE_OLD_DAMPING_METHOD 1
+#ifdef USE_OLD_DAMPING_METHOD
+	m_linearVelocity *= btClamped((btScalar(1.) - timeStep * m_linearDamping), (btScalar)btScalar(0.0), (btScalar)btScalar(1.0));
+	m_angularVelocity *= btClamped((btScalar(1.) - timeStep * m_angularDamping), (btScalar)btScalar(0.0), (btScalar)btScalar(1.0));
+#else
+/******************************************************************************/
+In src\LinearMath\btScalar.h
+Change
+				///#define ATTRIBUTE_ALIGNED16(a) a __attribute__ ((aligned (16)))
+				///#define ATTRIBUTE_ALIGNED64(a) a __attribute__ ((aligned (64)))
+				///#define ATTRIBUTE_ALIGNED128(a) a __attribute__ ((aligned (128)))
+				#define ATTRIBUTE_ALIGNED16(a) a
+				#define ATTRIBUTE_ALIGNED64(a) a
+				#define ATTRIBUTE_ALIGNED128(a) a
+To
+				#define ATTRIBUTE_ALIGNED16(a) a __attribute__ ((aligned (16)))
+				#define ATTRIBUTE_ALIGNED64(a) a __attribute__ ((aligned (64)))
+				#define ATTRIBUTE_ALIGNED128(a) a __attribute__ ((aligned (128)))
+/******************************************************************************/
+In btQuickprof.h
+Change
+//#define BT_NO_PROFILE 1
+
+To
+#define BT_NO_PROFILE 1
+
+/******************************************************************************/
+10) When building in VS, Select the projects, right click and do "Build Selection"
+
+/******************************************************************************/
+ANDROID
+
+edit "lib\build3\Android\jni\Android.mk", add:
+LOCAL_CFLAGS       += -O3 -fshort-wchar -ffast-math -funsafe-math-optimizations -fomit-frame-pointer
+LOCAL_CPPFLAGS     += -O3 -fshort-wchar -ffast-math -funsafe-math-optimizations -fomit-frame-pointer
+LOCAL_CPP_FEATURES := rtti
+LOCAL_ARM_NEON     := true
+
+edit "lib\build3\Android\jni\Application.mk", replace with:
+APP_PLATFORM := android-18
+APP_STL      := c++_static
+APP_ABI      := armeabi-v7a arm64-v8a x86
+APP_MODULES  := libBullet
+APP_OPTIM    := release
+/******************************************************************************/
+MAC
+
+Use manually generated "Mac/Bullet.xcodeproj", but:
+-remove all old sources
+-manually drag and drop "lib/src/BulletCollision", "lib/src/BulletDynamics", "lib/src/LinearMath" to the project
+/******************************************************************************/
+LINUX
+
+Use manually generated "Linux/", but:
+-remove all old sources
+-manually drag and drop "lib/src/BulletCollision", "lib/src/BulletDynamics", "lib/src/LinearMath" to the project
+
+OR
+
+cd lib/build3
+./premake4_linux64 gmake --double
+cd gmake
+make
+/******************************************************************************/

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vorbis File", "Vorbis File.vcxproj", "{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vorbis", "Vorbis.vcxproj", "{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Emscripten = Debug|Emscripten
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Emscripten = Release|Emscripten
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Debug|ARM.Build.0 = Debug|ARM
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Debug|Emscripten.ActiveCfg = Debug|Emscripten
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Debug|Emscripten.Build.0 = Debug|Emscripten
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Debug|Win32.Build.0 = Debug|Win32
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Debug|x64.ActiveCfg = Debug|x64
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Debug|x64.Build.0 = Debug|x64
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Release|ARM.ActiveCfg = Release|ARM
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Release|ARM.Build.0 = Release|ARM
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Release|Emscripten.ActiveCfg = Release|Emscripten
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Release|Emscripten.Build.0 = Release|Emscripten
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Release|Win32.ActiveCfg = Release|Win32
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Release|Win32.Build.0 = Release|Win32
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Release|x64.ActiveCfg = Release|x64
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Release|x64.Build.0 = Release|x64
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|ARM.Build.0 = Debug|ARM
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|Emscripten.ActiveCfg = Debug|Emscripten
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|Emscripten.Build.0 = Debug|Emscripten
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|Win32.Build.0 = Debug|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|x64.ActiveCfg = Debug|x64
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|x64.Build.0 = Debug|x64
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|ARM.ActiveCfg = Release|ARM
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|ARM.Build.0 = Release|ARM
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|Emscripten.ActiveCfg = Release|Emscripten
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|Emscripten.Build.0 = Release|Emscripten
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|Win32.ActiveCfg = Release|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|Win32.Build.0 = Release|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|x64.ActiveCfg = Release|x64
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

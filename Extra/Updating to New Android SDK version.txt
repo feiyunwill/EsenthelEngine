@@ -1,0 +1,14 @@
+update Android NDK, SDK
+use SDK Manager to download desired SDK and delete other
+
+Update "CE Editor C++.cpp"
+project.putLine("target=android-18");
+
+Update all "Application.mk"
+APP_PLATFORM := android-18
+
+Update "AndroidManifest.xml"
+<uses-sdk android:minSdkVersion="18"
+
+Update all "project.properties"
+target=android-18

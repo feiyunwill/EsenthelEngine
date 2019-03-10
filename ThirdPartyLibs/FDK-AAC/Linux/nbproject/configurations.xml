@@ -1,0 +1,2292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="libAACdec" displayName="libAACdec" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../lib/libAACdec/include/aacdecoder_lib.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../lib/libAACdec/src/aac_ram.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/aac_ram.h</itemPath>
+          <itemPath>../lib/libAACdec/src/aac_rom.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/aac_rom.h</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_drc.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_drc.h</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_drc_types.h</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_hcr.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_hcr.h</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_hcr_bit.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_hcr_bit.h</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_hcr_types.h</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_hcrs.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_hcrs.h</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_pns.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_pns.h</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_tns.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdec_tns.h</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdecoder.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdecoder.h</itemPath>
+          <itemPath>../lib/libAACdec/src/aacdecoder_lib.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/block.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/block.h</itemPath>
+          <itemPath>../lib/libAACdec/src/channel.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/channel.h</itemPath>
+          <itemPath>../lib/libAACdec/src/channelinfo.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/channelinfo.h</itemPath>
+          <itemPath>../lib/libAACdec/src/conceal.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/conceal.h</itemPath>
+          <itemPath>../lib/libAACdec/src/conceal_types.h</itemPath>
+          <itemPath>../lib/libAACdec/src/debug.h</itemPath>
+          <itemPath>../lib/libAACdec/src/ldfiltbank.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/ldfiltbank.h</itemPath>
+          <itemPath>../lib/libAACdec/src/overlapadd.h</itemPath>
+          <itemPath>../lib/libAACdec/src/pulsedata.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/pulsedata.h</itemPath>
+          <itemPath>../lib/libAACdec/src/rvlc.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/rvlc.h</itemPath>
+          <itemPath>../lib/libAACdec/src/rvlc_info.h</itemPath>
+          <itemPath>../lib/libAACdec/src/rvlcbit.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/rvlcbit.h</itemPath>
+          <itemPath>../lib/libAACdec/src/rvlcconceal.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/rvlcconceal.h</itemPath>
+          <itemPath>../lib/libAACdec/src/stereo.cpp</itemPath>
+          <itemPath>../lib/libAACdec/src/stereo.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="libAACenc" displayName="libAACenc" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../lib/libAACenc/include/aacenc_lib.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../lib/libAACenc/src/aacEnc_ram.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/aacEnc_ram.h</itemPath>
+          <itemPath>../lib/libAACenc/src/aacEnc_rom.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/aacEnc_rom.h</itemPath>
+          <itemPath>../lib/libAACenc/src/aacenc.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/aacenc.h</itemPath>
+          <itemPath>../lib/libAACenc/src/aacenc_lib.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/aacenc_pns.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/aacenc_pns.h</itemPath>
+          <itemPath>../lib/libAACenc/src/aacenc_tns.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/aacenc_tns.h</itemPath>
+          <itemPath>../lib/libAACenc/src/adj_thr.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/adj_thr.h</itemPath>
+          <itemPath>../lib/libAACenc/src/adj_thr_data.h</itemPath>
+          <itemPath>../lib/libAACenc/src/band_nrg.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/band_nrg.h</itemPath>
+          <itemPath>../lib/libAACenc/src/bandwidth.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/bandwidth.h</itemPath>
+          <itemPath>../lib/libAACenc/src/bit_cnt.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/bit_cnt.h</itemPath>
+          <itemPath>../lib/libAACenc/src/bitenc.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/bitenc.h</itemPath>
+          <itemPath>../lib/libAACenc/src/block_switch.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/block_switch.h</itemPath>
+          <itemPath>../lib/libAACenc/src/channel_map.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/channel_map.h</itemPath>
+          <itemPath>../lib/libAACenc/src/chaosmeasure.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/chaosmeasure.h</itemPath>
+          <itemPath>../lib/libAACenc/src/dyn_bits.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/dyn_bits.h</itemPath>
+          <itemPath>../lib/libAACenc/src/grp_data.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/grp_data.h</itemPath>
+          <itemPath>../lib/libAACenc/src/intensity.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/intensity.h</itemPath>
+          <itemPath>../lib/libAACenc/src/interface.h</itemPath>
+          <itemPath>../lib/libAACenc/src/line_pe.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/line_pe.h</itemPath>
+          <itemPath>../lib/libAACenc/src/metadata_compressor.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/metadata_compressor.h</itemPath>
+          <itemPath>../lib/libAACenc/src/metadata_main.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/metadata_main.h</itemPath>
+          <itemPath>../lib/libAACenc/src/ms_stereo.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/ms_stereo.h</itemPath>
+          <itemPath>../lib/libAACenc/src/noisedet.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/noisedet.h</itemPath>
+          <itemPath>../lib/libAACenc/src/pns_func.h</itemPath>
+          <itemPath>../lib/libAACenc/src/pnsparam.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/pnsparam.h</itemPath>
+          <itemPath>../lib/libAACenc/src/pre_echo_control.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/pre_echo_control.h</itemPath>
+          <itemPath>../lib/libAACenc/src/psy_configuration.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/psy_configuration.h</itemPath>
+          <itemPath>../lib/libAACenc/src/psy_const.h</itemPath>
+          <itemPath>../lib/libAACenc/src/psy_data.h</itemPath>
+          <itemPath>../lib/libAACenc/src/psy_main.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/psy_main.h</itemPath>
+          <itemPath>../lib/libAACenc/src/qc_data.h</itemPath>
+          <itemPath>../lib/libAACenc/src/qc_main.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/qc_main.h</itemPath>
+          <itemPath>../lib/libAACenc/src/quantize.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/quantize.h</itemPath>
+          <itemPath>../lib/libAACenc/src/sf_estim.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/sf_estim.h</itemPath>
+          <itemPath>../lib/libAACenc/src/spreading.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/spreading.h</itemPath>
+          <itemPath>../lib/libAACenc/src/tns_func.h</itemPath>
+          <itemPath>../lib/libAACenc/src/tonality.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/tonality.h</itemPath>
+          <itemPath>../lib/libAACenc/src/transform.cpp</itemPath>
+          <itemPath>../lib/libAACenc/src/transform.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="libFDK" displayName="libFDK" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <logicalFolder name="aarch64" displayName="aarch64" projectFiles="true">
+            <itemPath>../lib/libFDK/include/aarch64/clz_aarch64.h</itemPath>
+            <itemPath>../lib/libFDK/include/aarch64/fixmul_aarch64.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="arm" displayName="arm" projectFiles="true">
+            <itemPath>../lib/libFDK/include/arm/clz_arm.h</itemPath>
+            <itemPath>../lib/libFDK/include/arm/cplx_mul.h</itemPath>
+            <itemPath>../lib/libFDK/include/arm/fixmadd_arm.h</itemPath>
+            <itemPath>../lib/libFDK/include/arm/fixmul_arm.h</itemPath>
+            <itemPath>../lib/libFDK/include/arm/scale.h</itemPath>
+            <itemPath>../lib/libFDK/include/arm/scramble.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="mips" displayName="mips" projectFiles="true">
+            <itemPath>../lib/libFDK/include/mips/abs_mips.h</itemPath>
+            <itemPath>../lib/libFDK/include/mips/clz_mips.h</itemPath>
+            <itemPath>../lib/libFDK/include/mips/cplx_mul.h</itemPath>
+            <itemPath>../lib/libFDK/include/mips/fixmadd_mips.h</itemPath>
+            <itemPath>../lib/libFDK/include/mips/fixmul_mips.h</itemPath>
+            <itemPath>../lib/libFDK/include/mips/scale.h</itemPath>
+            <itemPath>../lib/libFDK/include/mips/scramble.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="ppc" displayName="ppc" projectFiles="true">
+            <itemPath>../lib/libFDK/include/ppc/clz_ppc.h</itemPath>
+            <itemPath>../lib/libFDK/include/ppc/fixmul_ppc.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="x86" displayName="x86" projectFiles="true">
+            <itemPath>../lib/libFDK/include/x86/abs_x86.h</itemPath>
+            <itemPath>../lib/libFDK/include/x86/clz_x86.h</itemPath>
+            <itemPath>../lib/libFDK/include/x86/fixmul_x86.h</itemPath>
+          </logicalFolder>
+          <itemPath>../lib/libFDK/include/FDK_archdef.h</itemPath>
+          <itemPath>../lib/libFDK/include/FDK_bitbuffer.h</itemPath>
+          <itemPath>../lib/libFDK/include/FDK_bitstream.h</itemPath>
+          <itemPath>../lib/libFDK/include/FDK_core.h</itemPath>
+          <itemPath>../lib/libFDK/include/FDK_crc.h</itemPath>
+          <itemPath>../lib/libFDK/include/FDK_hybrid.h</itemPath>
+          <itemPath>../lib/libFDK/include/FDK_tools_rom.h</itemPath>
+          <itemPath>../lib/libFDK/include/FDK_trigFcts.h</itemPath>
+          <itemPath>../lib/libFDK/include/abs.h</itemPath>
+          <itemPath>../lib/libFDK/include/autocorr2nd.h</itemPath>
+          <itemPath>../lib/libFDK/include/clz.h</itemPath>
+          <itemPath>../lib/libFDK/include/common_fix.h</itemPath>
+          <itemPath>../lib/libFDK/include/cplx_mul.h</itemPath>
+          <itemPath>../lib/libFDK/include/dct.h</itemPath>
+          <itemPath>../lib/libFDK/include/fft.h</itemPath>
+          <itemPath>../lib/libFDK/include/fft_rad2.h</itemPath>
+          <itemPath>../lib/libFDK/include/fixmadd.h</itemPath>
+          <itemPath>../lib/libFDK/include/fixminmax.h</itemPath>
+          <itemPath>../lib/libFDK/include/fixmul.h</itemPath>
+          <itemPath>../lib/libFDK/include/fixpoint_math.h</itemPath>
+          <itemPath>../lib/libFDK/include/mdct.h</itemPath>
+          <itemPath>../lib/libFDK/include/qmf.h</itemPath>
+          <itemPath>../lib/libFDK/include/scale.h</itemPath>
+          <itemPath>../lib/libFDK/include/scramble.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../lib/libFDK/src/FDK_bitbuffer.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/FDK_core.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/FDK_crc.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/FDK_hybrid.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/FDK_tools_rom.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/FDK_trigFcts.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/autocorr2nd.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/dct.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/fft.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/fft_rad2.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/fixpoint_math.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/mdct.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/qmf.cpp</itemPath>
+          <itemPath>../lib/libFDK/src/scale.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="libMpegTPDec"
+                     displayName="libMpegTPDec"
+                     projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../lib/libMpegTPDec/include/mpegFileRead.h</itemPath>
+          <itemPath>../lib/libMpegTPDec/include/tp_data.h</itemPath>
+          <itemPath>../lib/libMpegTPDec/include/tpdec_lib.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../lib/libMpegTPDec/src/mpegFileFormat.h</itemPath>
+          <itemPath>../lib/libMpegTPDec/src/tpdec_adif.cpp</itemPath>
+          <itemPath>../lib/libMpegTPDec/src/tpdec_adif.h</itemPath>
+          <itemPath>../lib/libMpegTPDec/src/tpdec_adts.cpp</itemPath>
+          <itemPath>../lib/libMpegTPDec/src/tpdec_adts.h</itemPath>
+          <itemPath>../lib/libMpegTPDec/src/tpdec_asc.cpp</itemPath>
+          <itemPath>../lib/libMpegTPDec/src/tpdec_drm.cpp</itemPath>
+          <itemPath>../lib/libMpegTPDec/src/tpdec_drm.h</itemPath>
+          <itemPath>../lib/libMpegTPDec/src/tpdec_latm.cpp</itemPath>
+          <itemPath>../lib/libMpegTPDec/src/tpdec_latm.h</itemPath>
+          <itemPath>../lib/libMpegTPDec/src/tpdec_lib.cpp</itemPath>
+          <itemPath>../lib/libMpegTPDec/src/version</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="libMpegTPEnc"
+                     displayName="libMpegTPEnc"
+                     projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../lib/libMpegTPEnc/include/mpegFileWrite.h</itemPath>
+          <itemPath>../lib/libMpegTPEnc/include/tp_data.h</itemPath>
+          <itemPath>../lib/libMpegTPEnc/include/tpenc_lib.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../lib/libMpegTPEnc/src/tpenc_adif.cpp</itemPath>
+          <itemPath>../lib/libMpegTPEnc/src/tpenc_adif.h</itemPath>
+          <itemPath>../lib/libMpegTPEnc/src/tpenc_adts.cpp</itemPath>
+          <itemPath>../lib/libMpegTPEnc/src/tpenc_adts.h</itemPath>
+          <itemPath>../lib/libMpegTPEnc/src/tpenc_asc.cpp</itemPath>
+          <itemPath>../lib/libMpegTPEnc/src/tpenc_asc.h</itemPath>
+          <itemPath>../lib/libMpegTPEnc/src/tpenc_latm.cpp</itemPath>
+          <itemPath>../lib/libMpegTPEnc/src/tpenc_latm.h</itemPath>
+          <itemPath>../lib/libMpegTPEnc/src/tpenc_lib.cpp</itemPath>
+          <itemPath>../lib/libMpegTPEnc/src/version</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="libPCMutils" displayName="libPCMutils" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../lib/libPCMutils/include/limiter.h</itemPath>
+          <itemPath>../lib/libPCMutils/include/pcmutils_lib.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../lib/libPCMutils/src/limiter.cpp</itemPath>
+          <itemPath>../lib/libPCMutils/src/pcmutils_lib.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="libSBRdec" displayName="libSBRdec" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../lib/libSBRdec/include/sbrdecoder.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../lib/libSBRdec/src/env_calc.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/env_calc.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/env_dec.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/env_dec.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/env_extr.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/env_extr.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/huff_dec.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/huff_dec.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/lpp_tran.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/lpp_tran.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/psbitdec.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/psbitdec.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/psdec.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/psdec.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/psdec_hybrid.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/psdec_hybrid.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbr_crc.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbr_crc.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbr_deb.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbr_deb.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbr_dec.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbr_dec.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbr_ram.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbr_ram.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbr_rom.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbr_rom.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbr_scale.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbrdec_drc.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbrdec_drc.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbrdec_freq_sca.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbrdec_freq_sca.h</itemPath>
+          <itemPath>../lib/libSBRdec/src/sbrdecoder.cpp</itemPath>
+          <itemPath>../lib/libSBRdec/src/transcendent.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="libSBRenc" displayName="libSBRenc" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../lib/libSBRenc/include/sbr_encoder.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../lib/libSBRenc/src/bit_sbr.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/bit_sbr.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/cmondata.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/code_env.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/code_env.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/env_bit.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/env_bit.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/env_est.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/env_est.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/fram_gen.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/fram_gen.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/invf_est.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/invf_est.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/mh_det.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/mh_det.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/nf_est.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/nf_est.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/ps_bitenc.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/ps_bitenc.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/ps_const.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/ps_encode.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/ps_encode.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/ps_main.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/ps_main.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/resampler.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/resampler.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/sbr.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/sbr_def.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/sbr_encoder.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/sbr_misc.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/sbr_misc.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/sbr_ram.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/sbr_ram_.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/sbr_rom.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/sbr_rom_.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/sbrenc_freq_sca.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/sbrenc_freq_sca.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/ton_corr.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/ton_corr.h</itemPath>
+          <itemPath>../lib/libSBRenc/src/tran_det.cpp</itemPath>
+          <itemPath>../lib/libSBRenc/src/tran_det.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="libSYS" displayName="libSYS" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../lib/libSYS/include/FDK_audio.h</itemPath>
+          <itemPath>../lib/libSYS/include/audio.h</itemPath>
+          <itemPath>../lib/libSYS/include/cmdl_parser.h</itemPath>
+          <itemPath>../lib/libSYS/include/conv_string.h</itemPath>
+          <itemPath>../lib/libSYS/include/genericStds.h</itemPath>
+          <itemPath>../lib/libSYS/include/machine_type.h</itemPath>
+          <itemPath>../lib/libSYS/include/wav_file.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../lib/libSYS/src/conv_string.cpp</itemPath>
+          <itemPath>../lib/libSYS/src/genericStds.cpp</itemPath>
+          <itemPath>../lib/libSYS/src/wav_file.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../lib/libAACdec</Elem>
+    <Elem>../lib/libAACenc</Elem>
+    <Elem>../lib/libFDK</Elem>
+    <Elem>../lib/libMpegTPDec</Elem>
+    <Elem>../lib/libMpegTPEnc</Elem>
+    <Elem>../lib/libPCMutils</Elem>
+    <Elem>../lib/libSBRdec</Elem>
+    <Elem>../lib/libSBRenc</Elem>
+    <Elem>../lib/libSYS</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>2</architecture>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>../lib/libAACdec/include</pElem>
+            <pElem>../lib/libAACenc/include</pElem>
+            <pElem>../lib/libFDK/include</pElem>
+            <pElem>../lib/libMpegTPDec/include</pElem>
+            <pElem>../lib/libMpegTPEnc/include</pElem>
+            <pElem>../lib/libPCMutils/include</pElem>
+            <pElem>../lib/libSBRdec/include</pElem>
+            <pElem>../lib/libSBRenc/include</pElem>
+            <pElem>../lib/libSYS/include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../lib/libAACdec/include/aacdecoder_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aac_ram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aac_ram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aac_rom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aac_rom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_drc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_drc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_drc_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcr_bit.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcr_bit.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcr_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcrs.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcrs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_pns.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_pns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_tns.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_tns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdecoder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdecoder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdecoder_lib.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/block.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/block.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/channel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/channel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/channelinfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/channelinfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/conceal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/conceal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/conceal_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/ldfiltbank.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/ldfiltbank.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/overlapadd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/pulsedata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/pulsedata.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlc_info.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlcbit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlcbit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlcconceal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlcconceal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/stereo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/stereo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/include/aacenc_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacEnc_ram.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacEnc_ram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacEnc_rom.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacEnc_rom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc_lib.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc_pns.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc_pns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc_tns.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc_tns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/adj_thr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/adj_thr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/adj_thr_data.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/band_nrg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/band_nrg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bandwidth.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bandwidth.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bit_cnt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bit_cnt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bitenc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bitenc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/block_switch.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/block_switch.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/channel_map.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/channel_map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/chaosmeasure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/chaosmeasure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/dyn_bits.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/dyn_bits.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/grp_data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/grp_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/intensity.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/intensity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/interface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/line_pe.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/line_pe.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/metadata_compressor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/metadata_compressor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/metadata_main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/metadata_main.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/ms_stereo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/ms_stereo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/noisedet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/noisedet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/pns_func.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/pnsparam.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/pnsparam.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/pre_echo_control.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/pre_echo_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_configuration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_configuration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_const.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/qc_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/qc_main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/qc_main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/quantize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/quantize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/sf_estim.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/sf_estim.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/spreading.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/spreading.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/tns_func.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/tonality.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/tonality.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/transform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/transform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_archdef.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_bitbuffer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_bitstream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_crc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_hybrid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_tools_rom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_trigFcts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/aarch64/clz_aarch64.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/aarch64/fixmul_aarch64.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/abs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/clz_arm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/cplx_mul.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/fixmadd_arm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/fixmul_arm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/scale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/scramble.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/autocorr2nd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/clz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/common_fix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/cplx_mul.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/dct.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fft_rad2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fixmadd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fixminmax.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fixmul.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fixpoint_math.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mdct.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/abs_mips.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/clz_mips.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/cplx_mul.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/fixmadd_mips.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/fixmul_mips.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/scale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/scramble.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/ppc/clz_ppc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/ppc/fixmul_ppc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/qmf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/scale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/scramble.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/x86/abs_x86.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/x86/clz_x86.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/x86/fixmul_x86.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_bitbuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_crc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_hybrid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_tools_rom.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_trigFcts.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/autocorr2nd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/dct.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/fft.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/fft_rad2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/fixpoint_math.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/mdct.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/qmf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/scale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/include/mpegFileRead.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/include/tp_data.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/include/tpdec_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/mpegFileFormat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_adif.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_adif.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_adts.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_adts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_asc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_drm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_drm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_latm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_latm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_lib.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/version" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/include/mpegFileWrite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/include/tp_data.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/include/tpenc_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_adif.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_adif.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_adts.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_adts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_asc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_asc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_latm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_latm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_lib.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/version" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libPCMutils/include/limiter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libPCMutils/include/pcmutils_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libPCMutils/src/limiter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libPCMutils/src/pcmutils_lib.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/include/sbrdecoder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_calc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_calc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_dec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_extr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_extr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/huff_dec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/huff_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/lpp_tran.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/lpp_tran.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psbitdec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psbitdec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psdec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psdec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psdec_hybrid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psdec_hybrid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_crc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_crc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_deb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_deb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_dec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_ram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_ram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_rom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_rom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_scale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbrdec_drc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbrdec_drc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbrdec_freq_sca.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbrdec_freq_sca.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbrdecoder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/transcendent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/include/sbr_encoder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/bit_sbr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/bit_sbr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/cmondata.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/code_env.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/code_env.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/env_bit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/env_bit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/env_est.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/env_est.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/fram_gen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/fram_gen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/invf_est.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/invf_est.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/mh_det.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/mh_det.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/nf_est.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/nf_est.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_bitenc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_bitenc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_const.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_encode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_encode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/resampler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/resampler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_def.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_encoder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_misc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_misc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_ram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_ram_.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_rom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_rom_.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbrenc_freq_sca.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbrenc_freq_sca.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ton_corr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ton_corr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/tran_det.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/tran_det.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/FDK_audio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/audio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/cmdl_parser.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/conv_string.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/genericStds.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/machine_type.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/wav_file.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/src/conv_string.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/src/genericStds.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/src/wav_file.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <architecture>2</architecture>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>../lib/libAACdec/include</pElem>
+            <pElem>../lib/libAACenc/include</pElem>
+            <pElem>../lib/libFDK/include</pElem>
+            <pElem>../lib/libMpegTPDec/include</pElem>
+            <pElem>../lib/libMpegTPEnc/include</pElem>
+            <pElem>../lib/libPCMutils/include</pElem>
+            <pElem>../lib/libSBRdec/include</pElem>
+            <pElem>../lib/libSBRenc/include</pElem>
+            <pElem>../lib/libSYS/include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../lib/libAACdec/include/aacdecoder_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aac_ram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aac_ram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aac_rom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aac_rom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_drc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_drc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_drc_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcr_bit.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcr_bit.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcr_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcrs.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_hcrs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_pns.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_pns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_tns.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdec_tns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdecoder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdecoder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/aacdecoder_lib.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/block.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/block.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/channel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/channel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/channelinfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/channelinfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/conceal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/conceal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/conceal_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/ldfiltbank.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/ldfiltbank.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/overlapadd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/pulsedata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/pulsedata.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlc_info.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlcbit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlcbit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlcconceal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/rvlcconceal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/stereo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACdec/src/stereo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/include/aacenc_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacEnc_ram.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacEnc_ram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacEnc_rom.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacEnc_rom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc_lib.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc_pns.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc_pns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc_tns.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/aacenc_tns.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/adj_thr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/adj_thr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/adj_thr_data.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/band_nrg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/band_nrg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bandwidth.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bandwidth.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bit_cnt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bit_cnt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bitenc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/bitenc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/block_switch.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/block_switch.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/channel_map.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/channel_map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/chaosmeasure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/chaosmeasure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/dyn_bits.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/dyn_bits.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/grp_data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/grp_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/intensity.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/intensity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/interface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/line_pe.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/line_pe.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/metadata_compressor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/metadata_compressor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/metadata_main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/metadata_main.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/ms_stereo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/ms_stereo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/noisedet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/noisedet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/pns_func.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/pnsparam.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/pnsparam.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/pre_echo_control.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/pre_echo_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_configuration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_configuration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_const.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/psy_main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/qc_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/qc_main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/qc_main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/quantize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/quantize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/sf_estim.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/sf_estim.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/spreading.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/spreading.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/tns_func.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/tonality.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/tonality.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/transform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libAACenc/src/transform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_archdef.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_bitbuffer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_bitstream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_crc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_hybrid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_tools_rom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/FDK_trigFcts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/aarch64/clz_aarch64.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/aarch64/fixmul_aarch64.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/abs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/clz_arm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/cplx_mul.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/fixmadd_arm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/fixmul_arm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/scale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/arm/scramble.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/autocorr2nd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/clz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/common_fix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/cplx_mul.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/dct.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fft_rad2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fixmadd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fixminmax.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fixmul.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/fixpoint_math.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mdct.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/abs_mips.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/clz_mips.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/cplx_mul.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/fixmadd_mips.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/fixmul_mips.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/scale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/mips/scramble.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/ppc/clz_ppc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/ppc/fixmul_ppc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/qmf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/scale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/scramble.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/x86/abs_x86.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/x86/clz_x86.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/include/x86/fixmul_x86.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_bitbuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_crc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_hybrid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_tools_rom.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/FDK_trigFcts.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/autocorr2nd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/dct.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/fft.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/fft_rad2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/fixpoint_math.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/mdct.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/qmf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libFDK/src/scale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/include/mpegFileRead.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/include/tp_data.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/include/tpdec_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/mpegFileFormat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_adif.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_adif.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_adts.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_adts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_asc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_drm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_drm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_latm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_latm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/tpdec_lib.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPDec/src/version" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/include/mpegFileWrite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/include/tp_data.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/include/tpenc_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_adif.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_adif.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_adts.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_adts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_asc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_asc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_latm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_latm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/tpenc_lib.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libMpegTPEnc/src/version" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libPCMutils/include/limiter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libPCMutils/include/pcmutils_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libPCMutils/src/limiter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libPCMutils/src/pcmutils_lib.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/include/sbrdecoder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_calc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_calc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_dec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_extr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/env_extr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/huff_dec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/huff_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/lpp_tran.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/lpp_tran.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psbitdec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psbitdec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psdec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psdec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psdec_hybrid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/psdec_hybrid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_crc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_crc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_deb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_deb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_dec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_dec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_ram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_ram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_rom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_rom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbr_scale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbrdec_drc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbrdec_drc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbrdec_freq_sca.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbrdec_freq_sca.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/sbrdecoder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRdec/src/transcendent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/include/sbr_encoder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/bit_sbr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/bit_sbr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/cmondata.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/code_env.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/code_env.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/env_bit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/env_bit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/env_est.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/env_est.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/fram_gen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/fram_gen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/invf_est.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/invf_est.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/mh_det.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/mh_det.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/nf_est.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/nf_est.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_bitenc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_bitenc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_const.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_encode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_encode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ps_main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/resampler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/resampler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_def.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_encoder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_misc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_misc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_ram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_ram_.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_rom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbr_rom_.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbrenc_freq_sca.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/sbrenc_freq_sca.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ton_corr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/ton_corr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/tran_det.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSBRenc/src/tran_det.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/FDK_audio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/audio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/cmdl_parser.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/conv_string.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/genericStds.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/machine_type.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../lib/libSYS/include/wav_file.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/src/conv_string.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/src/genericStds.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/libSYS/src/wav_file.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

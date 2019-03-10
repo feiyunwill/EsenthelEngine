@@ -1,0 +1,14 @@
+/Android/*
+!/Android/cygwin
+!/Android/jni
+
+/Debug*
+/Release*
+/ARM
+/x64
+/Emscripten
+/Linux/build
+/Linux/dist
+
+/*.bc
+/*.lib

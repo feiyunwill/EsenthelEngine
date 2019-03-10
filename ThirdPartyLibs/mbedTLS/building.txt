@@ -1,0 +1,50 @@
+Edit
+"C:\Esenthel\ThirdPartyLibs\mbedTLS\lib\include\mbedtls\config.h"
+	//#define MBEDTLS_PLATFORM_PRINTF_MACRO -> #define MBEDTLS_PLATFORM_PRINTF_MACRO // ESENTHEL, this will completely disable 'printf' usage and avoid linker errors
+	#define MBEDTLS_DEBUG_C -> //#define MBEDTLS_DEBUG_C
+	#define MBEDTLS_SELF_TEST -> //#define MBEDTLS_SELF_TEST
+	#define MBEDTLS_ARC4_C -> //#define MBEDTLS_ARC4_C
+	#define MBEDTLS_CAMELLIA_C -> //#define MBEDTLS_CAMELLIA_C
+	#define MBEDTLS_DES_C -> //#define MBEDTLS_DES_C
+	#define MBEDTLS_BLOWFISH_C -> //#define MBEDTLS_BLOWFISH_C
+	#define MBEDTLS_FS_IO -> //#define MBEDTLS_FS_IO
+	#define MBEDTLS_SSL_PROTO_DTLS -> //#define MBEDTLS_SSL_PROTO_DTLS this is UDP/MBEDTLS_SSL_TRANSPORT_DATAGRAM
+	#define MBEDTLS_SSL_DTLS_ANTI_REPLAY -> //#define MBEDTLS_SSL_DTLS_ANTI_REPLAY
+	#define MBEDTLS_SSL_DTLS_HELLO_VERIFY -> //#define MBEDTLS_SSL_DTLS_HELLO_VERIFY
+	#define MBEDTLS_SSL_DTLS_CLIENT_PORT_REUSE -> //#define MBEDTLS_SSL_DTLS_CLIENT_PORT_REUSE
+	#define MBEDTLS_SSL_DTLS_BADMAC_LIMIT -> //#define MBEDTLS_SSL_DTLS_BADMAC_LIMIT
+	#define MBEDTLS_ERROR_C -> //#define MBEDTLS_ERROR_C
+	#define MBEDTLS_NET_C -> //#define MBEDTLS_NET_C
+	#define MBEDTLS_PEM_WRITE_C -> //#define MBEDTLS_PEM_WRITE_C
+	#define MBEDTLS_XTEA_C -> //#define MBEDTLS_XTEA_C
+
+library/x509_crt.c
+	lstrlenW -> wcslen // to avoid linker errors on UWP
+
+library/net_sockets.c
+	#define _WIN32_WINNT 0x0501 -> //#define _WIN32_WINNT 0x0501
+ to fix UWP Arm compilation errors
+
+library/entropy_poll.c
+	comment out entire "mbedtls_platform_entropy_poll" function because it's manually defined in the Engine
+
+Windows
+use "lib\visualc\VS2010\mbedTLS.sln"
+on first open, retarget to latest version of VS
+open properties of "mbedTLS" project, change settings for:
+	Release All Platforms:
+		Platform toolset - Visual Studio 2017 - Windows XP (v141_xp)
+		Whole Program Optimization - No Whole Program Optimization
+		Debug Information Format - None
+		Code Generation - Multi-threaded (/MT)
+	Create ARM
+		Platform toolset - Visual Studio 2017 (v141)
+		Target Platform min version - 10.0...
+		Windows Store App support - Yes
+		Code Generation - Multi-threaded DLL (/MD)
+		Consume Windows Runtime Extensions - No
+	Have to manually edit - mbedTLS.vcxproj
+		and Replace
+			<WindowsAppContainer>true</WindowsAppContainer>
+		with
+			<WindowsAppContainer>true</WindowsAppContainer>	<AppContainerApplication>true</AppContainerApplication>

@@ -1,0 +1,38 @@
+<project default="help">
+   <property file="local.properties"/>
+   <property file="ant.properties"/>
+   <property environment="env"/>
+   <condition property="sdk.dir" value="${env.ANDROID_HOME}">
+      <isset property="env.ANDROID_HOME"/>
+   </condition>
+   <loadproperties srcFile="project.properties"/>
+   <fail message="sdk.dir is missing. Make sure to generate local.properties using 'android update project' or to inject it through an env var" unless="sdk.dir"/>
+   <import file="custom_rules.xml" optional="true"/>
+   <import file="${sdk.dir}/tools/ant/build.xml"/>
+   <target name="-package-resources" depends="-crunch">
+      <do-only-if-not-library elseText="Library project: do not package resources..." >
+         <aapt executable="${aapt}"
+                 command="package"
+                 versioncode="${version.code}"
+                 versionname="${version.name}"
+                 debug="${build.is.packaging.debug}"
+                 manifest="${out.manifest.abs.file}"
+                 assets="${asset.absolute.dir}"
+                 androidjar="${project.target.android.jar}"
+                 apkfolder="${out.absolute.dir}"
+                 nocrunch="${build.packaging.nocrunch}"
+                 resourcefilename="${resource.package.file.name}"
+                 resourcefilter="${aapt.resource.filter}"
+                 libraryResFolderPathRefid="project.library.res.folder.path"
+                 libraryPackagesRefid="project.library.packages"
+                 libraryRFileRefid="project.library.bin.r.file.path"
+                 previousBuildType="${build.last.target}"
+                 buildType="${build.target}"
+                 ignoreAssets="${aapt.ignore.assets}">
+            <res path="${out.res.absolute.dir}" />
+            <res path="${resource.absolute.dir}" />
+            <nocompress extension="pak"/>
+         </aapt>
+      </do-only-if-not-library>
+   </target>
+</project>

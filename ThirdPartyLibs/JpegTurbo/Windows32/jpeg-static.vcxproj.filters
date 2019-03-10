@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jccoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jccolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcdctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jchuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcinit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcomapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcparam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcphuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcprepct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jctrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdatadst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdatasrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdcoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdcolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jddctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdhuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdinput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdmerge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdphuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdpostct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jfdctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jfdctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jfdctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jidctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jidctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jidctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jidctred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jquant1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jquant2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jmemmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jmemnobs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jaricom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimd_i386.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jsimdcpu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctflt-3dn.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-3dn.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-3dn.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jccolor-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcgray-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcsample-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdcolor-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdmerge-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdsample-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctfst-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctint-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctfst-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctint-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctred-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctflt-sse.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-sse.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-sse.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jccolor-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcgray-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jchuff-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcsample-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdcolor-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdmerge-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdsample-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctfst-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctint-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctfst-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctint-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctred-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquantf-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquanti-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C32CEC4-EA81-4F39-B318-9F065ED9EF45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{B6B28961-1466-4306-A9B1-6CE388EC0EFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

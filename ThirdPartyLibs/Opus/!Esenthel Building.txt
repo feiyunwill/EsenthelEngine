@@ -1,0 +1,66 @@
+/******************************************************************************/
+// CODE CHANGES
+/******************************************************************************/
+Do not DELETE the following files when updating to newer SDK, they're probably generated using "arm2gnu.pl", so instead of using that utility, just make sure that "celt_pitch_xcorr_arm.s" is the same as before
+	"Opus\lib\celt\arm\armopts-gnu.S"
+	"Opus\lib\celt\arm\celt_pitch_xcorr_arm-gnu.S"
+
+Edit "Opus\lib\celt\arm\armcpu.c":
+	#elif defined __APPLE__
+		opus_uint32 opus_cpu_capabilities(void) {return OPUS_CPU_ARM_EDSP_FLAG|OPUS_CPU_ARM_MEDIA_FLAG|OPUS_CPU_ARM_NEON_FLAG;}
+
+DO NOT INCLUDE
+	"Opus\lib\src\opus_compare.c"
+	"Opus\lib\src\repacketizer_demo.c"
+
+/******************************************************************************/
+// WINDOWS
+/******************************************************************************/
+Use manually created *.sln Visual Studio files based on provided projects
+	needed projects: celt, opus, silk_common, silk_float
+/******************************************************************************/
+// ANDROID
+/******************************************************************************/
+Use manually created *.mk files
+/******************************************************************************/
+// MAC
+/******************************************************************************/
+Use manually created *.xcodeproj
+/******************************************************************************/
+// LINUX
+/******************************************************************************/
+OPUS LIB:
+cd ~/Esenthel/ThirdPartyLibs/Opus
+mkdir Linux
+cd Linux
+../lib/configure
+make
+
+lib will be created in a hidden folder:
+ThirdPartyLibs\Opus\Linux\.libs
+copy to win:
+ThirdPartyLibs\Opus\Linux
+
+OPUS FILE:
+first install openssl ogg opus
+sudo apt-get install libssl-dev libogg-dev libopus-dev
+
+from "Opus/file" source dir:
+cd ~/Esenthel/ThirdPartyLibs/Opus/file
+autoconf
+mkdir Linux
+cd Linux
+../configure
+make
+
+lib will be created in a hidden folder:
+ThirdPartyLibs\Opus\file\Linux\.libs
+copy to win:
+ThirdPartyLibs\Opus\Linux
+
+IF THAT FAILS THEN DO:
+cd ~/Esenthel/ThirdPartyLibs/Opus/file/unix
+make
+
+and run "extract.bat"
+/******************************************************************************/

@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375DCDF01A83278F00B3938D /* lzham_assert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDDE1A83278F00B3938D /* lzham_assert.cpp */; };
+		375DCDF11A83278F00B3938D /* lzham_assert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDDE1A83278F00B3938D /* lzham_assert.cpp */; };
+		375DCDF21A83278F00B3938D /* lzham_checksum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDDF1A83278F00B3938D /* lzham_checksum.cpp */; };
+		375DCDF31A83278F00B3938D /* lzham_checksum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDDF1A83278F00B3938D /* lzham_checksum.cpp */; };
+		375DCDF41A83278F00B3938D /* lzham_huffman_codes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE01A83278F00B3938D /* lzham_huffman_codes.cpp */; };
+		375DCDF51A83278F00B3938D /* lzham_huffman_codes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE01A83278F00B3938D /* lzham_huffman_codes.cpp */; };
+		375DCDF61A83278F00B3938D /* lzham_lzbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE11A83278F00B3938D /* lzham_lzbase.cpp */; };
+		375DCDF71A83278F00B3938D /* lzham_lzbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE11A83278F00B3938D /* lzham_lzbase.cpp */; };
+		375DCDF81A83278F00B3938D /* lzham_lzcomp_internal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE21A83278F00B3938D /* lzham_lzcomp_internal.cpp */; };
+		375DCDF91A83278F00B3938D /* lzham_lzcomp_internal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE21A83278F00B3938D /* lzham_lzcomp_internal.cpp */; };
+		375DCDFA1A83278F00B3938D /* lzham_lzcomp_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE31A83278F00B3938D /* lzham_lzcomp_state.cpp */; };
+		375DCDFB1A83278F00B3938D /* lzham_lzcomp_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE31A83278F00B3938D /* lzham_lzcomp_state.cpp */; };
+		375DCDFC1A83278F00B3938D /* lzham_lzcomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE41A83278F00B3938D /* lzham_lzcomp.cpp */; };
+		375DCDFD1A83278F00B3938D /* lzham_lzcomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE41A83278F00B3938D /* lzham_lzcomp.cpp */; };
+		375DCDFE1A83278F00B3938D /* lzham_lzdecomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE51A83278F00B3938D /* lzham_lzdecomp.cpp */; };
+		375DCDFF1A83278F00B3938D /* lzham_lzdecomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE51A83278F00B3938D /* lzham_lzdecomp.cpp */; };
+		375DCE001A83278F00B3938D /* lzham_lzdecompbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE61A83278F00B3938D /* lzham_lzdecompbase.cpp */; };
+		375DCE011A83278F00B3938D /* lzham_lzdecompbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE61A83278F00B3938D /* lzham_lzdecompbase.cpp */; };
+		375DCE021A83278F00B3938D /* lzham_match_accel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE71A83278F00B3938D /* lzham_match_accel.cpp */; };
+		375DCE031A83278F00B3938D /* lzham_match_accel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE71A83278F00B3938D /* lzham_match_accel.cpp */; };
+		375DCE041A83278F00B3938D /* lzham_mem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE81A83278F00B3938D /* lzham_mem.cpp */; };
+		375DCE051A83278F00B3938D /* lzham_mem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE81A83278F00B3938D /* lzham_mem.cpp */; };
+		375DCE061A83278F00B3938D /* lzham_platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE91A83278F00B3938D /* lzham_platform.cpp */; };
+		375DCE071A83278F00B3938D /* lzham_platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDE91A83278F00B3938D /* lzham_platform.cpp */; };
+		375DCE081A83278F00B3938D /* lzham_prefix_coding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDEA1A83278F00B3938D /* lzham_prefix_coding.cpp */; };
+		375DCE091A83278F00B3938D /* lzham_prefix_coding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDEA1A83278F00B3938D /* lzham_prefix_coding.cpp */; };
+		375DCE0A1A83278F00B3938D /* lzham_pthreads_threading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDEB1A83278F00B3938D /* lzham_pthreads_threading.cpp */; };
+		375DCE0B1A83278F00B3938D /* lzham_pthreads_threading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDEB1A83278F00B3938D /* lzham_pthreads_threading.cpp */; };
+		375DCE0C1A83278F00B3938D /* lzham_symbol_codec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDEC1A83278F00B3938D /* lzham_symbol_codec.cpp */; };
+		375DCE0D1A83278F00B3938D /* lzham_symbol_codec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDEC1A83278F00B3938D /* lzham_symbol_codec.cpp */; };
+		375DCE0E1A83278F00B3938D /* lzham_timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDED1A83278F00B3938D /* lzham_timer.cpp */; };
+		375DCE0F1A83278F00B3938D /* lzham_timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDED1A83278F00B3938D /* lzham_timer.cpp */; };
+		375DCE101A83278F00B3938D /* lzham_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDEE1A83278F00B3938D /* lzham_vector.cpp */; };
+		375DCE111A83278F00B3938D /* lzham_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDEE1A83278F00B3938D /* lzham_vector.cpp */; };
+		375DCE121A83278F00B3938D /* lzham_win32_threading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDEF1A83278F00B3938D /* lzham_win32_threading.cpp */; };
+		375DCE131A83278F00B3938D /* lzham_win32_threading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375DCDEF1A83278F00B3938D /* lzham_win32_threading.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BDA9CC5121EE4C400ED5E97 /* libLZHAM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLZHAM.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		375DCDDE1A83278F00B3938D /* lzham_assert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_assert.cpp; path = ../Source/lzham_assert.cpp; sourceTree = "<group>"; };
+		375DCDDF1A83278F00B3938D /* lzham_checksum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_checksum.cpp; path = ../Source/lzham_checksum.cpp; sourceTree = "<group>"; };
+		375DCDE01A83278F00B3938D /* lzham_huffman_codes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_huffman_codes.cpp; path = ../Source/lzham_huffman_codes.cpp; sourceTree = "<group>"; };
+		375DCDE11A83278F00B3938D /* lzham_lzbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_lzbase.cpp; path = ../Source/lzham_lzbase.cpp; sourceTree = "<group>"; };
+		375DCDE21A83278F00B3938D /* lzham_lzcomp_internal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_lzcomp_internal.cpp; path = ../Source/lzham_lzcomp_internal.cpp; sourceTree = "<group>"; };
+		375DCDE31A83278F00B3938D /* lzham_lzcomp_state.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_lzcomp_state.cpp; path = ../Source/lzham_lzcomp_state.cpp; sourceTree = "<group>"; };
+		375DCDE41A83278F00B3938D /* lzham_lzcomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_lzcomp.cpp; path = ../Source/lzham_lzcomp.cpp; sourceTree = "<group>"; };
+		375DCDE51A83278F00B3938D /* lzham_lzdecomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_lzdecomp.cpp; path = ../Source/lzham_lzdecomp.cpp; sourceTree = "<group>"; };
+		375DCDE61A83278F00B3938D /* lzham_lzdecompbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_lzdecompbase.cpp; path = ../Source/lzham_lzdecompbase.cpp; sourceTree = "<group>"; };
+		375DCDE71A83278F00B3938D /* lzham_match_accel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_match_accel.cpp; path = ../Source/lzham_match_accel.cpp; sourceTree = "<group>"; };
+		375DCDE81A83278F00B3938D /* lzham_mem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_mem.cpp; path = ../Source/lzham_mem.cpp; sourceTree = "<group>"; };
+		375DCDE91A83278F00B3938D /* lzham_platform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_platform.cpp; path = ../Source/lzham_platform.cpp; sourceTree = "<group>"; };
+		375DCDEA1A83278F00B3938D /* lzham_prefix_coding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_prefix_coding.cpp; path = ../Source/lzham_prefix_coding.cpp; sourceTree = "<group>"; };
+		375DCDEB1A83278F00B3938D /* lzham_pthreads_threading.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_pthreads_threading.cpp; path = ../Source/lzham_pthreads_threading.cpp; sourceTree = "<group>"; };
+		375DCDEC1A83278F00B3938D /* lzham_symbol_codec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_symbol_codec.cpp; path = ../Source/lzham_symbol_codec.cpp; sourceTree = "<group>"; };
+		375DCDED1A83278F00B3938D /* lzham_timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_timer.cpp; path = ../Source/lzham_timer.cpp; sourceTree = "<group>"; };
+		375DCDEE1A83278F00B3938D /* lzham_vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_vector.cpp; path = ../Source/lzham_vector.cpp; sourceTree = "<group>"; };
+		375DCDEF1A83278F00B3938D /* lzham_win32_threading.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lzham_win32_threading.cpp; path = ../Source/lzham_win32_threading.cpp; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libLZHAM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLZHAM.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BDA9CC3121EE4C400ED5E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* lzma */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = lzma;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				375DCDDE1A83278F00B3938D /* lzham_assert.cpp */,
+				375DCDDF1A83278F00B3938D /* lzham_checksum.cpp */,
+				375DCDE01A83278F00B3938D /* lzham_huffman_codes.cpp */,
+				375DCDE11A83278F00B3938D /* lzham_lzbase.cpp */,
+				375DCDE21A83278F00B3938D /* lzham_lzcomp_internal.cpp */,
+				375DCDE31A83278F00B3938D /* lzham_lzcomp_state.cpp */,
+				375DCDE41A83278F00B3938D /* lzham_lzcomp.cpp */,
+				375DCDE51A83278F00B3938D /* lzham_lzdecomp.cpp */,
+				375DCDE61A83278F00B3938D /* lzham_lzdecompbase.cpp */,
+				375DCDE71A83278F00B3938D /* lzham_match_accel.cpp */,
+				375DCDE81A83278F00B3938D /* lzham_mem.cpp */,
+				375DCDE91A83278F00B3938D /* lzham_platform.cpp */,
+				375DCDEA1A83278F00B3938D /* lzham_prefix_coding.cpp */,
+				375DCDEB1A83278F00B3938D /* lzham_pthreads_threading.cpp */,
+				375DCDEC1A83278F00B3938D /* lzham_symbol_codec.cpp */,
+				375DCDED1A83278F00B3938D /* lzham_timer.cpp */,
+				375DCDEE1A83278F00B3938D /* lzham_vector.cpp */,
+				375DCDEF1A83278F00B3938D /* lzham_win32_threading.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libLZHAM.a */,
+				0BDA9CC5121EE4C400ED5E97 /* libLZHAM.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BDA9CC1121EE4C400ED5E97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BDA9CC4121EE4C400ED5E97 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDA9CD0121EE51C00ED5E97 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				0BDA9CC1121EE4C400ED5E97 /* Headers */,
+				0BDA9CC2121EE4C400ED5E97 /* Sources */,
+				0BDA9CC3121EE4C400ED5E97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iPhone;
+			productReference = 0BDA9CC5121EE4C400ED5E97 /* libLZHAM.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC045055464E500DB518D /* Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "Mac" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mac;
+			productName = lzma;
+			productReference = D2AAC046055464E500DB518D /* libLZHAM.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "LZHAM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* lzma */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* Mac */,
+				0BDA9CC4121EE4C400ED5E97 /* iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BDA9CC2121EE4C400ED5E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375DCDF51A83278F00B3938D /* lzham_huffman_codes.cpp in Sources */,
+				375DCDFD1A83278F00B3938D /* lzham_lzcomp.cpp in Sources */,
+				375DCDF91A83278F00B3938D /* lzham_lzcomp_internal.cpp in Sources */,
+				375DCE071A83278F00B3938D /* lzham_platform.cpp in Sources */,
+				375DCE0B1A83278F00B3938D /* lzham_pthreads_threading.cpp in Sources */,
+				375DCE131A83278F00B3938D /* lzham_win32_threading.cpp in Sources */,
+				375DCDF71A83278F00B3938D /* lzham_lzbase.cpp in Sources */,
+				375DCDFF1A83278F00B3938D /* lzham_lzdecomp.cpp in Sources */,
+				375DCDFB1A83278F00B3938D /* lzham_lzcomp_state.cpp in Sources */,
+				375DCE051A83278F00B3938D /* lzham_mem.cpp in Sources */,
+				375DCDF11A83278F00B3938D /* lzham_assert.cpp in Sources */,
+				375DCDF31A83278F00B3938D /* lzham_checksum.cpp in Sources */,
+				375DCE091A83278F00B3938D /* lzham_prefix_coding.cpp in Sources */,
+				375DCE111A83278F00B3938D /* lzham_vector.cpp in Sources */,
+				375DCE0F1A83278F00B3938D /* lzham_timer.cpp in Sources */,
+				375DCE011A83278F00B3938D /* lzham_lzdecompbase.cpp in Sources */,
+				375DCE0D1A83278F00B3938D /* lzham_symbol_codec.cpp in Sources */,
+				375DCE031A83278F00B3938D /* lzham_match_accel.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375DCDF41A83278F00B3938D /* lzham_huffman_codes.cpp in Sources */,
+				375DCDFC1A83278F00B3938D /* lzham_lzcomp.cpp in Sources */,
+				375DCDF81A83278F00B3938D /* lzham_lzcomp_internal.cpp in Sources */,
+				375DCE061A83278F00B3938D /* lzham_platform.cpp in Sources */,
+				375DCE0A1A83278F00B3938D /* lzham_pthreads_threading.cpp in Sources */,
+				375DCE121A83278F00B3938D /* lzham_win32_threading.cpp in Sources */,
+				375DCDF61A83278F00B3938D /* lzham_lzbase.cpp in Sources */,
+				375DCDFE1A83278F00B3938D /* lzham_lzdecomp.cpp in Sources */,
+				375DCDFA1A83278F00B3938D /* lzham_lzcomp_state.cpp in Sources */,
+				375DCE041A83278F00B3938D /* lzham_mem.cpp in Sources */,
+				375DCDF01A83278F00B3938D /* lzham_assert.cpp in Sources */,
+				375DCDF21A83278F00B3938D /* lzham_checksum.cpp in Sources */,
+				375DCE081A83278F00B3938D /* lzham_prefix_coding.cpp in Sources */,
+				375DCE101A83278F00B3938D /* lzham_vector.cpp in Sources */,
+				375DCE0E1A83278F00B3938D /* lzham_timer.cpp in Sources */,
+				375DCE001A83278F00B3938D /* lzham_lzdecompbase.cpp in Sources */,
+				375DCE0C1A83278F00B3938D /* lzham_symbol_codec.cpp in Sources */,
+				375DCE021A83278F00B3938D /* lzham_match_accel.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B96A71D1304843300CDC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_THREADSAFE_STATICS = NO;
+				PRODUCT_NAME = LZHAM;
+			};
+			name = Debug;
+		};
+		0B96A71E1304843300CDC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0B96A71F1304843300CDC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BDA9CC7121EE4C400ED5E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_THREADSAFE_STATICS = NO;
+				PRODUCT_NAME = LZHAM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BDA9CD0121EE51C00ED5E97 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDA9CC7121EE4C400ED5E97 /* Release */,
+				0B96A71F1304843300CDC521 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91ED08733DB70010E9CD /* Release */,
+				0B96A71E1304843300CDC521 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "LZHAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F108733DB70010E9CD /* Release */,
+				0B96A71D1304843300CDC521 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

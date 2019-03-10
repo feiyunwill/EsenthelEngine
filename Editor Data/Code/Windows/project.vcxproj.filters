@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="H" />
+    <Filter Include="H\_" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <Filter>H\_</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>H\_</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>H\_</Filter>
+    </Image>
+    <Image Include="Assets\Logo.png">
+      <Filter>H\_</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>H\_</Filter>
+    </Image>
+    <Media Include="Engine.pak">
+      <Filter>H\_</Filter>
+    </Media>
+    <Media Include="Project.pak">
+      <Filter>H\_</Filter>
+    </Media>
+    <ResourceCompile Include="resource.rc">
+      <Filter>H\_</Filter>
+    </ResourceCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>H\_</Filter>
+    </ClCompile>
+    <ClInclude Include="stdafx.h">
+      <Filter>H\_</Filter>
+    </ClInclude>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>H\_</Filter>
+    </AppxManifest>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+Don't include "pngtest.c" in the project.
+Use this library for all platforms (as system libpng on Mac caused issues).

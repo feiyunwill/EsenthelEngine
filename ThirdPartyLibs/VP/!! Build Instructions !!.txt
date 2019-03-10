@@ -1,0 +1,161 @@
+/******************************************************************************/
+
+	1. Apply Code Changes from "!! Code Changes !!.txt"
+	2. Run "1) Start.bat"
+	3. Build for platforms as described
+	4. At the end call "2) Finish.bat"
+
+/******************************************************************************/
+
+   WINDOWS
+
+copy yasm*.exe (http://yasm.tortall.net/Download.html - "for general use on 64-bit Windows") into:
+C:\Esenthel\ThirdPartyLibs\VP\Windows32\yasm.exe
+C:\Esenthel\ThirdPartyLibs\VP\Windows64\yasm.exe
+
+In Cygwin Terminal:
+
+Windows 32/64/Arm Cygwin
+cd /cygdrive/c/Esenthel/ThirdPartyLibs/VP/Windows32
+../libvpx/configure --target=x86-win32-vs15 --enable-static-msvcrt --disable-examples --disable-tools --disable-docs --disable-unit-tests --disable-spatial-resampling --enable-runtime-cpu-detect --disable-vp8 --disable-vp9-encoder
+make
+
+cd /cygdrive/c/Esenthel/ThirdPartyLibs/VP/Windows64
+../libvpx/configure --target=x86_64-win64-vs15 --enable-static-msvcrt --disable-examples --disable-tools --disable-docs --disable-unit-tests --disable-spatial-resampling --enable-runtime-cpu-detect --disable-vp8 --disable-vp9-encoder
+make
+
+cd /cygdrive/c/Esenthel/ThirdPartyLibs/VP/WindowsARM
+../libvpx/configure --target=armv7-win32-vs15 --disable-examples --disable-tools --disable-docs --disable-unit-tests --disable-spatial-resampling --enable-runtime-cpu-detect --disable-vp8 --disable-vp9-encoder
+make
+
+For all 32/64/ARM open the VS project
+-Don't do this:
+	we could include "webmdec.cc" and "third_party/libwebm/mkvparser.cpp" files in the "vpx" project, however that would require making a separate WindowsUniversal libs for 32/64 because of MultiThreaded/MultiThreadedDLL conflict, instead, these files are included in the Engine Video.cpp file
+-edit project:
+	C/C++
+		General \ Debug Information Format = None
+		Optimization \ Whole Program Optimization = NO
+ON ARM PROJECT ONLY:
+	General
+		Target Platform Version 10.0.15063.0
+		Target Platform Min. Version 10.0.15063.0
+-build "vpx" in Release
+
+/******************************************************************************/
+
+   ANDROID
+
+CygWin fails, so we have to use Mac Terminal:
+
+ANDROID ARM 32
+
+cd /Esenthel/ThirdPartyLibs/VP
+rm -r temp
+mkdir temp
+mkdir temp/jni
+cp -r libvpx temp/jni/libvpx
+cp Android.mk temp/jni/Android.mk
+cp Arm32-Application.mk temp/jni/Application.mk
+cd temp/jni
+rm libvpx/vpx_config.h
+libvpx/configure --target=armv7-android-gcc --disable-examples --disable-tools --disable-docs --disable-unit-tests --disable-spatial-resampling --enable-runtime-cpu-detect --disable-vp8 --disable-vp9-encoder --sdk-path=/Android/NDK
+/Android/NDK/ndk-build NDK_DEBUG=0 -j4
+cd ../..
+mv temp/obj/local/armeabi-v7a/libvpx.a Android/armeabi-v7a.a
+rm -r temp
+
+ANDROID ARM 64
+
+cd /Esenthel/ThirdPartyLibs/VP
+rm -r temp
+mkdir temp
+mkdir temp/jni
+cp -r libvpx temp/jni/libvpx
+cp Android.mk temp/jni/Android.mk
+cp Arm64-Application.mk temp/jni/Application.mk
+cd temp/jni
+rm libvpx/vpx_config.h
+libvpx/configure --target=arm64-android-gcc --disable-examples --disable-tools --disable-docs --disable-unit-tests --disable-spatial-resampling --enable-runtime-cpu-detect --disable-vp8 --disable-vp9-encoder --sdk-path=/Android/NDK
+/Android/NDK/ndk-build NDK_DEBUG=0 -j4
+cd ../..
+mv temp/obj/local/arm64-v8a/libvpx.a Android/arm64-v8a.a
+rm -r temp
+
+ANDROID x86
+
+Yasm
+On Mac need to install yasm (nasm didn't work, even after upgrading)
+-download yasm and extract
+-enter with terminal
+./configure
+make
+sudo make install
+
+HAVE TO EDIT VP/libvpx/vpx_ports/x86_abi_support.asm because there's linking error for 'rand'
+replace:
+%ifdef __ANDROID__
+with
+%if 1
+
+cd /Esenthel/ThirdPartyLibs/VP
+rm -r temp
+mkdir temp
+mkdir temp/jni
+cp -r libvpx temp/jni/libvpx
+cp Android.mk temp/jni/Android.mk
+cp x86-Application.mk temp/jni/Application.mk
+cd temp/jni
+rm libvpx/vpx_config.h
+libvpx/configure --target=x86-android-gcc --disable-examples --disable-tools --disable-docs --disable-unit-tests --disable-spatial-resampling --enable-runtime-cpu-detect --disable-vp8 --disable-vp9-encoder --sdk-path=/Android/NDK --as=yasm --disable-sse3 --disable-ssse3 --disable-sse4_1 --disable-avx --disable-avx2
+/Android/NDK/ndk-build NDK_DEBUG=0 -j4
+cd ../..
+mv temp/obj/local/x86/libvpx.a Android/x86.a
+rm -r temp
+
+copy to Windows folder "VP/Android/"
+on windows run "extract.bat"
+
+/******************************************************************************/
+
+   Mac 64
+
+First install Yasm as described above for Android
+
+cd /Esenthel/ThirdPartyLibs/VP/Mac
+../libvpx/configure --target=x86_64-darwin13-gcc --disable-examples --disable-tools --disable-docs --disable-unit-tests --disable-spatial-resampling --enable-runtime-cpu-detect --disable-vp8 --disable-vp9-encoder
+make
+remove all other generated files as they may cause invalid compilation for other targets
+
+   iOS
+
+cd /Esenthel/ThirdPartyLibs/VP/Mac
+../libvpx/configure --target=armv7-darwin-gcc --disable-examples --disable-tools --disable-docs --disable-unit-tests --disable-spatial-resampling --enable-runtime-cpu-detect --disable-vp8 --disable-vp9-encoder
+make
+mv libvpx.a libvpx_armv7.a
+remove all other generated files as they may cause invalid compilation for other targets
+
+cd /Esenthel/ThirdPartyLibs/VP/Mac
+../libvpx/configure --target=arm64-darwin-gcc --disable-examples --disable-tools --disable-docs --disable-unit-tests --disable-spatial-resampling --enable-runtime-cpu-detect --disable-vp8 --disable-vp9-encoder
+make
+mv libvpx.a libvpx_arm64.a
+remove all other generated files as they may cause invalid compilation for other targets
+
+   Once Mac and iOS are ready on Windows, copy the entire VP folder to Mac.
+
+/******************************************************************************/
+
+   Linux 64
+
+install yasm first using:
+sudo apt-get install yasm
+
+cd ~/Esenthel/ThirdPartyLibs/VP/Linux
+../libvpx/configure --target=x86_64-linux-gcc --disable-examples --disable-tools --disable-docs --disable-unit-tests --disable-spatial-resampling --enable-runtime-cpu-detect --disable-vp8 --disable-vp9-encoder
+make
+copy entire folder to Windows without deleting any files (both *.a and *.o are needed)
+
+/******************************************************************************/
+
+	5. Don't forget to run "Finish.bat" !!
+
+/******************************************************************************/

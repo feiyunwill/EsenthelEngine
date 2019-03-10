@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{FBCDE468-A019-4E17-95B3-2B4C9372845F}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>jpeg-static</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">jpeg-static.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">jpeg-static</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Esenthel/ThirdPartyLibs/JpegTurbo/lib -BC:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32 --check-stamp-file C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Esenthel/ThirdPartyLibs/JpegTurbo/lib/CMakeLists.txt;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystem.cmake.in;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompiler.cmake.in;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCCompiler.cmake.in;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompiler.cmake.in;C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\win\jconfig.h.in;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\win\jconfigint.h.in;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\release\libjpeg-turbo.nsi.in;C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcapimin.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcapistd.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jccoefct.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jccolor.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcdctmgr.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jchuff.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcinit.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcmainct.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcmarker.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcmaster.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcomapi.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcparam.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcphuff.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcprepct.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcsample.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jctrans.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdapimin.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdapistd.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdatadst.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdatasrc.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdcoefct.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdcolor.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jddctmgr.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdhuff.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdinput.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdmainct.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdmarker.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdmaster.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdmerge.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdphuff.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdpostct.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdsample.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdtrans.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jerror.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jfdctflt.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jfdctfst.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jfdctint.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jidctflt.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jidctfst.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jidctint.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jidctred.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jquant1.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jquant2.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jutils.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jmemmgr.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jmemnobs.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jaricom.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jcarith.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\jdarith.c"  />
+    <ClCompile Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\lib\simd\jsimd_i386.c"  />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jsimdcpu.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctflt-3dn.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-3dn.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-3dn.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jccolor-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcgray-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcsample-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdcolor-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdmerge-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdsample-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctfst-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctint-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctfst-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctint-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctred-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-mmx.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctflt-sse.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-sse.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquant-sse.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jccolor-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcgray-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jchuff-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jcsample-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdcolor-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdmerge-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jdsample-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctfst-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jfdctint-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctflt-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctfst-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctint-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jidctred-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquantf-sse2.obj" />
+    <Object Include="C:\Esenthel\ThirdPartyLibs\JpegTurbo\Windows32\simd\$(Configuration)\jquanti-sse2.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/ZERO_CHECK.vcxproj">
+      <Project>587E5B54-BB39-4360-AD84-20B5A83F62AD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Esenthel/ThirdPartyLibs/JpegTurbo/Windows32/simd/simd.vcxproj">
+      <Project>A7A3F8F1-1D22-489B-8717-7B03CFD04448</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

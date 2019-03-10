@@ -1,0 +1,3 @@
+files were copied from:
+C:\Program Files (x86)\Windows Kits\10\Lib\*\um
+C:\Program Files (x86)\Windows Kits\10\Include\*\shared

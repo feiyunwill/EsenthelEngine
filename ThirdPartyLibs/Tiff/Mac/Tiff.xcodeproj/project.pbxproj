@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370E5A66195FE1E800A719A5 /* mkg3states.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A3E195FE1E800A719A5 /* mkg3states.c */; };
+		370E5A67195FE1E800A719A5 /* mkg3states.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A3E195FE1E800A719A5 /* mkg3states.c */; };
+		370E5A68195FE1E800A719A5 /* tif_aux.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A3F195FE1E800A719A5 /* tif_aux.c */; };
+		370E5A69195FE1E800A719A5 /* tif_aux.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A3F195FE1E800A719A5 /* tif_aux.c */; };
+		370E5A6A195FE1E800A719A5 /* tif_close.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A40195FE1E800A719A5 /* tif_close.c */; };
+		370E5A6B195FE1E800A719A5 /* tif_close.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A40195FE1E800A719A5 /* tif_close.c */; };
+		370E5A6C195FE1E800A719A5 /* tif_codec.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A41195FE1E800A719A5 /* tif_codec.c */; };
+		370E5A6D195FE1E800A719A5 /* tif_codec.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A41195FE1E800A719A5 /* tif_codec.c */; };
+		370E5A6E195FE1E800A719A5 /* tif_color.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A42195FE1E800A719A5 /* tif_color.c */; };
+		370E5A6F195FE1E800A719A5 /* tif_color.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A42195FE1E800A719A5 /* tif_color.c */; };
+		370E5A70195FE1E800A719A5 /* tif_compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A43195FE1E800A719A5 /* tif_compress.c */; };
+		370E5A71195FE1E800A719A5 /* tif_compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A43195FE1E800A719A5 /* tif_compress.c */; };
+		370E5A72195FE1E800A719A5 /* tif_dir.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A44195FE1E800A719A5 /* tif_dir.c */; };
+		370E5A73195FE1E800A719A5 /* tif_dir.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A44195FE1E800A719A5 /* tif_dir.c */; };
+		370E5A74195FE1E800A719A5 /* tif_dirinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A45195FE1E800A719A5 /* tif_dirinfo.c */; };
+		370E5A75195FE1E800A719A5 /* tif_dirinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A45195FE1E800A719A5 /* tif_dirinfo.c */; };
+		370E5A76195FE1E800A719A5 /* tif_dirread.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A46195FE1E800A719A5 /* tif_dirread.c */; };
+		370E5A77195FE1E800A719A5 /* tif_dirread.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A46195FE1E800A719A5 /* tif_dirread.c */; };
+		370E5A78195FE1E800A719A5 /* tif_dirwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A47195FE1E800A719A5 /* tif_dirwrite.c */; };
+		370E5A79195FE1E800A719A5 /* tif_dirwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A47195FE1E800A719A5 /* tif_dirwrite.c */; };
+		370E5A7A195FE1E800A719A5 /* tif_dumpmode.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A48195FE1E800A719A5 /* tif_dumpmode.c */; };
+		370E5A7B195FE1E800A719A5 /* tif_dumpmode.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A48195FE1E800A719A5 /* tif_dumpmode.c */; };
+		370E5A7C195FE1E800A719A5 /* tif_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A49195FE1E800A719A5 /* tif_error.c */; };
+		370E5A7D195FE1E800A719A5 /* tif_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A49195FE1E800A719A5 /* tif_error.c */; };
+		370E5A7E195FE1E800A719A5 /* tif_extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4A195FE1E800A719A5 /* tif_extension.c */; };
+		370E5A7F195FE1E800A719A5 /* tif_extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4A195FE1E800A719A5 /* tif_extension.c */; };
+		370E5A80195FE1E800A719A5 /* tif_fax3.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4B195FE1E800A719A5 /* tif_fax3.c */; };
+		370E5A81195FE1E800A719A5 /* tif_fax3.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4B195FE1E800A719A5 /* tif_fax3.c */; };
+		370E5A82195FE1E800A719A5 /* tif_fax3sm.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4C195FE1E800A719A5 /* tif_fax3sm.c */; };
+		370E5A83195FE1E800A719A5 /* tif_fax3sm.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4C195FE1E800A719A5 /* tif_fax3sm.c */; };
+		370E5A84195FE1E800A719A5 /* tif_flush.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4D195FE1E800A719A5 /* tif_flush.c */; };
+		370E5A85195FE1E800A719A5 /* tif_flush.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4D195FE1E800A719A5 /* tif_flush.c */; };
+		370E5A86195FE1E800A719A5 /* tif_getimage.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4E195FE1E800A719A5 /* tif_getimage.c */; };
+		370E5A87195FE1E800A719A5 /* tif_getimage.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4E195FE1E800A719A5 /* tif_getimage.c */; };
+		370E5A88195FE1E800A719A5 /* tif_jbig.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4F195FE1E800A719A5 /* tif_jbig.c */; };
+		370E5A89195FE1E800A719A5 /* tif_jbig.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A4F195FE1E800A719A5 /* tif_jbig.c */; };
+		370E5A8A195FE1E800A719A5 /* tif_jpeg_12.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A50195FE1E800A719A5 /* tif_jpeg_12.c */; };
+		370E5A8B195FE1E800A719A5 /* tif_jpeg_12.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A50195FE1E800A719A5 /* tif_jpeg_12.c */; };
+		370E5A8C195FE1E800A719A5 /* tif_jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A51195FE1E800A719A5 /* tif_jpeg.c */; };
+		370E5A8D195FE1E800A719A5 /* tif_jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A51195FE1E800A719A5 /* tif_jpeg.c */; };
+		370E5A8E195FE1E800A719A5 /* tif_luv.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A52195FE1E800A719A5 /* tif_luv.c */; };
+		370E5A8F195FE1E800A719A5 /* tif_luv.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A52195FE1E800A719A5 /* tif_luv.c */; };
+		370E5A90195FE1E800A719A5 /* tif_lzma.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A53195FE1E800A719A5 /* tif_lzma.c */; };
+		370E5A91195FE1E800A719A5 /* tif_lzma.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A53195FE1E800A719A5 /* tif_lzma.c */; };
+		370E5A92195FE1E800A719A5 /* tif_lzw.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A54195FE1E800A719A5 /* tif_lzw.c */; };
+		370E5A93195FE1E800A719A5 /* tif_lzw.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A54195FE1E800A719A5 /* tif_lzw.c */; };
+		370E5A94195FE1E800A719A5 /* tif_next.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A55195FE1E800A719A5 /* tif_next.c */; };
+		370E5A95195FE1E800A719A5 /* tif_next.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A55195FE1E800A719A5 /* tif_next.c */; };
+		370E5A96195FE1E800A719A5 /* tif_ojpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A56195FE1E800A719A5 /* tif_ojpeg.c */; };
+		370E5A97195FE1E800A719A5 /* tif_ojpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A56195FE1E800A719A5 /* tif_ojpeg.c */; };
+		370E5A98195FE1E800A719A5 /* tif_open.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A57195FE1E800A719A5 /* tif_open.c */; };
+		370E5A99195FE1E800A719A5 /* tif_open.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A57195FE1E800A719A5 /* tif_open.c */; };
+		370E5A9A195FE1E800A719A5 /* tif_packbits.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A58195FE1E800A719A5 /* tif_packbits.c */; };
+		370E5A9B195FE1E800A719A5 /* tif_packbits.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A58195FE1E800A719A5 /* tif_packbits.c */; };
+		370E5A9C195FE1E800A719A5 /* tif_pixarlog.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A59195FE1E800A719A5 /* tif_pixarlog.c */; };
+		370E5A9D195FE1E800A719A5 /* tif_pixarlog.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A59195FE1E800A719A5 /* tif_pixarlog.c */; };
+		370E5A9E195FE1E800A719A5 /* tif_predict.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5A195FE1E800A719A5 /* tif_predict.c */; };
+		370E5A9F195FE1E800A719A5 /* tif_predict.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5A195FE1E800A719A5 /* tif_predict.c */; };
+		370E5AA0195FE1E800A719A5 /* tif_print.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5B195FE1E800A719A5 /* tif_print.c */; };
+		370E5AA1195FE1E800A719A5 /* tif_print.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5B195FE1E800A719A5 /* tif_print.c */; };
+		370E5AA2195FE1E800A719A5 /* tif_read.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5C195FE1E800A719A5 /* tif_read.c */; };
+		370E5AA3195FE1E800A719A5 /* tif_read.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5C195FE1E800A719A5 /* tif_read.c */; };
+		370E5AA4195FE1E800A719A5 /* tif_strip.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5D195FE1E800A719A5 /* tif_strip.c */; };
+		370E5AA5195FE1E800A719A5 /* tif_strip.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5D195FE1E800A719A5 /* tif_strip.c */; };
+		370E5AA6195FE1E800A719A5 /* tif_swab.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5E195FE1E800A719A5 /* tif_swab.c */; };
+		370E5AA7195FE1E800A719A5 /* tif_swab.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5E195FE1E800A719A5 /* tif_swab.c */; };
+		370E5AA8195FE1E800A719A5 /* tif_thunder.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5F195FE1E800A719A5 /* tif_thunder.c */; };
+		370E5AA9195FE1E800A719A5 /* tif_thunder.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A5F195FE1E800A719A5 /* tif_thunder.c */; };
+		370E5AAA195FE1E800A719A5 /* tif_tile.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A60195FE1E800A719A5 /* tif_tile.c */; };
+		370E5AAB195FE1E800A719A5 /* tif_tile.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A60195FE1E800A719A5 /* tif_tile.c */; };
+		370E5AAC195FE1E800A719A5 /* tif_unix.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A61195FE1E800A719A5 /* tif_unix.c */; };
+		370E5AAD195FE1E800A719A5 /* tif_unix.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A61195FE1E800A719A5 /* tif_unix.c */; };
+		370E5AAE195FE1E800A719A5 /* tif_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A62195FE1E800A719A5 /* tif_version.c */; };
+		370E5AAF195FE1E800A719A5 /* tif_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A62195FE1E800A719A5 /* tif_version.c */; };
+		370E5AB0195FE1E800A719A5 /* tif_warning.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A63195FE1E800A719A5 /* tif_warning.c */; };
+		370E5AB1195FE1E800A719A5 /* tif_warning.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A63195FE1E800A719A5 /* tif_warning.c */; };
+		370E5AB2195FE1E800A719A5 /* tif_write.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A64195FE1E800A719A5 /* tif_write.c */; };
+		370E5AB3195FE1E800A719A5 /* tif_write.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A64195FE1E800A719A5 /* tif_write.c */; };
+		370E5AB4195FE1E800A719A5 /* tif_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A65195FE1E800A719A5 /* tif_zip.c */; };
+		370E5AB5195FE1E800A719A5 /* tif_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 370E5A65195FE1E800A719A5 /* tif_zip.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BDA9CC5121EE4C400ED5E97 /* libTiff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiff.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		370E5A3E195FE1E800A719A5 /* mkg3states.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mkg3states.c; path = ../libtiff/mkg3states.c; sourceTree = "<group>"; };
+		370E5A3F195FE1E800A719A5 /* tif_aux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_aux.c; path = ../libtiff/tif_aux.c; sourceTree = "<group>"; };
+		370E5A40195FE1E800A719A5 /* tif_close.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_close.c; path = ../libtiff/tif_close.c; sourceTree = "<group>"; };
+		370E5A41195FE1E800A719A5 /* tif_codec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_codec.c; path = ../libtiff/tif_codec.c; sourceTree = "<group>"; };
+		370E5A42195FE1E800A719A5 /* tif_color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_color.c; path = ../libtiff/tif_color.c; sourceTree = "<group>"; };
+		370E5A43195FE1E800A719A5 /* tif_compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_compress.c; path = ../libtiff/tif_compress.c; sourceTree = "<group>"; };
+		370E5A44195FE1E800A719A5 /* tif_dir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_dir.c; path = ../libtiff/tif_dir.c; sourceTree = "<group>"; };
+		370E5A45195FE1E800A719A5 /* tif_dirinfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_dirinfo.c; path = ../libtiff/tif_dirinfo.c; sourceTree = "<group>"; };
+		370E5A46195FE1E800A719A5 /* tif_dirread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_dirread.c; path = ../libtiff/tif_dirread.c; sourceTree = "<group>"; };
+		370E5A47195FE1E800A719A5 /* tif_dirwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_dirwrite.c; path = ../libtiff/tif_dirwrite.c; sourceTree = "<group>"; };
+		370E5A48195FE1E800A719A5 /* tif_dumpmode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_dumpmode.c; path = ../libtiff/tif_dumpmode.c; sourceTree = "<group>"; };
+		370E5A49195FE1E800A719A5 /* tif_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_error.c; path = ../libtiff/tif_error.c; sourceTree = "<group>"; };
+		370E5A4A195FE1E800A719A5 /* tif_extension.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_extension.c; path = ../libtiff/tif_extension.c; sourceTree = "<group>"; };
+		370E5A4B195FE1E800A719A5 /* tif_fax3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_fax3.c; path = ../libtiff/tif_fax3.c; sourceTree = "<group>"; };
+		370E5A4C195FE1E800A719A5 /* tif_fax3sm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_fax3sm.c; path = ../libtiff/tif_fax3sm.c; sourceTree = "<group>"; };
+		370E5A4D195FE1E800A719A5 /* tif_flush.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_flush.c; path = ../libtiff/tif_flush.c; sourceTree = "<group>"; };
+		370E5A4E195FE1E800A719A5 /* tif_getimage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_getimage.c; path = ../libtiff/tif_getimage.c; sourceTree = "<group>"; };
+		370E5A4F195FE1E800A719A5 /* tif_jbig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_jbig.c; path = ../libtiff/tif_jbig.c; sourceTree = "<group>"; };
+		370E5A50195FE1E800A719A5 /* tif_jpeg_12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_jpeg_12.c; path = ../libtiff/tif_jpeg_12.c; sourceTree = "<group>"; };
+		370E5A51195FE1E800A719A5 /* tif_jpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_jpeg.c; path = ../libtiff/tif_jpeg.c; sourceTree = "<group>"; };
+		370E5A52195FE1E800A719A5 /* tif_luv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_luv.c; path = ../libtiff/tif_luv.c; sourceTree = "<group>"; };
+		370E5A53195FE1E800A719A5 /* tif_lzma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_lzma.c; path = ../libtiff/tif_lzma.c; sourceTree = "<group>"; };
+		370E5A54195FE1E800A719A5 /* tif_lzw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_lzw.c; path = ../libtiff/tif_lzw.c; sourceTree = "<group>"; };
+		370E5A55195FE1E800A719A5 /* tif_next.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_next.c; path = ../libtiff/tif_next.c; sourceTree = "<group>"; };
+		370E5A56195FE1E800A719A5 /* tif_ojpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_ojpeg.c; path = ../libtiff/tif_ojpeg.c; sourceTree = "<group>"; };
+		370E5A57195FE1E800A719A5 /* tif_open.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_open.c; path = ../libtiff/tif_open.c; sourceTree = "<group>"; };
+		370E5A58195FE1E800A719A5 /* tif_packbits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_packbits.c; path = ../libtiff/tif_packbits.c; sourceTree = "<group>"; };
+		370E5A59195FE1E800A719A5 /* tif_pixarlog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_pixarlog.c; path = ../libtiff/tif_pixarlog.c; sourceTree = "<group>"; };
+		370E5A5A195FE1E800A719A5 /* tif_predict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_predict.c; path = ../libtiff/tif_predict.c; sourceTree = "<group>"; };
+		370E5A5B195FE1E800A719A5 /* tif_print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_print.c; path = ../libtiff/tif_print.c; sourceTree = "<group>"; };
+		370E5A5C195FE1E800A719A5 /* tif_read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_read.c; path = ../libtiff/tif_read.c; sourceTree = "<group>"; };
+		370E5A5D195FE1E800A719A5 /* tif_strip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_strip.c; path = ../libtiff/tif_strip.c; sourceTree = "<group>"; };
+		370E5A5E195FE1E800A719A5 /* tif_swab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_swab.c; path = ../libtiff/tif_swab.c; sourceTree = "<group>"; };
+		370E5A5F195FE1E800A719A5 /* tif_thunder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_thunder.c; path = ../libtiff/tif_thunder.c; sourceTree = "<group>"; };
+		370E5A60195FE1E800A719A5 /* tif_tile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_tile.c; path = ../libtiff/tif_tile.c; sourceTree = "<group>"; };
+		370E5A61195FE1E800A719A5 /* tif_unix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_unix.c; path = ../libtiff/tif_unix.c; sourceTree = "<group>"; };
+		370E5A62195FE1E800A719A5 /* tif_version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_version.c; path = ../libtiff/tif_version.c; sourceTree = "<group>"; };
+		370E5A63195FE1E800A719A5 /* tif_warning.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_warning.c; path = ../libtiff/tif_warning.c; sourceTree = "<group>"; };
+		370E5A64195FE1E800A719A5 /* tif_write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_write.c; path = ../libtiff/tif_write.c; sourceTree = "<group>"; };
+		370E5A65195FE1E800A719A5 /* tif_zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tif_zip.c; path = ../libtiff/tif_zip.c; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libTiff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiff.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BDA9CC3121EE4C400ED5E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* lzma */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = lzma;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				370E5A3E195FE1E800A719A5 /* mkg3states.c */,
+				370E5A3F195FE1E800A719A5 /* tif_aux.c */,
+				370E5A40195FE1E800A719A5 /* tif_close.c */,
+				370E5A41195FE1E800A719A5 /* tif_codec.c */,
+				370E5A42195FE1E800A719A5 /* tif_color.c */,
+				370E5A43195FE1E800A719A5 /* tif_compress.c */,
+				370E5A44195FE1E800A719A5 /* tif_dir.c */,
+				370E5A45195FE1E800A719A5 /* tif_dirinfo.c */,
+				370E5A46195FE1E800A719A5 /* tif_dirread.c */,
+				370E5A47195FE1E800A719A5 /* tif_dirwrite.c */,
+				370E5A48195FE1E800A719A5 /* tif_dumpmode.c */,
+				370E5A49195FE1E800A719A5 /* tif_error.c */,
+				370E5A4A195FE1E800A719A5 /* tif_extension.c */,
+				370E5A4B195FE1E800A719A5 /* tif_fax3.c */,
+				370E5A4C195FE1E800A719A5 /* tif_fax3sm.c */,
+				370E5A4D195FE1E800A719A5 /* tif_flush.c */,
+				370E5A4E195FE1E800A719A5 /* tif_getimage.c */,
+				370E5A4F195FE1E800A719A5 /* tif_jbig.c */,
+				370E5A50195FE1E800A719A5 /* tif_jpeg_12.c */,
+				370E5A51195FE1E800A719A5 /* tif_jpeg.c */,
+				370E5A52195FE1E800A719A5 /* tif_luv.c */,
+				370E5A53195FE1E800A719A5 /* tif_lzma.c */,
+				370E5A54195FE1E800A719A5 /* tif_lzw.c */,
+				370E5A55195FE1E800A719A5 /* tif_next.c */,
+				370E5A56195FE1E800A719A5 /* tif_ojpeg.c */,
+				370E5A57195FE1E800A719A5 /* tif_open.c */,
+				370E5A58195FE1E800A719A5 /* tif_packbits.c */,
+				370E5A59195FE1E800A719A5 /* tif_pixarlog.c */,
+				370E5A5A195FE1E800A719A5 /* tif_predict.c */,
+				370E5A5B195FE1E800A719A5 /* tif_print.c */,
+				370E5A5C195FE1E800A719A5 /* tif_read.c */,
+				370E5A5D195FE1E800A719A5 /* tif_strip.c */,
+				370E5A5E195FE1E800A719A5 /* tif_swab.c */,
+				370E5A5F195FE1E800A719A5 /* tif_thunder.c */,
+				370E5A60195FE1E800A719A5 /* tif_tile.c */,
+				370E5A61195FE1E800A719A5 /* tif_unix.c */,
+				370E5A62195FE1E800A719A5 /* tif_version.c */,
+				370E5A63195FE1E800A719A5 /* tif_warning.c */,
+				370E5A64195FE1E800A719A5 /* tif_write.c */,
+				370E5A65195FE1E800A719A5 /* tif_zip.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libTiff.a */,
+				0BDA9CC5121EE4C400ED5E97 /* libTiff.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BDA9CC1121EE4C400ED5E97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BDA9CC4121EE4C400ED5E97 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDA9CD0121EE51C00ED5E97 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				0BDA9CC1121EE4C400ED5E97 /* Headers */,
+				0BDA9CC2121EE4C400ED5E97 /* Sources */,
+				0BDA9CC3121EE4C400ED5E97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iPhone;
+			productReference = 0BDA9CC5121EE4C400ED5E97 /* libTiff.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC045055464E500DB518D /* Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "Mac" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mac;
+			productName = lzma;
+			productReference = D2AAC046055464E500DB518D /* libTiff.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "Tiff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* lzma */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* Mac */,
+				0BDA9CC4121EE4C400ED5E97 /* iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BDA9CC2121EE4C400ED5E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370E5AA9195FE1E800A719A5 /* tif_thunder.c in Sources */,
+				370E5A85195FE1E800A719A5 /* tif_flush.c in Sources */,
+				370E5A77195FE1E800A719A5 /* tif_dirread.c in Sources */,
+				370E5A6D195FE1E800A719A5 /* tif_codec.c in Sources */,
+				370E5AAB195FE1E800A719A5 /* tif_tile.c in Sources */,
+				370E5A97195FE1E800A719A5 /* tif_ojpeg.c in Sources */,
+				370E5AB1195FE1E800A719A5 /* tif_warning.c in Sources */,
+				370E5AB5195FE1E800A719A5 /* tif_zip.c in Sources */,
+				370E5A7F195FE1E800A719A5 /* tif_extension.c in Sources */,
+				370E5A71195FE1E800A719A5 /* tif_compress.c in Sources */,
+				370E5A9F195FE1E800A719A5 /* tif_predict.c in Sources */,
+				370E5AA3195FE1E800A719A5 /* tif_read.c in Sources */,
+				370E5A6F195FE1E800A719A5 /* tif_color.c in Sources */,
+				370E5A99195FE1E800A719A5 /* tif_open.c in Sources */,
+				370E5A75195FE1E800A719A5 /* tif_dirinfo.c in Sources */,
+				370E5A91195FE1E800A719A5 /* tif_lzma.c in Sources */,
+				370E5AA1195FE1E800A719A5 /* tif_print.c in Sources */,
+				370E5A69195FE1E800A719A5 /* tif_aux.c in Sources */,
+				370E5A9D195FE1E800A719A5 /* tif_pixarlog.c in Sources */,
+				370E5AAD195FE1E800A719A5 /* tif_unix.c in Sources */,
+				370E5A87195FE1E800A719A5 /* tif_getimage.c in Sources */,
+				370E5AA5195FE1E800A719A5 /* tif_strip.c in Sources */,
+				370E5AA7195FE1E800A719A5 /* tif_swab.c in Sources */,
+				370E5A67195FE1E800A719A5 /* mkg3states.c in Sources */,
+				370E5A73195FE1E800A719A5 /* tif_dir.c in Sources */,
+				370E5A9B195FE1E800A719A5 /* tif_packbits.c in Sources */,
+				370E5A8B195FE1E800A719A5 /* tif_jpeg_12.c in Sources */,
+				370E5A7D195FE1E800A719A5 /* tif_error.c in Sources */,
+				370E5A6B195FE1E800A719A5 /* tif_close.c in Sources */,
+				370E5AAF195FE1E800A719A5 /* tif_version.c in Sources */,
+				370E5AB3195FE1E800A719A5 /* tif_write.c in Sources */,
+				370E5A79195FE1E800A719A5 /* tif_dirwrite.c in Sources */,
+				370E5A93195FE1E800A719A5 /* tif_lzw.c in Sources */,
+				370E5A7B195FE1E800A719A5 /* tif_dumpmode.c in Sources */,
+				370E5A81195FE1E800A719A5 /* tif_fax3.c in Sources */,
+				370E5A8F195FE1E800A719A5 /* tif_luv.c in Sources */,
+				370E5A95195FE1E800A719A5 /* tif_next.c in Sources */,
+				370E5A83195FE1E800A719A5 /* tif_fax3sm.c in Sources */,
+				370E5A89195FE1E800A719A5 /* tif_jbig.c in Sources */,
+				370E5A8D195FE1E800A719A5 /* tif_jpeg.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370E5AA8195FE1E800A719A5 /* tif_thunder.c in Sources */,
+				370E5A84195FE1E800A719A5 /* tif_flush.c in Sources */,
+				370E5A76195FE1E800A719A5 /* tif_dirread.c in Sources */,
+				370E5A6C195FE1E800A719A5 /* tif_codec.c in Sources */,
+				370E5AAA195FE1E800A719A5 /* tif_tile.c in Sources */,
+				370E5A96195FE1E800A719A5 /* tif_ojpeg.c in Sources */,
+				370E5AB0195FE1E800A719A5 /* tif_warning.c in Sources */,
+				370E5AB4195FE1E800A719A5 /* tif_zip.c in Sources */,
+				370E5A7E195FE1E800A719A5 /* tif_extension.c in Sources */,
+				370E5A70195FE1E800A719A5 /* tif_compress.c in Sources */,
+				370E5A9E195FE1E800A719A5 /* tif_predict.c in Sources */,
+				370E5AA2195FE1E800A719A5 /* tif_read.c in Sources */,
+				370E5A6E195FE1E800A719A5 /* tif_color.c in Sources */,
+				370E5A98195FE1E800A719A5 /* tif_open.c in Sources */,
+				370E5A74195FE1E800A719A5 /* tif_dirinfo.c in Sources */,
+				370E5A90195FE1E800A719A5 /* tif_lzma.c in Sources */,
+				370E5AA0195FE1E800A719A5 /* tif_print.c in Sources */,
+				370E5A68195FE1E800A719A5 /* tif_aux.c in Sources */,
+				370E5A9C195FE1E800A719A5 /* tif_pixarlog.c in Sources */,
+				370E5AAC195FE1E800A719A5 /* tif_unix.c in Sources */,
+				370E5A86195FE1E800A719A5 /* tif_getimage.c in Sources */,
+				370E5AA4195FE1E800A719A5 /* tif_strip.c in Sources */,
+				370E5AA6195FE1E800A719A5 /* tif_swab.c in Sources */,
+				370E5A66195FE1E800A719A5 /* mkg3states.c in Sources */,
+				370E5A72195FE1E800A719A5 /* tif_dir.c in Sources */,
+				370E5A9A195FE1E800A719A5 /* tif_packbits.c in Sources */,
+				370E5A8A195FE1E800A719A5 /* tif_jpeg_12.c in Sources */,
+				370E5A7C195FE1E800A719A5 /* tif_error.c in Sources */,
+				370E5A6A195FE1E800A719A5 /* tif_close.c in Sources */,
+				370E5AAE195FE1E800A719A5 /* tif_version.c in Sources */,
+				370E5AB2195FE1E800A719A5 /* tif_write.c in Sources */,
+				370E5A78195FE1E800A719A5 /* tif_dirwrite.c in Sources */,
+				370E5A92195FE1E800A719A5 /* tif_lzw.c in Sources */,
+				370E5A7A195FE1E800A719A5 /* tif_dumpmode.c in Sources */,
+				370E5A80195FE1E800A719A5 /* tif_fax3.c in Sources */,
+				370E5A8E195FE1E800A719A5 /* tif_luv.c in Sources */,
+				370E5A94195FE1E800A719A5 /* tif_next.c in Sources */,
+				370E5A82195FE1E800A719A5 /* tif_fax3sm.c in Sources */,
+				370E5A88195FE1E800A719A5 /* tif_jbig.c in Sources */,
+				370E5A8C195FE1E800A719A5 /* tif_jpeg.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B96A71D1304843300CDC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_FAST_MATH = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				PRODUCT_NAME = Tiff;
+			};
+			name = Debug;
+		};
+		0B96A71E1304843300CDC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0B96A71F1304843300CDC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BDA9CC7121EE4C400ED5E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_THREADSAFE_STATICS = NO;
+				PRODUCT_NAME = Tiff;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BDA9CD0121EE51C00ED5E97 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDA9CC7121EE4C400ED5E97 /* Release */,
+				0B96A71F1304843300CDC521 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91ED08733DB70010E9CD /* Release */,
+				0B96A71E1304843300CDC521 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "Tiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F108733DB70010E9CD /* Release */,
+				0B96A71D1304843300CDC521 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,30 @@
+tif_zip.c:
+#include "zlib.h"
+replaced with:
+#include "../../Zlib/zlib.h" // ESENTHEL CHANGED
+
+
+tif_read.c:
+#if SIZEOF_VOIDP == 8 || SIZEOF_SIZE_T == 8
+replaced with:
+#if X64 // SIZEOF_VOIDP == 8 || SIZEOF_SIZE_T == 8 ESENTHEL CHANGED
+
+tif_win32.c:
+// this is to disable calls to 'MessageBoxA' unavailable on UWP
+TIFFErrorHandler _TIFFwarningHandler;// = Win32WarningHandler; ESENTHEL CHANGED
+
+TIFFErrorHandler _TIFFerrorHandler;// = Win32ErrorHandler; ESENTHEL CHANGED
+
+// this is to disable unsupported UWP file operations
+add right at the start (after "#include <windows.h>" and before "_tiffReadProc")
+#if 0 // ESENTHEL CHANGED
+add after "TIFFOpenW" and "#endif /* ndef _WIN32_WCE */"
+#endif // ESENTHEL CHANGED
+
+tif_config.h:
+it was created by modifying the "tif_config.vc.h" file to make it universal for all platforms
+
+tiffconf.h:
+it was created by modifying the "tiffconf.vc.h" file to make it universal for all platforms
+and with:
+#define ZIP_SUPPORT 1

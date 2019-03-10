@@ -1,0 +1,1305 @@
+// !$*UTF8*$!
+{
+   archiveVersion = 1;
+   classes = {
+   };
+   objectVersion = 46;
+   objects = {
+
+/* Begin PBXBuildFile section */
+      0B9F062B16CD7C6D006A0106 /* EsenthelEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9F062A16CD7C6D006A0106 /* EsenthelEngine.a */; };
+      0B80B0021238567700C08944 /* EsenthelEngine Device.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B80B0011238567700C08944 /* EsenthelEngine Device.a */; };
+      0B9F062916CD7C44006A0106 /* EsenthelEngine Simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B987D3C12385BE500071DE8 /* EsenthelEngine Simulator.a */; };
+		37AE675E18E6130800319BDA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AE675D18E6130800319BDA /* StoreKit.framework */; };
+		37307DB821AFDF81009ABBF9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37307DB721AFDF80009ABBF9 /* WebKit.framework */; };
+		37307DBA21AFDF88009ABBF9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37307DB921AFDF87009ABBF9 /* Security.framework */; };
+      0B9F061B16CD7B80006A0106 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F060816CD7B80006A0106 /* Icon.icns */; };
+      0B9F062416CD7B80006A0106 /* iOS.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F060C16CD7B80006A0106 /* iOS.xib */; };
+      0B9F062816CD7C2B006A0106 /* Engine.pak in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F062516CD7C21006A0106 /* Engine.pak */; };
+      0B9F062916CD7C2B006A0106 /* Project.pak in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F062516CD7C22006A0106 /* Project.pak */; };
+      00000000EEC0C0A000000001 /* Mac: Source\Synchronize.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000000 /* Source\Synchronize.cpp */; };
+      00000000EEC0C0A000000002 /* iOS: Source\Synchronize.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000000 /* Source\Synchronize.cpp */; };
+      00000000EEC0C0A000000004 /* Mac: Source\Store\Store.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000003 /* Source\Store\Store.cpp */; };
+      00000000EEC0C0A000000005 /* iOS: Source\Store\Store.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000003 /* Source\Store\Store.cpp */; };
+      00000000EEC0C0A000000007 /* Mac: Source\Store\License Test.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000006 /* Source\Store\License Test.cpp */; };
+      00000000EEC0C0A000000008 /* iOS: Source\Store\License Test.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000006 /* Source\Store\License Test.cpp */; };
+      00000000EEC0C0A00000000A /* Mac: Source\Store\Internet Cache.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000009 /* Source\Store\Internet Cache.cpp */; };
+      00000000EEC0C0A00000000B /* iOS: Source\Store\Internet Cache.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000009 /* Source\Store\Internet Cache.cpp */; };
+      00000000EEC0C0A00000000D /* Mac: Source\Shared\Waypoint.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000000C /* Source\Shared\Waypoint.cpp */; };
+      00000000EEC0C0A00000000E /* iOS: Source\Shared\Waypoint.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000000C /* Source\Shared\Waypoint.cpp */; };
+      00000000EEC0C0A000000010 /* Mac: Source\Shared\Project Update.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000000F /* Source\Shared\Project Update.cpp */; };
+      00000000EEC0C0A000000011 /* iOS: Source\Shared\Project Update.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000000F /* Source\Shared\Project Update.cpp */; };
+      00000000EEC0C0A000000013 /* Mac: Source\Shared\Project.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000012 /* Source\Shared\Project.cpp */; };
+      00000000EEC0C0A000000014 /* iOS: Source\Shared\Project.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000012 /* Source\Shared\Project.cpp */; };
+      00000000EEC0C0A000000016 /* Mac: Source\Shared\Functions.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000015 /* Source\Shared\Functions.cpp */; };
+      00000000EEC0C0A000000017 /* iOS: Source\Shared\Functions.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000015 /* Source\Shared\Functions.cpp */; };
+      00000000EEC0C0A000000019 /* Mac: Source\Shared\Elm.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000018 /* Source\Shared\Elm.cpp */; };
+      00000000EEC0C0A00000001A /* iOS: Source\Shared\Elm.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000018 /* Source\Shared\Elm.cpp */; };
+      00000000EEC0C0A00000001C /* Mac: Source\Shared\Elements\Water Material.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000001B /* Source\Shared\Elements\Water Material.cpp */; };
+      00000000EEC0C0A00000001D /* iOS: Source\Shared\Elements\Water Material.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000001B /* Source\Shared\Elements\Water Material.cpp */; };
+      00000000EEC0C0A00000001F /* Mac: Source\Shared\Elements\Water.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000001E /* Source\Shared\Elements\Water.cpp */; };
+      00000000EEC0C0A000000020 /* iOS: Source\Shared\Elements\Water.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000001E /* Source\Shared\Elements\Water.cpp */; };
+      00000000EEC0C0A000000022 /* Mac: Source\Shared\Elements\Text Style.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000021 /* Source\Shared\Elements\Text Style.cpp */; };
+      00000000EEC0C0A000000023 /* iOS: Source\Shared\Elements\Text Style.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000021 /* Source\Shared\Elements\Text Style.cpp */; };
+      00000000EEC0C0A000000025 /* Mac: Source\Shared\Elements\Skeleton.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000024 /* Source\Shared\Elements\Skeleton.cpp */; };
+      00000000EEC0C0A000000026 /* iOS: Source\Shared\Elements\Skeleton.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000024 /* Source\Shared\Elements\Skeleton.cpp */; };
+      00000000EEC0C0A000000028 /* Mac: Source\Shared\Elements\Phys Material.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000027 /* Source\Shared\Elements\Phys Material.cpp */; };
+      00000000EEC0C0A000000029 /* iOS: Source\Shared\Elements\Phys Material.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000027 /* Source\Shared\Elements\Phys Material.cpp */; };
+      00000000EEC0C0A00000002B /* Mac: Source\Shared\Elements\Params.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000002A /* Source\Shared\Elements\Params.cpp */; };
+      00000000EEC0C0A00000002C /* iOS: Source\Shared\Elements\Params.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000002A /* Source\Shared\Elements\Params.cpp */; };
+      00000000EEC0C0A00000002E /* Mac: Source\Shared\Elements\Panel Image.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000002D /* Source\Shared\Elements\Panel Image.cpp */; };
+      00000000EEC0C0A00000002F /* iOS: Source\Shared\Elements\Panel Image.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000002D /* Source\Shared\Elements\Panel Image.cpp */; };
+      00000000EEC0C0A000000031 /* Mac: Source\Shared\Elements\Panel.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000030 /* Source\Shared\Elements\Panel.cpp */; };
+      00000000EEC0C0A000000032 /* iOS: Source\Shared\Elements\Panel.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000030 /* Source\Shared\Elements\Panel.cpp */; };
+      00000000EEC0C0A000000034 /* Mac: Source\Shared\Elements\Object.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000033 /* Source\Shared\Elements\Object.cpp */; };
+      00000000EEC0C0A000000035 /* iOS: Source\Shared\Elements\Object.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000033 /* Source\Shared\Elements\Object.cpp */; };
+      00000000EEC0C0A000000037 /* Mac: Source\Shared\Elements\Material.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000036 /* Source\Shared\Elements\Material.cpp */; };
+      00000000EEC0C0A000000038 /* iOS: Source\Shared\Elements\Material.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000036 /* Source\Shared\Elements\Material.cpp */; };
+      00000000EEC0C0A00000003A /* Mac: Source\Shared\Elements\Icon.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000039 /* Source\Shared\Elements\Icon.cpp */; };
+      00000000EEC0C0A00000003B /* iOS: Source\Shared\Elements\Icon.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000039 /* Source\Shared\Elements\Icon.cpp */; };
+      00000000EEC0C0A00000003D /* Mac: Source\Shared\Elements\Gui Skin.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000003C /* Source\Shared\Elements\Gui Skin.cpp */; };
+      00000000EEC0C0A00000003E /* iOS: Source\Shared\Elements\Gui Skin.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000003C /* Source\Shared\Elements\Gui Skin.cpp */; };
+      00000000EEC0C0A000000040 /* Mac: Source\Shared\Elements\Font.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000003F /* Source\Shared\Elements\Font.cpp */; };
+      00000000EEC0C0A000000041 /* iOS: Source\Shared\Elements\Font.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000003F /* Source\Shared\Elements\Font.cpp */; };
+      00000000EEC0C0A000000043 /* Mac: Source\Shared\Elements\Environment.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000042 /* Source\Shared\Elements\Environment.cpp */; };
+      00000000EEC0C0A000000044 /* iOS: Source\Shared\Elements\Environment.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000042 /* Source\Shared\Elements\Environment.cpp */; };
+      00000000EEC0C0A000000046 /* Mac: Source\Shared\Elements\Enum.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000045 /* Source\Shared\Elements\Enum.cpp */; };
+      00000000EEC0C0A000000047 /* iOS: Source\Shared\Elements\Enum.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000045 /* Source\Shared\Elements\Enum.cpp */; };
+      00000000EEC0C0A000000049 /* Mac: Source\Shared\Elements\Code.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000048 /* Source\Shared\Elements\Code.cpp */; };
+      00000000EEC0C0A00000004A /* iOS: Source\Shared\Elements\Code.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000048 /* Source\Shared\Elements\Code.cpp */; };
+      00000000EEC0C0A00000004C /* Mac: Source\Shared\Constants.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000004B /* Source\Shared\Constants.cpp */; };
+      00000000EEC0C0A00000004D /* iOS: Source\Shared\Constants.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000004B /* Source\Shared\Constants.cpp */; };
+      00000000EEC0C0A00000004F /* Mac: Source\Shared\Commands.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000004E /* Source\Shared\Commands.cpp */; };
+      00000000EEC0C0A000000050 /* iOS: Source\Shared\Commands.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000004E /* Source\Shared\Commands.cpp */; };
+      00000000EEC0C0A000000052 /* Mac: Source\Shared\Area.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000051 /* Source\Shared\Area.cpp */; };
+      00000000EEC0C0A000000053 /* iOS: Source\Shared\Area.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000051 /* Source\Shared\Area.cpp */; };
+      00000000EEC0C0A000000055 /* Mac: Source\Settings.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000054 /* Source\Settings.cpp */; };
+      00000000EEC0C0A000000056 /* iOS: Source\Settings.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000054 /* Source\Settings.cpp */; };
+      00000000EEC0C0A000000058 /* Mac: Source\Server Editor.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000057 /* Source\Server Editor.cpp */; };
+      00000000EEC0C0A000000059 /* iOS: Source\Server Editor.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000057 /* Source\Server Editor.cpp */; };
+      00000000EEC0C0A00000005B /* Mac: Source\Server.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000005A /* Source\Server.cpp */; };
+      00000000EEC0C0A00000005C /* iOS: Source\Server.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000005A /* Source\Server.cpp */; };
+      00000000EEC0C0A00000005E /* Mac: Source\Publish.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000005D /* Source\Publish.cpp */; };
+      00000000EEC0C0A00000005F /* iOS: Source\Publish.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000005D /* Source\Publish.cpp */; };
+      00000000EEC0C0A000000061 /* Mac: Source\Project List.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000060 /* Source\Project List.cpp */; };
+      00000000EEC0C0A000000062 /* iOS: Source\Project List.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000060 /* Source\Project List.cpp */; };
+      00000000EEC0C0A000000064 /* Mac: Source\Project@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000063 /* Source\Project@0.cpp */; };
+      00000000EEC0C0A000000065 /* iOS: Source\Project@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000063 /* Source\Project@0.cpp */; };
+      00000000EEC0C0A000000067 /* Mac: Source\Preview.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000066 /* Source\Preview.cpp */; };
+      00000000EEC0C0A000000068 /* iOS: Source\Preview.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000066 /* Source\Preview.cpp */; };
+      00000000EEC0C0A00000006A /* Mac: Source\Main.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000069 /* Source\Main.cpp */; };
+      00000000EEC0C0A00000006B /* iOS: Source\Main.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000069 /* Source\Main.cpp */; };
+      00000000EEC0C0A00000006D /* Mac: Source\Import.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000006C /* Source\Import.cpp */; };
+      00000000EEC0C0A00000006E /* iOS: Source\Import.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000006C /* Source\Import.cpp */; };
+      00000000EEC0C0A000000070 /* Mac: Source\Gui\Viewport4 Region.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000006F /* Source\Gui\Viewport4 Region.cpp */; };
+      00000000EEC0C0A000000071 /* iOS: Source\Gui\Viewport4 Region.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000006F /* Source\Gui\Viewport4 Region.cpp */; };
+      00000000EEC0C0A000000073 /* Mac: Source\Gui\Video Options.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000072 /* Source\Gui\Video Options.cpp */; };
+      00000000EEC0C0A000000074 /* iOS: Source\Gui\Video Options.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000072 /* Source\Gui\Video Options.cpp */; };
+      00000000EEC0C0A000000076 /* Mac: Source\Gui\Theater.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000075 /* Source\Gui\Theater.cpp */; };
+      00000000EEC0C0A000000077 /* iOS: Source\Gui\Theater.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000075 /* Source\Gui\Theater.cpp */; };
+      00000000EEC0C0A000000079 /* Mac: Source\Gui\Texture Downsize.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000078 /* Source\Gui\Texture Downsize.cpp */; };
+      00000000EEC0C0A00000007A /* iOS: Source\Gui\Texture Downsize.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000078 /* Source\Gui\Texture Downsize.cpp */; };
+      00000000EEC0C0A00000007C /* Mac: Source\Gui\Split Animations.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000007B /* Source\Gui\Split Animations.cpp */; };
+      00000000EEC0C0A00000007D /* iOS: Source\Gui\Split Animations.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000007B /* Source\Gui\Split Animations.cpp */; };
+      00000000EEC0C0A00000007F /* Mac: Source\Gui\Size Statistics.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000007E /* Source\Gui\Size Statistics.cpp */; };
+      00000000EEC0C0A000000080 /* iOS: Source\Gui\Size Statistics.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000007E /* Source\Gui\Size Statistics.cpp */; };
+      00000000EEC0C0A000000082 /* Mac: Source\Gui\Project Update@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000081 /* Source\Gui\Project Update@0.cpp */; };
+      00000000EEC0C0A000000083 /* iOS: Source\Gui\Project Update@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000081 /* Source\Gui\Project Update@0.cpp */; };
+      00000000EEC0C0A000000085 /* Mac: Source\Gui\Project Settings.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000084 /* Source\Gui\Project Settings.cpp */; };
+      00000000EEC0C0A000000086 /* iOS: Source\Gui\Project Settings.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000084 /* Source\Gui\Project Settings.cpp */; };
+      00000000EEC0C0A000000088 /* Mac: Source\Gui\Misc Region.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000087 /* Source\Gui\Misc Region.cpp */; };
+      00000000EEC0C0A000000089 /* iOS: Source\Gui\Misc Region.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000087 /* Source\Gui\Misc Region.cpp */; };
+      00000000EEC0C0A00000008B /* Mac: Source\Gui\Merge Similar Materials.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000008A /* Source\Gui\Merge Similar Materials.cpp */; };
+      00000000EEC0C0A00000008C /* iOS: Source\Gui\Merge Similar Materials.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000008A /* Source\Gui\Merge Similar Materials.cpp */; };
+      00000000EEC0C0A00000008E /* Mac: Source\Gui\Import 1.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000008D /* Source\Gui\Import 1.cpp */; };
+      00000000EEC0C0A00000008F /* iOS: Source\Gui\Import 1.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000008D /* Source\Gui\Import 1.cpp */; };
+      00000000EEC0C0A000000091 /* Mac: Source\Gui\Gui.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000090 /* Source\Gui\Gui.cpp */; };
+      00000000EEC0C0A000000092 /* iOS: Source\Gui\Gui.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000090 /* Source\Gui\Gui.cpp */; };
+      00000000EEC0C0A000000094 /* Mac: Source\Gui\Export Element.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000093 /* Source\Gui\Export Element.cpp */; };
+      00000000EEC0C0A000000095 /* iOS: Source\Gui\Export Element.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000093 /* Source\Gui\Export Element.cpp */; };
+      00000000EEC0C0A000000097 /* Mac: Source\Gui\Detect Similar Textures.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000096 /* Source\Gui\Detect Similar Textures.cpp */; };
+      00000000EEC0C0A000000098 /* iOS: Source\Gui\Detect Similar Textures.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000096 /* Source\Gui\Detect Similar Textures.cpp */; };
+      00000000EEC0C0A00000009A /* Mac: Source\Gui\Create Materials.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000099 /* Source\Gui\Create Materials.cpp */; };
+      00000000EEC0C0A00000009B /* iOS: Source\Gui\Create Materials.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000099 /* Source\Gui\Create Materials.cpp */; };
+      00000000EEC0C0A00000009D /* Mac: Source\Gui\Copy Elements.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000009C /* Source\Gui\Copy Elements.cpp */; };
+      00000000EEC0C0A00000009E /* iOS: Source\Gui\Copy Elements.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000009C /* Source\Gui\Copy Elements.cpp */; };
+      00000000EEC0C0A0000000A0 /* Mac: Source\Gui\Convert To De-Atlas.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000009F /* Source\Gui\Convert To De-Atlas.cpp */; };
+      00000000EEC0C0A0000000A1 /* iOS: Source\Gui\Convert To De-Atlas.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000009F /* Source\Gui\Convert To De-Atlas.cpp */; };
+      00000000EEC0C0A0000000A3 /* Mac: Source\Gui\Convert To Atlas.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000A2 /* Source\Gui\Convert To Atlas.cpp */; };
+      00000000EEC0C0A0000000A4 /* iOS: Source\Gui\Convert To Atlas.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000A2 /* Source\Gui\Convert To Atlas.cpp */; };
+      00000000EEC0C0A0000000A6 /* Mac: Source\Gui\Compare Projects.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000A5 /* Source\Gui\Compare Projects.cpp */; };
+      00000000EEC0C0A0000000A7 /* iOS: Source\Gui\Compare Projects.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000A5 /* Source\Gui\Compare Projects.cpp */; };
+      00000000EEC0C0A0000000A9 /* Mac: Source\Gui\Calculator.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000A8 /* Source\Gui\Calculator.cpp */; };
+      00000000EEC0C0A0000000AA /* iOS: Source\Gui\Calculator.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000A8 /* Source\Gui\Calculator.cpp */; };
+      00000000EEC0C0A0000000AC /* Mac: Source\Gui\Brush.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000AB /* Source\Gui\Brush.cpp */; };
+      00000000EEC0C0A0000000AD /* iOS: Source\Gui\Brush.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000AB /* Source\Gui\Brush.cpp */; };
+      00000000EEC0C0A0000000AF /* Mac: Source\Game\Player.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000AE /* Source\Game\Player.cpp */; };
+      00000000EEC0C0A0000000B0 /* iOS: Source\Game\Player.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000AE /* Source\Game\Player.cpp */; };
+      00000000EEC0C0A0000000B2 /* Mac: Source\Game\Game.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000B1 /* Source\Game\Game.cpp */; };
+      00000000EEC0C0A0000000B3 /* iOS: Source\Game\Game.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000B1 /* Source\Game\Game.cpp */; };
+      00000000EEC0C0A0000000B5 /* Mac: Source\Game\Controls.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000B4 /* Source\Game\Controls.cpp */; };
+      00000000EEC0C0A0000000B6 /* iOS: Source\Game\Controls.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000B4 /* Source\Game\Controls.cpp */; };
+      00000000EEC0C0A0000000B8 /* Mac: Source\Elm@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000B7 /* Source\Elm@0.cpp */; };
+      00000000EEC0C0A0000000B9 /* iOS: Source\Elm@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000B7 /* Source\Elm@0.cpp */; };
+      00000000EEC0C0A0000000BB /* Mac: Source\Editors\World\World.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000BA /* Source\Editors\World\World.cpp */; };
+      00000000EEC0C0A0000000BC /* iOS: Source\Editors\World\World.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000BA /* Source\Editors\World\World.cpp */; };
+      00000000EEC0C0A0000000BE /* Mac: Source\Editors\World\Waypoint List.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000BD /* Source\Editors\World\Waypoint List.cpp */; };
+      00000000EEC0C0A0000000BF /* iOS: Source\Editors\World\Waypoint List.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000BD /* Source\Editors\World\Waypoint List.cpp */; };
+      00000000EEC0C0A0000000C1 /* Mac: Source\Editors\World\Waypoint@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000C0 /* Source\Editors\World\Waypoint@0.cpp */; };
+      00000000EEC0C0A0000000C2 /* iOS: Source\Editors\World\Waypoint@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000C0 /* Source\Editors\World\Waypoint@0.cpp */; };
+      00000000EEC0C0A0000000C4 /* Mac: Source\Editors\World\Water@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000C3 /* Source\Editors\World\Water@0.cpp */; };
+      00000000EEC0C0A0000000C5 /* iOS: Source\Editors\World\Water@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000C3 /* Source\Editors\World\Water@0.cpp */; };
+      00000000EEC0C0A0000000C7 /* Mac: Source\Editors\World\Undo.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000C6 /* Source\Editors\World\Undo.cpp */; };
+      00000000EEC0C0A0000000C8 /* iOS: Source\Editors\World\Undo.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000C6 /* Source\Editors\World\Undo.cpp */; };
+      00000000EEC0C0A0000000CA /* Mac: Source\Editors\World\Transform.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000C9 /* Source\Editors\World\Transform.cpp */; };
+      00000000EEC0C0A0000000CB /* iOS: Source\Editors\World\Transform.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000C9 /* Source\Editors\World\Transform.cpp */; };
+      00000000EEC0C0A0000000CD /* Mac: Source\Editors\World\Selection.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000CC /* Source\Editors\World\Selection.cpp */; };
+      00000000EEC0C0A0000000CE /* iOS: Source\Editors\World\Selection.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000CC /* Source\Editors\World\Selection.cpp */; };
+      00000000EEC0C0A0000000D0 /* Mac: Source\Editors\World\Object Paint.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000CF /* Source\Editors\World\Object Paint.cpp */; };
+      00000000EEC0C0A0000000D1 /* iOS: Source\Editors\World\Object Paint.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000CF /* Source\Editors\World\Object Paint.cpp */; };
+      00000000EEC0C0A0000000D3 /* Mac: Source\Editors\World\Object List.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000D2 /* Source\Editors\World\Object List.cpp */; };
+      00000000EEC0C0A0000000D4 /* iOS: Source\Editors\World\Object List.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000D2 /* Source\Editors\World\Object List.cpp */; };
+      00000000EEC0C0A0000000D6 /* Mac: Source\Editors\World\Object@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000D5 /* Source\Editors\World\Object@0.cpp */; };
+      00000000EEC0C0A0000000D7 /* iOS: Source\Editors\World\Object@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000D5 /* Source\Editors\World\Object@0.cpp */; };
+      00000000EEC0C0A0000000D9 /* Mac: Source\Editors\World\Import Terrain.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000D8 /* Source\Editors\World\Import Terrain.cpp */; };
+      00000000EEC0C0A0000000DA /* iOS: Source\Editors\World\Import Terrain.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000D8 /* Source\Editors\World\Import Terrain.cpp */; };
+      00000000EEC0C0A0000000DC /* Mac: Source\Editors\World\Gui@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000DB /* Source\Editors\World\Gui@0.cpp */; };
+      00000000EEC0C0A0000000DD /* iOS: Source\Editors\World\Gui@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000DB /* Source\Editors\World\Gui@0.cpp */; };
+      00000000EEC0C0A0000000DF /* Mac: Source\Editors\World\Cursor.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000DE /* Source\Editors\World\Cursor.cpp */; };
+      00000000EEC0C0A0000000E0 /* iOS: Source\Editors\World\Cursor.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000DE /* Source\Editors\World\Cursor.cpp */; };
+      00000000EEC0C0A0000000E2 /* Mac: Source\Editors\World\Builder.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000E1 /* Source\Editors\World\Builder.cpp */; };
+      00000000EEC0C0A0000000E3 /* iOS: Source\Editors\World\Builder.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000E1 /* Source\Editors\World\Builder.cpp */; };
+      00000000EEC0C0A0000000E5 /* Mac: Source\Editors\World\Brush Material.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000E4 /* Source\Editors\World\Brush Material.cpp */; };
+      00000000EEC0C0A0000000E6 /* iOS: Source\Editors\World\Brush Material.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000E4 /* Source\Editors\World\Brush Material.cpp */; };
+      00000000EEC0C0A0000000E8 /* Mac: Source\Editors\World\Brush Height.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000E7 /* Source\Editors\World\Brush Height.cpp */; };
+      00000000EEC0C0A0000000E9 /* iOS: Source\Editors\World\Brush Height.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000E7 /* Source\Editors\World\Brush Height.cpp */; };
+      00000000EEC0C0A0000000EB /* Mac: Source\Editors\World\Brush Color.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000EA /* Source\Editors\World\Brush Color.cpp */; };
+      00000000EEC0C0A0000000EC /* iOS: Source\Editors\World\Brush Color.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000EA /* Source\Editors\World\Brush Color.cpp */; };
+      00000000EEC0C0A0000000EE /* Mac: Source\Editors\World\Brush@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000ED /* Source\Editors\World\Brush@0.cpp */; };
+      00000000EEC0C0A0000000EF /* iOS: Source\Editors\World\Brush@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000ED /* Source\Editors\World\Brush@0.cpp */; };
+      00000000EEC0C0A0000000F1 /* Mac: Source\Editors\World\Area@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000F0 /* Source\Editors\World\Area@0.cpp */; };
+      00000000EEC0C0A0000000F2 /* iOS: Source\Editors\World\Area@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000F0 /* Source\Editors\World\Area@0.cpp */; };
+      00000000EEC0C0A0000000F4 /* Mac: Source\Editors\Water Material@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000F3 /* Source\Editors\Water Material@0.cpp */; };
+      00000000EEC0C0A0000000F5 /* iOS: Source\Editors\Water Material@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000F3 /* Source\Editors\Water Material@0.cpp */; };
+      00000000EEC0C0A0000000F7 /* Mac: Source\Editors\Video.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000F6 /* Source\Editors\Video.cpp */; };
+      00000000EEC0C0A0000000F8 /* iOS: Source\Editors\Video.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000F6 /* Source\Editors\Video.cpp */; };
+      00000000EEC0C0A0000000FA /* Mac: Source\Editors\Text Style@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000F9 /* Source\Editors\Text Style@0.cpp */; };
+      00000000EEC0C0A0000000FB /* iOS: Source\Editors\Text Style@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000F9 /* Source\Editors\Text Style@0.cpp */; };
+      00000000EEC0C0A0000000FD /* Mac: Source\Editors\Sound.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000FC /* Source\Editors\Sound.cpp */; };
+      00000000EEC0C0A0000000FE /* iOS: Source\Editors\Sound.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000FC /* Source\Editors\Sound.cpp */; };
+      00000000EEC0C0A000000100 /* Mac: Source\Editors\Phys Material@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000FF /* Source\Editors\Phys Material@0.cpp */; };
+      00000000EEC0C0A000000101 /* iOS: Source\Editors\Phys Material@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A0000000FF /* Source\Editors\Phys Material@0.cpp */; };
+      00000000EEC0C0A000000103 /* Mac: Source\Editors\Param.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000102 /* Source\Editors\Param.cpp */; };
+      00000000EEC0C0A000000104 /* iOS: Source\Editors\Param.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000102 /* Source\Editors\Param.cpp */; };
+      00000000EEC0C0A000000106 /* Mac: Source\Editors\Panel Image@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000105 /* Source\Editors\Panel Image@0.cpp */; };
+      00000000EEC0C0A000000107 /* iOS: Source\Editors\Panel Image@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000105 /* Source\Editors\Panel Image@0.cpp */; };
+      00000000EEC0C0A000000109 /* Mac: Source\Editors\Panel@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000108 /* Source\Editors\Panel@0.cpp */; };
+      00000000EEC0C0A00000010A /* iOS: Source\Editors\Panel@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000108 /* Source\Editors\Panel@0.cpp */; };
+      00000000EEC0C0A00000010C /* Mac: Source\Editors\Object\Variations.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000010B /* Source\Editors\Object\Variations.cpp */; };
+      00000000EEC0C0A00000010D /* iOS: Source\Editors\Object\Variations.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000010B /* Source\Editors\Object\Variations.cpp */; };
+      00000000EEC0C0A00000010F /* Mac: Source\Editors\Object\Transform@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000010E /* Source\Editors\Object\Transform@0.cpp */; };
+      00000000EEC0C0A000000110 /* iOS: Source\Editors\Object\Transform@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000010E /* Source\Editors\Object\Transform@0.cpp */; };
+      00000000EEC0C0A000000112 /* Mac: Source\Editors\Object\Parts.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000111 /* Source\Editors\Object\Parts.cpp */; };
+      00000000EEC0C0A000000113 /* iOS: Source\Editors\Object\Parts.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000111 /* Source\Editors\Object\Parts.cpp */; };
+      00000000EEC0C0A000000115 /* Mac: Source\Editors\Object\Object@1.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000114 /* Source\Editors\Object\Object@1.cpp */; };
+      00000000EEC0C0A000000116 /* iOS: Source\Editors\Object\Object@1.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000114 /* Source\Editors\Object\Object@1.cpp */; };
+      00000000EEC0C0A000000118 /* Mac: Source\Editors\Object\Mesh.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000117 /* Source\Editors\Object\Mesh.cpp */; };
+      00000000EEC0C0A000000119 /* iOS: Source\Editors\Object\Mesh.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000117 /* Source\Editors\Object\Mesh.cpp */; };
+      00000000EEC0C0A00000011B /* Mac: Source\Editors\Object\Lod.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000011A /* Source\Editors\Object\Lod.cpp */; };
+      00000000EEC0C0A00000011C /* iOS: Source\Editors\Object\Lod.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000011A /* Source\Editors\Object\Lod.cpp */; };
+      00000000EEC0C0A00000011E /* Mac: Source\Editors\Object\Leaf.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000011D /* Source\Editors\Object\Leaf.cpp */; };
+      00000000EEC0C0A00000011F /* iOS: Source\Editors\Object\Leaf.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000011D /* Source\Editors\Object\Leaf.cpp */; };
+      00000000EEC0C0A000000121 /* Mac: Source\Editors\Object\Groups.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000120 /* Source\Editors\Object\Groups.cpp */; };
+      00000000EEC0C0A000000122 /* iOS: Source\Editors\Object\Groups.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000120 /* Source\Editors\Object\Groups.cpp */; };
+      00000000EEC0C0A000000124 /* Mac: Source\Editors\Object\AO.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000123 /* Source\Editors\Object\AO.cpp */; };
+      00000000EEC0C0A000000125 /* iOS: Source\Editors\Object\AO.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000123 /* Source\Editors\Object\AO.cpp */; };
+      00000000EEC0C0A000000127 /* Mac: Source\Editors\Object\Adjust Bone Orientations.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000126 /* Source\Editors\Object\Adjust Bone Orientations.cpp */; };
+      00000000EEC0C0A000000128 /* iOS: Source\Editors\Object\Adjust Bone Orientations.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000126 /* Source\Editors\Object\Adjust Bone Orientations.cpp */; };
+      00000000EEC0C0A00000012A /* Mac: Source\Editors\Mini Map.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000129 /* Source\Editors\Mini Map.cpp */; };
+      00000000EEC0C0A00000012B /* iOS: Source\Editors\Mini Map.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000129 /* Source\Editors\Mini Map.cpp */; };
+      00000000EEC0C0A00000012D /* Mac: Source\Editors\Material@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000012C /* Source\Editors\Material@0.cpp */; };
+      00000000EEC0C0A00000012E /* iOS: Source\Editors\Material@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000012C /* Source\Editors\Material@0.cpp */; };
+      00000000EEC0C0A000000130 /* Mac: Source\Editors\Image Atlas.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000012F /* Source\Editors\Image Atlas.cpp */; };
+      00000000EEC0C0A000000131 /* iOS: Source\Editors\Image Atlas.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000012F /* Source\Editors\Image Atlas.cpp */; };
+      00000000EEC0C0A000000133 /* Mac: Source\Editors\Image.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000132 /* Source\Editors\Image.cpp */; };
+      00000000EEC0C0A000000134 /* iOS: Source\Editors\Image.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000132 /* Source\Editors\Image.cpp */; };
+      00000000EEC0C0A000000136 /* Mac: Source\Editors\Icon@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000135 /* Source\Editors\Icon@0.cpp */; };
+      00000000EEC0C0A000000137 /* iOS: Source\Editors\Icon@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000135 /* Source\Editors\Icon@0.cpp */; };
+      00000000EEC0C0A000000139 /* Mac: Source\Editors\Gui Skin@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000138 /* Source\Editors\Gui Skin@0.cpp */; };
+      00000000EEC0C0A00000013A /* iOS: Source\Editors\Gui Skin@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000138 /* Source\Editors\Gui Skin@0.cpp */; };
+      00000000EEC0C0A00000013C /* Mac: Source\Editors\Gui@1.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000013B /* Source\Editors\Gui@1.cpp */; };
+      00000000EEC0C0A00000013D /* iOS: Source\Editors\Gui@1.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000013B /* Source\Editors\Gui@1.cpp */; };
+      00000000EEC0C0A00000013F /* Mac: Source\Editors\Font@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000013E /* Source\Editors\Font@0.cpp */; };
+      00000000EEC0C0A000000140 /* iOS: Source\Editors\Font@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000013E /* Source\Editors\Font@0.cpp */; };
+      00000000EEC0C0A000000142 /* Mac: Source\Editors\Environment@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000141 /* Source\Editors\Environment@0.cpp */; };
+      00000000EEC0C0A000000143 /* iOS: Source\Editors\Environment@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000141 /* Source\Editors\Environment@0.cpp */; };
+      00000000EEC0C0A000000145 /* Mac: Source\Editors\Enum@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000144 /* Source\Editors\Enum@0.cpp */; };
+      00000000EEC0C0A000000146 /* iOS: Source\Editors\Enum@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000144 /* Source\Editors\Enum@0.cpp */; };
+      00000000EEC0C0A000000148 /* Mac: Source\Editors\Code@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000147 /* Source\Editors\Code@0.cpp */; };
+      00000000EEC0C0A000000149 /* iOS: Source\Editors\Code@0.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000147 /* Source\Editors\Code@0.cpp */; };
+      00000000EEC0C0A00000014B /* Mac: Source\Editors\Animation.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000014A /* Source\Editors\Animation.cpp */; };
+      00000000EEC0C0A00000014C /* iOS: Source\Editors\Animation.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000014A /* Source\Editors\Animation.cpp */; };
+      00000000EEC0C0A00000014E /* Mac: Source\Editor Update.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000014D /* Source\Editor Update.cpp */; };
+      00000000EEC0C0A00000014F /* iOS: Source\Editor Update.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000014D /* Source\Editor Update.cpp */; };
+      00000000EEC0C0A000000151 /* Mac: Source\Auto.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000150 /* Source\Auto.cpp */; };
+      00000000EEC0C0A000000152 /* iOS: Source\Auto.cpp */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000150 /* Source\Auto.cpp */; };
+      00000000EEC0C0A000000154 /* Mac: Assets/EngineEmbed.pak */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000153 /* Assets/EngineEmbed.pak */; };
+      00000000EEC0C0A000000156 /* iOS: Assets/Default-Portrait.png */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000155 /* Assets/Default-Portrait.png */; };
+      00000000EEC0C0A000000158 /* iOS: Assets/Default-667h@2x.png */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000157 /* Assets/Default-667h@2x.png */; };
+      00000000EEC0C0A00000015A /* iOS: Assets/Default-568h@2x.png */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000159 /* Assets/Default-568h@2x.png */; };
+      00000000EEC0C0A00000015C /* iOS: Assets/Default@2x.png */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000015B /* Assets/Default@2x.png */; };
+      00000000EEC0C0A00000015E /* iOS: Assets/Icon-83.5@2x.png */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000015D /* Assets/Icon-83.5@2x.png */; };
+      00000000EEC0C0A000000160 /* iOS: Assets/Icon-60@3x.png */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A00000015F /* Assets/Icon-60@3x.png */; };
+      00000000EEC0C0A000000162 /* iOS: Assets/Icon-76@2x.png */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000161 /* Assets/Icon-76@2x.png */; };
+      00000000EEC0C0A000000164 /* iOS: Assets/Icon-60@2x.png */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000163 /* Assets/Icon-60@2x.png */; };
+      00000000EEC0C0A000000166 /* iOS: Assets/Icon-76.png */ = {isa = PBXBuildFile; fileRef = 00000000EEC0C0A000000165 /* Assets/Icon-76.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+      0B9F062A16CD7C6D006A0106 /* EsenthelEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = EsenthelEngine.a; path = "../../../Editor/Bin/EsenthelEngine.a"; sourceTree = "<absolute>"; };
+      0B80B0011238567700C08944 /* EsenthelEngine Device.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "EsenthelEngine Device.a"; path = "../../../Editor/Bin/EsenthelEngine Device.a"; sourceTree = "<absolute>"; };
+      0B987D3C12385BE500071DE8 /* EsenthelEngine Simulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "EsenthelEngine Simulator.a"; path = "../../../Editor/Bin/EsenthelEngine Simulator.a"; sourceTree = "<absolute>"; };
+		37AE675D18E6130800319BDA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		37307DB721AFDF80009ABBF9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		37307DB921AFDF87009ABBF9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+      0B9F062516CD7C21006A0106 /* Engine.pak */ = {isa = PBXFileReference; lastKnownFileType = file; name = Engine.pak; path = "../../../Editor/Bin/Mobile/Engine.pak"; sourceTree = "<absolute>"; };
+      0B9F062516CD7C22006A0106 /* Project.pak */ = {isa = PBXFileReference; lastKnownFileType = file; name = Project.pak; path = Assets/Project.pak; sourceTree = "<group>"; };
+      0B9F05BF16CD7377006A0106 /* Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Esenthel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+      0B9F060816CD7B80006A0106 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = Assets/Icon.icns; sourceTree = "<group>"; };
+      0B9F060C16CD7B80006A0106 /* iOS.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOS.xib; path = Assets/iOS.xib; sourceTree = "<group>"; };
+      0B9F063B16CD7F75006A0106 /* Mac.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Mac.plist; path = Assets/Mac.plist; sourceTree = "<group>"; };
+      0B9F063C16CD802D006A0106 /* iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = iOS.plist; path = Assets/iOS.plist; sourceTree = "<group>"; };
+      0B9F065B16CD9232006A0106 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+      0BDA9C7F121EE06400ED5E97 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Esenthel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+      00000000EEC0C0A000000000 /* Source\Synchronize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Synchronize.cpp"; path = "Source/Synchronize.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000003 /* Source\Store\Store.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Store.cpp"; path = "Source/Store/Store.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000006 /* Source\Store\License Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "License Test.cpp"; path = "Source/Store/License Test.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000009 /* Source\Store\Internet Cache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Internet Cache.cpp"; path = "Source/Store/Internet Cache.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000000C /* Source\Shared\Waypoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Waypoint.cpp"; path = "Source/Shared/Waypoint.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000000F /* Source\Shared\Project Update.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Project Update.cpp"; path = "Source/Shared/Project Update.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000012 /* Source\Shared\Project.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Project.cpp"; path = "Source/Shared/Project.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000015 /* Source\Shared\Functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Functions.cpp"; path = "Source/Shared/Functions.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000018 /* Source\Shared\Elm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Elm.cpp"; path = "Source/Shared/Elm.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000001B /* Source\Shared\Elements\Water Material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Water Material.cpp"; path = "Source/Shared/Elements/Water Material.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000001E /* Source\Shared\Elements\Water.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Water.cpp"; path = "Source/Shared/Elements/Water.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000021 /* Source\Shared\Elements\Text Style.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Text Style.cpp"; path = "Source/Shared/Elements/Text Style.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000024 /* Source\Shared\Elements\Skeleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Skeleton.cpp"; path = "Source/Shared/Elements/Skeleton.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000027 /* Source\Shared\Elements\Phys Material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Phys Material.cpp"; path = "Source/Shared/Elements/Phys Material.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000002A /* Source\Shared\Elements\Params.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Params.cpp"; path = "Source/Shared/Elements/Params.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000002D /* Source\Shared\Elements\Panel Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Panel Image.cpp"; path = "Source/Shared/Elements/Panel Image.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000030 /* Source\Shared\Elements\Panel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Panel.cpp"; path = "Source/Shared/Elements/Panel.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000033 /* Source\Shared\Elements\Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Object.cpp"; path = "Source/Shared/Elements/Object.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000036 /* Source\Shared\Elements\Material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Material.cpp"; path = "Source/Shared/Elements/Material.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000039 /* Source\Shared\Elements\Icon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Icon.cpp"; path = "Source/Shared/Elements/Icon.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000003C /* Source\Shared\Elements\Gui Skin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Gui Skin.cpp"; path = "Source/Shared/Elements/Gui Skin.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000003F /* Source\Shared\Elements\Font.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Font.cpp"; path = "Source/Shared/Elements/Font.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000042 /* Source\Shared\Elements\Environment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Environment.cpp"; path = "Source/Shared/Elements/Environment.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000045 /* Source\Shared\Elements\Enum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Enum.cpp"; path = "Source/Shared/Elements/Enum.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000048 /* Source\Shared\Elements\Code.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Code.cpp"; path = "Source/Shared/Elements/Code.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000004B /* Source\Shared\Constants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Constants.cpp"; path = "Source/Shared/Constants.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000004E /* Source\Shared\Commands.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Commands.cpp"; path = "Source/Shared/Commands.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000051 /* Source\Shared\Area.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Area.cpp"; path = "Source/Shared/Area.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000054 /* Source\Settings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Settings.cpp"; path = "Source/Settings.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000057 /* Source\Server Editor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Server Editor.cpp"; path = "Source/Server Editor.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000005A /* Source\Server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Server.cpp"; path = "Source/Server.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000005D /* Source\Publish.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Publish.cpp"; path = "Source/Publish.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000060 /* Source\Project List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Project List.cpp"; path = "Source/Project List.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000063 /* Source\Project@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Project@0.cpp"; path = "Source/Project@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000066 /* Source\Preview.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Preview.cpp"; path = "Source/Preview.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000069 /* Source\Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Main.cpp"; path = "Source/Main.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000006C /* Source\Import.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Import.cpp"; path = "Source/Import.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000006F /* Source\Gui\Viewport4 Region.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Viewport4 Region.cpp"; path = "Source/Gui/Viewport4 Region.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000072 /* Source\Gui\Video Options.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Video Options.cpp"; path = "Source/Gui/Video Options.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000075 /* Source\Gui\Theater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Theater.cpp"; path = "Source/Gui/Theater.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000078 /* Source\Gui\Texture Downsize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Texture Downsize.cpp"; path = "Source/Gui/Texture Downsize.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000007B /* Source\Gui\Split Animations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Split Animations.cpp"; path = "Source/Gui/Split Animations.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000007E /* Source\Gui\Size Statistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Size Statistics.cpp"; path = "Source/Gui/Size Statistics.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000081 /* Source\Gui\Project Update@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Project Update@0.cpp"; path = "Source/Gui/Project Update@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000084 /* Source\Gui\Project Settings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Project Settings.cpp"; path = "Source/Gui/Project Settings.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000087 /* Source\Gui\Misc Region.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Misc Region.cpp"; path = "Source/Gui/Misc Region.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000008A /* Source\Gui\Merge Similar Materials.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Merge Similar Materials.cpp"; path = "Source/Gui/Merge Similar Materials.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000008D /* Source\Gui\Import 1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Import 1.cpp"; path = "Source/Gui/Import 1.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000090 /* Source\Gui\Gui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Gui.cpp"; path = "Source/Gui/Gui.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000093 /* Source\Gui\Export Element.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Export Element.cpp"; path = "Source/Gui/Export Element.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000096 /* Source\Gui\Detect Similar Textures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Detect Similar Textures.cpp"; path = "Source/Gui/Detect Similar Textures.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000099 /* Source\Gui\Create Materials.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Create Materials.cpp"; path = "Source/Gui/Create Materials.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000009C /* Source\Gui\Copy Elements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Copy Elements.cpp"; path = "Source/Gui/Copy Elements.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000009F /* Source\Gui\Convert To De-Atlas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Convert To De-Atlas.cpp"; path = "Source/Gui/Convert To De-Atlas.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000A2 /* Source\Gui\Convert To Atlas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Convert To Atlas.cpp"; path = "Source/Gui/Convert To Atlas.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000A5 /* Source\Gui\Compare Projects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Compare Projects.cpp"; path = "Source/Gui/Compare Projects.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000A8 /* Source\Gui\Calculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Calculator.cpp"; path = "Source/Gui/Calculator.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000AB /* Source\Gui\Brush.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Brush.cpp"; path = "Source/Gui/Brush.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000AE /* Source\Game\Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Player.cpp"; path = "Source/Game/Player.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000B1 /* Source\Game\Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Game.cpp"; path = "Source/Game/Game.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000B4 /* Source\Game\Controls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Controls.cpp"; path = "Source/Game/Controls.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000B7 /* Source\Elm@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Elm@0.cpp"; path = "Source/Elm@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000BA /* Source\Editors\World\World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "World.cpp"; path = "Source/Editors/World/World.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000BD /* Source\Editors\World\Waypoint List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Waypoint List.cpp"; path = "Source/Editors/World/Waypoint List.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000C0 /* Source\Editors\World\Waypoint@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Waypoint@0.cpp"; path = "Source/Editors/World/Waypoint@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000C3 /* Source\Editors\World\Water@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Water@0.cpp"; path = "Source/Editors/World/Water@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000C6 /* Source\Editors\World\Undo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Undo.cpp"; path = "Source/Editors/World/Undo.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000C9 /* Source\Editors\World\Transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Transform.cpp"; path = "Source/Editors/World/Transform.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000CC /* Source\Editors\World\Selection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Selection.cpp"; path = "Source/Editors/World/Selection.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000CF /* Source\Editors\World\Object Paint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Object Paint.cpp"; path = "Source/Editors/World/Object Paint.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000D2 /* Source\Editors\World\Object List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Object List.cpp"; path = "Source/Editors/World/Object List.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000D5 /* Source\Editors\World\Object@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Object@0.cpp"; path = "Source/Editors/World/Object@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000D8 /* Source\Editors\World\Import Terrain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Import Terrain.cpp"; path = "Source/Editors/World/Import Terrain.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000DB /* Source\Editors\World\Gui@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Gui@0.cpp"; path = "Source/Editors/World/Gui@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000DE /* Source\Editors\World\Cursor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Cursor.cpp"; path = "Source/Editors/World/Cursor.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000E1 /* Source\Editors\World\Builder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Builder.cpp"; path = "Source/Editors/World/Builder.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000E4 /* Source\Editors\World\Brush Material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Brush Material.cpp"; path = "Source/Editors/World/Brush Material.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000E7 /* Source\Editors\World\Brush Height.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Brush Height.cpp"; path = "Source/Editors/World/Brush Height.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000EA /* Source\Editors\World\Brush Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Brush Color.cpp"; path = "Source/Editors/World/Brush Color.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000ED /* Source\Editors\World\Brush@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Brush@0.cpp"; path = "Source/Editors/World/Brush@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000F0 /* Source\Editors\World\Area@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Area@0.cpp"; path = "Source/Editors/World/Area@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000F3 /* Source\Editors\Water Material@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Water Material@0.cpp"; path = "Source/Editors/Water Material@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000F6 /* Source\Editors\Video.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Video.cpp"; path = "Source/Editors/Video.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000F9 /* Source\Editors\Text Style@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Text Style@0.cpp"; path = "Source/Editors/Text Style@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000FC /* Source\Editors\Sound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Sound.cpp"; path = "Source/Editors/Sound.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A0000000FF /* Source\Editors\Phys Material@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Phys Material@0.cpp"; path = "Source/Editors/Phys Material@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000102 /* Source\Editors\Param.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Param.cpp"; path = "Source/Editors/Param.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000105 /* Source\Editors\Panel Image@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Panel Image@0.cpp"; path = "Source/Editors/Panel Image@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000108 /* Source\Editors\Panel@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Panel@0.cpp"; path = "Source/Editors/Panel@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000010B /* Source\Editors\Object\Variations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Variations.cpp"; path = "Source/Editors/Object/Variations.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000010E /* Source\Editors\Object\Transform@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Transform@0.cpp"; path = "Source/Editors/Object/Transform@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000111 /* Source\Editors\Object\Parts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Parts.cpp"; path = "Source/Editors/Object/Parts.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000114 /* Source\Editors\Object\Object@1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Object@1.cpp"; path = "Source/Editors/Object/Object@1.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000117 /* Source\Editors\Object\Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Mesh.cpp"; path = "Source/Editors/Object/Mesh.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000011A /* Source\Editors\Object\Lod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Lod.cpp"; path = "Source/Editors/Object/Lod.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000011D /* Source\Editors\Object\Leaf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Leaf.cpp"; path = "Source/Editors/Object/Leaf.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000120 /* Source\Editors\Object\Groups.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Groups.cpp"; path = "Source/Editors/Object/Groups.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000123 /* Source\Editors\Object\AO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "AO.cpp"; path = "Source/Editors/Object/AO.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000126 /* Source\Editors\Object\Adjust Bone Orientations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Adjust Bone Orientations.cpp"; path = "Source/Editors/Object/Adjust Bone Orientations.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000129 /* Source\Editors\Mini Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Mini Map.cpp"; path = "Source/Editors/Mini Map.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000012C /* Source\Editors\Material@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Material@0.cpp"; path = "Source/Editors/Material@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000012F /* Source\Editors\Image Atlas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Image Atlas.cpp"; path = "Source/Editors/Image Atlas.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000132 /* Source\Editors\Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Image.cpp"; path = "Source/Editors/Image.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000135 /* Source\Editors\Icon@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Icon@0.cpp"; path = "Source/Editors/Icon@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000138 /* Source\Editors\Gui Skin@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Gui Skin@0.cpp"; path = "Source/Editors/Gui Skin@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000013B /* Source\Editors\Gui@1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Gui@1.cpp"; path = "Source/Editors/Gui@1.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000013E /* Source\Editors\Font@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Font@0.cpp"; path = "Source/Editors/Font@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000141 /* Source\Editors\Environment@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Environment@0.cpp"; path = "Source/Editors/Environment@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000144 /* Source\Editors\Enum@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Enum@0.cpp"; path = "Source/Editors/Enum@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000147 /* Source\Editors\Code@0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Code@0.cpp"; path = "Source/Editors/Code@0.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000014A /* Source\Editors\Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Animation.cpp"; path = "Source/Editors/Animation.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000014D /* Source\Editor Update.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Editor Update.cpp"; path = "Source/Editor Update.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000150 /* Source\Auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Auto.cpp"; path = "Source/Auto.cpp"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000153 /* Assets/EngineEmbed.pak */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EngineEmbed.pak"; path = "Assets/EngineEmbed.pak"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000155 /* Assets/Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "Assets/Default-Portrait.png"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000157 /* Assets/Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "Assets/Default-667h@2x.png"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000159 /* Assets/Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Assets/Default-568h@2x.png"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000015B /* Assets/Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Assets/Default@2x.png"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000015D /* Assets/Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-83.5@2x.png"; path = "Assets/Icon-83.5@2x.png"; sourceTree = "<group>"; };
+      00000000EEC0C0A00000015F /* Assets/Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "Assets/Icon-60@3x.png"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000161 /* Assets/Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@2x.png"; path = "Assets/Icon-76@2x.png"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000163 /* Assets/Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "Assets/Icon-60@2x.png"; sourceTree = "<group>"; };
+      00000000EEC0C0A000000165 /* Assets/Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76.png"; path = "Assets/Icon-76.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+      0B9F05BC16CD7377006A0106 /* Frameworks */ = {
+         isa = PBXFrameworksBuildPhase;
+         buildActionMask = 2147483647;
+         files = (
+				37AE675E18E6130800319BDA /* StoreKit.framework in Frameworks */,
+            0B9F062B16CD7C6D006A0106 /* EsenthelEngine.a in Frameworks */,
+/* ESENTHEL MAC FRAMEWORKS */
+         );
+         runOnlyForDeploymentPostprocessing = 0;
+      };
+      0BDA9C7D121EE06400ED5E97 /* Frameworks */ = {
+         isa = PBXFrameworksBuildPhase;
+         buildActionMask = 2147483647;
+         files = (
+				37AE675E18E6130800319BDA /* StoreKit.framework in Frameworks */,
+				37307DBA21AFDF88009ABBF9 /* Security.framework in Frameworks */,
+				37307DB821AFDF81009ABBF9 /* WebKit.framework in Frameworks */,
+            0B80B0021238567700C08944 /* EsenthelEngine Device.a in Frameworks */,
+            0B9F062916CD7C44006A0106 /* EsenthelEngine Simulator.a in Frameworks */,
+/* ESENTHEL IOS FRAMEWORKS */
+         );
+         runOnlyForDeploymentPostprocessing = 0;
+      };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B9F05BA16CD7377006A0106 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+/* ESENTHEL MAC DYLIBS */
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXGroup section */
+      0B9F063316CD7D6D006A0106 /* H */ = {
+         isa = PBXGroup;
+         children = (
+            0B9F065B16CD9232006A0106 /* stdafx.h */,
+/* ESENTHEL H CHILDREN */
+         );
+         name = H;
+         sourceTree = "<group>";
+      };
+      19C28FACFE9D520D11CA2CBB /* Products */ = {
+         isa = PBXGroup;
+         children = (
+            0BDA9C7F121EE06400ED5E97 /* iOS.app */,
+            0B9F05BF16CD7377006A0106 /* Mac.app */,
+         );
+         name = Products;
+         sourceTree = "<group>";
+      };
+      29B97314FDCFA39411CA2CEA /* Project */ = {
+         isa = PBXGroup;
+         children = (
+            0B9F063316CD7D6D006A0106 /* H */,
+            00000000EEC0C0A000000168 /* Source */,
+/* ESENTHEL ROOT */
+            29B97323FDCFA39411CA2CEA /* Frameworks */,
+            29B97317FDCFA39411CA2CEA /* Assets */,
+            19C28FACFE9D520D11CA2CBB /* Products */,
+         );
+         name = Project;
+         sourceTree = "<group>";
+      };
+      29B97317FDCFA39411CA2CEA /* Assets */ = {
+         isa = PBXGroup;
+         children = (
+            0B9F062516CD7C21006A0106 /* Engine.pak */,
+            0B9F062516CD7C22006A0106 /* Project.pak */,
+            0B9F060816CD7B80006A0106 /* Icon.icns */,
+            0B9F063B16CD7F75006A0106 /* Mac.plist */,
+            0B9F063C16CD802D006A0106 /* iOS.plist */,
+            0B9F060C16CD7B80006A0106 /* iOS.xib */,
+            00000000EEC0C0A000000153 /* Assets/EngineEmbed.pak */,
+            00000000EEC0C0A000000155 /* Assets/Default-Portrait.png */,
+            00000000EEC0C0A000000157 /* Assets/Default-667h@2x.png */,
+            00000000EEC0C0A000000159 /* Assets/Default-568h@2x.png */,
+            00000000EEC0C0A00000015B /* Assets/Default@2x.png */,
+            00000000EEC0C0A00000015D /* Assets/Icon-83.5@2x.png */,
+            00000000EEC0C0A00000015F /* Assets/Icon-60@3x.png */,
+            00000000EEC0C0A000000161 /* Assets/Icon-76@2x.png */,
+            00000000EEC0C0A000000163 /* Assets/Icon-60@2x.png */,
+            00000000EEC0C0A000000165 /* Assets/Icon-76.png */,
+/* ESENTHEL ASSETS CHILDREN */
+         );
+         name = Assets;
+         sourceTree = "<group>";
+      };
+      29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+         isa = PBXGroup;
+         children = (
+				37307DB921AFDF87009ABBF9 /* Security.framework */,
+				37307DB721AFDF80009ABBF9 /* WebKit.framework */,
+				37AE675D18E6130800319BDA /* StoreKit.framework */,
+            0B9F062A16CD7C6D006A0106 /* EsenthelEngine.a */,
+            0B80B0011238567700C08944 /* EsenthelEngine Device.a */,
+            0B987D3C12385BE500071DE8 /* EsenthelEngine Simulator.a */,
+/* ESENTHEL ALL FRAMEWORKS */
+         );
+         name = Frameworks;
+         sourceTree = "<group>";
+      };
+      00000000EEC0C0A000000168 /* Source */ = {
+         isa = PBXGroup;
+         children = (
+            00000000EEC0C0A000000169 /* Editors */,
+            00000000EEC0C0A00000016C /* Game */,
+            00000000EEC0C0A00000016D /* Gui */,
+            00000000EEC0C0A00000016E /* Shared */,
+            00000000EEC0C0A000000170 /* Store */,
+            00000000EEC0C0A000000150 /* Auto.cpp */,
+            00000000EEC0C0A00000014D /* Editor Update.cpp */,
+            00000000EEC0C0A0000000B7 /* Elm@0.cpp */,
+            00000000EEC0C0A00000006C /* Import.cpp */,
+            00000000EEC0C0A000000069 /* Main.cpp */,
+            00000000EEC0C0A000000066 /* Preview.cpp */,
+            00000000EEC0C0A000000063 /* Project@0.cpp */,
+            00000000EEC0C0A000000060 /* Project List.cpp */,
+            00000000EEC0C0A00000005D /* Publish.cpp */,
+            00000000EEC0C0A00000005A /* Server.cpp */,
+            00000000EEC0C0A000000057 /* Server Editor.cpp */,
+            00000000EEC0C0A000000054 /* Settings.cpp */,
+            00000000EEC0C0A000000000 /* Synchronize.cpp */,
+         );
+         name = "Source";
+         sourceTree = "<group>";
+      };
+      00000000EEC0C0A000000169 /* Editors */ = {
+         isa = PBXGroup;
+         children = (
+            00000000EEC0C0A00000016A /* Object */,
+            00000000EEC0C0A00000016B /* World */,
+            00000000EEC0C0A00000014A /* Animation.cpp */,
+            00000000EEC0C0A000000147 /* Code@0.cpp */,
+            00000000EEC0C0A000000144 /* Enum@0.cpp */,
+            00000000EEC0C0A000000141 /* Environment@0.cpp */,
+            00000000EEC0C0A00000013E /* Font@0.cpp */,
+            00000000EEC0C0A00000013B /* Gui@1.cpp */,
+            00000000EEC0C0A000000138 /* Gui Skin@0.cpp */,
+            00000000EEC0C0A000000135 /* Icon@0.cpp */,
+            00000000EEC0C0A000000132 /* Image.cpp */,
+            00000000EEC0C0A00000012F /* Image Atlas.cpp */,
+            00000000EEC0C0A00000012C /* Material@0.cpp */,
+            00000000EEC0C0A000000129 /* Mini Map.cpp */,
+            00000000EEC0C0A000000108 /* Panel@0.cpp */,
+            00000000EEC0C0A000000105 /* Panel Image@0.cpp */,
+            00000000EEC0C0A000000102 /* Param.cpp */,
+            00000000EEC0C0A0000000FF /* Phys Material@0.cpp */,
+            00000000EEC0C0A0000000FC /* Sound.cpp */,
+            00000000EEC0C0A0000000F9 /* Text Style@0.cpp */,
+            00000000EEC0C0A0000000F6 /* Video.cpp */,
+            00000000EEC0C0A0000000F3 /* Water Material@0.cpp */,
+         );
+         name = "Editors";
+         sourceTree = "<group>";
+      };
+      00000000EEC0C0A00000016A /* Object */ = {
+         isa = PBXGroup;
+         children = (
+            00000000EEC0C0A000000126 /* Adjust Bone Orientations.cpp */,
+            00000000EEC0C0A000000123 /* AO.cpp */,
+            00000000EEC0C0A000000120 /* Groups.cpp */,
+            00000000EEC0C0A00000011D /* Leaf.cpp */,
+            00000000EEC0C0A00000011A /* Lod.cpp */,
+            00000000EEC0C0A000000117 /* Mesh.cpp */,
+            00000000EEC0C0A000000114 /* Object@1.cpp */,
+            00000000EEC0C0A000000111 /* Parts.cpp */,
+            00000000EEC0C0A00000010E /* Transform@0.cpp */,
+            00000000EEC0C0A00000010B /* Variations.cpp */,
+         );
+         name = "Object";
+         sourceTree = "<group>";
+      };
+      00000000EEC0C0A00000016B /* World */ = {
+         isa = PBXGroup;
+         children = (
+            00000000EEC0C0A0000000F0 /* Area@0.cpp */,
+            00000000EEC0C0A0000000ED /* Brush@0.cpp */,
+            00000000EEC0C0A0000000EA /* Brush Color.cpp */,
+            00000000EEC0C0A0000000E7 /* Brush Height.cpp */,
+            00000000EEC0C0A0000000E4 /* Brush Material.cpp */,
+            00000000EEC0C0A0000000E1 /* Builder.cpp */,
+            00000000EEC0C0A0000000DE /* Cursor.cpp */,
+            00000000EEC0C0A0000000DB /* Gui@0.cpp */,
+            00000000EEC0C0A0000000D8 /* Import Terrain.cpp */,
+            00000000EEC0C0A0000000D5 /* Object@0.cpp */,
+            00000000EEC0C0A0000000D2 /* Object List.cpp */,
+            00000000EEC0C0A0000000CF /* Object Paint.cpp */,
+            00000000EEC0C0A0000000CC /* Selection.cpp */,
+            00000000EEC0C0A0000000C9 /* Transform.cpp */,
+            00000000EEC0C0A0000000C6 /* Undo.cpp */,
+            00000000EEC0C0A0000000C3 /* Water@0.cpp */,
+            00000000EEC0C0A0000000C0 /* Waypoint@0.cpp */,
+            00000000EEC0C0A0000000BD /* Waypoint List.cpp */,
+            00000000EEC0C0A0000000BA /* World.cpp */,
+         );
+         name = "World";
+         sourceTree = "<group>";
+      };
+      00000000EEC0C0A00000016C /* Game */ = {
+         isa = PBXGroup;
+         children = (
+            00000000EEC0C0A0000000B4 /* Controls.cpp */,
+            00000000EEC0C0A0000000B1 /* Game.cpp */,
+            00000000EEC0C0A0000000AE /* Player.cpp */,
+         );
+         name = "Game";
+         sourceTree = "<group>";
+      };
+      00000000EEC0C0A00000016D /* Gui */ = {
+         isa = PBXGroup;
+         children = (
+            00000000EEC0C0A0000000AB /* Brush.cpp */,
+            00000000EEC0C0A0000000A8 /* Calculator.cpp */,
+            00000000EEC0C0A0000000A5 /* Compare Projects.cpp */,
+            00000000EEC0C0A0000000A2 /* Convert To Atlas.cpp */,
+            00000000EEC0C0A00000009F /* Convert To De-Atlas.cpp */,
+            00000000EEC0C0A00000009C /* Copy Elements.cpp */,
+            00000000EEC0C0A000000099 /* Create Materials.cpp */,
+            00000000EEC0C0A000000096 /* Detect Similar Textures.cpp */,
+            00000000EEC0C0A000000093 /* Export Element.cpp */,
+            00000000EEC0C0A000000090 /* Gui.cpp */,
+            00000000EEC0C0A00000008D /* Import 1.cpp */,
+            00000000EEC0C0A00000008A /* Merge Similar Materials.cpp */,
+            00000000EEC0C0A000000087 /* Misc Region.cpp */,
+            00000000EEC0C0A000000084 /* Project Settings.cpp */,
+            00000000EEC0C0A000000081 /* Project Update@0.cpp */,
+            00000000EEC0C0A00000007E /* Size Statistics.cpp */,
+            00000000EEC0C0A00000007B /* Split Animations.cpp */,
+            00000000EEC0C0A000000078 /* Texture Downsize.cpp */,
+            00000000EEC0C0A000000075 /* Theater.cpp */,
+            00000000EEC0C0A000000072 /* Video Options.cpp */,
+            00000000EEC0C0A00000006F /* Viewport4 Region.cpp */,
+         );
+         name = "Gui";
+         sourceTree = "<group>";
+      };
+      00000000EEC0C0A00000016E /* Shared */ = {
+         isa = PBXGroup;
+         children = (
+            00000000EEC0C0A00000016F /* Elements */,
+            00000000EEC0C0A000000051 /* Area.cpp */,
+            00000000EEC0C0A00000004E /* Commands.cpp */,
+            00000000EEC0C0A00000004B /* Constants.cpp */,
+            00000000EEC0C0A000000018 /* Elm.cpp */,
+            00000000EEC0C0A000000015 /* Functions.cpp */,
+            00000000EEC0C0A000000012 /* Project.cpp */,
+            00000000EEC0C0A00000000F /* Project Update.cpp */,
+            00000000EEC0C0A00000000C /* Waypoint.cpp */,
+         );
+         name = "Shared";
+         sourceTree = "<group>";
+      };
+      00000000EEC0C0A00000016F /* Elements */ = {
+         isa = PBXGroup;
+         children = (
+            00000000EEC0C0A000000048 /* Code.cpp */,
+            00000000EEC0C0A000000045 /* Enum.cpp */,
+            00000000EEC0C0A000000042 /* Environment.cpp */,
+            00000000EEC0C0A00000003F /* Font.cpp */,
+            00000000EEC0C0A00000003C /* Gui Skin.cpp */,
+            00000000EEC0C0A000000039 /* Icon.cpp */,
+            00000000EEC0C0A000000036 /* Material.cpp */,
+            00000000EEC0C0A000000033 /* Object.cpp */,
+            00000000EEC0C0A000000030 /* Panel.cpp */,
+            00000000EEC0C0A00000002D /* Panel Image.cpp */,
+            00000000EEC0C0A00000002A /* Params.cpp */,
+            00000000EEC0C0A000000027 /* Phys Material.cpp */,
+            00000000EEC0C0A000000024 /* Skeleton.cpp */,
+            00000000EEC0C0A000000021 /* Text Style.cpp */,
+            00000000EEC0C0A00000001E /* Water.cpp */,
+            00000000EEC0C0A00000001B /* Water Material.cpp */,
+         );
+         name = "Elements";
+         sourceTree = "<group>";
+      };
+      00000000EEC0C0A000000170 /* Store */ = {
+         isa = PBXGroup;
+         children = (
+            00000000EEC0C0A000000009 /* Internet Cache.cpp */,
+            00000000EEC0C0A000000006 /* License Test.cpp */,
+            00000000EEC0C0A000000003 /* Store.cpp */,
+         );
+         name = "Store";
+         sourceTree = "<group>";
+      };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+      0B9F05BE16CD7377006A0106 /* Mac */ = {
+         isa = PBXNativeTarget;
+         buildConfigurationList = 0B9F05ED16CD7378006A0106 /* Build configuration list for PBXNativeTarget "Mac" */;
+         buildPhases = (
+            0B9F05BB16CD7377006A0106 /* Sources */,
+            0B9F05BC16CD7377006A0106 /* Frameworks */,
+            0B9F05BD16CD7377006A0106 /* Resources */,
+				0B9F05BA16CD7377006A0106 /* CopyFiles */,
+         );
+         buildRules = (
+         );
+         dependencies = (
+         );
+         name = Mac;
+         productName = Project;
+         productReference = 0B9F05BF16CD7377006A0106 /* Mac.app */;
+         productType = "com.apple.product-type.application";
+      };
+      0BDA9C7E121EE06400ED5E97 /* iOS */ = {
+         isa = PBXNativeTarget;
+         buildConfigurationList = 0BDA9C84121EE06400ED5E97 /* Build configuration list for PBXNativeTarget "iOS" */;
+         buildPhases = (
+            0BDA9C7B121EE06400ED5E97 /* Resources */,
+            0BDA9C7C121EE06400ED5E97 /* Sources */,
+            0BDA9C7D121EE06400ED5E97 /* Frameworks */,
+         );
+         buildRules = (
+         );
+         dependencies = (
+         );
+         name = iOS;
+         productName = iPhone;
+         productReference = 0BDA9C7F121EE06400ED5E97 /* iOS.app */;
+         productType = "com.apple.product-type.application";
+      };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+      29B97313FDCFA39411CA2CEA /* Project object */ = {
+         isa = PBXProject;
+         attributes = {
+            LastUpgradeCheck = 0410;
+				TargetAttributes = {
+					0BDA9C7E121EE06400ED5E97 = {
+						DevelopmentTeam = 2KA8LL48VG;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+            };
+         };
+         buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Project" */;
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = English;
+         hasScannedForEncodings = 1;
+         knownRegions = (
+            English,
+            Japanese,
+            French,
+            German,
+            en,
+         );
+         mainGroup = 29B97314FDCFA39411CA2CEA /* Project */;
+         projectDirPath = "";
+         projectRoot = "";
+         targets = (
+            0B9F05BE16CD7377006A0106 /* Mac */,
+            0BDA9C7E121EE06400ED5E97 /* iOS */,
+         );
+      };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+      0B9F05BD16CD7377006A0106 /* Resources */ = {
+         isa = PBXResourcesBuildPhase;
+         buildActionMask = 2147483647;
+         files = (
+            0B9F061B16CD7B80006A0106 /* Icon.icns in Resources */,
+            00000000EEC0C0A000000154 /* Assets/EngineEmbed.pak */,
+/* ESENTHEL MAC EMBED */
+         );
+         runOnlyForDeploymentPostprocessing = 0;
+      };
+      0BDA9C7B121EE06400ED5E97 /* Resources */ = {
+         isa = PBXResourcesBuildPhase;
+         buildActionMask = 2147483647;
+         files = (
+            0B9F062416CD7B80006A0106 /* iOS.xib in Resources */,
+            0B9F062816CD7C2B006A0106 /* Engine.pak in Resources */,
+            0B9F062916CD7C2B006A0106 /* Project.pak in Resources */,
+            00000000EEC0C0A000000156 /* Assets/Default-Portrait.png */,
+            00000000EEC0C0A000000158 /* Assets/Default-667h@2x.png */,
+            00000000EEC0C0A00000015A /* Assets/Default-568h@2x.png */,
+            00000000EEC0C0A00000015C /* Assets/Default@2x.png */,
+            00000000EEC0C0A00000015E /* Assets/Icon-83.5@2x.png */,
+            00000000EEC0C0A000000160 /* Assets/Icon-60@3x.png */,
+            00000000EEC0C0A000000162 /* Assets/Icon-76@2x.png */,
+            00000000EEC0C0A000000164 /* Assets/Icon-60@2x.png */,
+            00000000EEC0C0A000000166 /* Assets/Icon-76.png */,
+/* ESENTHEL IOS EMBED */
+         );
+         runOnlyForDeploymentPostprocessing = 0;
+      };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+      0B9F05BB16CD7377006A0106 /* Sources */ = {
+         isa = PBXSourcesBuildPhase;
+         buildActionMask = 2147483647;
+         files = (
+            00000000EEC0C0A000000001 /* Source\Synchronize.cpp */,
+            00000000EEC0C0A000000004 /* Source\Store\Store.cpp */,
+            00000000EEC0C0A000000007 /* Source\Store\License Test.cpp */,
+            00000000EEC0C0A00000000A /* Source\Store\Internet Cache.cpp */,
+            00000000EEC0C0A00000000D /* Source\Shared\Waypoint.cpp */,
+            00000000EEC0C0A000000010 /* Source\Shared\Project Update.cpp */,
+            00000000EEC0C0A000000013 /* Source\Shared\Project.cpp */,
+            00000000EEC0C0A000000016 /* Source\Shared\Functions.cpp */,
+            00000000EEC0C0A000000019 /* Source\Shared\Elm.cpp */,
+            00000000EEC0C0A00000001C /* Source\Shared\Elements\Water Material.cpp */,
+            00000000EEC0C0A00000001F /* Source\Shared\Elements\Water.cpp */,
+            00000000EEC0C0A000000022 /* Source\Shared\Elements\Text Style.cpp */,
+            00000000EEC0C0A000000025 /* Source\Shared\Elements\Skeleton.cpp */,
+            00000000EEC0C0A000000028 /* Source\Shared\Elements\Phys Material.cpp */,
+            00000000EEC0C0A00000002B /* Source\Shared\Elements\Params.cpp */,
+            00000000EEC0C0A00000002E /* Source\Shared\Elements\Panel Image.cpp */,
+            00000000EEC0C0A000000031 /* Source\Shared\Elements\Panel.cpp */,
+            00000000EEC0C0A000000034 /* Source\Shared\Elements\Object.cpp */,
+            00000000EEC0C0A000000037 /* Source\Shared\Elements\Material.cpp */,
+            00000000EEC0C0A00000003A /* Source\Shared\Elements\Icon.cpp */,
+            00000000EEC0C0A00000003D /* Source\Shared\Elements\Gui Skin.cpp */,
+            00000000EEC0C0A000000040 /* Source\Shared\Elements\Font.cpp */,
+            00000000EEC0C0A000000043 /* Source\Shared\Elements\Environment.cpp */,
+            00000000EEC0C0A000000046 /* Source\Shared\Elements\Enum.cpp */,
+            00000000EEC0C0A000000049 /* Source\Shared\Elements\Code.cpp */,
+            00000000EEC0C0A00000004C /* Source\Shared\Constants.cpp */,
+            00000000EEC0C0A00000004F /* Source\Shared\Commands.cpp */,
+            00000000EEC0C0A000000052 /* Source\Shared\Area.cpp */,
+            00000000EEC0C0A000000055 /* Source\Settings.cpp */,
+            00000000EEC0C0A000000058 /* Source\Server Editor.cpp */,
+            00000000EEC0C0A00000005B /* Source\Server.cpp */,
+            00000000EEC0C0A00000005E /* Source\Publish.cpp */,
+            00000000EEC0C0A000000061 /* Source\Project List.cpp */,
+            00000000EEC0C0A000000064 /* Source\Project@0.cpp */,
+            00000000EEC0C0A000000067 /* Source\Preview.cpp */,
+            00000000EEC0C0A00000006A /* Source\Main.cpp */,
+            00000000EEC0C0A00000006D /* Source\Import.cpp */,
+            00000000EEC0C0A000000070 /* Source\Gui\Viewport4 Region.cpp */,
+            00000000EEC0C0A000000073 /* Source\Gui\Video Options.cpp */,
+            00000000EEC0C0A000000076 /* Source\Gui\Theater.cpp */,
+            00000000EEC0C0A000000079 /* Source\Gui\Texture Downsize.cpp */,
+            00000000EEC0C0A00000007C /* Source\Gui\Split Animations.cpp */,
+            00000000EEC0C0A00000007F /* Source\Gui\Size Statistics.cpp */,
+            00000000EEC0C0A000000082 /* Source\Gui\Project Update@0.cpp */,
+            00000000EEC0C0A000000085 /* Source\Gui\Project Settings.cpp */,
+            00000000EEC0C0A000000088 /* Source\Gui\Misc Region.cpp */,
+            00000000EEC0C0A00000008B /* Source\Gui\Merge Similar Materials.cpp */,
+            00000000EEC0C0A00000008E /* Source\Gui\Import 1.cpp */,
+            00000000EEC0C0A000000091 /* Source\Gui\Gui.cpp */,
+            00000000EEC0C0A000000094 /* Source\Gui\Export Element.cpp */,
+            00000000EEC0C0A000000097 /* Source\Gui\Detect Similar Textures.cpp */,
+            00000000EEC0C0A00000009A /* Source\Gui\Create Materials.cpp */,
+            00000000EEC0C0A00000009D /* Source\Gui\Copy Elements.cpp */,
+            00000000EEC0C0A0000000A0 /* Source\Gui\Convert To De-Atlas.cpp */,
+            00000000EEC0C0A0000000A3 /* Source\Gui\Convert To Atlas.cpp */,
+            00000000EEC0C0A0000000A6 /* Source\Gui\Compare Projects.cpp */,
+            00000000EEC0C0A0000000A9 /* Source\Gui\Calculator.cpp */,
+            00000000EEC0C0A0000000AC /* Source\Gui\Brush.cpp */,
+            00000000EEC0C0A0000000AF /* Source\Game\Player.cpp */,
+            00000000EEC0C0A0000000B2 /* Source\Game\Game.cpp */,
+            00000000EEC0C0A0000000B5 /* Source\Game\Controls.cpp */,
+            00000000EEC0C0A0000000B8 /* Source\Elm@0.cpp */,
+            00000000EEC0C0A0000000BB /* Source\Editors\World\World.cpp */,
+            00000000EEC0C0A0000000BE /* Source\Editors\World\Waypoint List.cpp */,
+            00000000EEC0C0A0000000C1 /* Source\Editors\World\Waypoint@0.cpp */,
+            00000000EEC0C0A0000000C4 /* Source\Editors\World\Water@0.cpp */,
+            00000000EEC0C0A0000000C7 /* Source\Editors\World\Undo.cpp */,
+            00000000EEC0C0A0000000CA /* Source\Editors\World\Transform.cpp */,
+            00000000EEC0C0A0000000CD /* Source\Editors\World\Selection.cpp */,
+            00000000EEC0C0A0000000D0 /* Source\Editors\World\Object Paint.cpp */,
+            00000000EEC0C0A0000000D3 /* Source\Editors\World\Object List.cpp */,
+            00000000EEC0C0A0000000D6 /* Source\Editors\World\Object@0.cpp */,
+            00000000EEC0C0A0000000D9 /* Source\Editors\World\Import Terrain.cpp */,
+            00000000EEC0C0A0000000DC /* Source\Editors\World\Gui@0.cpp */,
+            00000000EEC0C0A0000000DF /* Source\Editors\World\Cursor.cpp */,
+            00000000EEC0C0A0000000E2 /* Source\Editors\World\Builder.cpp */,
+            00000000EEC0C0A0000000E5 /* Source\Editors\World\Brush Material.cpp */,
+            00000000EEC0C0A0000000E8 /* Source\Editors\World\Brush Height.cpp */,
+            00000000EEC0C0A0000000EB /* Source\Editors\World\Brush Color.cpp */,
+            00000000EEC0C0A0000000EE /* Source\Editors\World\Brush@0.cpp */,
+            00000000EEC0C0A0000000F1 /* Source\Editors\World\Area@0.cpp */,
+            00000000EEC0C0A0000000F4 /* Source\Editors\Water Material@0.cpp */,
+            00000000EEC0C0A0000000F7 /* Source\Editors\Video.cpp */,
+            00000000EEC0C0A0000000FA /* Source\Editors\Text Style@0.cpp */,
+            00000000EEC0C0A0000000FD /* Source\Editors\Sound.cpp */,
+            00000000EEC0C0A000000100 /* Source\Editors\Phys Material@0.cpp */,
+            00000000EEC0C0A000000103 /* Source\Editors\Param.cpp */,
+            00000000EEC0C0A000000106 /* Source\Editors\Panel Image@0.cpp */,
+            00000000EEC0C0A000000109 /* Source\Editors\Panel@0.cpp */,
+            00000000EEC0C0A00000010C /* Source\Editors\Object\Variations.cpp */,
+            00000000EEC0C0A00000010F /* Source\Editors\Object\Transform@0.cpp */,
+            00000000EEC0C0A000000112 /* Source\Editors\Object\Parts.cpp */,
+            00000000EEC0C0A000000115 /* Source\Editors\Object\Object@1.cpp */,
+            00000000EEC0C0A000000118 /* Source\Editors\Object\Mesh.cpp */,
+            00000000EEC0C0A00000011B /* Source\Editors\Object\Lod.cpp */,
+            00000000EEC0C0A00000011E /* Source\Editors\Object\Leaf.cpp */,
+            00000000EEC0C0A000000121 /* Source\Editors\Object\Groups.cpp */,
+            00000000EEC0C0A000000124 /* Source\Editors\Object\AO.cpp */,
+            00000000EEC0C0A000000127 /* Source\Editors\Object\Adjust Bone Orientations.cpp */,
+            00000000EEC0C0A00000012A /* Source\Editors\Mini Map.cpp */,
+            00000000EEC0C0A00000012D /* Source\Editors\Material@0.cpp */,
+            00000000EEC0C0A000000130 /* Source\Editors\Image Atlas.cpp */,
+            00000000EEC0C0A000000133 /* Source\Editors\Image.cpp */,
+            00000000EEC0C0A000000136 /* Source\Editors\Icon@0.cpp */,
+            00000000EEC0C0A000000139 /* Source\Editors\Gui Skin@0.cpp */,
+            00000000EEC0C0A00000013C /* Source\Editors\Gui@1.cpp */,
+            00000000EEC0C0A00000013F /* Source\Editors\Font@0.cpp */,
+            00000000EEC0C0A000000142 /* Source\Editors\Environment@0.cpp */,
+            00000000EEC0C0A000000145 /* Source\Editors\Enum@0.cpp */,
+            00000000EEC0C0A000000148 /* Source\Editors\Code@0.cpp */,
+            00000000EEC0C0A00000014B /* Source\Editors\Animation.cpp */,
+            00000000EEC0C0A00000014E /* Source\Editor Update.cpp */,
+            00000000EEC0C0A000000151 /* Source\Auto.cpp */,
+/* ESENTHEL MAC SOURCE */
+         );
+         runOnlyForDeploymentPostprocessing = 0;
+      };
+      0BDA9C7C121EE06400ED5E97 /* Sources */ = {
+         isa = PBXSourcesBuildPhase;
+         buildActionMask = 2147483647;
+         files = (
+            00000000EEC0C0A000000002 /* Source\Synchronize.cpp */,
+            00000000EEC0C0A000000005 /* Source\Store\Store.cpp */,
+            00000000EEC0C0A000000008 /* Source\Store\License Test.cpp */,
+            00000000EEC0C0A00000000B /* Source\Store\Internet Cache.cpp */,
+            00000000EEC0C0A00000000E /* Source\Shared\Waypoint.cpp */,
+            00000000EEC0C0A000000011 /* Source\Shared\Project Update.cpp */,
+            00000000EEC0C0A000000014 /* Source\Shared\Project.cpp */,
+            00000000EEC0C0A000000017 /* Source\Shared\Functions.cpp */,
+            00000000EEC0C0A00000001A /* Source\Shared\Elm.cpp */,
+            00000000EEC0C0A00000001D /* Source\Shared\Elements\Water Material.cpp */,
+            00000000EEC0C0A000000020 /* Source\Shared\Elements\Water.cpp */,
+            00000000EEC0C0A000000023 /* Source\Shared\Elements\Text Style.cpp */,
+            00000000EEC0C0A000000026 /* Source\Shared\Elements\Skeleton.cpp */,
+            00000000EEC0C0A000000029 /* Source\Shared\Elements\Phys Material.cpp */,
+            00000000EEC0C0A00000002C /* Source\Shared\Elements\Params.cpp */,
+            00000000EEC0C0A00000002F /* Source\Shared\Elements\Panel Image.cpp */,
+            00000000EEC0C0A000000032 /* Source\Shared\Elements\Panel.cpp */,
+            00000000EEC0C0A000000035 /* Source\Shared\Elements\Object.cpp */,
+            00000000EEC0C0A000000038 /* Source\Shared\Elements\Material.cpp */,
+            00000000EEC0C0A00000003B /* Source\Shared\Elements\Icon.cpp */,
+            00000000EEC0C0A00000003E /* Source\Shared\Elements\Gui Skin.cpp */,
+            00000000EEC0C0A000000041 /* Source\Shared\Elements\Font.cpp */,
+            00000000EEC0C0A000000044 /* Source\Shared\Elements\Environment.cpp */,
+            00000000EEC0C0A000000047 /* Source\Shared\Elements\Enum.cpp */,
+            00000000EEC0C0A00000004A /* Source\Shared\Elements\Code.cpp */,
+            00000000EEC0C0A00000004D /* Source\Shared\Constants.cpp */,
+            00000000EEC0C0A000000050 /* Source\Shared\Commands.cpp */,
+            00000000EEC0C0A000000053 /* Source\Shared\Area.cpp */,
+            00000000EEC0C0A000000056 /* Source\Settings.cpp */,
+            00000000EEC0C0A000000059 /* Source\Server Editor.cpp */,
+            00000000EEC0C0A00000005C /* Source\Server.cpp */,
+            00000000EEC0C0A00000005F /* Source\Publish.cpp */,
+            00000000EEC0C0A000000062 /* Source\Project List.cpp */,
+            00000000EEC0C0A000000065 /* Source\Project@0.cpp */,
+            00000000EEC0C0A000000068 /* Source\Preview.cpp */,
+            00000000EEC0C0A00000006B /* Source\Main.cpp */,
+            00000000EEC0C0A00000006E /* Source\Import.cpp */,
+            00000000EEC0C0A000000071 /* Source\Gui\Viewport4 Region.cpp */,
+            00000000EEC0C0A000000074 /* Source\Gui\Video Options.cpp */,
+            00000000EEC0C0A000000077 /* Source\Gui\Theater.cpp */,
+            00000000EEC0C0A00000007A /* Source\Gui\Texture Downsize.cpp */,
+            00000000EEC0C0A00000007D /* Source\Gui\Split Animations.cpp */,
+            00000000EEC0C0A000000080 /* Source\Gui\Size Statistics.cpp */,
+            00000000EEC0C0A000000083 /* Source\Gui\Project Update@0.cpp */,
+            00000000EEC0C0A000000086 /* Source\Gui\Project Settings.cpp */,
+            00000000EEC0C0A000000089 /* Source\Gui\Misc Region.cpp */,
+            00000000EEC0C0A00000008C /* Source\Gui\Merge Similar Materials.cpp */,
+            00000000EEC0C0A00000008F /* Source\Gui\Import 1.cpp */,
+            00000000EEC0C0A000000092 /* Source\Gui\Gui.cpp */,
+            00000000EEC0C0A000000095 /* Source\Gui\Export Element.cpp */,
+            00000000EEC0C0A000000098 /* Source\Gui\Detect Similar Textures.cpp */,
+            00000000EEC0C0A00000009B /* Source\Gui\Create Materials.cpp */,
+            00000000EEC0C0A00000009E /* Source\Gui\Copy Elements.cpp */,
+            00000000EEC0C0A0000000A1 /* Source\Gui\Convert To De-Atlas.cpp */,
+            00000000EEC0C0A0000000A4 /* Source\Gui\Convert To Atlas.cpp */,
+            00000000EEC0C0A0000000A7 /* Source\Gui\Compare Projects.cpp */,
+            00000000EEC0C0A0000000AA /* Source\Gui\Calculator.cpp */,
+            00000000EEC0C0A0000000AD /* Source\Gui\Brush.cpp */,
+            00000000EEC0C0A0000000B0 /* Source\Game\Player.cpp */,
+            00000000EEC0C0A0000000B3 /* Source\Game\Game.cpp */,
+            00000000EEC0C0A0000000B6 /* Source\Game\Controls.cpp */,
+            00000000EEC0C0A0000000B9 /* Source\Elm@0.cpp */,
+            00000000EEC0C0A0000000BC /* Source\Editors\World\World.cpp */,
+            00000000EEC0C0A0000000BF /* Source\Editors\World\Waypoint List.cpp */,
+            00000000EEC0C0A0000000C2 /* Source\Editors\World\Waypoint@0.cpp */,
+            00000000EEC0C0A0000000C5 /* Source\Editors\World\Water@0.cpp */,
+            00000000EEC0C0A0000000C8 /* Source\Editors\World\Undo.cpp */,
+            00000000EEC0C0A0000000CB /* Source\Editors\World\Transform.cpp */,
+            00000000EEC0C0A0000000CE /* Source\Editors\World\Selection.cpp */,
+            00000000EEC0C0A0000000D1 /* Source\Editors\World\Object Paint.cpp */,
+            00000000EEC0C0A0000000D4 /* Source\Editors\World\Object List.cpp */,
+            00000000EEC0C0A0000000D7 /* Source\Editors\World\Object@0.cpp */,
+            00000000EEC0C0A0000000DA /* Source\Editors\World\Import Terrain.cpp */,
+            00000000EEC0C0A0000000DD /* Source\Editors\World\Gui@0.cpp */,
+            00000000EEC0C0A0000000E0 /* Source\Editors\World\Cursor.cpp */,
+            00000000EEC0C0A0000000E3 /* Source\Editors\World\Builder.cpp */,
+            00000000EEC0C0A0000000E6 /* Source\Editors\World\Brush Material.cpp */,
+            00000000EEC0C0A0000000E9 /* Source\Editors\World\Brush Height.cpp */,
+            00000000EEC0C0A0000000EC /* Source\Editors\World\Brush Color.cpp */,
+            00000000EEC0C0A0000000EF /* Source\Editors\World\Brush@0.cpp */,
+            00000000EEC0C0A0000000F2 /* Source\Editors\World\Area@0.cpp */,
+            00000000EEC0C0A0000000F5 /* Source\Editors\Water Material@0.cpp */,
+            00000000EEC0C0A0000000F8 /* Source\Editors\Video.cpp */,
+            00000000EEC0C0A0000000FB /* Source\Editors\Text Style@0.cpp */,
+            00000000EEC0C0A0000000FE /* Source\Editors\Sound.cpp */,
+            00000000EEC0C0A000000101 /* Source\Editors\Phys Material@0.cpp */,
+            00000000EEC0C0A000000104 /* Source\Editors\Param.cpp */,
+            00000000EEC0C0A000000107 /* Source\Editors\Panel Image@0.cpp */,
+            00000000EEC0C0A00000010A /* Source\Editors\Panel@0.cpp */,
+            00000000EEC0C0A00000010D /* Source\Editors\Object\Variations.cpp */,
+            00000000EEC0C0A000000110 /* Source\Editors\Object\Transform@0.cpp */,
+            00000000EEC0C0A000000113 /* Source\Editors\Object\Parts.cpp */,
+            00000000EEC0C0A000000116 /* Source\Editors\Object\Object@1.cpp */,
+            00000000EEC0C0A000000119 /* Source\Editors\Object\Mesh.cpp */,
+            00000000EEC0C0A00000011C /* Source\Editors\Object\Lod.cpp */,
+            00000000EEC0C0A00000011F /* Source\Editors\Object\Leaf.cpp */,
+            00000000EEC0C0A000000122 /* Source\Editors\Object\Groups.cpp */,
+            00000000EEC0C0A000000125 /* Source\Editors\Object\AO.cpp */,
+            00000000EEC0C0A000000128 /* Source\Editors\Object\Adjust Bone Orientations.cpp */,
+            00000000EEC0C0A00000012B /* Source\Editors\Mini Map.cpp */,
+            00000000EEC0C0A00000012E /* Source\Editors\Material@0.cpp */,
+            00000000EEC0C0A000000131 /* Source\Editors\Image Atlas.cpp */,
+            00000000EEC0C0A000000134 /* Source\Editors\Image.cpp */,
+            00000000EEC0C0A000000137 /* Source\Editors\Icon@0.cpp */,
+            00000000EEC0C0A00000013A /* Source\Editors\Gui Skin@0.cpp */,
+            00000000EEC0C0A00000013D /* Source\Editors\Gui@1.cpp */,
+            00000000EEC0C0A000000140 /* Source\Editors\Font@0.cpp */,
+            00000000EEC0C0A000000143 /* Source\Editors\Environment@0.cpp */,
+            00000000EEC0C0A000000146 /* Source\Editors\Enum@0.cpp */,
+            00000000EEC0C0A000000149 /* Source\Editors\Code@0.cpp */,
+            00000000EEC0C0A00000014C /* Source\Editors\Animation.cpp */,
+            00000000EEC0C0A00000014F /* Source\Editor Update.cpp */,
+            00000000EEC0C0A000000152 /* Source\Auto.cpp */,
+/* ESENTHEL IOS SOURCE */
+         );
+         runOnlyForDeploymentPostprocessing = 0;
+      };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+      0B9F05EE16CD7378006A0106 /* Debug */ = {
+         isa = XCBuildConfiguration;
+         buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+            CONFIGURATION_BUILD_DIR = .;
+				DEAD_CODE_STRIPPING = YES;
+            INFOPLIST_FILE = "$(SRCROOT)/Assets/Mac.plist";
+            MACOSX_DEPLOYMENT_TARGET = 10.7;
+            OTHER_LDFLAGS = (
+               "-framework SystemConfiguration",
+               "-framework IOKit",
+               "-framework Carbon",
+               "-framework Cocoa",
+               "-framework CoreAudio",
+               "-framework AudioUnit",
+               "-framework OpenGL",
+               "-framework OpenAL",
+               "-lz",
+               "-liodbc",
+            );
+            LIBRARY_SEARCH_PATHS = (
+               "$(inherited)",
+
+            );
+            PRODUCT_NAME = "Esenthel";
+         };
+         name = Debug;
+      };
+      0B9F05EF16CD7378006A0106 /* Release */ = {
+         isa = XCBuildConfiguration;
+         buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+            CONFIGURATION_BUILD_DIR = .;
+            COPY_PHASE_STRIP = YES;
+            INFOPLIST_FILE = "$(SRCROOT)/Assets/Mac.plist";
+            MACOSX_DEPLOYMENT_TARGET = 10.7;
+            OTHER_LDFLAGS = (
+               "-framework SystemConfiguration",
+               "-framework IOKit",
+               "-framework Carbon",
+               "-framework Cocoa",
+               "-framework CoreAudio",
+               "-framework AudioUnit",
+               "-framework OpenGL",
+               "-framework OpenAL",
+               "-lz",
+               "-liodbc",
+            );
+            LIBRARY_SEARCH_PATHS = (
+               "$(inherited)",
+
+            );
+            PRODUCT_NAME = "Esenthel";
+         };
+         name = Release;
+      };
+      0BDA9C82121EE06400ED5E97 /* Debug */ = {
+         isa = XCBuildConfiguration;
+         buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+            CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+            INFOPLIST_FILE = "$(SRCROOT)/Assets/iOS.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+            OTHER_LDFLAGS = (
+               "-framework QuartzCore",
+               "-framework UIKit",
+               "-framework Foundation",
+               "-framework EventKit",
+               "-framework EventKitUI",
+               "-framework CoreMedia",
+               "-framework CoreMotion",
+               "-framework CoreLocation",
+               "-framework CoreGraphics",
+               "-framework CoreTelephony",
+               "-framework AudioToolbox",
+               "-framework AVFoundation",
+               "-framework SystemConfiguration",
+               "-framework MessageUI",
+               "-framework AdSupport",
+               "-framework OpenGLES",
+               "-framework OpenAL",
+               "-lz",
+            );
+            LIBRARY_SEARCH_PATHS = (
+               "$(inherited)",
+
+            );
+            PRODUCT_NAME = "Esenthel";
+            PROVISIONING_PROFILE = "";
+            SDKROOT = iphoneos;
+            TARGETED_DEVICE_FAMILY = "1,2";
+         };
+         name = Debug;
+      };
+      0BDA9C83121EE06400ED5E97 /* Release */ = {
+         isa = XCBuildConfiguration;
+         buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+            CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+            INFOPLIST_FILE = "$(SRCROOT)/Assets/iOS.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+            OTHER_LDFLAGS = (
+               "-framework QuartzCore",
+               "-framework UIKit",
+               "-framework Foundation",
+               "-framework EventKit",
+               "-framework EventKitUI",
+               "-framework CoreMedia",
+               "-framework CoreMotion",
+               "-framework CoreLocation",
+               "-framework CoreGraphics",
+               "-framework CoreTelephony",
+               "-framework AudioToolbox",
+               "-framework AVFoundation",
+               "-framework SystemConfiguration",
+               "-framework MessageUI",
+               "-framework AdSupport",
+               "-framework OpenGLES",
+               "-framework OpenAL",
+               "-lz",
+            );
+            LIBRARY_SEARCH_PATHS = (
+               "$(inherited)",
+
+            );
+            PRODUCT_NAME = "Esenthel";
+            PROVISIONING_PROFILE = "";
+            SDKROOT = iphoneos;
+            STRIP_INSTALLED_PRODUCT = YES;
+            TARGETED_DEVICE_FAMILY = "1,2";
+         };
+         name = Release;
+      };
+      C01FCF4F08A954540054247B /* Debug */ = {
+         isa = XCBuildConfiguration;
+         buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+            COPY_PHASE_STRIP = NO;
+            GCC_FAST_MATH = YES;
+            GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+            GCC_OPTIMIZATION_LEVEL = 0;
+            GCC_PRECOMPILE_PREFIX_HEADER = YES;
+            GCC_PREFIX_HEADER = stdafx.h;
+            GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+            GCC_THREADSAFE_STATICS = NO;
+            GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+"\"../../../Editor/Bin/\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+"\"../../../Editor/Bin/\"",
+				);
+            ONLY_ACTIVE_ARCH = YES;
+            OTHER_CFLAGS = (
+               "-fshort-wchar",
+            );
+            SEPARATE_STRIP = YES;
+            STRIP_INSTALLED_PRODUCT = NO;
+				WARNING_CFLAGS = (
+		"-Wno-address-of-temporary",
+		"-Wno-comment",
+		"-Wno-parentheses",
+		"-Wno-switch",
+		"-Wno-logical-op-parentheses",
+		"-Wno-null-dereference",
+		"-Wno-int-to-void-pointer-cast",
+            );
+         };
+         name = Debug;
+      };
+      C01FCF5008A954540054247B /* Release */ = {
+         isa = XCBuildConfiguration;
+         buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+            DEAD_CODE_STRIPPING = YES;
+            GCC_FAST_MATH = YES;
+            GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+            GCC_OPTIMIZATION_LEVEL = fast;
+            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+            GCC_PRECOMPILE_PREFIX_HEADER = YES;
+            GCC_PREFIX_HEADER = stdafx.h;
+            GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+            GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=0";
+            GCC_THREADSAFE_STATICS = NO;
+            GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+"\"../../../Editor/Bin/\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+"\"../../../Editor/Bin/\"",
+				);
+            ONLY_ACTIVE_ARCH = NO;
+            OTHER_CFLAGS = (
+               "-fshort-wchar",
+            );
+            SEPARATE_STRIP = YES;
+				WARNING_CFLAGS = (
+		"-Wno-address-of-temporary",
+		"-Wno-comment",
+		"-Wno-parentheses",
+		"-Wno-switch",
+		"-Wno-logical-op-parentheses",
+		"-Wno-null-dereference",
+		"-Wno-int-to-void-pointer-cast",
+	);
+         };
+         name = Release;
+      };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+      0B9F05ED16CD7378006A0106 /* Build configuration list for PBXNativeTarget "Mac" */ = {
+         isa = XCConfigurationList;
+         buildConfigurations = (
+            0B9F05EE16CD7378006A0106 /* Debug */,
+            0B9F05EF16CD7378006A0106 /* Release */,
+         );
+         defaultConfigurationIsVisible = 0;
+         defaultConfigurationName = Release;
+      };
+      0BDA9C84121EE06400ED5E97 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+         isa = XCConfigurationList;
+         buildConfigurations = (
+            0BDA9C82121EE06400ED5E97 /* Debug */,
+            0BDA9C83121EE06400ED5E97 /* Release */,
+         );
+         defaultConfigurationIsVisible = 0;
+         defaultConfigurationName = Release;
+      };
+      C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Project" */ = {
+         isa = XCConfigurationList;
+         buildConfigurations = (
+            C01FCF4F08A954540054247B /* Debug */,
+            C01FCF5008A954540054247B /* Release */,
+         );
+         defaultConfigurationIsVisible = 0;
+         defaultConfigurationName = Release;
+      };
+/* End XCConfigurationList section */
+   };
+   rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

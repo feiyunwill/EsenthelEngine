@@ -1,0 +1,18 @@
+The 3 files in the project need to have .cc extension changed to .cpp because Emscripten fails to compile.
+
+Snapy.cpp (this will improve compression significantly)
+        uint32 bytes_between_hash_lookups = skip >> 5;
+        skip += bytes_between_hash_lookups;
+replace with:
+        uint32 bytes_between_hash_lookups = skip++ >> 5;
+
+"snappy-stubs-public.h" did not exist in the main branch, but was included in a public release, so it was copied from there.
+
+comment out all:
+	#include <string>
+	#include <vector>
+	typedef std::string string;
+but keep:
+	#include <string.h>
+
+comment out all functions that use 'string'

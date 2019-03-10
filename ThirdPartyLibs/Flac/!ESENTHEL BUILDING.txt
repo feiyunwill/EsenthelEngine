@@ -1,0 +1,33 @@
+/******************************************************************************/
+// WINDOWS
+/******************************************************************************/
+Use provided *.sln Visual Studio files
+/******************************************************************************/
+// MAC
+/******************************************************************************/
+mkdir Mac
+cd Mac
+../lib/configure
+make
+
+library will be generated in a hidden folder:
+ThirdPartyLibs\Flac\Mac\src\libFLAC\.libs\libFLAC-static.a
+use "File Browser" to copy back to Win
+/******************************************************************************/
+// iOS
+/******************************************************************************/
+Use provided Xcode project
+/******************************************************************************/
+// LINUX
+/******************************************************************************/
+mkdir Linux
+cd Linux
+../lib/configure
+make
+
+library will be generated in a hidden folder:
+ThirdPartyLibs\Flac\Linux\src\libFLAC\.libs\libFLAC-static.a
+use "File Browser" to copy back to Win
+
+RUN "extract.bat"
+/******************************************************************************/

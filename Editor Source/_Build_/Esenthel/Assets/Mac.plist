@@ -1,0 +1,26 @@
+﻿<plist version="1.0">
+	<dict>
+		<key>CFBundleDisplayName</key>
+		<string>Esenthel</string>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>English</string>
+		<key>CFBundleExecutable</key>
+		<string>${EXECUTABLE_NAME}</string>
+		<key>CFBundleIconFile</key>
+		<string>Icon.icns</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.esenthel.editor</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.0</string>
+		<key>CFBundleSignature</key>
+		<string>????</string>
+		<key>CFBundleVersion</key>
+		<string>58</string>
+		<key>LSMinimumSystemVersion</key>
+		<string>${MACOSX_DEPLOYMENT_TARGET}</string>
+	</dict>
+</plist>
