@@ -14,7 +14,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>H</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Private\Project.cpp">
+    <ClCompile Include="Source\Esenthel Builder.cpp">
       <Filter>Src</Filter>
     </ClCompile>
   </ItemGroup>
