@@ -696,7 +696,9 @@ class StoreClass : ClosableWindow
                || Contains(s,       "google.com", false, true)
                || Contains(s,        "apple.com", false, true)
                || Contains(s,       "amazon.com", false, true)
-               || Contains(s,      "samsung.com", false, true)){Explore(df.file); return;}
+               || Contains(s,      "samsung.com", false, true)
+               || Contains(s,       "github.com", false, true)
+               ){Explore(df.file); return;}
             }
          #if 0
             if(ValidURL(df.file))Explore(df.file);else // open through web browser
@@ -1059,11 +1061,11 @@ class StoreClass : ClosableWindow
 
    static cchar8 *categories_t[]=
    {
-      "License",       // 0
-      "Source Code",   // 1
-      "Games",         // 2
-      "Assets",        // 3
-      "Contributions", // 4
+      "Engine",        // 0
+      "Contributions", // 1
+      "Source Code",   // 2
+      "Games",         // 3
+      "Assets",        // 4
    };
    static cchar8 *source_code_cats[]=
    {
@@ -1237,9 +1239,9 @@ class StoreClass : ClosableWindow
    {
       // categories
       FREPA(categories_t    )categories_node+=categories_t[i];
-      FREPA(source_code_cats)categories_node.children[1]+=source_code_cats[i];
-      FREPA(       game_cats)categories_node.children[2]+=       game_cats[i];
-      FREPA(      asset_cats)categories_node.children[3]+=      asset_cats[i];
+      FREPA(source_code_cats)categories_node.children[2]+=source_code_cats[i]; // #Category
+      FREPA(       game_cats)categories_node.children[3]+=       game_cats[i];
+      FREPA(      asset_cats)categories_node.children[4]+=      asset_cats[i];
 
       // all header
       ListColumn lc[]=
@@ -1261,9 +1263,10 @@ class StoreClass : ClosableWindow
       // item list page
       mode.tab(0)+=filter_name.create().func(Filter, T); filter_name.kbClear(); filter_name.reset.show(); filter_name.show_find=true; filter_name.hint="Find";
       mode.tab(0)+=categories.create(categories_t, Elms(categories_t)).set(0).func(Filter, T);
-      categories.tab(1)+=sub_categories[1].create(source_code_cats, Elms(source_code_cats)).func(Filter, T);
-      categories.tab(2)+=sub_categories[2].create(       game_cats, Elms(       game_cats)).func(Filter, T);
-      categories.tab(3)+=sub_categories[3].create(      asset_cats, Elms(      asset_cats)).func(Filter, T);
+      // #Category
+      categories.tab(2)+=sub_categories[2].create(source_code_cats, Elms(source_code_cats)).func(Filter, T);
+      categories.tab(3)+=sub_categories[3].create(       game_cats, Elms(       game_cats)).func(Filter, T);
+      categories.tab(4)+=sub_categories[4].create(      asset_cats, Elms(      asset_cats)).func(Filter, T);
       mode.tab(0)+=purchased.create("Bought").func(Filter, T).desc("Display only the items which you have purchased"); purchased.mode=BUTTON_TOGGLE;
       mode.tab(0)+=readies.create("Readies").func(Readies, T).desc("Display items ready for publishing").hide(); readies.mode=BUTTON_TOGGLE;
       mode.tab(0)+=items_region.create(); items_region.kb_lit=false;
