@@ -1,2 +1,57 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* binary
+
+*.txt  text diff=cpp
+*.html text diff=cpp
+*.xml  text diff=cpp
+*.c    text diff=cpp
+*.h    text diff=cpp
+*.hpp  text diff=cpp
+*.hxx  text diff=cpp
+*.inl  text diff=cpp
+*.cc   text diff=cpp
+*.cpp  text diff=cpp
+*.cxx  text diff=cpp
+*.m    text diff=cpp
+*.mm   text diff=cpp
+*.cs   text diff=csharp
+*.asm  text diff=cpp
+*.java text diff=java
+
+# Visual Studio
+*.sln          text eol=crlf merge=union diff=cpp
+*.vcproj       text eol=crlf merge=union diff=cpp
+*.vcxproj      text eol=crlf merge=union diff=cpp
+*.filters      text eol=crlf merge=union diff=cpp
+*.csproj       text eol=crlf merge=union diff=cpp
+*.appxmanifest text eol=crlf merge=union diff=cpp
+
+# Xcode
+*.plist   text diff=cpp
+*.pbxproj text eol=crlf merge=union diff=cpp
+
+# Android
+*.mk         text merge=union diff=cpp
+*.properties text merge=union diff=cpp
+
+# Linux
+*.sh text eol=lf diff=cpp
+
+# Git
+.gitattributes text diff=cpp
+.gitignore     text diff=cpp
+*.md           text diff=cpp
+
+# Windows
+*.bat text diff=cpp
+
+# Other
+AUTHORS   text diff=cpp
+ChangeLog text diff=cpp
+CHANGES   text diff=cpp
+COPYING   text diff=cpp
+LICENSE   text diff=cpp
+NEWS      text diff=cpp
+PATENTS   text diff=cpp
+README    text diff=cpp
+VERSION   text diff=cpp
+Makefile  text diff=cpp
